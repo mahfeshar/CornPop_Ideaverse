@@ -1,10 +1,9 @@
 ---
 up:
-  - "[[Structured Query Language (SQL)]]"
+  - "[[Database MOC]]"
 related: 
 created: 2024-05-21
 ---
-
 ## What is MySQL?
 - We will learn with MySQL
 - It is open-source software supported by Oracle, meaning that you can use MySQL without any cost.

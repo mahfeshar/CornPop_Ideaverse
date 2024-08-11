@@ -7,44 +7,47 @@ tags:
   - map
 ---
 ## Important Topics(Concepts)
-- [[Programming Paradigms]]
 - [[Strongly and weakly typed languages]]
 - [[Mutable vs Immutable]]
 - [[Code-first or Database-First]]
 - [[Code consistency]]
 - [[API]]
-	- [[Microservices]]
-	- [[REST API]]
 - [[SOLID Principles]]
 - [[Web application frameworks]]
 - File Format
 	- [[JSON]]
 	- [[Py CSV]]
-### SDLC
-- [[Application Development Lifecycle]]
+- [[Hosting]]
+- [[Domain]]
+- SDLC
+	- [[Application Development Lifecycle]]
 ## Fundamentals
 - [[Git - GitHub MOC]]
+- [[Programming Paradigms]]
+- [[OOP]]
+	- [[Encapsulation]]
 - [[Data Structure and Algorithms MOC]]
 - [[Database MOC]]
 	- [[MySQL MOC]]
 	- [[SQL Server MOC]]
 - [[Networking Fundamentals]]
 - [[Introduction to Cloud Computing]]
+
+## Fields
+- [[Front-end MOC]]
+- [[Back-end MOC]]
 ## Frameworks
 - [[Flask]]
-### .NET backend
-- [[Programming Paradigms]]
-- [[DotNet Story]]
+- [[DotNet]]
 ## Programming Languages
 - [[Python MOC]]
 - [[CSharp MOC]]
-- [[HTML-CSS]]
+- [[HTML]]
 	- [[Bootstrap 5 MOC]]
 - [[JavaScript MOC]]
 ## DevOps
 - [[Shell MOC]]
 - [[Puppet]]
-
 ## Projects 
 - [[AirBnB clone]]
 	- [[AirBnB The Console]]

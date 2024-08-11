@@ -19,4 +19,4 @@ created: 2024-07-04
 - اعرف أولًا ان في ال base class library فيها أربع حاجات:
   classes, struct, enum, interfaces
 - ال CTS بيقسم ال types لنوعين:
-[[CSharp Value and Reference Types]]
+[[Cs Value and Reference Types]]

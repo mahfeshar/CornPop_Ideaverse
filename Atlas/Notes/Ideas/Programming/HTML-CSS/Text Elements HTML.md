@@ -1,12 +1,12 @@
 ---
 up:
-  - "[[HTML-CSS]]"
+  - "[[HTML]]"
 related: 
 created: 2024-05-24
 ---
-
 ### Heading
-Every page should only have one H1 heading
+- Every page should only have one H1 heading
+- انك تظبط الـ Structure بتاع الصفحة بيخليها تظهر أكتر وبيعلي الـ SEO
 ```HTML
 	<h1>The basic Language of the web: HTML</h1>
     <h2>The basic Language of the web: HTML</h2>
@@ -22,9 +22,10 @@ Every page should only have one H1 heading
 <p>Hello, World</p>
 ```
 
+- لو عايز تملى أي كلام بتكتب `lorem{num_of_words}` زي `lorem20`
+- لو عايز أغير بداية الـ Tag ونهايتها بستخدم ctrl + d
 ### Comments
 It doesn't appear
-
 ```HTML
 <!-- This is comment -->
 ```
@@ -92,6 +93,10 @@ We will use `mark`
 </marquee>
 ```
 بقوله الاتجاه وكمان لو عايز أغير بيتصرف ازاي يعني ال alternate معناها لو خبطت في طرف الصفحة ارجع تاني
+### hr
+بيعمل خط
+
+`<hr/>`
 ### br
 بيعمل  line break وبينزل الكلام لسطر تاني أو بيعمل فرق
 ```html

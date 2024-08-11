@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Box Model CSS]]"
+  - "[[CSS]]"
 related: 
 created: 2024-05-25
 ---

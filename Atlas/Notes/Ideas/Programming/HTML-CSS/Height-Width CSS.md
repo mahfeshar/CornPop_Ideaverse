@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[HTML-CSS]]"
+  - "[[CSS]]"
 related: 
 created: 2024-05-28
 ---

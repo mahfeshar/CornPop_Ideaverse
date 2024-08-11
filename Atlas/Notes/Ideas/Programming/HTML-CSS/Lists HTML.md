@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[HTML-CSS]]"
+  - "[[HTML]]"
 related: 
 created: 2024-05-24
 ---
@@ -17,6 +17,7 @@ And for each element in list, we should create `<li>` for it and it stands for l
 </ol>
 ```
 
+الأحسن اننا نتحكم في النوع بالـ CSS
 We can change `type` of it from numbers to anything like characters. 
 ```html
 <ol type="I"> <!-- roman numbers -->

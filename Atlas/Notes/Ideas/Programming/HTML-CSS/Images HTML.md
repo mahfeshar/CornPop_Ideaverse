@@ -1,13 +1,14 @@
 ---
 up:
-  - "[[HTML-CSS]]"
+  - "[[HTML]]"
 related: 
 created: 2024-05-24
 ---
 `<img />` We will use this to add images but this is special one because *It doesn't have close tag* 
 So we add / before the end of tag.
 
-It's a [[Self-Closing Elements HTML]]
+It's a [[Self-Closing Elements HTML]] 
+وعبارة عن empty t
 
 
 ```html
@@ -28,9 +29,9 @@ It's a [[Self-Closing Elements HTML]]
 
 This is important for:
 - It will allow search engines to know what is in the image
-- we can allow blind people to use a website
+- We can allow blind people to use a website
 - If image cannot be found, it will appear
 
-`width="500"` 
+`width="500"`: بنستخدم دايمًا العرض في الشغل عشان الصورة متبوظش والمتصفح هو اللي بيظبطها
 `height="200"`
 If you add one attribute like width or height, it will automatically also maintains the aspect ratio of the image

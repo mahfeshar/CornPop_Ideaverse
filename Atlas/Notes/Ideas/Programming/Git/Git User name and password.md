@@ -10,9 +10,9 @@ Keep it in mind to always clone your repos with your token in case of next time.
 ```git
 git clone https://<token>@github.com/<username>/<repo>.git
 
-git clone https://<token>@github.com/mahfeshar/alx-system_engineering-devops.git
+git clone https://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@github.com/mahfeshar/alx-system_engineering-devops.git
 
-git clone https://<token>@github.com/mahfeshar/alx-higher_level_programming.git
+git clone https://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@github.com/mahfeshar/alx-higher_level_programming.git
 ```
 
 The solution if you forget:
@@ -22,5 +22,7 @@ git remote set-url origin https://<username>:<token>@github.com/<username>/<repo
 ```
 
 ```git
-git remote set-url origin https://mahfeshar:<token>@github.com/mahfeshar/alx-higher_level_programming.git
+git remote set-url origin https://mahfeshar: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@github.com/mahfeshar/alx-higher_level_programming.git
+
+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
 ```

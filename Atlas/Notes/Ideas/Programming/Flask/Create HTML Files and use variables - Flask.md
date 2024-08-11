@@ -4,7 +4,7 @@ up:
 related: 
 created: 2024-07-25
 ---
-We can use [[HTML-CSS]] at flask
+We can use [[HTML]] at flask
 
 To use it, we should use `render_template`
 

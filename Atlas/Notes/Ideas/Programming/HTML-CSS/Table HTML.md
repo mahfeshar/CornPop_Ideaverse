@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[HTML-CSS]]"
+  - "[[HTML]]"
 related: 
 created: 2024-06-09
 ---
@@ -30,13 +30,27 @@ HTML tables allow web developers to arrange data into rows and columns.
 		<td>50</td>
 	</tr>
 </table>
+
+<!-- For the best -->
+
+<table>
+	<thead>
+		<th>Name</th>
+		<th>Age</th>
+	</thead>
+	<tbody>
+		<tr></tr>
+		<!-- Rows -->
+	</tbody>
+</table>
 ```
 
 > [!note]
 > By default, the text in `<th>` elements are bold and centered, but you can change that with CSS.
 
 ## Borders Styling
-We can make it with html attribute called `border` but the best is to use CSS border property on `table`, `th` and `td`
+We can make it with html attribute called `border` 
+but the best is to use CSS border property on `table`, `th` and `td`
 
 ```html
 <table border="1">
@@ -114,7 +128,7 @@ And we can also make it with CSS
 <table style="width:100%">
 <table style="width:100%">
 ```
-Read more: [Site Unreachable](https://www.w3schools.com/html/html_table_sizes.asp)
+Read more: [Table Sizes](https://www.w3schools.com/html/html_table_sizes.asp)
 
 ## Colspan & Rowspan
 HTML tables can have cells that span over multiple rows and/or columns.
@@ -141,10 +155,10 @@ To make a cell span over multiple columns
 ```
 
 <table>
-	<tr>
+	<thead>
 		<th Colspan="2">Name</th>
 		<th>Age</th>
-	</tr>
+	</thead>
 	<tr>  
 		<td>Jill</td>  
 		<td>Smith</td>  

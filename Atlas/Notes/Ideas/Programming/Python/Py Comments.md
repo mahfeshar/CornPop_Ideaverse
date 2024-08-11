@@ -16,4 +16,4 @@ text = "# This is not a comment because it's inside quotes."
 ---
 ## Other languages
 - [[Comment TSQL]]
-- [[CSharp Comments]]
+- [[Cs Comments]]

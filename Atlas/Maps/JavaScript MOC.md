@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Programming MOC]]"
+  - "[[Front-end MOC]]"
 related: 
 created: 2024-06-15
 tags:

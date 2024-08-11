@@ -1,8 +1,8 @@
 ---
 up:
-  - "[[Programming MOC]]"
+  - "[[Front-end MOC]]"
 related:
-  - "[[HTML-CSS]]"
+  - "[[HTML]]"
 created: 2024-06-14
 tags:
   - map

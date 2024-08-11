@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "HTML",
+      "path": "Atlas/Maps/HTML.md"
+    },
+    {
+      "basename": "Inline, Internal and External CSS",
+      "path": "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md"
+    },
+    {
+      "basename": "Table HTML",
+      "path": "Atlas/Notes/Ideas/Programming/HTML-CSS/Table HTML.md"
+    },
+    {
+      "basename": "Front-end MOC",
+      "path": "Atlas/Maps/Front-end MOC.md"
+    },
+    {
       "basename": "Library",
       "path": "Atlas/Maps/Library.md"
     },
@@ -9,92 +25,32 @@
       "path": "Home.md"
     },
     {
-      "basename": "Git User name and password",
-      "path": "Atlas/Notes/Ideas/Programming/Git/Git User name and password.md"
+      "basename": "Add",
+      "path": "Atlas/Maps/Add.md"
     },
     {
-      "basename": "Git Branch Merge",
-      "path": "Atlas/Notes/Ideas/Programming/Git/Git Branch Merge.md"
+      "basename": "المحاضرة الأولى - التجويد",
+      "path": "+/المحاضرة الأولى - التجويد.md"
     },
     {
-      "basename": "Git Getting started",
-      "path": "Atlas/Notes/Ideas/Programming/Git/Git Getting started.md"
+      "basename": "SQL Server MOC",
+      "path": "+/SQL Server MOC.md"
     },
     {
-      "basename": "REST API",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/REST API.md"
+      "basename": "استخدام خرائط المحتوى في المحاضرات",
+      "path": "+/استخدام خرائط المحتوى في المحاضرات.md"
     },
     {
-      "basename": "API",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/API.md"
+      "basename": "العشرة المبشرين بالجنة",
+      "path": "Atlas/Notes/People/صحابة رسول الله/العشرة المبشرين بالجنة.md"
     },
     {
-      "basename": "Git Branch",
-      "path": "Atlas/Notes/Ideas/Programming/Git/Git Branch.md"
-    },
-    {
-      "basename": "Git - GitHub MOC",
-      "path": "Atlas/Maps/Git - GitHub MOC.md"
-    },
-    {
-      "basename": "CSharp Boxing and Unboxing",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Boxing and Unboxing.md"
-    },
-    {
-      "basename": "CSharp Value and Reference Types",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Value and Reference Types.md"
-    },
-    {
-      "basename": "CSharp Class",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Class.md"
-    },
-    {
-      "basename": "CLS and CTS",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CLS and CTS.md"
-    },
-    {
-      "basename": "CSharp MOC",
-      "path": "Atlas/Maps/CSharp MOC.md"
+      "basename": "صحابة رسول الله",
+      "path": "Atlas/Maps/صحابة رسول الله.md"
     },
     {
       "basename": "CSharp Struct",
       "path": "+/CSharp Struct.md"
-    },
-    {
-      "basename": "CSharp Access Modifiers",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Access Modifiers.md"
-    },
-    {
-      "basename": "CSharp Constructor",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Constructor.md"
-    },
-    {
-      "basename": "CSharp List",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp List.md"
-    },
-    {
-      "basename": "CSharp Enums",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Enums.md"
-    },
-    {
-      "basename": "CSharp Data Types",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Data Types.md"
-    },
-    {
-      "basename": "Programming MOC",
-      "path": "Atlas/Maps/Programming MOC.md"
-    },
-    {
-      "basename": "Code consistency",
-      "path": "Atlas/Notes/Ideas/Programming/Projects/Code consistency.md"
-    },
-    {
-      "basename": "CSharp Library vs Console App",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Library vs Console App.md"
-    },
-    {
-      "basename": "Consume dll",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Consume dll.md"
     },
     {
       "basename": "Film Making",
@@ -103,18 +59,6 @@
     {
       "basename": "فيديو طريقة للدعاء",
       "path": "+/فيديو طريقة للدعاء.md"
-    },
-    {
-      "basename": "Pasted image 20240614065321",
-      "path": "Atlas/Utilities/Images/Pasted image 20240614065321.png"
-    },
-    {
-      "basename": "JavaScript MOC",
-      "path": "Atlas/Maps/JavaScript MOC.md"
-    },
-    {
-      "basename": "SSH",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/SSH.md"
     },
     {
       "basename": "Networking Fundamentals",
@@ -129,76 +73,8 @@
       "path": "+/كتاب المشوق إلى القرآن.md"
     },
     {
-      "basename": "الصلاة-تذوق-العبادات",
-      "path": "Atlas/Notes/Ideas/سلسلة تذوق العبادات/الصلاة-تذوق-العبادات.md"
-    },
-    {
-      "basename": "سلسلة تذوق العبادات",
-      "path": "Atlas/Maps/سلسلة تذوق العبادات.md"
-    },
-    {
-      "basename": "أبو هريرة",
-      "path": "Atlas/Notes/People/صحابة رسول الله/أبو هريرة.md"
-    },
-    {
-      "basename": "صحابة رسول الله",
-      "path": "Atlas/Maps/صحابة رسول الله.md"
-    },
-    {
-      "basename": "Code-first or Database-First",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md"
-    },
-    {
-      "basename": "اقتباسات-كتاب المشوق إلى القرآن",
-      "path": "Atlas/Notes/Sources/كتب/اقتباسات-كتاب المشوق إلى القرآن.md"
-    },
-    {
-      "basename": "Client-Server Architecture",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/Client-Server Architecture.md"
-    },
-    {
-      "basename": "Data Structure and Algorithms MOC",
-      "path": "Atlas/Maps/Data Structure and Algorithms MOC.md"
-    },
-    {
-      "basename": "Py Format for print",
-      "path": "Atlas/Notes/Ideas/Programming/Python/Py Format for print.md"
-    },
-    {
-      "basename": "Python MOC",
-      "path": "Atlas/Maps/Python MOC.md"
-    },
-    {
-      "basename": "Py Problem - Fibonacci series",
-      "path": "Atlas/Notes/Ideas/Programming/Python/Py Problem - Fibonacci series.md"
-    },
-    {
-      "basename": "CSharp Control Flow Statements",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Control Flow Statements.md"
-    },
-    {
-      "basename": "How the web works",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/How the web works.md"
-    },
-    {
-      "basename": "OSI model - Article",
-      "path": "Atlas/Notes/Outputs/OSI model - Article.md"
-    },
-    {
-      "basename": "What is Nginx",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/What is Nginx.md"
-    },
-    {
-      "basename": "المحاضرة الأولى - التجويد",
-      "path": "+/المحاضرة الأولى - التجويد.md"
-    },
-    {
       "basename": "SOLID Principles",
       "path": "+/SOLID Principles.md"
-    },
-    {
-      "basename": "CSharp StringBuilder",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp StringBuilder.md"
     }
   ],
   "omittedPaths": [],

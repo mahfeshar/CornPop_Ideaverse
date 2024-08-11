@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Programming MOC]]"
+  - "[[Back-end MOC]]"
 related: 
 created: 2024-05-11
 tags:
@@ -10,35 +10,35 @@ tags:
 - [[DotNet Story]]
 - [[CLS and CTS]]
 - [[VS Secrets]]
-- [[CSharp Library vs Console App]]
+- [[Cs Library vs Console App]]
 	- [[Consume dll]]
 ---
-- [[CSharp Intro]]
-	- [[CSharp Output]]
-	- [[CSharp Input]]
-	- [[CSharp Comments]]
-- [[CSharp Data Types]]
-	- [[CSharp Value and Reference Types]]
-		- [[CSharp String]]
-	- [[CSharp Variables]]
-	- [[CSharp Operators]]
-	- [[CSharp Type Casting]]
-	- [[CSharp Boxing and Unboxing]]
-	- [[CSharp Null]]
-- [[CSharp Handle Exception]]
-- [[CSharp Files]]
-- [[CSharp Control Flow Statements]]
-- [[CSharp Arrays]]
-- [[CSharp List]]
+- [[Cs Intro]]
+	- [[Cs Output]]
+	- [[Cs Input]]
+	- [[Cs Comments]]
+- [[Cs Data Types]]
+	- [[Cs Value and Reference Types]]
+		- [[Cs String]]
+	- [[Cs Variables]]
+	- [[Cs Operators]]
+	- [[Cs Type Casting]]
+	- [[Cs Boxing and Unboxing]]
+	- [[Cs Null]]
+- [[Cs Handle Exception]]
+- [[Cs Files]]
+- [[Cs Control Flow Statements]]
+- [[Cs Arrays]]
+- [[Cs List]]
 ---
 ## OOP
-- [[CSharp Access Modifiers]]
-- [[CSharp Class]]
+- [[Cs Access Modifiers]]
+- [[Cs Class]]
 - Value Type
-	- [[CSharp Enums]]
-	- [[CSharp Struct]]
-- [[CSharp Constructor]]
-- 
+	- [[Cs Enums]]
+	- [[Cs Struct]]
+- [[Cs Constructor]]
+- [[Cs Encapsulation]]
 
 ---
 ## Resources

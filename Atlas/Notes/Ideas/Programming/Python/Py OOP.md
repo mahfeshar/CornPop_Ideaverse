@@ -8,7 +8,7 @@ tags:
 ---
 - We talked before about [[OOP]]
 - Python supports Object Oriented Programming
-- Python is multi-paradigm Programming Language ([[Procedural]], [[OOP]], [[Functional]])
+- Python is multi-paradigm Programming Language - [[Programming Paradigms]] ([[Procedural]], [[OOP]], [[Functional]])
 	- Procedural: Structure app like Recipe, sets of steps to make the task
     - Functional: Built on the concept of Mathematical Functions
 ![[Pasted image 20240416174205.png]]

@@ -16,6 +16,8 @@ created: 2024-07-01
 	1. Debug: زي ما المبرمج كتبه هيتعمل كومباير
 	2. Release: أحسن شكل وأداء لليوزر وبيتعملها اوبتمايز بس مش هتقدر تعمل ديباج
 - ctor -> to make constructor
+- Ctrl + K, Ctrl + D -> Format file
+- Ctrl + Shift + B -> Build Solution
 
 ---
 - القوسين: namespace

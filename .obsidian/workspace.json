@@ -32,21 +32,51 @@
             }
           },
           {
-            "id": "66acf5028d7e8c96",
+            "id": "30b36aa46e784f99",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Inline, Internal and External CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":6}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Front-end MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Front-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":5},\"to\":{\"line\":9,\"ch\":5}},\"scroll\":8}"
+                },
+                {
+                  "title": "Library",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
+                },
+                {
+                  "title": "Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":3}"
+                },
+                {
+                  "title": "Library",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":14},\"to\":{\"line\":36,\"ch\":14}},\"scroll\":23.578326053594616}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/Library.md",
+                "file": "Atlas/Maps/HTML.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -132,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -158,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/Library.md"
+                "file": "Atlas/Maps/HTML.md"
               }
             }
           },
@@ -289,7 +320,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/Library.md",
+                "file": "Atlas/Maps/HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -340,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/Library.md",
+                "file": "Atlas/Maps/HTML.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -366,7 +397,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Maps/Library.md",
+                "file": "Atlas/Maps/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -387,7 +418,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/Library.md"
+                "file": "Atlas/Maps/HTML.md"
               }
             }
           }
@@ -395,7 +426,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -417,54 +449,54 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "66acf5028d7e8c96",
+  "active": "30b36aa46e784f99",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
+    "Atlas/Maps/HTML.md",
+    "Atlas/Notes/Ideas/Programming/HTML-CSS/Table HTML.md",
+    "Atlas/Maps/Front-end MOC.md",
+    "Atlas/Maps/Library.md",
     "Home.md",
-    "Atlas/Notes/Ideas/Programming/Git/Git User name and password.md",
-    "Atlas/Notes/Ideas/Programming/Git/Git Branch Merge.md",
-    "Atlas/Notes/Ideas/Programming/Git/Git Getting started.md",
-    "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
-    "Atlas/Notes/Ideas/Programming/Topics/API.md",
-    "Atlas/Notes/Ideas/Programming/Git/Git Branch.md",
-    "Atlas/Maps/Git - GitHub MOC.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Boxing and Unboxing.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Value and Reference Types.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Class.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CLS and CTS.md",
-    "Atlas/Maps/CSharp MOC.md",
-    "+/CSharp Struct.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Access Modifiers.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Constructor.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp List.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Enums.md",
-    "Atlas/Utilities/Images/Pasted image 20240319111439.png",
-    "Atlas/Utilities/Images/Pasted image 20240319111431.png",
-    "Atlas/Utilities/Images/Pasted image 20240319111406.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Data Types.md",
-    "+/CSharp Property.md",
-    "Atlas/Maps/Programming MOC.md",
-    "Atlas/Notes/Ideas/Programming/Projects/Code consistency.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Library vs Console App.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Consume dll.md",
-    "+/CSharp Class.md",
-    "Atlas/Utilities/Images/Pasted image 20240803103104.png",
-    "+/Film Making.md",
-    "Atlas/Utilities/Images/Pasted image 20240606133047.png~RF4f6d5cd.TMP",
-    "Atlas/Utilities/Images/Pasted image 20240524142846.png~RF4f6d3f8.TMP",
-    "Atlas/Utilities/Images/Pasted image 20240521141806.png~RF4f6ccc4.TMP",
-    "Atlas/Utilities/Images/Pasted image 20240513133657.png~RF4f6c2f1.TMP",
-    "Atlas/Utilities/Images/Pasted image 20240508074911.png~RF4f6a49b.TMP",
-    "Atlas/Utilities/Images/Pasted image 20240429114656.png~RF4f681e0.TMP",
-    "Atlas/Utilities/Images/Pasted image 20240428153449.png~RF4f68163.TMP",
-    "Atlas/Utilities/Images/lyt-crafting-mocs-5.jpg~RF4f6734a.TMP",
-    "Atlas/Utilities/Images/flow-zone-channel.jpg~RF4f65b7c.TMP",
-    "Atlas/Utilities/Images/Css History.png~RF4f646eb.TMP",
-    "Atlas/Utilities/Images/Pasted image 20240614065321.png",
-    "Atlas/Utilities/Images/Pasted image 20240731140044.png",
-    "Atlas/Utilities/Images/Pasted image 20240731135845.png",
-    "Atlas/Utilities/Images/Pasted image 20240727190730.png",
-    "Atlas/Utilities/Images/Pasted image 20240727190303.png",
-    "Atlas/Utilities/Images/Pasted image 20240727190259.png",
+    "Atlas/Maps/Add.md",
+    "+/المحاضرة الأولى - التجويد.md",
+    "+/SQL Server MOC.md",
+    "+/استخدام خرائط المحتوى في المحاضرات.md",
+    "Atlas/Notes/People/صحابة رسول الله/العشرة المبشرين بالجنة.md",
+    "Atlas/Maps/صحابة رسول الله.md",
+    "+/شطرنج.md",
+    "Atlas/Utilities/Templates/Template, Properties, Source (Kit).md",
+    "Atlas/Utilities/Templates/Template, Properties, Effort (Kit).md",
+    "Atlas/Utilities/Templates/Template, Properties, Dates Dates Dates (Kit).md",
+    "Atlas/Utilities/Templates/Template, Properties, Daily Note (Kit).md",
+    "Atlas/Utilities/Templates/Template, Properties, Base.md",
+    "Atlas/Utilities/Templates/Template, Properties, Base + Tags (Kit).md",
+    "Atlas/Utilities/Templates/Nick Milo's Custom Callouts.md",
+    "Atlas/Utilities/Templates/New Week Template (Corn).md",
+    "Atlas/Utilities/Templates/New Day Template (Corn).md",
+    "Atlas/Utilities/Templates",
+    "Atlas/Utilities/Images/wolverine-tethered.jpg",
+    "Atlas/Utilities/Images/whelan-the-wave-1994.jpg",
+    "Atlas/Utilities/Images/whelan-space-station-1978-mod.jpg",
+    "Atlas/Utilities/Images/vlcsnap-2024-05-25-12h28m43s755.png",
+    "Atlas/Utilities/Images/Triangulation-1a (Drawing).md",
+    "Atlas/Utilities/Images/stay-on-target.jpg",
+    "Atlas/Utilities/Images/sqlVersions.png",
+    "Atlas/Utilities/Images/SQL Architecture.png",
+    "Atlas/Utilities/Images/sort-by-file-name-a-to-z.png",
+    "Atlas/Utilities/Images/robert-mccall-space-ship-launch-narrower.png",
+    "Atlas/Utilities/Images/robert-mccall-space-ship-launch-narrow.jpg",
+    "Atlas/Utilities/Excalidraw/excalibrain.md",
+    "Atlas/Utilities/Images",
+    "Atlas/Utilities/Excalidraw",
+    "Atlas/Utilities/+ About Utilities.md",
+    "Atlas/Utilities",
+    "Atlas/Notes/X/+ About these notes.md",
+    "Atlas/Notes/X",
+    "Atlas/Notes/Sources/كتب",
+    "Atlas/Notes/Sources/فيديوهات/مدخل إلى علم الفقة 5.pdf",
+    "Atlas/Notes/Sources/فيديوهات/مدخل إلى علم الفقة 4.pdf",
+    "Atlas/Notes/Sources/فيديوهات/تفريغ مدخل الى علم الفقه 3.pdf",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp",
     "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
     "Atlas/Notes/Ideas/Untitled.canvas",
     "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",

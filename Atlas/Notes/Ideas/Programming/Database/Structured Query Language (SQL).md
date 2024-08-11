@@ -16,5 +16,5 @@ SQL is composed of three parts:
 1. Data definition language (DDL) includes statements for defining the database and its objects such as tables, [views](https://www.mysqltutorial.org/mysql-views/), [triggers](https://www.mysqltutorial.org/mysql-triggers/), [stored procedures](https://www.mysqltutorial.org/mysql-stored-procedure/), etc.
 2. Data manipulation language (DML) contains statements for [updating](https://www.mysqltutorial.org/mysql-basics/mysql-update/) and [querying data](https://www.mysqltutorial.org/mysql-basics/mysql-select-from/)
 3. Data control language (DCL) allows you to [grant permissions](https://www.mysqltutorial.org/mysql-administration/mysql-grant/) to users to access specific data in the database.
-## [[MySQL MOC]]
+
 

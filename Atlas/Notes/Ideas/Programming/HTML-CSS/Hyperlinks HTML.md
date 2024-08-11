@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[HTML-CSS]]"
+  - "[[HTML]]"
 related: 
 created: 2024-05-24
 ---
@@ -36,7 +36,7 @@ Not point to anywhere and will go back to the top of the page
 </a>
 ```
 ### Add a "tooltip"
-- It will appear when you go up the text
+It will appear when you go up the text
 ```HTML
 <a href="default.html" title="Home">Back to Home</a>
 ```

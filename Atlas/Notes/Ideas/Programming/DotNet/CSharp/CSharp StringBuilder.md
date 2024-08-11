@@ -5,7 +5,7 @@ related:
 created: 2024-07-13
 ---
 
-- شوفنا في ال [[CSharp String]] اننا لما بنيجي نعمل concatenate أو نزود أي حاجة في ال string هتعمل حرفيًا string جديدة كليًا ودا بيأثر على الأداء والميموري ودا لأن ال string عبارة عن [[Mutable vs Immutable#Immutable Objects|Immutable]]
+- شوفنا في ال [[Cs String]] اننا لما بنيجي نعمل concatenate أو نزود أي حاجة في ال string هتعمل حرفيًا string جديدة كليًا ودا بيأثر على الأداء والميموري ودا لأن ال string عبارة عن [[Mutable vs Immutable#Immutable Objects|Immutable]]
 - الحل كان إننا نستخدم class من نوع `StringBuilder`
 
 ## StringBuilder

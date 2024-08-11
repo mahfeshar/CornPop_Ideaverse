@@ -6,7 +6,7 @@ created: 2024-07-25
 Link: https://intelegain-technologies.medium.com/what-are-web-frameworks-and-why-you-need-them-c4e8806bd0fb
 ---
 
-- a software framework that is designed to support the development of web applications including web services, web resources and web APIs
+- A software framework that is designed to support the development of web applications including web services, web resources and web APIs
 - بتبقا عبارة عن Software بيوفرلك طريقة عشان تـ Create and run الـ Web application بتاعك
 - فالأول كنت بتقدر تعدل الحاجات دي بس دلوقتي بتختار الأنسب على حسب الـ Project بتاعك
 

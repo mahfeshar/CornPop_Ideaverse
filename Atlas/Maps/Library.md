@@ -22,11 +22,8 @@ Navigate your library of maps with a classification system made specifically for
 > 	- [[سلسلة تذوق العبادات]]
 
 > [!Todo]+ ## 100 - [[Programming MOC]]
+> [[Front-end MOC]] | [[Back-end MOC]]
 > [[Python MOC]] | [[CSharp MOC]] | [[JavaScript MOC]]
-> Front-end: [[HTML-CSS]]
-> [[Shell MOC]]
-> DB: [[Database MOC]] | [[MySQL MOC]] | [[SQL Server MOC]]
-> [[Testing MOC]]
 
 > [!planet]+ ## 200 - Media
 > Content: [[Rana Session]]
@@ -35,6 +32,6 @@ Navigate your library of maps with a classification system made specifically for
 > - [[سوا في الخير]]
 
 > [!user]+  ##  400 - شخصيات
-> [[صحابة رسول الله]]
+>- [[صحابة رسول الله]]
 
 Back to: [[Home]]
