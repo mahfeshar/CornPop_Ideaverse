@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "86936c99bb3e2aa5",
+            "id": "66acf5028d7e8c96",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -46,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
+                "file": "Atlas/Maps/Library.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -132,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 284.5
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Topics/API.md"
+                "file": "Atlas/Maps/Library.md"
               }
             }
           },
@@ -289,7 +289,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Topics/API.md",
+                "file": "Atlas/Maps/Library.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -340,7 +340,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Topics/API.md",
+                "file": "Atlas/Maps/Library.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -366,7 +366,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Topics/API.md",
+                "file": "Atlas/Maps/Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -387,7 +387,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Topics/API.md"
+                "file": "Atlas/Maps/Library.md"
               }
             }
           }
@@ -417,8 +417,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ba9e4b91964e0d1a",
+  "active": "66acf5028d7e8c96",
   "lastOpenFiles": [
+    "Home.md",
+    "Atlas/Notes/Ideas/Programming/Git/Git User name and password.md",
+    "Atlas/Notes/Ideas/Programming/Git/Git Branch Merge.md",
+    "Atlas/Notes/Ideas/Programming/Git/Git Getting started.md",
     "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
     "Atlas/Notes/Ideas/Programming/Topics/API.md",
     "Atlas/Notes/Ideas/Programming/Git/Git Branch.md",
@@ -444,9 +448,7 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Consume dll.md",
     "+/CSharp Class.md",
     "Atlas/Utilities/Images/Pasted image 20240803103104.png",
-    "Home.md",
     "+/Film Making.md",
-    "+/فيديو طريقة للدعاء.md",
     "Atlas/Utilities/Images/Pasted image 20240606133047.png~RF4f6d5cd.TMP",
     "Atlas/Utilities/Images/Pasted image 20240524142846.png~RF4f6d3f8.TMP",
     "Atlas/Utilities/Images/Pasted image 20240521141806.png~RF4f6ccc4.TMP",
@@ -457,8 +459,6 @@
     "Atlas/Utilities/Images/lyt-crafting-mocs-5.jpg~RF4f6734a.TMP",
     "Atlas/Utilities/Images/flow-zone-channel.jpg~RF4f65b7c.TMP",
     "Atlas/Utilities/Images/Css History.png~RF4f646eb.TMP",
-    "Calendar/Notes/2024-06-w25.md",
-    "Calendar/Notes/2024-06-w24.md",
     "Atlas/Utilities/Images/Pasted image 20240614065321.png",
     "Atlas/Utilities/Images/Pasted image 20240731140044.png",
     "Atlas/Utilities/Images/Pasted image 20240731135845.png",

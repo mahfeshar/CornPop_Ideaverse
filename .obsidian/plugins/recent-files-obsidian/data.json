@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "API",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/API.md"
+      "basename": "Library",
+      "path": "Atlas/Maps/Library.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Git User name and password",
+      "path": "Atlas/Notes/Ideas/Programming/Git/Git User name and password.md"
+    },
+    {
+      "basename": "Git Branch Merge",
+      "path": "Atlas/Notes/Ideas/Programming/Git/Git Branch Merge.md"
+    },
+    {
+      "basename": "Git Getting started",
+      "path": "Atlas/Notes/Ideas/Programming/Git/Git Getting started.md"
     },
     {
       "basename": "REST API",
       "path": "Atlas/Notes/Ideas/Programming/Topics/REST API.md"
+    },
+    {
+      "basename": "API",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/API.md"
     },
     {
       "basename": "Git Branch",
@@ -77,10 +97,6 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Consume dll.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "Film Making",
       "path": "+/Film Making.md"
     },
@@ -105,10 +121,6 @@
       "path": "+/Networking Fundamentals.md"
     },
     {
-      "basename": "Git Branch Merge",
-      "path": "Atlas/Notes/Ideas/Programming/Git/Git Branch Merge.md"
-    },
-    {
       "basename": "ارسم بسمة",
       "path": "+/ارسم بسمة.md"
     },
@@ -131,10 +143,6 @@
     {
       "basename": "صحابة رسول الله",
       "path": "Atlas/Maps/صحابة رسول الله.md"
-    },
-    {
-      "basename": "Library",
-      "path": "Atlas/Maps/Library.md"
     },
     {
       "basename": "Code-first or Database-First",
@@ -191,14 +199,6 @@
     {
       "basename": "CSharp StringBuilder",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp StringBuilder.md"
-    },
-    {
-      "basename": "Innotech Intern",
-      "path": "+/Innotech Intern.md"
-    },
-    {
-      "basename": "Hashing",
-      "path": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Hashing.md"
     }
   ],
   "omittedPaths": [],
