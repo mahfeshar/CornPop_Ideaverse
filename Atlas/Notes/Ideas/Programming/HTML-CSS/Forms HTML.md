@@ -25,12 +25,14 @@ The `<label>` element also helps users who have difficulty clicking on very sm
 The `for` attribute of the `<label>` tag should be equal to the `id` attribute of the `<input>` element to bind them together.
 
 بنستخدمها عشان مخليش الكلام في الهوا كدا وعشان ال for تخلي اليوزر لو ضغط على الكلام يروح على البوكس
+ليه مستخدمش p بداله؟ لأن البروازر هيقول عليك متخلف لو عملت كدا في وسط الفورم
 
 ## input Element
 The HTML `<input>` element is the most used form element.
 An `<input>` element can be displayed in many ways, depending on the `type` attribute.
 
 ### text
+دا الـ Default value بتاعه انه text
 ```html
 <form>
 	<label for="fname">First name:</label><br>
@@ -255,7 +257,22 @@ The `autocomplete` attribute works with `<form>` and the following `<input>
 #### name
 Notice that each input field must have a `name` attribute to be submitted.
 If the `name` attribute is omitted تم حذفه, the value of the input field will not be sent at all.
+لغات الـ Back لما بيستقبل الداتا دي لازم يبقا عارف كل حاجة بتاع ايه بالظبط ومش بتشوف الـ Label أو الـ ID عشان كدا لازم أعرفها كل Input هييجي بتاع ايه بالظبط
 
+```html
+<form>
+	<label for="fname">First Name: </label>
+	<input id="fname" type="text" /> <!-- To Back-end: Mahmoud -->
+	<!-- 
+	For this it will recive just the input and don't know what is this
+	-->
+</form>
+
+<input id="fname" type="text" name="firstname" /> 
+<!-- To Back-end: fisrtname => Mahmoud -->
+```
+
+مينفعش يتكرر عشان ميعملش Override ودا هيعمل مشكلة
 #### value
 The input `value` attribute specifies an initial value for an input field:
 

@@ -35,17 +35,17 @@
             "id": "30b36aa46e784f99",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Inline, Internal and External CSS",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":6}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "HTML",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/HTML.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":14},\"to\":{\"line\":39,\"ch\":14}},\"scroll\":25.019509476031214}"
                 },
                 {
                   "title": "Front-end MOC",
@@ -76,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/HTML.md",
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/HTML.md"
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md"
               }
             }
           },
@@ -320,7 +320,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/HTML.md",
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -371,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/HTML.md",
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -397,7 +397,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Maps/HTML.md",
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -418,7 +418,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/HTML.md"
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md"
               }
             }
           }
@@ -451,8 +451,8 @@
   },
   "active": "30b36aa46e784f99",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
     "Atlas/Maps/HTML.md",
+    "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Table HTML.md",
     "Atlas/Maps/Front-end MOC.md",
     "Atlas/Maps/Library.md",
