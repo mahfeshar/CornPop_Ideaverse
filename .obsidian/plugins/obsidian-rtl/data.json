@@ -1,0 +1,11 @@
+{
+  "fileDirections": {
+    "Atlas/Maps/HTML-CSS.md": "auto",
+    "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Stacks(LIFO).md": "ltr"
+  },
+  "defaultDirection": "auto",
+  "rememberPerFile": true,
+  "setNoteTitleDirection": true,
+  "setYamlDirection": false,
+  "statusBar": true
+}

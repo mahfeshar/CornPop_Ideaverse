@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "96ec5f794bcdd82b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba192ab03dc073f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5dafde28baf9cf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Maps/Add.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "06207d26b2842de9",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e2634476099992a6",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "5c079fe57f9a13b2",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "39dfc2e7f12194da",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "2fb2fa654b5cb81c",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      },
+      {
+        "id": "946944c86b8136c1",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "cf939530546affaf",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d2aaa41d57b65a10",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Atlas/Maps/Add.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e91b83be106af524",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Atlas/Maps/Add.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "395c61991c4fc9cd",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Atlas/Maps/Add.md"
+          }
+        }
+      },
+      {
+        "id": "fc60f950b7c8351b",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "periodic-notes:Open today's daily note": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "cmdr:Toggle stacked tabs": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "f5dafde28baf9cf7",
+  "lastOpenFiles": [
+    "+/استخدام خريطة المحتوى في المحاضرات.md",
+    "Atlas/Maps/Add.md",
+    "Atlas/Maps/Communicate.md",
+    "Home.md",
+    "+/+ About +.md"
+  ]
+}

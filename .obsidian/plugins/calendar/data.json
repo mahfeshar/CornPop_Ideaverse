@@ -1,0 +1,10 @@
+{
+  "shouldConfirmBeforeCreate": false,
+  "weekStart": "friday",
+  "wordsPerDot": 250,
+  "showWeeklyNote": true,
+  "weeklyNoteFormat": "YYYY-MM-[w]ww",
+  "weeklyNoteTemplate": "New Week Template (Corn)",
+  "weeklyNoteFolder": "Calendar/Notes",
+  "localeOverride": "system-default"
+}

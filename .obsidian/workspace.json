@@ -1,0 +1,479 @@
+{
+  "main": {
+    "id": "c4f7fdb608baf8e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0b3ac0111659cd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11bdb289d28a6708",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "86936c99bb3e2aa5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "440b3841429709ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "b208c03cadd231ee",
+        "type": "tabs",
+        "dimension": 54.02597402597402,
+        "children": [
+          {
+            "id": "dddbab8b18fd423a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f20ae5728f14bb8d",
+        "type": "tabs",
+        "dimension": 45.97402597402597,
+        "children": [
+          {
+            "id": "bfacbb72bba173bf",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "1dc0cb1cebc39098",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "7a43a6c530e72e44",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea89fdbc5439f479",
+        "type": "tabs",
+        "dimension": 31.324582338902147,
+        "children": [
+          {
+            "id": "90d026528dc7103b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/Topics/REST API.md"
+              }
+            }
+          },
+          {
+            "id": "77966b04a7f238ed",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "4f6e4ddebde66a86",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8ca68f20a1fff78e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "dbc23f6c72323478",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Obsidian Callouts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3a74708e77d5ab6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "3d767c407ab4c865",
+        "type": "tabs",
+        "dimension": 31.324582338902147,
+        "children": [
+          {
+            "id": "c3f1ee10bb319298",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7514342322277822,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8e15cd93a6a4be64",
+        "type": "tabs",
+        "dimension": 37.3508353221957,
+        "children": [
+          {
+            "id": "d535bd36dbc98e0b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byCreatedTimeReverse",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae0aed29d208c352",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "08676cd662407217",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/Topics/REST API.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "workspaces:Manage workspace layouts": false,
+      "periodic-notes:Open today's daily note": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "cmdr:Toggle stacked tabs": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "bfacbb72bba173bf",
+  "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/Topics/API.md",
+    "Atlas/Notes/Ideas/Programming/Git/Git Branch.md",
+    "Atlas/Maps/Git - GitHub MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Boxing and Unboxing.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Value and Reference Types.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Class.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CLS and CTS.md",
+    "Atlas/Maps/CSharp MOC.md",
+    "+/CSharp Struct.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Access Modifiers.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Constructor.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp List.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Enums.md",
+    "Atlas/Utilities/Images/Pasted image 20240319111439.png",
+    "Atlas/Utilities/Images/Pasted image 20240319111431.png",
+    "Atlas/Utilities/Images/Pasted image 20240319111406.png",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Data Types.md",
+    "+/CSharp Property.md",
+    "Atlas/Maps/Programming MOC.md",
+    "Atlas/Notes/Ideas/Programming/Projects/Code consistency.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Library vs Console App.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Consume dll.md",
+    "+/CSharp Class.md",
+    "Atlas/Utilities/Images/Pasted image 20240803103104.png",
+    "Home.md",
+    "+/Film Making.md",
+    "+/فيديو طريقة للدعاء.md",
+    "Atlas/Utilities/Images/Pasted image 20240606133047.png~RF4f6d5cd.TMP",
+    "Atlas/Utilities/Images/Pasted image 20240524142846.png~RF4f6d3f8.TMP",
+    "Atlas/Utilities/Images/Pasted image 20240521141806.png~RF4f6ccc4.TMP",
+    "Atlas/Utilities/Images/Pasted image 20240513133657.png~RF4f6c2f1.TMP",
+    "Atlas/Utilities/Images/Pasted image 20240508074911.png~RF4f6a49b.TMP",
+    "Atlas/Utilities/Images/Pasted image 20240429114656.png~RF4f681e0.TMP",
+    "Atlas/Utilities/Images/Pasted image 20240428153449.png~RF4f68163.TMP",
+    "Atlas/Utilities/Images/lyt-crafting-mocs-5.jpg~RF4f6734a.TMP",
+    "Atlas/Utilities/Images/flow-zone-channel.jpg~RF4f65b7c.TMP",
+    "Atlas/Utilities/Images/Css History.png~RF4f646eb.TMP",
+    "Calendar/Notes/2024-06-w25.md",
+    "Calendar/Notes/2024-06-w24.md",
+    "Calendar/Notes/2024-05-w20.md",
+    "Atlas/Utilities/Images/Pasted image 20240614065321.png",
+    "Atlas/Utilities/Images/Pasted image 20240731140044.png",
+    "Atlas/Utilities/Images/Pasted image 20240731135845.png",
+    "Atlas/Utilities/Images/Pasted image 20240727190730.png",
+    "Atlas/Utilities/Images/Pasted image 20240727190303.png",
+    "Atlas/Utilities/Images/Pasted image 20240727190259.png",
+    "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
+    "Atlas/Notes/Ideas/Untitled.canvas",
+    "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
+    "Atlas/Utilities/Canvases/LYT W10 Calendar Canvas.canvas",
+    "Atlas/Utilities/Canvases/LYT Ship Dashboard.canvas",
+    "Atlas/Utilities/Canvases/LYT W11 Calendar Canvas.canvas",
+    "Atlas/Utilities/Canvases/Obsidian Canvas MOC.canvas",
+    "Atlas/Utilities/Canvases/Ship of the Sensemaker.canvas",
+    "Atlas/Utilities/Canvases/LYT 2023 Rules.canvas",
+    "Atlas/Utilities/Canvases/LYT Book Framing.canvas"
+  ]
+}
