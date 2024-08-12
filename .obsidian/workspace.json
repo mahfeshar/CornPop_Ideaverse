@@ -42,10 +42,16 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "HTML",
+                  "title": "Front-end MOC",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/HTML.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":26.821428571428573}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Front-end MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "CSS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSS.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "title": "Front-end MOC",
@@ -106,8 +112,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
-                "mode": "source",
+                "file": "Atlas/Maps/HTML.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -219,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md"
+                "file": "Atlas/Maps/HTML.md"
               }
             }
           },
@@ -350,7 +356,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
+                "file": "Atlas/Maps/HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -401,7 +407,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
+                "file": "Atlas/Maps/HTML.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -427,7 +433,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
+                "file": "Atlas/Maps/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -448,7 +454,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md"
+                "file": "Atlas/Maps/HTML.md"
               }
             }
           }
@@ -481,11 +487,13 @@
   },
   "active": "30b36aa46e784f99",
   "lastOpenFiles": [
+    "Atlas/Maps/Front-end MOC.md",
+    "Atlas/Maps/CSS.md",
+    "Atlas/Notes/Ideas/Programming/HTML-CSS/Colors CSS and HTML.md",
     "Atlas/Maps/HTML.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Buttons HTML.md",
     "Atlas/Utilities/Images/Pasted image 20240812143657.png",
-    "Atlas/Maps/Front-end MOC.md",
     "Atlas/Maps/Library.md",
     "Home.md",
     "Atlas/Notes/Ideas/Social Media/Rana Session.md",
@@ -506,7 +514,6 @@
     "Atlas/Utilities/Templates/Template, Properties, Base + Tags (Kit).md",
     "Atlas/Utilities/Templates/Nick Milo's Custom Callouts.md",
     "Atlas/Utilities/Templates/New Week Template (Corn).md",
-    "Atlas/Utilities/Templates/New Day Template (Corn).md",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images/wolverine-tethered.jpg",
     "Atlas/Utilities/Images/whelan-the-wave-1994.jpg",
