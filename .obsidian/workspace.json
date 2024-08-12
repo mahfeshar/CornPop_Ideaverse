@@ -42,6 +42,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Rana Session",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Social Media/Rana Session.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":26},\"to\":{\"line\":11,\"ch\":26}},\"scroll\":8}"
+                },
+                {
                   "title": "HTML",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/HTML.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -76,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -188,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
+                "file": "Home.md"
               }
             }
           },
@@ -319,7 +325,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "Home.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -370,7 +376,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "Home.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -396,7 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -417,7 +423,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
+                "file": "Home.md"
               }
             }
           }
@@ -450,8 +456,8 @@
   },
   "active": "30b36aa46e784f99",
   "lastOpenFiles": [
-    "Atlas/Maps/HTML.md",
     "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+    "Atlas/Maps/HTML.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Table HTML.md",
