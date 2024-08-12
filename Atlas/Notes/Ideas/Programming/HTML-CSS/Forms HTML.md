@@ -137,6 +137,7 @@ input fields that should contain a color.
 </form>
 ```
 
+مش بيشتغل على المتصفحات القديمة زي IE وعشان نتأكد خش على موقع [Can I use](https://caniuse.com/)
 ### date
 input fields that should contain a date
 ```html
@@ -264,6 +265,7 @@ The `autocomplete` attribute works with `<form>` and the following `<input>
 ```
 ### Input
 #### name
+ أي حاجة في الفورم بتحتاج name
 Notice that each input field must have a `name` attribute to be submitted.
 If the `name` attribute is omitted تم حذفه, the value of the input field will not be sent at all.
 لغات الـ Back لما بيستقبل الداتا دي لازم يبقا عارف كل حاجة بتاع ايه بالظبط ومش بتشوف الـ Label أو الـ ID عشان كدا لازم أعرفها كل Input هييجي بتاع ايه بالظبط
@@ -293,6 +295,7 @@ The input `value` attribute specifies an initial value for an input field:
   <input type="text" id="lname" name="lname" value="Doe">  
 </form>
 ```
+بتبقا أفضل مع الحاجات اللي بختار فيها زي الـ Select, radio, checkbox
 
 #### readonly
 specifies that an input field is read-only.
@@ -343,6 +346,9 @@ The `min` and `max` attributes work with the following input types: number, 
 </form>
 ```
 
+
+#### maxlength and minlength
+دي بتستخدمها مع الـ Text عشان تحددله أقل حاجة يقدر يكتبها وأكتر حاجة يقدر يكتبها
 #### placeholder
 The input `placeholder` attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format).
 
