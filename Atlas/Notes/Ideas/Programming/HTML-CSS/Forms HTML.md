@@ -81,6 +81,7 @@ Radio buttons let a user select ONLY ONE of a limited number of choices:
 ```
 خد بالك ان لازم تحط ال attribute اللي اسمه name عشان دا هيحدد البارمتر اللي هيرجع في ال C# واللي هياخده ال input دا (في كل الحالات اللي فاتت)
 في حالة ال radio لما بيعرف ان اتنين ليهم نفس القيمة بيعرف انهم تبع بعض فمش هينفع تحدد غير واحدة بس
+القيمة اللي بديهاله في الـ Value هي اللي بترجع فالآخر وبتبقا بالـ Name
 
 To make one of them checked we will use `checked`
 
@@ -283,7 +284,7 @@ If the `name` attribute is omitted تم حذفه, the value of the input field
 مينفعش يتكرر عشان ميعملش Override ودا هيعمل مشكلة
 #### value
 The input `value` attribute specifies an initial value for an input field:
-
+ودي مهمة جدًا في الـ checkbox و radio عشان تعرف هيرجع ايه بالظبط للـ Back
 ```html
 <form>  
   <label for="fname">First name:</label><br>  
