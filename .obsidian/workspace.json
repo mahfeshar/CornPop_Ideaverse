@@ -42,6 +42,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "HTML",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/HTML.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":26.821428571428573}"
+                },
+                {
+                  "title": "Front-end MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Front-end MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Library",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "Rana Session",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Social Media/Rana Session.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -82,8 +106,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -168,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -194,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md"
               }
             }
           },
@@ -325,7 +350,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home.md",
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -376,7 +401,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -402,7 +427,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -423,7 +448,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md"
               }
             }
           }
@@ -456,14 +481,16 @@
   },
   "active": "30b36aa46e784f99",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Social Media/Rana Session.md",
     "Atlas/Maps/HTML.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
-    "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
-    "Atlas/Notes/Ideas/Programming/HTML-CSS/Table HTML.md",
+    "Atlas/Notes/Ideas/Programming/HTML-CSS/Buttons HTML.md",
+    "Atlas/Utilities/Images/Pasted image 20240812143657.png",
     "Atlas/Maps/Front-end MOC.md",
     "Atlas/Maps/Library.md",
     "Home.md",
+    "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+    "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
+    "Atlas/Notes/Ideas/Programming/HTML-CSS/Table HTML.md",
     "Atlas/Maps/Add.md",
     "+/المحاضرة الأولى - التجويد.md",
     "+/SQL Server MOC.md",
@@ -485,14 +512,11 @@
     "Atlas/Utilities/Images/whelan-the-wave-1994.jpg",
     "Atlas/Utilities/Images/whelan-space-station-1978-mod.jpg",
     "Atlas/Utilities/Images/vlcsnap-2024-05-25-12h28m43s755.png",
-    "Atlas/Utilities/Images/Triangulation-1a (Drawing).md",
     "Atlas/Utilities/Images/stay-on-target.jpg",
     "Atlas/Utilities/Images/sqlVersions.png",
     "Atlas/Utilities/Images/SQL Architecture.png",
     "Atlas/Utilities/Images/sort-by-file-name-a-to-z.png",
     "Atlas/Utilities/Images/robert-mccall-space-ship-launch-narrower.png",
-    "Atlas/Utilities/Images/robert-mccall-space-ship-launch-narrow.jpg",
-    "Atlas/Utilities/Excalidraw/excalibrain.md",
     "Atlas/Utilities/Images",
     "Atlas/Utilities/Excalidraw",
     "Atlas/Utilities",

@@ -58,20 +58,6 @@ An `<input>` element can be displayed in many ways, depending on the `type` 
 ```
 It will be masked.
 ![[Pasted image 20240609233808.png]]
-### submit
-a button for **submitting** form data to a **form-handler**
-The form-handler is typically a server page with a script for processing input data.
-```html
-<form action="/action_page.php">
-	<label for="fname">First name:</label><br>
-	<input type="text" id="fname" name="fname" value="John"><br>
-	<label for="lname">Last name:</label><br>
-	<input type="text" id="lname" name="lname" value="Doe"><br><br>
-	<input type="submit" value="Submit">
-</form> 
-```
-If you omit the submit button's value attribute, the button will get a default text
-
 ### Reset
 a **reset button** that will reset all form values to their default values
 
@@ -121,8 +107,21 @@ To make one of them checked we will use `checked`
 <input type="checkbox" id="bike" value="bike" checked />
 ```
 
-### Button
+### submit
 We talked before about [[Buttons HTML]]
+A button for **submitting** form data to a **form-handler**
+The form-handler is typically a server page with a script for processing input data.
+```html
+<form action="/action_page.php">
+	<label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="fname" value="John"><br>
+	<label for="lname">Last name:</label><br>
+	<input type="text" id="lname" name="lname" value="Doe"><br><br>
+	<input type="submit" value="Submit">
+</form> 
+```
+If you omit the submit button's value attribute, the button will get a default text
+### Button
 It's a new way to do it and we will use it to make a functions with JS work with it
 ```html
 <input type="button" onclick="alert('Hello World!')" value="Click Me!">
@@ -176,6 +175,15 @@ a file-select field and a "Browse" button for file uploads
 </form>
 ```
 
+ممكن أخلي اليوزر يتفلترله حاجة معينة بس مش بيجبره عليها لأن ممكن يرفع أي حاجة ودا عن طريق accept
+```html
+<input type="file" accept="image/png" id="pp" name="profilePic" />
+<input type="file" accept="image/*" id="pp" name="profilePic" />
+```
+لو عايزة ياخد أكتر من فايل هنستخدم multiple 
+```html
+<input type="file" accept="image/*" id="pp" name="profilePic" multiple/>
+```
 ### range
 a control for entering a number whose exact value is not important (like a slider control). Default range is 0 to 100.
 
