@@ -42,6 +42,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "HTML",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/HTML.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Front-end MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Front-end MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
@@ -112,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/HTML.md",
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -198,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -225,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/HTML.md"
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
               }
             }
           },
@@ -356,7 +361,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/HTML.md",
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -407,7 +412,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/HTML.md",
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -433,7 +438,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Maps/HTML.md",
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -454,7 +459,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/HTML.md"
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
               }
             }
           }
@@ -487,10 +492,10 @@
   },
   "active": "30b36aa46e784f99",
   "lastOpenFiles": [
+    "Atlas/Maps/HTML.md",
     "Atlas/Maps/Front-end MOC.md",
     "Atlas/Maps/CSS.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Colors CSS and HTML.md",
-    "Atlas/Maps/HTML.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Buttons HTML.md",
     "Atlas/Utilities/Images/Pasted image 20240812143657.png",
