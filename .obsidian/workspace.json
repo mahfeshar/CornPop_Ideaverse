@@ -124,9 +124,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a10357b98cfe8d4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":20},\"to\":{\"line\":0,\"ch\":20}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
               }
             }
           },
@@ -361,7 +389,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -412,7 +440,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -438,7 +466,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -459,7 +487,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
               }
             }
           }
@@ -490,8 +518,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "30b36aa46e784f99",
+  "active": "1a10357b98cfe8d4",
   "lastOpenFiles": [
+    "+/دورة الإيمان.md",
+    "+/المحاضرة الأولى-دورة الإيمان.md",
+    "Atlas/Notes/Ideas/Social Media/Rana Session.md",
     "Atlas/Maps/HTML.md",
     "Atlas/Maps/Front-end MOC.md",
     "Atlas/Maps/CSS.md",
@@ -501,7 +532,6 @@
     "Atlas/Utilities/Images/Pasted image 20240812143657.png",
     "Atlas/Maps/Library.md",
     "Home.md",
-    "Atlas/Notes/Ideas/Social Media/Rana Session.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Table HTML.md",
     "Atlas/Maps/Add.md",
@@ -517,8 +547,6 @@
     "Atlas/Utilities/Templates/Template, Properties, Daily Note (Kit).md",
     "Atlas/Utilities/Templates/Template, Properties, Base.md",
     "Atlas/Utilities/Templates/Template, Properties, Base + Tags (Kit).md",
-    "Atlas/Utilities/Templates/Nick Milo's Custom Callouts.md",
-    "Atlas/Utilities/Templates/New Week Template (Corn).md",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images/wolverine-tethered.jpg",
     "Atlas/Utilities/Images/whelan-the-wave-1994.jpg",
