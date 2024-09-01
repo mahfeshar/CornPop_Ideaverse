@@ -68,13 +68,37 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Problem Solving",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":16},\"to\":{\"line\":11,\"ch\":16}}}"
+                },
+                {
+                  "title": "Lower and Upper Bound",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":5},\"to\":{\"line\":8,\"ch\":5}}}"
+                },
+                {
+                  "title": "Problem Solving",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":15},\"to\":{\"line\":12,\"ch\":15}},\"scroll\":6}"
+                },
+                {
+                  "title": "Lower and Upper Bound",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -186,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md"
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
               }
             }
           },
@@ -317,7 +341,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -340,7 +364,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 4.070095084634202,
+                  "scale": 0.5359795996226112,
                   "close": true
                 }
               }
@@ -368,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -394,7 +418,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -415,7 +439,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md"
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
               }
             }
           }
@@ -447,10 +471,10 @@
   },
   "active": "362feaf0dee6a727",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
-    "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md",
-    "Atlas/Utilities/Images/Pasted image 20240901180848.png",
     "+/Problem Solving.md",
+    "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md",
+    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+    "Atlas/Utilities/Images/Pasted image 20240901180848.png",
     "Atlas/Utilities/Images/Pasted image 20240901180020.png",
     "Atlas/Utilities/Images/Pasted image 20240901175653.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md",

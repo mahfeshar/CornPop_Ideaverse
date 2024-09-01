@@ -1,3 +1,11 @@
+---
+up:
+  - "[[+/Problem Solving|Problem Solving]]"
+related: 
+created: 2024-09-01
+---
+
+قريبة أوي من الـ [[Binary Search]]
 ## Lower and Upper Bound
 لو مش عايز أجيب الرقم نفسه بس عايز أجيب الرقم الأكبر منه أو اللي قده
 هنشرح على الـ Lower Bound

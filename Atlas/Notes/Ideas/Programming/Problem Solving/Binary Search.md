@@ -9,6 +9,7 @@ created: 2024-09-01
 
 **Binary Search**: search in a sorted array by repeatedly dividing the search **interval in half**.
 مش بتنفع غير لما الفانكشن monotonic (ليها تون واحد) إما بتطلع بس أو بتنزل بس
+بتشتغل على الحاجات الـ Sorted بس
 ### How
 - Begin with an interval covering the whole array.
 - If the value of the search key is **less than the item in the middle** of the interval, **narrow the interval to the lower half**.
@@ -30,4 +31,5 @@ created: 2024-09-01
 - لو أكبر هننقل الـ Pointer اللي فالأخر (عاليمين) ونحطه فالنص
 - لو يساوي يبقا كدا خلاص
 - لو الرقم مش موجود فنوقف
-[[Lower and Upper Bound]]
+
+## Code

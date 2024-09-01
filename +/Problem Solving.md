@@ -10,4 +10,4 @@ created: 2024-09-01
 
 ## Search
 - [[Binary Search]]
--  
+-  [[Lower and Upper Bound]]
