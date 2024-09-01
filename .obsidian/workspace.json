@@ -76,9 +76,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b964b8f994f19220",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Problem Solving",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":12},\"to\":{\"line\":8,\"ch\":12}},\"scroll\":6}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md"
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md"
               }
             }
           },
@@ -313,7 +341,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -364,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -390,7 +418,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -411,7 +439,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md"
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md"
               }
             }
           }
@@ -441,10 +469,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1a10357b98cfe8d4",
+  "active": "b964b8f994f19220",
   "lastOpenFiles": [
-    "Home.md",
+    "Atlas/Notes/Ideas/Programming/Problem Solving",
+    "+/Problem Solving.md",
+    "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md",
+    "+/Tackling a problem.md",
+    "Atlas/Notes/Ideas/Mckinsy Course/Problem Solving.md",
     "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
+    "Home.md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "+/Cs Namespace.md",
@@ -465,11 +498,6 @@
     "Atlas/Maps/Library.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Table HTML.md",
-    "Atlas/Maps/Add.md",
-    "+/المحاضرة الأولى - التجويد.md",
-    "+/SQL Server MOC.md",
-    "+/استخدام خرائط المحتوى في المحاضرات.md",
-    "Atlas/Notes/People/صحابة رسول الله/العشرة المبشرين بالجنة.md",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images/wolverine-tethered.jpg",
     "Atlas/Utilities/Images/whelan-the-wave-1994.jpg",

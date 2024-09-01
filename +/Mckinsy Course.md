@@ -7,5 +7,5 @@ tags:
 ---
 
 - [[Adaptability and Resilience]]
-- [[Problem Solving]]
+- [[Atlas/Notes/Ideas/Mckinsy Course/Problem Solving]]
 - 
