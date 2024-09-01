@@ -32,75 +32,11 @@
             }
           },
           {
-            "id": "30b36aa46e784f99",
+            "id": "1a10357b98cfe8d4",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "HTML",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/HTML.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Front-end MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Front-end MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "CSS",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSS.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Front-end MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Front-end MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Rana Session",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Social Media/Rana Session.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":26},\"to\":{\"line\":11,\"ch\":26}},\"scroll\":8}"
-                },
-                {
-                  "title": "HTML",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/HTML.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":26},\"to\":{\"line\":31,\"ch\":26}},\"scroll\":25.019509476031214}"
-                },
-                {
-                  "title": "Front-end MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Front-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":5},\"to\":{\"line\":9,\"ch\":5}},\"scroll\":8}"
-                },
-                {
-                  "title": "Library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
-                },
                 {
                   "title": "Home",
                   "icon": "lucide-file",
@@ -108,32 +44,20 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":3}"
                 },
                 {
-                  "title": "Library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":14},\"to\":{\"line\":36,\"ch\":14}},\"scroll\":23.578326053594616}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a10357b98cfe8d4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":22},\"to\":{\"line\":40,\"ch\":22}},\"scroll\":32.06985294117647}"
+                },
+                {
+                  "title": "المحاضرة الأولى-دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المحاضرة الأولى-دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
                 },
                 {
                   "title": "دورة الإيمان",
@@ -146,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -154,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -258,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md"
               }
             }
           },
@@ -277,7 +201,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "encapsulation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -367,7 +291,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "3d767c407ab4c865",
@@ -389,7 +313,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -440,7 +364,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -466,7 +390,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -487,7 +411,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md"
               }
             }
           }
@@ -495,8 +419,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -520,8 +443,17 @@
   },
   "active": "1a10357b98cfe8d4",
   "lastOpenFiles": [
-    "+/دورة الإيمان.md",
+    "Home.md",
+    "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
+    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+    "+/Cs Namespace.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CLS and CTS.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
     "+/المحاضرة الأولى-دورة الإيمان.md",
+    "+/دورة الإيمان.md",
     "Atlas/Notes/Ideas/Social Media/Rana Session.md",
     "Atlas/Maps/HTML.md",
     "Atlas/Maps/Front-end MOC.md",
@@ -531,7 +463,6 @@
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Buttons HTML.md",
     "Atlas/Utilities/Images/Pasted image 20240812143657.png",
     "Atlas/Maps/Library.md",
-    "Home.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Table HTML.md",
     "Atlas/Maps/Add.md",
@@ -539,14 +470,6 @@
     "+/SQL Server MOC.md",
     "+/استخدام خرائط المحتوى في المحاضرات.md",
     "Atlas/Notes/People/صحابة رسول الله/العشرة المبشرين بالجنة.md",
-    "Atlas/Maps/صحابة رسول الله.md",
-    "+/شطرنج.md",
-    "Atlas/Utilities/Templates/Template, Properties, Source (Kit).md",
-    "Atlas/Utilities/Templates/Template, Properties, Effort (Kit).md",
-    "Atlas/Utilities/Templates/Template, Properties, Dates Dates Dates (Kit).md",
-    "Atlas/Utilities/Templates/Template, Properties, Daily Note (Kit).md",
-    "Atlas/Utilities/Templates/Template, Properties, Base.md",
-    "Atlas/Utilities/Templates/Template, Properties, Base + Tags (Kit).md",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images/wolverine-tethered.jpg",
     "Atlas/Utilities/Images/whelan-the-wave-1994.jpg",

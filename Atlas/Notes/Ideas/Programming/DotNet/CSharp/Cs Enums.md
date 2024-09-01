@@ -8,7 +8,7 @@ tags:
 ---
 
 - عبارة عن datatype انت اللي بتحدد ال values اللي ممكن ياخدها 
-- بعرفها جوا الـ [[CSharp Namespace]] 
+- بعرفها جوا الـ [[Cs Namespace]] 
 - تعتبر [[Cs Value and Reference Types#Value Types|Value Types]]
 - بيحسن ال readability بتاع الكود وبيقلل ان انت وزمايلك اللي شغالين على نفس البروجكت تغلطو
 - هو اعادة تسمية لبعض القيم ال int وبتديلها أسامي، يعني محجوز في الmemory في 4 byte 

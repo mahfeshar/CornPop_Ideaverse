@@ -9,13 +9,13 @@ tags:
 
 - عبارة عن C# Keywords بتساعدني اني اعمل Indicate the accessibility scope
 
-- أنا جوا ال [[CSharp Namespace|Namespace]] بكتب أربع حاجات: 
-  Class - Interface ([[Cs Value and Reference Types#Reference Types|Reference Types]]) or Struct - Enum (Value Type)
+- أنا جوا ال [[Cs Namespace|Namespace]] بكتب أربع حاجات: 
+  Class - Interface ([[Cs Value and Reference Types#Reference Types|Reference Types]]) | Struct - Enum (Value Type)
   وبرضو جوا الحاجات دي بيبقا فيه حاجات تانية زي فانكشنز او متغيرات وهكذا
   محتاج أعرف الحاجات دي هتبقا Accessible لحد فين بالظبط سواء جوا ال Library بس ولا لو حد استخدم ال Library في بروجكت تاني
 
 ![[Pasted image 20240803103104.png]]
-## Inside [[CSharp Namespace|Namespace]]
+## Inside [[Cs Namespace|Namespace]]
 بنقدر نكتب جوا ال Namespace أربع حاجات:
 1. [[Cs Class]]
 2. [[Cs Struct]] stands for structure
