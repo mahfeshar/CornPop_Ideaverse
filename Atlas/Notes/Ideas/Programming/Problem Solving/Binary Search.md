@@ -19,7 +19,7 @@ created: 2024-09-01
 ---
 
 - Given a array of _**N**_ elements, write a program to search a given element _**x**_ in array
-- A simple approach is to do linear search. The time complexity of above algorithm **is O(n)**. Another approach to perform the same task is using Binary Search, and it’s time complexity **is O(log2(n))**
+- A simple approach is to do linear search. The time complexity of above algorithm **is $O(n)$**. Another approach to perform the same task is using Binary Search, and it’s time complexity **is $O(log_2(n))$**
 
 ![Binary Search](https://cdn-images-1.medium.com/max/1200/1*EYkSkQaoduFBhpCVx7nyEA.gif)
 
