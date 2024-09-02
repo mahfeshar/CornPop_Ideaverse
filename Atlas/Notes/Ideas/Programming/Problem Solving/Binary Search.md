@@ -4,7 +4,6 @@ up:
 related: 
 created: 2024-09-01
 ---
-
 ## Binary Search
 
 **Binary Search**: search in a sorted array by repeatedly dividing the search **interval in half**.
