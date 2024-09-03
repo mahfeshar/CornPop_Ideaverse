@@ -70,6 +70,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":18},\"to\":{\"line\":0,\"ch\":18}}}"
+                },
+                {
+                  "title": "Binary Search",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":16},\"to\":{\"line\":6,\"ch\":16}}}"
+                },
+                {
                   "title": "Problem Solving",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -98,7 +110,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
               }
             }
           },
@@ -341,7 +353,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -392,7 +404,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -418,7 +430,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -439,7 +451,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
               }
             }
           }
@@ -447,7 +459,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -471,9 +484,10 @@
   },
   "active": "362feaf0dee6a727",
   "lastOpenFiles": [
+    "+/دورة الإيمان.md",
+    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "+/Problem Solving.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md",
-    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "Atlas/Utilities/Images/Pasted image 20240901180848.png",
     "Atlas/Utilities/Images/Pasted image 20240901180020.png",
     "Atlas/Utilities/Images/Pasted image 20240901175653.png",
@@ -491,7 +505,6 @@
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
     "+/المحاضرة الأولى-دورة الإيمان.md",
-    "+/دورة الإيمان.md",
     "Atlas/Notes/Ideas/Social Media/Rana Session.md",
     "Atlas/Maps/HTML.md",
     "Atlas/Maps/Front-end MOC.md",
