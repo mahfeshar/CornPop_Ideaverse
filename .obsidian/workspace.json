@@ -63,8 +63,14 @@
             "id": "362feaf0dee6a727",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "المبادئ العشرة",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":22},\"to\":{\"line\":14,\"ch\":22}},\"scroll\":9}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -484,6 +490,8 @@
   },
   "active": "362feaf0dee6a727",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
+    "+/المحاضرة الأولى-دورة الإيمان.md",
     "+/دورة الإيمان.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "+/Problem Solving.md",
@@ -504,7 +512,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CLS and CTS.md",
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
-    "+/المحاضرة الأولى-دورة الإيمان.md",
     "Atlas/Notes/Ideas/Social Media/Rana Session.md",
     "Atlas/Maps/HTML.md",
     "Atlas/Maps/Front-end MOC.md",
@@ -514,7 +521,6 @@
     "Atlas/Notes/Ideas/Programming/HTML-CSS/Buttons HTML.md",
     "Atlas/Utilities/Images/Pasted image 20240812143657.png",
     "Atlas/Maps/Library.md",
-    "Atlas/Notes/Ideas/Programming/HTML-CSS/Inline, Internal and External CSS.md",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images/wolverine-tethered.jpg",
     "Atlas/Utilities/Images/whelan-the-wave-1994.jpg",
