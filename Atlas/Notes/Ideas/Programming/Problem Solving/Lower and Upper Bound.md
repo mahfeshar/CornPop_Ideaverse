@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[+/Problem Solving|Problem Solving]]"
+  - "[[Problem Solving|Problem Solving]]"
 related: 
 created: 2024-09-01
 ---

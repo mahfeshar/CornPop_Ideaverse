@@ -157,7 +157,7 @@ Windows Form: من أقدم السوليشنز
 - لو عايز أظهر حاجة للـ User فدا عن طريق الـ Labels وخليه فاضي
 
 ## Errors 
-- تقدر تعمل [[CSharp Handle Exception]] وتظهر الـ Error في حاجة من اتنين:
+- تقدر تعمل [[Cs Handle Exception]] وتظهر الـ Error في حاجة من اتنين:
 	- اما Label وتبقا فاضية
 	- أو انك تستخدم Message
 

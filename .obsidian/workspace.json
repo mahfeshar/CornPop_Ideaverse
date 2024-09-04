@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "86723bcaf47caea8",
+            "id": "f34c801a1651ef72",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -42,59 +42,23 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "CSharp MOC",
+                  "title": "Problem Solving",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":21.896551724137932}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":13},\"to\":{\"line\":13,\"ch\":13}},\"scroll\":6}"
                 },
                 {
-                  "title": "Cs Encapsulation",
+                  "title": "Library",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Cs Indexer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":23.804878048780488}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":13},\"to\":{\"line\":42,\"ch\":13}},\"scroll\":19.292084726867337}"
-                },
-                {
-                  "title": "Cs Properties",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "Cs Encapsulation",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":97,\"ch\":17},\"to\":{\"line\":97,\"ch\":17}},\"scroll\":6}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":14.962962962962964}"
-                },
-                {
-                  "title": "Cs Class",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":17},\"to\":{\"line\":27,\"ch\":17}},\"scroll\":8}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -207,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
               }
             }
           },
@@ -355,7 +319,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -406,7 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -432,7 +396,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -453,7 +417,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
               }
             }
           }
@@ -485,35 +449,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86723bcaf47caea8",
+  "active": "f34c801a1651ef72",
   "lastOpenFiles": [
-    "Atlas/Maps/CSharp MOC.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/VS Secrets.md",
+    "Atlas/Utilities/Images/Pasted image 20240904081950.png",
+    "Atlas/Utilities/Images/Pasted image 20240904081840.png",
+    "Atlas/Maps/Problem Solving.md",
+    "Atlas/Maps/Library.md",
+    "Atlas/Maps/Programming MOC.md",
+    "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+    "Atlas/Maps/CSharp MOC.md",
+    "+/CSharp Handle Exception.md",
+    "+/Innotech Intern.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Type Casting.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Handle Exception.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/VS Secrets.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md",
     "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
-    "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Input.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Library vs Console App.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CLS and CTS.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
-    "Atlas/Notes/Ideas/Programming/OOP/OOP.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/DotNet Story.md",
-    "Atlas/Maps/Library.md",
-    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
-    "+/المحاضرة الأولى-دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20240903160658.png",
-    "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
-    "+/دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20240901180848.png",
     "Atlas/Utilities/Images/Pasted image 20240901180020.png",
     "Atlas/Utilities/Images/Pasted image 20240901175653.png",
@@ -524,7 +489,6 @@
     "Atlas/Utilities/Images/whelan-the-wave-1994.jpg",
     "Atlas/Utilities/Images/whelan-space-station-1978-mod.jpg",
     "Atlas/Utilities/Images/vlcsnap-2024-05-25-12h28m43s755.png",
-    "Atlas/Utilities/Images/stay-on-target.jpg",
     "Atlas/Utilities/Images",
     "Atlas/Utilities/Excalidraw",
     "Atlas/Utilities",

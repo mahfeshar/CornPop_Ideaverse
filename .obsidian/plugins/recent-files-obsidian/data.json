@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Struct",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
+      "basename": "Binary Search",
+      "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
+    },
+    {
+      "basename": "Problem Solving",
+      "path": "Atlas/Maps/Problem Solving.md"
+    },
+    {
+      "basename": "Library",
+      "path": "Atlas/Maps/Library.md"
+    },
+    {
+      "basename": "Programming MOC",
+      "path": "Atlas/Maps/Programming MOC.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Cs Enums",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
-      "basename": "VS Secrets",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/VS Secrets.md"
+      "basename": "Innotech Intern",
+      "path": "+/Innotech Intern.md"
     },
     {
-      "basename": "Cs Enums",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
+      "basename": "Cs Type Casting",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Type Casting.md"
+    },
+    {
+      "basename": "Cs Handle Exception",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Handle Exception.md"
+    },
+    {
+      "basename": "Cs Struct",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
+    },
+    {
+      "basename": "VS Secrets",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/VS Secrets.md"
     },
     {
       "basename": "Cs Encapsulation",
@@ -43,10 +75,6 @@
     {
       "basename": "Cs Class",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Cs Value and Reference Types",
@@ -85,14 +113,6 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/DotNet Story.md"
     },
     {
-      "basename": "Library",
-      "path": "Atlas/Maps/Library.md"
-    },
-    {
-      "basename": "Binary Search",
-      "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
-    },
-    {
       "basename": "المحاضرة الأولى-دورة الإيمان",
       "path": "+/المحاضرة الأولى-دورة الإيمان.md"
     },
@@ -103,10 +123,6 @@
     {
       "basename": "دورة الإيمان",
       "path": "+/دورة الإيمان.md"
-    },
-    {
-      "basename": "Problem Solving",
-      "path": "+/Problem Solving.md"
     },
     {
       "basename": "Lower and Upper Bound",
@@ -183,22 +199,6 @@
     {
       "basename": "CSharp Struct",
       "path": "+/CSharp Struct.md"
-    },
-    {
-      "basename": "Film Making",
-      "path": "+/Film Making.md"
-    },
-    {
-      "basename": "فيديو طريقة للدعاء",
-      "path": "+/فيديو طريقة للدعاء.md"
-    },
-    {
-      "basename": "Networking Fundamentals",
-      "path": "+/Networking Fundamentals.md"
-    },
-    {
-      "basename": "ارسم بسمة",
-      "path": "+/ارسم بسمة.md"
     }
   ],
   "omittedPaths": [],
