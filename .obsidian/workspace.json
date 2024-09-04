@@ -42,6 +42,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Cs Encapsulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "Cs Indexer",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
@@ -82,52 +88,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7eb0731ac5e923f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24fd941f5d564a88",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md",
-                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -239,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md"
+                "file": "Atlas/Maps/CSharp MOC.md"
               }
             }
           },
@@ -387,7 +349,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -438,7 +400,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -464,7 +426,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -485,7 +447,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md"
+                "file": "Atlas/Maps/CSharp MOC.md"
               }
             }
           }
@@ -519,10 +481,10 @@
   },
   "active": "86723bcaf47caea8",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
-    "Atlas/Maps/CSharp MOC.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md",
+    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
