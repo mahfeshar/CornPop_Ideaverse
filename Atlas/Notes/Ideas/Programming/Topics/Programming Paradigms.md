@@ -12,7 +12,7 @@ created: 2024-07-21
   والكود بيبقا اسبكيتي كود فلو غيرت سطر هيغير في كله وا لكود هيبوظ
 - مكنش فيه function ولا class ولا object والكود عبارة عن single block code
 ## Structure programming (Function)
-- بدأ يظهر مصطلع ال Function Programming وبدأنا نقسم الكود عن طريق ال Function
+- بدأ يظهر مصطلح الـ Function Programming وبدأنا نقسم الكود عن طريق ال Function
 - ال Function تقدر تعمل كول لبعضها ودا كان عن طريق لغة ال C في الوقت دا
 - فيها عيوب زي:
 	- Global variable

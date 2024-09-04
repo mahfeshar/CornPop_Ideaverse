@@ -20,6 +20,7 @@ Navigate your library of maps with a classification system made specifically for
 > - [[البناء المنهجي]]
 > - سلاسل ودورات:
 > 	- [[سلسلة تذوق العبادات]]
+> 	- [[دورة الإيمان]]
 
 > [!Todo]+ ## 100 - [[Programming MOC]]
 > [[Front-end MOC]] | [[Back-end MOC]]

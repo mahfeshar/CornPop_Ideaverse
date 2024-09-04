@@ -32,91 +32,39 @@
             }
           },
           {
-            "id": "b964b8f994f19220",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Problem Solving",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":13},\"to\":{\"line\":11,\"ch\":13}},\"scroll\":6}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "362feaf0dee6a727",
+            "id": "86723bcaf47caea8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 1,
               "stack": [
                 {
-                  "title": "المبادئ العشرة",
+                  "title": "Encapsulation",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":22},\"to\":{\"line\":14,\"ch\":22}},\"scroll\":9}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":15.552492301770593}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "دورة الإيمان",
+                  "title": "CSharp MOC",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":18},\"to\":{\"line\":0,\"ch\":18}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":26.413793103448278}"
                 },
                 {
-                  "title": "Binary Search",
+                  "title": "Cs Class",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":16},\"to\":{\"line\":6,\"ch\":16}}}"
-                },
-                {
-                  "title": "Problem Solving",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":16},\"to\":{\"line\":11,\"ch\":16}}}"
-                },
-                {
-                  "title": "Lower and Upper Bound",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":5},\"to\":{\"line\":8,\"ch\":5}}}"
-                },
-                {
-                  "title": "Problem Solving",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":15},\"to\":{\"line\":12,\"ch\":15}},\"scroll\":6}"
-                },
-                {
-                  "title": "Lower and Upper Bound",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "+/Cs Encapsulation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
+                "file": "+/Cs Encapsulation.md"
               }
             }
           },
@@ -335,9 +283,26 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "1371b66a09c0d426",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
         "id": "3d767c407ab4c865",
@@ -359,7 +324,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "+/Cs Encapsulation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -410,7 +375,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "+/Cs Encapsulation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -436,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "+/Cs Encapsulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -457,7 +422,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
+                "file": "+/Cs Encapsulation.md"
               }
             }
           }
@@ -485,16 +450,36 @@
       "cmdr:Toggle stacked tabs": false,
       "callout-manager:Insert Callout": false,
       "obsidian42-brat:BRAT": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "362feaf0dee6a727",
+  "active": "86723bcaf47caea8",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
+    "+/Cs Encapsulation.md",
+    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
+    "Home.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Input.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Library vs Console App.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CLS and CTS.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
+    "Atlas/Notes/Ideas/Programming/OOP/OOP.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/DotNet Story.md",
+    "Atlas/Maps/Library.md",
+    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+    "+/المحاضرة الأولى-دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20240903160658.png",
     "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
-    "+/المحاضرة الأولى-دورة الإيمان.md",
     "+/دورة الإيمان.md",
-    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "+/Problem Solving.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md",
     "Atlas/Utilities/Images/Pasted image 20240901180848.png",
@@ -502,24 +487,6 @@
     "Atlas/Utilities/Images/Pasted image 20240901175653.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
-    "+/Tackling a problem.md",
-    "Atlas/Notes/Ideas/Mckinsy Course/Problem Solving.md",
-    "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
-    "Home.md",
-    "Atlas/Maps/CSharp MOC.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
-    "+/Cs Namespace.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CLS and CTS.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
-    "Atlas/Notes/Ideas/Social Media/Rana Session.md",
-    "Atlas/Maps/HTML.md",
-    "Atlas/Maps/Front-end MOC.md",
-    "Atlas/Maps/CSS.md",
-    "Atlas/Notes/Ideas/Programming/HTML-CSS/Colors CSS and HTML.md",
-    "Atlas/Notes/Ideas/Programming/HTML-CSS/Forms HTML.md",
-    "Atlas/Notes/Ideas/Programming/HTML-CSS/Buttons HTML.md",
     "Atlas/Utilities/Images/Pasted image 20240812143657.png",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images/wolverine-tethered.jpg",
@@ -527,7 +494,6 @@
     "Atlas/Utilities/Images/whelan-space-station-1978-mod.jpg",
     "Atlas/Utilities/Images/vlcsnap-2024-05-25-12h28m43s755.png",
     "Atlas/Utilities/Images/stay-on-target.jpg",
-    "Atlas/Utilities/Images/sqlVersions.png",
     "Atlas/Utilities/Images",
     "Atlas/Utilities/Excalidraw",
     "Atlas/Utilities",
