@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Prefix Sums",
+      "path": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md"
+    },
+    {
+      "basename": "Data Structure and Algorithms MOC",
+      "path": "Atlas/Maps/Data Structure and Algorithms MOC.md"
+    },
+    {
       "basename": "Binary Search",
       "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "العشرة المبشرين بالجنة",
       "path": "Atlas/Notes/People/صحابة رسول الله/العشرة المبشرين بالجنة.md"
-    },
-    {
-      "basename": "صحابة رسول الله",
-      "path": "Atlas/Maps/صحابة رسول الله.md"
-    },
-    {
-      "basename": "CSharp Struct",
-      "path": "+/CSharp Struct.md"
     }
   ],
   "omittedPaths": [],
