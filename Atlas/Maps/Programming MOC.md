@@ -27,6 +27,7 @@ tags:
 - [[OOP]]
 	- [[Encapsulation]]
 - [[Data Structure and Algorithms MOC]]
+- [[Problem Solving]]
 - [[Database MOC]]
 	- [[MySQL MOC]]
 	- [[SQL Server MOC]]

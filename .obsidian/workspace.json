@@ -42,10 +42,16 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":17},\"to\":{\"line\":29,\"ch\":17}}}"
+                },
+                {
                   "title": "Data Structure and Algorithms MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Data Structure and Algorithms MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":8},\"to\":{\"line\":21,\"ch\":8}},\"scroll\":8.499442586399109}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":18},\"to\":{\"line\":22,\"ch\":18}},\"scroll\":8}"
                 },
                 {
                   "title": "Binary Search",
@@ -70,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
+                "file": "Atlas/Maps/Problem Solving.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md"
+                "file": "Atlas/Maps/Problem Solving.md"
               }
             }
           },
@@ -331,7 +337,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
+                "file": "Atlas/Maps/Problem Solving.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -382,7 +388,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
+                "file": "Atlas/Maps/Problem Solving.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -408,7 +414,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
+                "file": "Atlas/Maps/Problem Solving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -429,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md"
+                "file": "Atlas/Maps/Problem Solving.md"
               }
             }
           }
@@ -463,7 +469,9 @@
   },
   "active": "f34c801a1651ef72",
   "lastOpenFiles": [
+    "Atlas/Maps/Programming MOC.md",
     "Atlas/Maps/Data Structure and Algorithms MOC.md",
+    "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "Atlas/Utilities/Images/Pasted image 20240904083705.png",
     "Atlas/Utilities/Images/Pasted image 20240904083658.png",
@@ -474,7 +482,6 @@
     "Atlas/Utilities/Images/Pasted image 20240904081840.png",
     "Atlas/Maps/Problem Solving.md",
     "Atlas/Maps/Library.md",
-    "Atlas/Maps/Programming MOC.md",
     "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Maps/CSharp MOC.md",
@@ -495,7 +502,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Input.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Library vs Console App.md",
     "Atlas/Utilities/Images/Pasted image 20240903160658.png",
     "Atlas/Utilities/Images/Pasted image 20240901180848.png",
     "Atlas/Utilities/Images/Pasted image 20240901180020.png",
