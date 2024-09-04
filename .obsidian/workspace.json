@@ -42,6 +42,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":21.896551724137932}"
+                },
+                {
                   "title": "Cs Encapsulation",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
@@ -88,8 +94,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
-                "mode": "preview",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -201,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
               }
             }
           },
@@ -349,7 +355,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -400,7 +406,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -426,7 +432,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -447,7 +453,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
               }
             }
           }
@@ -481,15 +487,16 @@
   },
   "active": "86723bcaf47caea8",
   "lastOpenFiles": [
+    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/VS Secrets.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md",
-    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
     "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
@@ -507,7 +514,6 @@
     "Atlas/Utilities/Images/Pasted image 20240903160658.png",
     "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
     "+/دورة الإيمان.md",
-    "+/Problem Solving.md",
     "Atlas/Utilities/Images/Pasted image 20240901180848.png",
     "Atlas/Utilities/Images/Pasted image 20240901180020.png",
     "Atlas/Utilities/Images/Pasted image 20240901175653.png",

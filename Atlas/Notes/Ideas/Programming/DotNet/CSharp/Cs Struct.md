@@ -91,6 +91,47 @@ Point P3 = new Point(15);
 
 ```
 
+### Array of struct
+Define a struct "Person" with properties "Name" and "Age". 
+Create an array of three "Person" objects and populate it with data. 
+Then, write a C# program to display the details of all the persons in the array
+```cs
+using System;
+
+struct Person
+{
+    public string Name;
+    public int Age;
+
+    // Constructor to initialize a Person
+    public Person(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // Create and initialize an array of struct Person
+        Person[] people = new Person[3]
+        {
+            new Person("John Doe", 25),
+            new Person("Jane Smith", 30),
+            new Person("Alice Johnson", 28)
+        };
+
+        // Print the details of each person in the array
+        foreach (Person person in people)
+        {
+            Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
+        }
+    }
+}
+
+```
 ## Flashcards
 بنستخدم الـ Struct ليه؟ :: لتجميع البيانات ذات الصلة معًا ونعمل نوع جديد وهو شبه كتير الـ  class
 
