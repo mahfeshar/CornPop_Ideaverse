@@ -87,5 +87,41 @@ But since we set these elements equal to $±∞$, the correctness the algorithm
 كل دا اللي هو [[Lower and Upper Bound]]
 
 ## Code
+### c++
+```cpp
+int binarySearch(vector<int> arr, int target) {
+    int L = 0, R = arr.size();
 
+    while (L <= R) {
+        int mid = (L + R) / 2;
+
+        if (target > arr[mid])
+            L = mid + 1;
+        else if (target < arr[mid])
+            R = mid - 1;
+        else
+            return mid;
+    }
+    return -1;
+}
+```
+### Python
+```py
+arr = [1, 3, 3, 4, 5, 6, 7, 8]
+
+# Python implementation of Binary Search
+def binarySearch(arr, target):
+    L, R = 0, len(arr) - 1
+
+    while L <= R:
+        mid = (L + R) // 2
+
+        if target > arr[mid]:
+            L = mid + 1
+        elif target < arr[mid]:
+            R = mid - 1
+        else:
+            return mid
+    return -1
+```
 ## Problems

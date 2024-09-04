@@ -42,6 +42,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Problem Solving",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":13},\"to\":{\"line\":13,\"ch\":13}}}"
+                },
+                {
                   "title": "Programming MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -76,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/Problem Solving.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -189,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/Problem Solving.md"
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
               }
             }
           },
@@ -337,7 +343,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/Problem Solving.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -388,7 +394,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/Problem Solving.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -414,7 +420,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Maps/Problem Solving.md",
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,7 +441,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/Problem Solving.md"
+                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
               }
             }
           }
@@ -469,6 +475,7 @@
   },
   "active": "f34c801a1651ef72",
   "lastOpenFiles": [
+    "Atlas/Maps/Problem Solving.md",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Maps/Data Structure and Algorithms MOC.md",
     "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
@@ -480,7 +487,6 @@
     "Atlas/Utilities/Images/Pasted image 20240904082544.png",
     "Atlas/Utilities/Images/Pasted image 20240904081950.png",
     "Atlas/Utilities/Images/Pasted image 20240904081840.png",
-    "Atlas/Maps/Problem Solving.md",
     "Atlas/Maps/Library.md",
     "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",

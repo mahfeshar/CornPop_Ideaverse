@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Binary Search",
+      "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
+    },
+    {
       "basename": "Problem Solving",
       "path": "Atlas/Maps/Problem Solving.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Prefix Sums",
       "path": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md"
-    },
-    {
-      "basename": "Binary Search",
-      "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
     },
     {
       "basename": "Library",
