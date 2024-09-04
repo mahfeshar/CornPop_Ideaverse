@@ -2,15 +2,23 @@
   "recentFiles": [
     {
       "basename": "Cs Encapsulation",
-      "path": "+/Cs Encapsulation.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md"
     },
     {
-      "basename": "Encapsulation",
-      "path": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md"
+      "basename": "Cs Indexer",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Properties",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md"
+    },
+    {
+      "basename": "Encapsulation",
+      "path": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md"
     },
     {
       "basename": "Cs Constructor",
@@ -191,10 +199,6 @@
     {
       "basename": "كتاب المشوق إلى القرآن",
       "path": "+/كتاب المشوق إلى القرآن.md"
-    },
-    {
-      "basename": "SOLID Principles",
-      "path": "+/SOLID Principles.md"
     }
   ],
   "omittedPaths": [],
