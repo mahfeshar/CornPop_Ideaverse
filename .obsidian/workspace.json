@@ -42,6 +42,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":15},\"to\":{\"line\":0,\"ch\":15}}}"
+                },
+                {
+                  "title": "Binary Search",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
                   "title": "Problem Solving",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -82,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -195,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
               }
             }
           },
@@ -343,7 +355,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -394,7 +406,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -420,7 +432,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -441,7 +453,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
               }
             }
           }
@@ -475,11 +487,12 @@
   },
   "active": "f34c801a1651ef72",
   "lastOpenFiles": [
+    "+/دورة الإيمان.md",
+    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "Atlas/Maps/Problem Solving.md",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Maps/Data Structure and Algorithms MOC.md",
     "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
-    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "Atlas/Utilities/Images/Pasted image 20240904083705.png",
     "Atlas/Utilities/Images/Pasted image 20240904083658.png",
     "Atlas/Utilities/Images/Pasted image 20240904083616.png",
@@ -507,7 +520,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Input.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
     "Atlas/Utilities/Images/Pasted image 20240903160658.png",
     "Atlas/Utilities/Images/Pasted image 20240901180848.png",
     "Atlas/Utilities/Images/Pasted image 20240901180020.png",
