@@ -101,7 +101,7 @@
               "type": "markdown",
               "state": {
                 "file": "+/المحاضرة الأولى-دورة الإيمان.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -186,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
