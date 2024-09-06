@@ -35,8 +35,14 @@
             "id": "f34c801a1651ef72",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "المبادئ العشرة",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":9}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -487,6 +493,8 @@
   },
   "active": "f34c801a1651ef72",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
+    "+/المحاضرة الأولى-دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20240906123137.png",
     "Atlas/Utilities/Images/Pasted image 20240906122446.png",
     "Atlas/Utilities/Images/Pasted image 20240906122149.png",
@@ -497,7 +505,6 @@
     "Atlas/Utilities/Images/Pasted image 20240906121927.png",
     "Atlas/Utilities/Images/Pasted image 20240906121902.png",
     "Atlas/Utilities/Images/Pasted image 20240906121753.png",
-    "Atlas/Utilities/Images/Pasted image 20240906121736.png",
     "+/دورة الإيمان.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "Atlas/Maps/Problem Solving.md",
@@ -522,7 +529,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",
