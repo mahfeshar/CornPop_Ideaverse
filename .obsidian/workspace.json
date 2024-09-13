@@ -35,8 +35,14 @@
             "id": "f34c801a1651ef72",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "المدرسة الكبرى ببغداد",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المدرسة الكبرى ببغداد.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -510,8 +516,10 @@
   },
   "active": "f34c801a1651ef72",
   "lastOpenFiles": [
-    "+/دورة الإيمان.md",
+    "Atlas/Utilities/Images/Pasted image 20240913150647.png",
+    "+/المدرسة الكبرى ببغداد.md",
     "+/المحاضرة الثانية-دورة الإيمان.md",
+    "+/دورة الإيمان.md",
     "+/المحاضرة الأولى-دورة الإيمان.md",
     "Atlas/Notes/Ideas/Social Media/Rana Session.md",
     "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
@@ -544,8 +552,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md",
     "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",
