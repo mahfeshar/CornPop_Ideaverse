@@ -42,6 +42,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":28},\"to\":{\"line\":1,\"ch\":28}}}"
+                },
+                {
+                  "title": "المحاضرة الأولى-دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المحاضرة الأولى-دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Rana Session",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Social Media/Rana Session.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
                   "title": "المحاضرة الأولى-دورة الإيمان",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المحاضرة الأولى-دورة الإيمان.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
@@ -100,8 +118,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
-                "mode": "preview",
+                "file": "+/المحاضرة الثانية-دورة الإيمان.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -212,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
+                "file": "+/المحاضرة الثانية-دورة الإيمان.md"
               }
             }
           },
@@ -360,7 +378,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "+/المحاضرة الثانية-دورة الإيمان.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -411,7 +429,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "+/المحاضرة الثانية-دورة الإيمان.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -437,7 +455,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
+                "file": "+/المحاضرة الثانية-دورة الإيمان.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -458,7 +476,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
+                "file": "+/المحاضرة الثانية-دورة الإيمان.md"
               }
             }
           }
@@ -492,7 +510,10 @@
   },
   "active": "f34c801a1651ef72",
   "lastOpenFiles": [
+    "+/دورة الإيمان.md",
+    "+/المحاضرة الثانية-دورة الإيمان.md",
     "+/المحاضرة الأولى-دورة الإيمان.md",
+    "Atlas/Notes/Ideas/Social Media/Rana Session.md",
     "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
     "Atlas/Utilities/Images/Pasted image 20240906123137.png",
     "Atlas/Utilities/Images/Pasted image 20240906122446.png",
@@ -504,7 +525,6 @@
     "Atlas/Utilities/Images/Pasted image 20240906121927.png",
     "Atlas/Utilities/Images/Pasted image 20240906121902.png",
     "Atlas/Utilities/Images/Pasted image 20240906121753.png",
-    "+/دورة الإيمان.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "Atlas/Maps/Problem Solving.md",
     "Atlas/Maps/Programming MOC.md",
@@ -526,8 +546,6 @@
     "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",
