@@ -35,16 +35,16 @@
             "id": "f34c801a1651ef72",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "المبادئ العشرة",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":9}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
-                  "state": "{}",
+                  "title": "المحاضرة الأولى-دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المحاضرة الأولى-دورة الإيمان.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{}"
                 },
                 {
@@ -100,7 +100,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -212,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
               }
             }
           },
@@ -360,7 +360,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -411,7 +411,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -437,7 +437,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -458,7 +458,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الأولى-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Social Media/Rana Session.md"
               }
             }
           }
@@ -492,8 +492,8 @@
   },
   "active": "f34c801a1651ef72",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
     "+/المحاضرة الأولى-دورة الإيمان.md",
+    "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
     "Atlas/Utilities/Images/Pasted image 20240906123137.png",
     "Atlas/Utilities/Images/Pasted image 20240906122446.png",
     "Atlas/Utilities/Images/Pasted image 20240906122149.png",
