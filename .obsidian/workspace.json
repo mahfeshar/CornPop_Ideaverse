@@ -32,99 +32,33 @@
             }
           },
           {
-            "id": "f34c801a1651ef72",
+            "id": "32a236224a9e2482",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "المدرسة الكبرى ببغداد",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المدرسة الكبرى ببغداد.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "دورة الإيمان",
+                  "title": "CSharp MOC",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":28},\"to\":{\"line\":1,\"ch\":28}}}"
-                },
-                {
-                  "title": "المحاضرة الأولى-دورة الإيمان",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المحاضرة الأولى-دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Rana Session",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Social Media/Rana Session.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "المحاضرة الأولى-دورة الإيمان",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المحاضرة الأولى-دورة الإيمان.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "دورة الإيمان",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":15},\"to\":{\"line\":0,\"ch\":15}}}"
-                },
-                {
-                  "title": "Binary Search",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Problem Solving",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":13},\"to\":{\"line\":13,\"ch\":13}}}"
-                },
-                {
-                  "title": "Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":17},\"to\":{\"line\":29,\"ch\":17}}}"
-                },
-                {
-                  "title": "Data Structure and Algorithms MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Data Structure and Algorithms MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":18},\"to\":{\"line\":22,\"ch\":18}},\"scroll\":8}"
-                },
-                {
-                  "title": "Binary Search",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Problem Solving",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Problem Solving.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":13},\"to\":{\"line\":13,\"ch\":13}},\"scroll\":6}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":9},\"to\":{\"line\":26,\"ch\":9}},\"scroll\":13.88628762541806}"
                 },
                 {
                   "title": "Library",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":17},\"to\":{\"line\":27,\"ch\":17}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8.549019607843137}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/المحاضرة الثانية-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -236,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الثانية-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md"
               }
             }
           },
@@ -328,23 +262,6 @@
             }
           },
           {
-            "id": "c3a74708e77d5ab6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "1371b66a09c0d426",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -358,6 +275,23 @@
             },
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5666d8ad4d4ea1a2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
               "state": {}
             }
           }
@@ -384,7 +318,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/المحاضرة الثانية-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -435,7 +369,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/المحاضرة الثانية-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -461,7 +395,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/المحاضرة الثانية-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -482,7 +416,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الثانية-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md"
               }
             }
           }
@@ -514,12 +448,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f34c801a1651ef72",
+  "active": "32a236224a9e2482",
   "lastOpenFiles": [
+    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Maps/Library.md",
+    "Home.md",
+    "+/المحاضرة الثانية-دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20240913151428.png",
     "Atlas/Utilities/Images/Pasted image 20240913150647.png",
     "+/المدرسة الكبرى ببغداد.md",
-    "+/المحاضرة الثانية-دورة الإيمان.md",
     "+/دورة الإيمان.md",
     "+/المحاضرة الأولى-دورة الإيمان.md",
     "Atlas/Notes/Ideas/Social Media/Rana Session.md",
@@ -532,16 +469,12 @@
     "Atlas/Utilities/Images/Pasted image 20240906122059.png",
     "Atlas/Utilities/Images/Pasted image 20240906122045.png",
     "Atlas/Utilities/Images/Pasted image 20240906121927.png",
-    "Atlas/Utilities/Images/Pasted image 20240906121902.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "Atlas/Maps/Problem Solving.md",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Maps/Data Structure and Algorithms MOC.md",
     "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
-    "Atlas/Maps/Library.md",
-    "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
-    "Atlas/Maps/CSharp MOC.md",
     "+/CSharp Handle Exception.md",
     "+/Innotech Intern.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Type Casting.md",
