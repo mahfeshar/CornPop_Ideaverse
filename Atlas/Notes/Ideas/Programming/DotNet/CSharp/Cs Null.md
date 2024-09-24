@@ -4,7 +4,6 @@ up:
 related: 
 created: 2024-07-13
 ---
-
 ## Nullable Types
 - هي عبارة عن value types بتسمح بال `null`
 - بنستخدمها كتير مع ال [[Cs Input#Get User Input|ReadLine]] لان ممكن ال user ميدخلش قيمة والمفروض تتخزن Null
@@ -19,6 +18,13 @@ Y = 5000;
 Y = null;
 ```
 كل value type ليها ال nullable type بتاعها وال reference types كدا كدا بتسمح بال null
+
+---
+هو عبارة عن syntax sugar لـ[[Cs Struct]] اسمه Nullable
+```cs
+int? x = 5; // Nullable<int>
+
+```
 ### Casting
 طبعًا اتعلمنا ازاي نعمل [[Cs Type Casting]] وايه النوعين اللي عندي والفرق بينهم، فتعالو نطبق هنا
 لو عايز أعملها casting ايه المسموح وايه اللي لا
