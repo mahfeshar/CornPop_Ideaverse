@@ -39,8 +39,8 @@ tags:
 	- [[Cs Struct]]
 - [[Cs Constructor]]
 - [[Cs Encapsulation]]
-- [[Cs Properties]]
-- [[Cs Indexer]]
+	- [[Cs Properties]]
+	- [[Cs Indexer]]
 
 ---
 ## Resources

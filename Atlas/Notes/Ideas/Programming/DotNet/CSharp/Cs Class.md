@@ -52,10 +52,11 @@ class Car
 	- Event
 - UML: Classes
 
+تقدر تخصص لكل واحدة منهم [[Cs Access Modifiers#Inside Cs Class Class or Cs Struct Struct|access modifier]] خاص بيها 
 ![[Pasted image 20240715192148.png]]
 ```cs
 // The class
-class MyClass
+class MyClass // Internal by deafult OR Public
 {
 	//Class members
 	string color = "red"; // field or attribute

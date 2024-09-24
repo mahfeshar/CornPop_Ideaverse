@@ -42,10 +42,16 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Cs Boxing and Unboxing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":79},\"to\":{\"line\":16,\"ch\":79}},\"scroll\":10.27962638645651}"
+                },
+                {
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":9},\"to\":{\"line\":26,\"ch\":9}},\"scroll\":13.88628762541806}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":11},\"to\":{\"line\":41,\"ch\":11}},\"scroll\":33.646230841413825}"
                 },
                 {
                   "title": "Library",
@@ -58,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -170,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
               }
             }
           },
@@ -189,7 +195,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "encapsulation",
+                "query": "\"object\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -296,7 +302,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       },
       {
         "id": "3d767c407ab4c865",
@@ -318,7 +324,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -369,7 +375,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -395,7 +401,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -416,7 +422,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
               }
             }
           }
@@ -424,8 +430,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -450,7 +455,18 @@
   },
   "active": "32a236224a9e2482",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Data Types.md",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Protective code.md",
+    "Atlas/Utilities/Images/Pasted image 20240924170950.png",
     "Atlas/Maps/Library.md",
     "Home.md",
     "+/المحاضرة الثانية-دورة الإيمان.md",
@@ -468,7 +484,6 @@
     "Atlas/Utilities/Images/Pasted image 20240906122116.png",
     "Atlas/Utilities/Images/Pasted image 20240906122059.png",
     "Atlas/Utilities/Images/Pasted image 20240906122045.png",
-    "Atlas/Utilities/Images/Pasted image 20240906121927.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
     "Atlas/Maps/Problem Solving.md",
     "Atlas/Maps/Programming MOC.md",
@@ -476,15 +491,6 @@
     "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "+/CSharp Handle Exception.md",
-    "+/Innotech Intern.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Type Casting.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Handle Exception.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/VS Secrets.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md",
-    "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

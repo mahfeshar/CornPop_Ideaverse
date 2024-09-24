@@ -5,7 +5,7 @@ related:
 created: 2024-07-13
 ---
 ## Nullable Types
-- هي عبارة عن value types بتسمح بال `null`
+- هي عبارة عن value types بتسمح بال `null` وبيفضل زي ما هو value type
 - بنستخدمها كتير مع ال [[Cs Input#Get User Input|ReadLine]] لان ممكن ال user ميدخلش قيمة والمفروض تتخزن Null
 - يعني مثلا ال`int` مش بيسمح انك تحط `null` كقيمة
 
@@ -20,11 +20,21 @@ Y = null;
 كل value type ليها ال nullable type بتاعها وال reference types كدا كدا بتسمح بال null
 
 ---
-هو عبارة عن syntax sugar لـ[[Cs Struct]] اسمه Nullable
+### Syntax Sugar
+هو عبارة عن syntax sugar لـ[[Cs Struct]] اسمه Nullable 
 ```cs
 int? x = 5; // Nullable<int>
+x = null;
 
+int? x = null;
+Nullable<int> y = null;
+Console.WriteLine(x);
+Console.WriteLine(y);
 ```
+مفيش فيه غير متغيرين اتنين بس وهما `HasValue` و `Value` وطريقة شغلها ببساطة إن لو هو ب null يبقا كدا `HasValue` يبقا false ومفيش قيمة في الـ value إنما لو true يبقا كدا فيه قيمة في الـ `Value`
+
+![[Pasted image 20240924170950.png]]
+لو خدت بالك بالطريقة دي هي هتفضل [[Cs Value and Reference Types#Value Types|value type]] مش هتتحول لـ Reference ولا حاجة
 ### Casting
 طبعًا اتعلمنا ازاي نعمل [[Cs Type Casting]] وايه النوعين اللي عندي والفرق بينهم، فتعالو نطبق هنا
 لو عايز أعملها casting ايه المسموح وايه اللي لا
@@ -34,7 +44,7 @@ int? Y; //Nullable int
 Y = null;
 
 Y = X; // Safe Casting, Implicit
-X = Y; // UnSafe, Explicit
+X = Y; // UnSafe, Explicit: ERROR
 X = (int) Y;
 ```
 
@@ -56,7 +66,7 @@ for (int i = 0; i < Arr.Length; i++)
 ```cs
 for (int i = 0; (Arr != null) && (i < Arr.Length); i++);
 ```
-### الفرق بين && , &
+## الفرق بين && , &
 &&: بيشوف الأول لو محققش المطلوب بيقفل البرنامج يعني فوق لقى الأول بnull فمش هيكمل التاني
 &: دي عبارة عن bitwise ولازم يشوف قيمة الاتنين ويعملهم `anding` مع بعض
 ## Null Propagation (Conditional) Operator

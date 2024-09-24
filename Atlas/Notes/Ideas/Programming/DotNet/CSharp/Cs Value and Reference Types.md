@@ -82,7 +82,7 @@ y = x // error
 - This is because C# follows the Object-Oriented Programming (OOP) paradigm, where everything in the language is an object, directly or indirectly deriving from `System.Object`.
 
 - لو عملت function بتاخد object حرفيا تقدر تدخلها أي data type 
-  ولو بت return object هينفع ترجع أي data type
+  ولو بتـ return object هينفع ترجع أي data type
 
 
 - all data types **inherits from this class** for 2 reasons:
