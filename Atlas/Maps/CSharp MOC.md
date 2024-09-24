@@ -33,6 +33,7 @@ tags:
 ---
 ## OOP
 - [[Cs Access Modifiers]]
+- [[Cs System.Object]]
 - [[Cs Class]]
 - Value Type
 	- [[Cs Enums]]

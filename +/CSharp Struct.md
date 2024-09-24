@@ -51,7 +51,7 @@ P1 = new Point()
 ### Access Modifier
 اتكلمنا عنها بالتفصيل في [[CSharp Access Modifiers#Inside CSharp Class Class or CSharp Struct Struct|Inside Struct]]
 ### Constructor
- - اتكلمنا عنه بالتفصيل في [[CSharp Constructor]]
+ - اتكلمنا عنه بالتفصيل في [[Cs Constructor]]
  - اقدر اعرف multiple constructors
  
 ```cs

@@ -89,7 +89,7 @@ D = "Hello"; // Same Error
 Object x = 5;
 ```
 
-- We talked about it in details [[Cs Value and Reference Types#`System.Object`|System.Object]]
+- We talked about it in details [[Cs System.Object]]
 
 ### dynamic 
 - دايما heap و reference type زي ال object

@@ -14,7 +14,7 @@ We talked before about [[Cs Data Types]] and how this data stored in memory at *
 ## Boxing
 - بحول ال Value Type (Stack) إلى Reference Type(Heap)
 - بتخلي حاجة بتتخزن في Stack تروح تتخزن في ال Heap
-- We will use in this method [[Cs Value and Reference Types#`System.Object`|Object]] (Super type)
+- We will use in this method [[Cs System.Object]] (Super type)
 ```cs
 int num = 23; // Value Type
 Object Obj = num; // Value(int) -> Reference(object) : Boxing

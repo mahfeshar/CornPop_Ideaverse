@@ -35,23 +35,23 @@
             "id": "32a236224a9e2482",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "DotNet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Cs Boxing and Unboxing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":79},\"to\":{\"line\":16,\"ch\":79}},\"scroll\":10.27962638645651}"
-                },
-                {
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":11},\"to\":{\"line\":41,\"ch\":11}},\"scroll\":33.646230841413825}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":23},\"to\":{\"line\":20,\"ch\":23}},\"scroll\":8}"
                 },
                 {
                   "title": "Library",
@@ -64,7 +64,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+                "file": "Atlas/Maps/Back-end MOC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c3ff41c3ec7d92c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -150,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -176,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
+                "file": "Atlas/Maps/Back-end MOC.md"
               }
             }
           },
@@ -324,7 +347,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+                "file": "Atlas/Maps/Back-end MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -375,7 +398,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+                "file": "Atlas/Maps/Back-end MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -401,7 +424,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+                "file": "Atlas/Maps/Back-end MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -422,7 +445,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
+                "file": "Atlas/Maps/Back-end MOC.md"
               }
             }
           }
@@ -455,10 +478,18 @@
   },
   "active": "32a236224a9e2482",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Data Types.md",
+    "Atlas/Maps/DotNet.md",
+    "Atlas/Maps/Back-end MOC.md",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
+    "+/CSharp Constructor.md",
+    "+/CSharp Struct.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Variables.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Data Types.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
@@ -476,7 +507,6 @@
     "+/دورة الإيمان.md",
     "+/المحاضرة الأولى-دورة الإيمان.md",
     "Atlas/Notes/Ideas/Social Media/Rana Session.md",
-    "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md",
     "Atlas/Utilities/Images/Pasted image 20240906123137.png",
     "Atlas/Utilities/Images/Pasted image 20240906122446.png",
     "Atlas/Utilities/Images/Pasted image 20240906122149.png",
@@ -484,13 +514,6 @@
     "Atlas/Utilities/Images/Pasted image 20240906122116.png",
     "Atlas/Utilities/Images/Pasted image 20240906122059.png",
     "Atlas/Utilities/Images/Pasted image 20240906122045.png",
-    "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md",
-    "Atlas/Maps/Problem Solving.md",
-    "Atlas/Maps/Programming MOC.md",
-    "Atlas/Maps/Data Structure and Algorithms MOC.md",
-    "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
-    "+/CSharp Handle Exception.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

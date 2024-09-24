@@ -33,12 +33,17 @@ class Car
 - The constructor name must **match the class name**, and it cannot have a **return type**
 - All classes have constructors by default: if you do not create a class constructor yourself, C# creates one for you.
 	- كل اللي بتعمله ان هي بتدي default value لكل field عندي، يعني ال int ياخد صفر
-- ال ctor اللي بيبقا مفهوش برامتر بيبقا اسمها ==parameter less - default ctor==
+- ال `ctor` اللي بيبقا مفهوش برامتر بيبقا اسمها ==parameter less - default `ctor`==
 	- في الطبيعي بياخد كل الـ Attributes ويحطلها القيمة الـ Default بتاع النوع دا
 	  يعني لو هي من النوع Int هيديلها صفر
 
 ![[Pasted image 20240318153133.png]]
 
+## Struct vs Class
+ الفرق بينهم 
+ - ان الـ Default constructor بيتعمل دايمًا في الـ [[Cs Struct]]
+ - انما في الـ [[Cs Class]] بيتعمل في حالة إن مفيش ctor انت عامله انما لو عملت واحد الـ Default مبيبقاش موجود وانت ممكن تعمله عادي بعد كدا
+   بمعنى انك لو جيت تستخدمه بعد ما عملت واحد هتلاقيه مديلك Error
 ## Constructor Overloading
 - ال Overloading: انك يبقا عندك method ليها نفس الإسم بس متغير فيها signatures
 - Signatures: What uniquely identify a method (Return type, name, the types and numbers of its parameters)

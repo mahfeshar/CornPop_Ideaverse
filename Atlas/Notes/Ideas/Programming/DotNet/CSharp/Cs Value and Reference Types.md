@@ -68,7 +68,7 @@ y = x // error
   بيحجز قيمته في ال Heap وبيباصي العنوان لل Stack
 
 - لو عايز تحجزله مكان بقا بنستخدم كلمة `new` وبعدها هيبدأ **يخزن الداتا فعلًا** بس بيخزنها في ال *Heap*
-  أول ما بستخدم كلمة new بحجز مكان بالفعل وبيحطله initial value على حسب نوع الداتا أو من خلال ال [[constructor]]
+  أول ما بستخدم كلمة new بحجز مكان بالفعل وبيحطله initial value على حسب نوع الداتا أو من خلال الـ [[Cs Constructor]] 
   مثال: لما باجي أعمل Array جديدة [[Cs Arrays#Create an Array|Create Array]]
 - عشان أقدر أناديله لازم يبقا في ال stack عشان كدا هو بيخزن ال address بتاع ال object في ال stack
 - لما بتبدأ تحدد new بيحط default value في الحاجة اللي انت حددتها دي
@@ -77,22 +77,8 @@ y = x // error
 - ودا بسبب إن ال string ملوش مساحة محددة
 
 - بتسمح بال `null` عادي
-### `System.Object`
-- The base class for all data types (حرفيا كلها)
-- This is because C# follows the Object-Oriented Programming (OOP) paradigm, where everything in the language is an object, directly or indirectly deriving from `System.Object`.
 
-- لو عملت function بتاخد object حرفيا تقدر تدخلها أي data type 
-  ولو بتـ return object هينفع ترجع أي data type
-
-
-- all data types **inherits from this class** for 2 reasons:
-    - **generics was invented in 2005** so from 2002 to 2005 System.Object was used for every thing.
-    - **set of behaviors should be supported in all Data Types:**
-        - Public Virtual String `ToString();` → **return object state (values) in string form**
-        - Public Virtual int `GetHashCode();` → **return object identity (unique identifier)**
-        - public virtual bool `Equals (Object O2);` → **to check equality**
-        - public type `GetType();` → **return data type**
-
+- نتكلم الأول عن [[Cs System.Object]] 
 ```cs
 Object o1; // zero bytes have been allocated in Heap
 
@@ -107,13 +93,15 @@ o2 = o1;
 - *ملحوظة*: ال reference عامل زي ال pointer بس بشكل كتابة مختلف وبتعمل نفس الوظائف
 ![[Pasted image 20240310165514.png]]
 
+### New
+لما بكتب new دا اللي بيحصل
 1. Allocate Required number(#) of Bytes in Heap (Object Size + CLR Overhead Variables)
 	- أي حاجة بتحطها في ال Heap بيبدأ ال CLR بيحط اتنين variables عشان يستخدمهم 
 	- بيحط 64 bit لكل variable 
 	- فكدا بيبقا فيه 16 byte زيادة على أي حاجة بتتخزن في ال heap
-2. Initialize (cross out) allocated Bytes
+2. Initialize (cross out) allocated Bytes with default value
 3. Call user defined **constructor** if exists
-4. Assign reference to new key allocated Object
+4. Assign reference (address of the allocated object at heap) to new key allocated Object
 ### Garbage Collector
 - طبعا زي ما قولنا فوق لما بتشاور على حاجة تانية الحاجة اللي كنت مشاور عليها في الاول دي بتبقا **unreachable location** ومبتقدرش توصلها وبتعتبر garbage 
   بس انت هنا مش بتشيل هم انك تمسحها بايدك وتنظفها
