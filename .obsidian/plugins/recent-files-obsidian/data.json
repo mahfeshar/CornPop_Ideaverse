@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Inheritance",
-      "path": "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md"
+      "basename": "CSharp Inheritance",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Inheritance.md"
+    },
+    {
+      "basename": "CSharp MOC",
+      "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
       "basename": "OOP",
       "path": "Atlas/Maps/OOP.md"
     },
     {
-      "basename": "SOLID Principles",
-      "path": "+/SOLID Principles.md"
+      "basename": "Inheritance",
+      "path": "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md"
     },
     {
-      "basename": "CSharp MOC",
-      "path": "Atlas/Maps/CSharp MOC.md"
+      "basename": "SOLID Principles",
+      "path": "+/SOLID Principles.md"
     },
     {
       "basename": "Cs Value and Reference Types",
@@ -195,10 +199,6 @@
     {
       "basename": "Reading problem statement",
       "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md"
-    },
-    {
-      "basename": "Tackling a problem",
-      "path": "+/Tackling a problem.md"
     }
   ],
   "omittedPaths": [],
