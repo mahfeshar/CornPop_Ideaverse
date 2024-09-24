@@ -3,6 +3,8 @@ up:
   - "[[Programming MOC]]"
 related: 
 created: 2024-08-05
+tags:
+  - map
 ---
 
 ## What is OOP?
@@ -19,6 +21,8 @@ created: 2024-08-05
 - [[Abstraction]]
 - [[Inheritance]]
 - [[Polymorphism]]
+
+فيه ناس بدأت تستخدم الحاجات دي غلط فطلع عندنا حاجة اسمها [[SOLID Principles]]
 # Why OOP?
 ## Primitively Data Types
 - أنواع البيانات البدائية: بتخزن Single simple value

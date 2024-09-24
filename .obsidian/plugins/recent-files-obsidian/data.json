@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Back-end MOC",
-      "path": "Atlas/Maps/Back-end MOC.md"
+      "basename": "Inheritance",
+      "path": "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md"
     },
     {
-      "basename": "DotNet",
-      "path": "Atlas/Maps/DotNet.md"
+      "basename": "OOP",
+      "path": "Atlas/Maps/OOP.md"
+    },
+    {
+      "basename": "SOLID Principles",
+      "path": "+/SOLID Principles.md"
     },
     {
       "basename": "CSharp MOC",
@@ -17,8 +21,40 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
     },
     {
+      "basename": "Cs Encapsulation",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md"
+    },
+    {
+      "basename": "Encapsulation",
+      "path": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md"
+    },
+    {
+      "basename": "Cs Class",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
+    },
+    {
       "basename": "Cs Constructor",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
+    },
+    {
+      "basename": "Cs List",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md"
+    },
+    {
+      "basename": "Cs Struct",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
+    },
+    {
+      "basename": "Cs Null",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md"
+    },
+    {
+      "basename": "DotNet",
+      "path": "Atlas/Maps/DotNet.md"
+    },
+    {
+      "basename": "Back-end MOC",
+      "path": "Atlas/Maps/Back-end MOC.md"
     },
     {
       "basename": "CSharp Struct",
@@ -27,10 +63,6 @@
     {
       "basename": "Cs System.Object",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md"
-    },
-    {
-      "basename": "Cs Struct",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
     },
     {
       "basename": "Cs Boxing and Unboxing",
@@ -49,24 +81,12 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md"
     },
     {
-      "basename": "Cs Class",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
-    },
-    {
       "basename": "Cs Access Modifiers",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
     },
     {
       "basename": "Cs Indexer",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
-    },
-    {
-      "basename": "Cs Encapsulation",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md"
-    },
-    {
-      "basename": "Cs Null",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md"
     },
     {
       "basename": "CSharp Protective code",
@@ -141,10 +161,6 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/VS Secrets.md"
     },
     {
-      "basename": "Encapsulation",
-      "path": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md"
-    },
-    {
       "basename": "Cs Arrays",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md"
     },
@@ -169,10 +185,6 @@
       "path": "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md"
     },
     {
-      "basename": "OOP",
-      "path": "Atlas/Notes/Ideas/Programming/OOP/OOP.md"
-    },
-    {
       "basename": "DotNet Story",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/DotNet Story.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Tackling a problem",
       "path": "+/Tackling a problem.md"
-    },
-    {
-      "basename": "HTML",
-      "path": "Atlas/Maps/HTML.md"
-    },
-    {
-      "basename": "Front-end MOC",
-      "path": "Atlas/Maps/Front-end MOC.md"
-    },
-    {
-      "basename": "CSS",
-      "path": "Atlas/Maps/CSS.md"
     }
   ],
   "omittedPaths": [],

@@ -4,7 +4,8 @@ up:
 related: 
 created: 2024-07-17
 ---
- 
+## Constructor
+
 - هي عبارة عن special method بنستخدمها عشان initialize objects
 - بيتم مناداتها أو ما بتعمل create object
 - الـ [[Cs Access Modifiers|Access Modifier]] بتاعه في الطبيعي بيبقا Public إلا في Design pattern واحدة 
@@ -57,10 +58,10 @@ public class Car
 }
 ```
 
-## this keyword
+## Constructor Chaining
 - عندي مشكلة إن مينفعش أعرف field من النوع [[Cs List]] وأسيبه مش حاجزله مكان بال new
 - دا هيعملي مشكلة لو جيت أضيف عنصر في ال list أو استخدمها عمومًا ولازم أعملها initialization الأول
-- الحل إننا نعمل كدا في default constructor 
+- الحل إننا نعمل كدا في default constructor
 ```cs
 public List<Order> Orders;
 
@@ -101,4 +102,6 @@ public class Customer
 ```
 
 - دا بكل بساطة هيخلي أي constructor هتناديه، هيروح ينادي على ال constructor ال default الأول
+- بينفذ اللي أنا عامل منه Chain الأول وبعدين ينفذ اللي انا فيه
 - نقدر نخلي أي constructor ينادي أي واحد قبله بشرط إني أحط ال parameters جوا القوسين بعد this
+- ممكن نعمل Chaining على constructor موجود في class تاني

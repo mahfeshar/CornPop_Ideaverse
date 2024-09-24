@@ -183,4 +183,6 @@ class Program
 ```
 
 
-
+## Constructor
+- we talked about [[Cs Constructor]] before.
+- We can make more than one constructor.
