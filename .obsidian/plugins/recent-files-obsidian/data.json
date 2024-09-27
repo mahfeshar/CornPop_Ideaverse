@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "المحاضرة الرابعة-دورة الإيمان",
+      "path": "+/المحاضرة الرابعة-دورة الإيمان.md"
+    },
+    {
+      "basename": "دورة الإيمان",
+      "path": "+/دورة الإيمان.md"
+    },
+    {
+      "basename": "Library",
+      "path": "Atlas/Maps/Library.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "CSharp Inheritance",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Inheritance.md"
     },
@@ -97,20 +113,8 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Protective code.md"
     },
     {
-      "basename": "Library",
-      "path": "Atlas/Maps/Library.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "المحاضرة الثانية-دورة الإيمان",
       "path": "+/المحاضرة الثانية-دورة الإيمان.md"
-    },
-    {
-      "basename": "دورة الإيمان",
-      "path": "+/دورة الإيمان.md"
     },
     {
       "basename": "المحاضرة الأولى-دورة الإيمان",
@@ -195,10 +199,6 @@
     {
       "basename": "Lower and Upper Bound",
       "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md"
-    },
-    {
-      "basename": "Reading problem statement",
-      "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Reading problem statement.md"
     }
   ],
   "omittedPaths": [],
