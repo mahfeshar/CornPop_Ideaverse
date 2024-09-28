@@ -12,9 +12,25 @@ tags:
 - أنا جوا ال [[Cs Namespace|Namespace]] بكتب أربع حاجات: 
   Class - Interface ([[Cs Value and Reference Types#Reference Types|Reference Types]]) | Struct - Enum (Value Type)
   وبرضو جوا الحاجات دي بيبقا فيه حاجات تانية زي فانكشنز او متغيرات وهكذا
-  محتاج أعرف الحاجات دي هتبقا Accessible لحد فين بالظبط سواء جوا ال Library بس ولا لو حد استخدم ال Library في بروجكت تاني
+  محتاج أعرف الحاجات دي هتبقا Accessible لحد فين بالظبط سواء جوا الـLibrary بس ولا لو حد استخدم الـLibrary في بروجكت تاني
 
 ![[Pasted image 20240803103104.png]]
+## Access Modifiers
+### Private
+- الـ Member بيبقا عليه قفل كدا
+- مش بيبقا متاح برا الـ Scope اللي انا فيه سواء Class أو Struct
+### Internal
+- بيبقا عليه علامة قلب
+- متقدرش تشاركه برا الـ Project بتاعك
+  بمعنى انك لو عملت Library معينة فدي Project تقدر جواها تستخدم الـ Member لو Internal إنما لو استدعيته جوا Project تاني مش هيرضى
+
+### Protected
+- أي حاجة من الحاجات اللي فيها الـ Protected مقدرش أستخدمهم غير جوا الـClass ومقدرش أستخدمهم في الـ Struct لأنه مش بيسابورت الوراثة
+- بالنسبة للكلاس اللي هي فيها بتبقا Private للـ Class بتاعها
+### Private Protected
+- بالنسبة للكلاس اللي هي فيها بتبقا Private للـ Class بتاعها
+### Internal Protected
+
 ## Inside [[Cs Namespace|Namespace]]
 بنقدر نكتب جوا ال Namespace أربع حاجات:
 1. [[Cs Class]]
@@ -63,14 +79,6 @@ tags:
 > [!example] Default
 > الـ Default فيهم الإتنين هو **Private**
 
-### Private
-- الـ Member بيبقا عليه قفل كدا
-- مش بيبقا متاح برا الـ Scope اللي انا فيه سواء Class أو Struct
-
-### Internal
-- بيبقا عليه علامة قلب
-- متقدرش تشاركه برا الـ Project بتاعك
-  بمعنى انك لو عملت Library معينة فدي Project تقدر جواها تستخدم الـ Member لو Internal إنما لو استدعيته جوا Project تاني مش هيرضى
 ## Inside [[CSharp Interface|Interface]]
 نقدر نكتب جواها:
 1. Signature for Property

@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Inheritance",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md"
+      "basename": "Cs Access Modifiers",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Aggregation",
+      "path": "+/Cs Aggregation.md"
+    },
+    {
+      "basename": "Cs Inheritance",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md"
     },
     {
       "basename": "Cs Polymorphism",
@@ -109,10 +117,6 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md"
     },
     {
-      "basename": "Cs Access Modifiers",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
-    },
-    {
       "basename": "Cs Indexer",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CLS and CTS",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CLS and CTS.md"
-    },
-    {
-      "basename": "Programming Paradigms",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md"
     }
   ],
   "omittedPaths": [],

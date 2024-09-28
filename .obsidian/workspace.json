@@ -45,7 +45,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":16},\"to\":{\"line\":44,\"ch\":16}},\"scroll\":25.464285714285715}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":9},\"to\":{\"line\":34,\"ch\":9}},\"scroll\":30.47114556416882}"
                 },
                 {
                   "title": "Library",
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
               }
             }
           },
@@ -319,7 +319,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -370,7 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -396,7 +396,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -417,7 +417,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
               }
             }
           }
@@ -452,8 +452,9 @@
   "active": "69de7e3aae7721b2",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
-    "+/Cs Polymorphism.md",
+    "+/Cs Aggregation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
+    "+/Cs Polymorphism.md",
     "+/Polymorphism.md",
     "Atlas/Utilities/Images/Pasted image 20240414210231.png",
     "Atlas/Utilities/Images/Pasted image 20240414205632.png",

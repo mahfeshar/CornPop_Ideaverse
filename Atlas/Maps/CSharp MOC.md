@@ -44,6 +44,8 @@ tags:
 	- [[Cs Indexer]]
 2. [[Cs Inheritance]]
 3. [[Cs Polymorphism]]
+- Relationships between classes: [[Cs Inheritance]], [[Cs Aggregation]]
+- 
 
 ---
 ## Resources
