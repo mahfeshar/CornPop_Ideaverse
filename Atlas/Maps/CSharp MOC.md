@@ -39,10 +39,10 @@ tags:
 	- [[Cs Enums]]
 	- [[Cs Struct]]
 - [[Cs Constructor]]
-- 1. [[Cs Encapsulation]] 
+1. [[Cs Encapsulation]] 
 	- [[Cs Properties]]
 	- [[Cs Indexer]]
-- 2. [[CSharp Inheritance]]
+2. [[Cs Inheritance]]
 
 ---
 ## Resources

@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "b965502b77305bd3",
+            "id": "69de7e3aae7721b2",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -42,24 +42,24 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "دورة الإيمان",
+                  "title": "CSharp MOC",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":12},\"to\":{\"line\":2,\"ch\":12}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":25.464285714285715}"
                 },
                 {
                   "title": "Library",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
-                "mode": "source",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -144,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md"
               }
             }
           },
@@ -280,7 +279,7 @@
             }
           },
           {
-            "id": "5666d8ad4d4ea1a2",
+            "id": "859f54b6c3bde63e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -297,7 +296,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
         "id": "3d767c407ab4c865",
@@ -319,7 +318,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -370,7 +369,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -396,7 +395,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -417,7 +416,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md"
               }
             }
           }
@@ -449,8 +448,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b965502b77305bd3",
+  "active": "69de7e3aae7721b2",
   "lastOpenFiles": [
+    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Maps/Library.md",
+    "Home.md",
+    "+/المحاضرة الرابعة-دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20240927154956.png",
     "Atlas/Utilities/Images/Pasted image 20240927154953.png",
     "Atlas/Utilities/Images/Pasted image 20240927154948.png",
@@ -458,11 +461,7 @@
     "Atlas/Utilities/Images/Pasted image 20240927154929.png",
     "Atlas/Utilities/Images/Pasted image 20240927142805.png",
     "+/دورة الإيمان.md",
-    "+/المحاضرة الرابعة-دورة الإيمان.md",
-    "Atlas/Maps/Library.md",
-    "Home.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Inheritance.md",
-    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
     "Atlas/Maps/OOP.md",
     "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md",
     "+/SOLID Principles.md",
@@ -486,7 +485,6 @@
     "Atlas/Utilities/Images/Pasted image 20240924170950.png",
     "Atlas/Utilities/Images/Pasted image 20240913151428.png",
     "Atlas/Utilities/Images/Pasted image 20240913150647.png",
-    "Atlas/Utilities/Images/Pasted image 20240906123137.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

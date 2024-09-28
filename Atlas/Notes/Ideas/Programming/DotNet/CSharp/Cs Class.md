@@ -8,7 +8,7 @@ created: 2024-07-15
 - In real life, a car is an object. The car has **attributes**, such as weight and color, and **methods**, such as drive and brake.
 - A Class is like an object constructor, or a "blueprint" for creating objects.
 - اعرف ان ال class عبارة عن [[Cs Value and Reference Types#Reference Types|Reference Types]]
-- بيـ Support الـ [[CSharp Inheritance]]
+- بيـ Support الـ [[Cs Inheritance]]
 ## Create a Class and Object
 - We use [[Pascal case]] to name this
 - We will use [[Camel Case]] when naming parameters of methods
