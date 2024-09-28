@@ -7,7 +7,10 @@ created: 2024-09-28
 - شرحنا الـ [[Polymorphism]] قبل كدا
 - هو مرتبط بصورة كبيرة بالـ [[Cs Inheritance]] لأن فيه مبدأ من المبادئ اللي هنا مينفعش تتحقق غير لما يحصل وراثة وهو مبدأ الـ **Overriding**
 
-### Overriding
+## Overloading
+- مش محتاج أي حاجة قبلها مطلوبة أو كدا
+-  شغالة مع الـ [[Cs Class]] و [[Cs Struct]]
+## Overriding
 - في نفس المثال اللي قولناه في الـ Inheritance
 
 #### Hide and make new version

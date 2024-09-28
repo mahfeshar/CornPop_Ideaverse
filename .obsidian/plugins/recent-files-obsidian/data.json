@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Abstraction",
-      "path": "+/Abstraction.md"
+      "basename": "Cs Polymorphism",
+      "path": "+/Cs Polymorphism.md"
     },
     {
-      "basename": "OOP",
-      "path": "Atlas/Maps/OOP.md"
+      "basename": "CSharp MOC",
+      "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
       "basename": "Back-end MOC",
       "path": "Atlas/Maps/Back-end MOC.md"
     },
     {
-      "basename": "CSharp MOC",
-      "path": "Atlas/Maps/CSharp MOC.md"
+      "basename": "OOP",
+      "path": "Atlas/Maps/OOP.md"
+    },
+    {
+      "basename": "Abstraction",
+      "path": "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md"
+    },
+    {
+      "basename": "Polymorphism",
+      "path": "+/Polymorphism.md"
     },
     {
       "basename": "Cs Access Modifiers",
@@ -27,14 +35,6 @@
     {
       "basename": "Cs Inheritance",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md"
-    },
-    {
-      "basename": "Cs Polymorphism",
-      "path": "+/Cs Polymorphism.md"
-    },
-    {
-      "basename": "Polymorphism",
-      "path": "+/Polymorphism.md"
     },
     {
       "basename": "Library",
