@@ -9,6 +9,14 @@
       "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
+      "basename": "Cs Polymorphism",
+      "path": "+/Cs Polymorphism.md"
+    },
+    {
+      "basename": "Polymorphism",
+      "path": "+/Polymorphism.md"
+    },
+    {
       "basename": "Library",
       "path": "Atlas/Maps/Library.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Programming Paradigms",
       "path": "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md"
-    },
-    {
-      "basename": "DotNet Story",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/DotNet Story.md"
-    },
-    {
-      "basename": "Lower and Upper Bound",
-      "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Lower and Upper Bound.md"
     }
   ],
   "omittedPaths": [],

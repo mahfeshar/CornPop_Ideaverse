@@ -43,6 +43,7 @@ tags:
 	- [[Cs Properties]]
 	- [[Cs Indexer]]
 2. [[Cs Inheritance]]
+3. [[Cs Polymorphism]]
 
 ---
 ## Resources

@@ -44,8 +44,8 @@
                 {
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":25.464285714285715}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":16},\"to\":{\"line\":44,\"ch\":16}},\"scroll\":25.464285714285715}"
                 },
                 {
                   "title": "Library",
@@ -59,7 +59,7 @@
               "type": "markdown",
               "state": {
                 "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -144,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -451,6 +452,11 @@
   "active": "69de7e3aae7721b2",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
+    "+/Cs Polymorphism.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
+    "+/Polymorphism.md",
+    "Atlas/Utilities/Images/Pasted image 20240414210231.png",
+    "Atlas/Utilities/Images/Pasted image 20240414205632.png",
     "Atlas/Maps/Library.md",
     "Home.md",
     "+/المحاضرة الرابعة-دورة الإيمان.md",
@@ -461,7 +467,6 @@
     "Atlas/Utilities/Images/Pasted image 20240927154929.png",
     "Atlas/Utilities/Images/Pasted image 20240927142805.png",
     "+/دورة الإيمان.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
     "Atlas/Maps/OOP.md",
     "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md",
     "+/SOLID Principles.md",
@@ -480,11 +485,7 @@
     "+/CSharp Struct.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Variables.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Data Types.md",
     "Atlas/Utilities/Images/Pasted image 20240924170950.png",
-    "Atlas/Utilities/Images/Pasted image 20240913151428.png",
-    "Atlas/Utilities/Images/Pasted image 20240913150647.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

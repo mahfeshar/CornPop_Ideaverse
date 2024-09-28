@@ -1,7 +1,7 @@
 {
   "cssTheme": "Prism",
   "translucency": false,
-  "baseFontSize": 17,
+  "baseFontSize": 22,
   "enabledCssSnippets": [
     "murf-ribbon-dragger",
     "custom-admonitions.73d275",

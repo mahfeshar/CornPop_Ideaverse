@@ -4,9 +4,8 @@ up:
 related: 
 created: 2024-09-24
 ---
-
 - اتكلمنا قبل كدا عن الـ [[Inheritance]]
-- في الـ CSharp معندناش غير Single Inheritance ومفيش حاجة اسمها Multiple يعني بيورث من أب واحد بس
+- في الـ CSharp معندناش غير **Single Inheritance** ومفيش حاجة اسمها Multiple يعني بيورث من أب واحد بس
 ```cs
 class Parent
 {
