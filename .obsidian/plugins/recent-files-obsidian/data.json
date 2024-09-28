@@ -5,6 +5,18 @@
       "path": "+/Cs Polymorphism.md"
     },
     {
+      "basename": "Polymorphism",
+      "path": "+/Polymorphism.md"
+    },
+    {
+      "basename": "Cs Indexer",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
+    },
+    {
+      "basename": "Cs Constructor",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
+    },
+    {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "Abstraction",
       "path": "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md"
-    },
-    {
-      "basename": "Polymorphism",
-      "path": "+/Polymorphism.md"
     },
     {
       "basename": "Cs Access Modifiers",
@@ -77,10 +85,6 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
     },
     {
-      "basename": "Cs Constructor",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
-    },
-    {
       "basename": "Cs List",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "Cs Properties",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md"
-    },
-    {
-      "basename": "Cs Indexer",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
     },
     {
       "basename": "CSharp Protective code",
@@ -195,10 +195,6 @@
     {
       "basename": "Cs Output",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md"
-    },
-    {
-      "basename": "Cs Library vs Console App",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Library vs Console App.md"
     }
   ],
   "omittedPaths": [],

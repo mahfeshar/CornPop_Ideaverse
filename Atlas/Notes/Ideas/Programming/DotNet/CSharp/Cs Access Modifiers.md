@@ -229,7 +229,7 @@ internal class TypeB : TypeA
 بنقدر نكتب جواهم:
 1. Attributes (Fields) -> Member Variables
 2. [[CSharp Property]] (Full Property, Automatic Property, Indexer -> Special)
-3. [[CSharp Function]] (Constructor, Getter Setter, Method)
+3. [[Cs Function]] (Constructor, Getter Setter, Method)
 4. [[CSharp Event]]
 
 ---

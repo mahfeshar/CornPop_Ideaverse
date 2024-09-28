@@ -17,10 +17,21 @@ created: 2024-09-28
 
 ![[Pasted image 20240414205632.png]]
 ### Method Overloading
+![[Overloading 1.jpg]]
 - وجود نفس ال Function في نفس الclass بنفس الاسم (متكرر)
+- مش بيأثر على الـ Memory هو بس يخلي الكود **Readable** و **Reusable** 
 - بنفرقه عن طريق ال Parameters اللي بياخدها كل واحدة عن التانية، وكل واحد هيقوم بحاجة مختلفة شوية عن الباقي
 
-![[Pasted image 20240414210231.png]]
+```python
+def Sum(int x, int y):
+	return x + y
+
+def Sum (int x, int y, int z):
+	return x + y + z
+
+def Sum (float x, float y):
+	return x + y
+```
 - تخيل اني بعمل كل واحدة من دول باسم مختلف عن التاني فهيخلي الكود معقد قد ايه، مع ان كلهم بيعملوا نفس الحاجة انهم بيجمعوا فمش هعرف أفتكر كل الأسماء وهيصعب الكود وقرائة الكود وكل حاجة
 ```python
 Sum2Ints(int x, int y):
