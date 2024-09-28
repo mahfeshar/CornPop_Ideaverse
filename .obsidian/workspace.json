@@ -42,6 +42,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "OOP",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/OOP.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":9},\"to\":{\"line\":20,\"ch\":9}},\"scroll\":9.497328800388537}"
+                },
+                {
+                  "title": "Back-end MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Back-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":5},\"to\":{\"line\":8,\"ch\":5}},\"scroll\":8}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
+                },
+                {
+                  "title": "Cs Access Modifiers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":148,\"ch\":8},\"to\":{\"line\":148,\"ch\":8}},\"scroll\":8}"
+                },
+                {
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -58,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
+                "file": "+/Abstraction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -144,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -171,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
+                "file": "+/Abstraction.md"
               }
             }
           },
@@ -319,7 +342,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
+                "file": "+/Abstraction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -370,7 +393,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
+                "file": "+/Abstraction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -396,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
+                "file": "+/Abstraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -417,7 +440,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
+                "file": "+/Abstraction.md"
               }
             }
           }
@@ -451,7 +474,13 @@
   },
   "active": "69de7e3aae7721b2",
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20240414194045.png",
+    "Atlas/Utilities/Images/Pasted image 20240322152816.png",
+    "Atlas/Maps/OOP.md",
+    "+/Abstraction.md",
+    "Atlas/Maps/Back-end MOC.md",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
     "+/Cs Aggregation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
     "+/Cs Polymorphism.md",
@@ -468,7 +497,6 @@
     "Atlas/Utilities/Images/Pasted image 20240927154929.png",
     "Atlas/Utilities/Images/Pasted image 20240927142805.png",
     "+/دورة الإيمان.md",
-    "Atlas/Maps/OOP.md",
     "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md",
     "+/SOLID Principles.md",
     "Atlas/Utilities/Images/Pasted image 20240414204601.png",
@@ -481,12 +509,7 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
     "Atlas/Maps/DotNet.md",
-    "Atlas/Maps/Back-end MOC.md",
     "+/CSharp Constructor.md",
-    "+/CSharp Struct.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
-    "Atlas/Utilities/Images/Pasted image 20240924170950.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",
