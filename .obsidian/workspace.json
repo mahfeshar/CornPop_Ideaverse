@@ -94,9 +94,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a739d307be6ef7f2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md"
+                "file": "+/المحاضرة الرابعة-دورة الإيمان.md"
               }
             }
           },
@@ -349,7 +371,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -400,7 +422,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -426,7 +448,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -447,7 +469,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md"
+                "file": "+/المحاضرة الرابعة-دورة الإيمان.md"
               }
             }
           }
@@ -479,10 +501,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69de7e3aae7721b2",
+  "active": "a739d307be6ef7f2",
   "lastOpenFiles": [
-    "+/Cs Polymorphism.md",
     "Atlas/Maps/CSharp MOC.md",
+    "+/Cs Polymorphism.md",
     "+/Polymorphism.md",
     "Atlas/Utilities/Images/Overloading 1.jpg",
     "Atlas/Utilities/Images/Overloading.jpg",
