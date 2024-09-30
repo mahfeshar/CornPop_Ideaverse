@@ -42,6 +42,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":25}},\"scroll\":25.818181818181817}"
+                },
+                {
+                  "title": "Cs Polymorphism",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs Polymorphism.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":139},\"to\":{\"line\":7,\"ch\":139}},\"scroll\":6}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"scroll\":33.03846153846154}"
+                },
+                {
                   "title": "Cs Polymorphism",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs Polymorphism.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -88,29 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a739d307be6ef7f2",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
               }
             }
           },
@@ -371,7 +367,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -422,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -448,7 +444,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -469,7 +465,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الرابعة-دورة الإيمان.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
               }
             }
           }
@@ -501,10 +497,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a739d307be6ef7f2",
+  "active": "69de7e3aae7721b2",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
     "+/Cs Polymorphism.md",
+    "+/المحاضرة الرابعة-دورة الإيمان.md",
     "+/Polymorphism.md",
     "Atlas/Utilities/Images/Overloading 1.jpg",
     "Atlas/Utilities/Images/Overloading.jpg",
@@ -524,7 +521,6 @@
     "Atlas/Utilities/Images/Pasted image 20240414205632.png",
     "Atlas/Maps/Library.md",
     "Home.md",
-    "+/المحاضرة الرابعة-دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20240927154956.png",
     "Atlas/Utilities/Images/Pasted image 20240927154953.png",
     "Atlas/Utilities/Images/Pasted image 20240927154948.png",

@@ -57,6 +57,7 @@ Console.WriteLine(result); // 6
 ```
 ## Overriding
 - في نفس المثال اللي قولناه في الـ Inheritance
+- بيبقا في الـ [[Cs Class]] بس لأنه بيعتمد على الـ [[Cs Inheritance]]
 
 #### Hide and make new version
 - الطريقة دي زي ما قولنا إنها بتعمل function جديدة وبتخفي اللي في الأب نهائي
