@@ -87,7 +87,8 @@ public new int Product()
 
 #### Override
 - دي بتعيد كتابة الحاجة تاني
-- شرط: إن الفانكشن الأساسية تبقا **Public virtual**
+- شرط: إن الفانكشن الأساسية تبقا **Public virtual** في أول ظهور ليها
+- ليها علاقة بالـ [[Cs Binding]]
 ```cs
 //Parent
 public virtual int Product()
