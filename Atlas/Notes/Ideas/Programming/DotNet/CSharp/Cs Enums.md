@@ -87,7 +87,9 @@ bool[] Flages = new bool[4];
 ![[Pasted image 20240319111439.png]]
 #### Permissions Example
 ```cs
-[Flags]
+[Flags] // Attribute : Like decorator in Angular 
+// (Just tell the compiler what is this?)
+// لو ملقاش ليبل بيمثل الرقم بيحاول يجيب اللي بيجمعهم كلهم سوا
 enum Permisions:byte
 {
     Read = 8, Write = 0x04, Excute = 0b_0000_0010, Delete = 1, RootUser = 15
@@ -101,8 +103,11 @@ Console.WriteLine(PRM); // 0
 PRM = Permisions.Read;
 Console.WriteLine(PRM); // Read
 
-PRM ^= Permisions.Write; // XOR
+PRM ^= Permisions.Write; // XOR: عشان اعكس
 Console.WriteLine(PRM); // With flags: Wrtie, Read ; without: 12
+
+PRM |= permisions.Execute; // OR : To add new one
+PRM &= ~(permisions.Execute); // NAND : To remove
 
 PRM = (Permisions)15;
 Console.WriteLine(PRM);
@@ -110,7 +115,8 @@ Console.WriteLine(PRM);
 // With : RootUser
 
 // Check if We can write
-if((PRM & Permisions.Write) == Permisions.Write)
+// AND : To check
+if((PRM & Permisions.Write) == Permisions.Write) 
     Console.WriteLine("True"); // True
 ```
 
