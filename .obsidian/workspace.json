@@ -42,6 +42,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":12},\"to\":{\"line\":3,\"ch\":12}}}"
+                },
+                {
+                  "title": "المحاضرة الرابعة-دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المحاضرة الرابعة-دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cs Enums",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -118,7 +136,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+                "file": "+/المحاضرة الخامسة-دورة الإيمان.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -231,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
+                "file": "+/المحاضرة الخامسة-دورة الإيمان.md"
               }
             }
           },
@@ -379,7 +397,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+                "file": "+/المحاضرة الخامسة-دورة الإيمان.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -430,7 +448,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+                "file": "+/المحاضرة الخامسة-دورة الإيمان.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -456,7 +474,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+                "file": "+/المحاضرة الخامسة-دورة الإيمان.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -477,7 +495,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
+                "file": "+/المحاضرة الخامسة-دورة الإيمان.md"
               }
             }
           }
@@ -511,10 +529,15 @@
   },
   "active": "69de7e3aae7721b2",
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241004143106.png",
+    "Atlas/Utilities/Images/Pasted image 20241004141919.png",
+    "+/دورة الإيمان.md",
+    "+/المحاضرة الخامسة-دورة الإيمان.md",
+    "+/المحاضرة الرابعة-دورة الإيمان.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
-    "+/المحاضرة الرابعة-دورة الإيمان.md",
     "+/Polymorphism.md",
     "Atlas/Utilities/Images/Overloading 1.jpg",
     "Atlas/Utilities/Images/Overloading.jpg",
@@ -535,8 +558,6 @@
     "Home.md",
     "Atlas/Utilities/Images/Pasted image 20240927154956.png",
     "Atlas/Utilities/Images/Pasted image 20240927154953.png",
-    "Atlas/Utilities/Images/Pasted image 20240927154948.png",
-    "+/دورة الإيمان.md",
     "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md",
     "+/SOLID Principles.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
@@ -544,8 +565,6 @@
     "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

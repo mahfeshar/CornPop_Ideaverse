@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "المحاضرة الخامسة-دورة الإيمان",
+      "path": "+/المحاضرة الخامسة-دورة الإيمان.md"
+    },
+    {
+      "basename": "دورة الإيمان",
+      "path": "+/دورة الإيمان.md"
+    },
+    {
+      "basename": "المحاضرة الرابعة-دورة الإيمان",
+      "path": "+/المحاضرة الرابعة-دورة الإيمان.md"
+    },
+    {
       "basename": "Cs Enums",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "Cs Access Modifiers",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
-    },
-    {
-      "basename": "المحاضرة الرابعة-دورة الإيمان",
-      "path": "+/المحاضرة الرابعة-دورة الإيمان.md"
     },
     {
       "basename": "Polymorphism",
@@ -59,10 +67,6 @@
     {
       "basename": "Home",
       "path": "Home.md"
-    },
-    {
-      "basename": "دورة الإيمان",
-      "path": "+/دورة الإيمان.md"
     },
     {
       "basename": "Inheritance",
