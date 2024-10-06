@@ -72,6 +72,7 @@ T2 = (TypeB) T1;
 أنا دلوقتي هعمل ابن من Object أب بس الإبن المفروض يعرف الحاجة الزيادة بتاعته هتبقا بإيه 
 
 ## Example
+### Example 1
 ```cs
 internal class Employee
 {
@@ -131,5 +132,117 @@ public void ProcessEmployee(Employee emp)
 {
     emp.MyFunc01();
     emp.MyFunc02();
+}
+```
+### Example 2
+- خد بالك من انه هينفذ آخر Override كان موجود لو استخدمت الـ Static Binding
+```cs
+class TypeA
+{
+    public int A { get; set; }
+
+    public TypeA(int _A=0) { A = _A; }
+
+    public void StaticallyBindedShow ()
+    {
+        Console.WriteLine("I am Base");
+    }
+    ///Dynamically Binded
+    internal virtual void DynShow () ///non Private Virtual Method
+    {
+        Console.WriteLine($"Base {A}");
+    }
+}
+
+class TypeB:TypeA
+{
+    public int B { get; set; }
+    public TypeB(int _A =0 , int _B=0):base(_A)
+    {
+        B = _B;
+    }
+
+    internal override void DynShow()
+    {
+        Console.WriteLine($"Derived {A} {B}");
+    }
+
+    public new void StaticallyBindedShow() { 
+		    Console.WriteLine("I am Derived"); 
+		}
+}
+
+class TypeC : TypeB
+{
+    public int C { get; set; }
+
+    public TypeC(int _a=0 , int _b=0 , int _c=0):base(_a , _b)
+    {
+        C = _c;
+    }
+
+    internal override void DynShow()
+    {
+        Console.WriteLine($"Type C {A} {B} {C}");
+    }
+}
+
+class TypeD : TypeC
+{
+    //internal new void DynShow() 
+    /// new statically binded impelementation
+    
+    /// new dynamically binded impelementation
+    internal new virtual void DynShow() 
+    {
+        Console.WriteLine("Type D");
+    }
+}
+class TypeE: TypeD
+{
+    ///override on TypeD Implementation
+    internal override void DynShow()
+    {
+        Console.WriteLine("Type E");
+    }
+}
+
+class program
+{
+		static void Main(string[] args)
+		{
+		  TypeA BaseRef = new TypeA(1);
+          BaseRef.StaticallyBindedShow(); ///Base
+          BaseRef.DynShow(); ///Base
+
+          TypeB DerivedRef = new TypeB(2, 3);
+          DerivedRef.StaticallyBindedShow(); ///Derived
+          DerivedRef.DynShow(); ///Derived
+
+          BaseRef = new TypeB(4, 5);
+          ///Ref to Base = Derived Object
+          //BaseRef.A = 6;
+          BaseRef.StaticallyBindedShow();///Base
+          ///Statically Binded methods (non virtual) 
+          //Compiler Bind Call based in Refrence Type not Object Type
+          BaseRef.DynShow();///Derived
+          ///Dynamically Binded Method , CLR will bind Function 
+          //Call based on Object Type in Runtime  
+
+
+          BaseRef = new TypeC(6, 7, 8);
+          DerivedRef = new TypeC(9, 10, 11);
+
+          BaseRef.DynShow(); ///TypeC
+          DerivedRef.DynShow(); ///TypeC
+
+
+          BaseRef = new TypeD();
+          BaseRef.DynShow(); ///TypeC
+
+
+          TypeD RefD = new TypeD();
+          RefD.DynShow(); ///TypeD
+		}
 }
 ```
