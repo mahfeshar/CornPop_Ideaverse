@@ -25,8 +25,61 @@ interface IMyType
 
 ---
 - الـ Reference من الـ Interface يقدر يشاور على Object من الـ Class بشرط إن الـ Class يكون بي Implement الـ Interface
-  ودي الطريقة الوحيدة اللي أقدر أوصل بيها للـ 
+  ودي الطريقة الوحيدة اللي أقدر أوصل بيها للـ Default implemented method
 
+### Simple Example
+```cs
+interface IMyType
+{
+    public int Salary { get; set; } // Signature of Property
+    void MyFunc();
+    void Print()
+    {
+        Console.WriteLine("Hello World");
+    }
+}
+//class MyType : IMyType
+//{
+//    public int Salary { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+//    public void MyFunc()
+//    {
+//        throw new NotImplementedException();
+//    }
+//}
+
+// => goes to (arrow function) for oneline functions
+
+interface IMyType
+{
+    public int Salary { get; set; } // Signature of Property
+    void MyFunc();
+    void Print()
+    {
+        Console.WriteLine("Hello World");
+    }
+}
+class MyType : IMyType
+{
+    public int Salary { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+    public void MyFunc()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+// MAIN
+IMyType T; // Reference to an Interface
+//IMyType T2 = new IMyType(); // ERROR -> Cannot create an object of an Interface
+IMyType T3 = new MyType(); // OK -> Upcasting from class to Interface
+MyType T1 = new MyType();
+
+T1.MyFunc();
+// T1.Print(); //ERROR -> Cannot call a method of an Interface from class
+
+T3.Print(); // OK -> Down casting from Interface to class
+```
 
 ## Access modifiers
 ![[Cs Access Modifiers#Inside Cs Interface Interface]]
