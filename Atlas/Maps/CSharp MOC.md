@@ -45,8 +45,10 @@ tags:
 2. [[Cs Inheritance]]
 3. [[Cs Polymorphism]]
 - Relationships between classes: [[Cs Inheritance]], [[Cs Aggregation]]
+- [[Cs Binding]]
 - 
 
 ---
 ## Resources
 - [Mazen Summary](https://piquant-lark-b92.notion.site/C-_ITI-4cff65ced65e4138aa6ba093898884c3?pvs=4)
+- [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://peach-ground-f76.notion.site/Backend-NET-RoadMap-557ad50e54ba4ddba1f262801b2848f2)

@@ -32,111 +32,51 @@
             }
           },
           {
-            "id": "69de7e3aae7721b2",
+            "id": "8ae324f25c078ff6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Value and Reference Types",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":49},\"to\":{\"line\":67,\"ch\":49}},\"scroll\":57.95238095238095}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "دورة الإيمان",
+                  "title": "CSharp MOC",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":12},\"to\":{\"line\":3,\"ch\":12}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":10},\"to\":{\"line\":47,\"ch\":10}},\"scroll\":26.454545454545453}"
                 },
                 {
-                  "title": "المحاضرة الرابعة-دورة الإيمان",
+                  "title": "Cs Binding",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/المحاضرة الرابعة-دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Cs Enums",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs Binding.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":3},\"to\":{\"line\":18,\"ch\":3}},\"scroll\":0}"
                 },
                 {
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":11},\"to\":{\"line\":38,\"ch\":11}},\"scroll\":31.87878787878788}"
-                },
-                {
-                  "title": "Cs Polymorphism",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":89,\"ch\":19},\"to\":{\"line\":89,\"ch\":19}},\"scroll\":6}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":13},\"to\":{\"line\":45,\"ch\":13}},\"scroll\":30.96969696969697}"
-                },
-                {
-                  "title": "Cs Polymorphism",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":139},\"to\":{\"line\":7,\"ch\":139}},\"scroll\":6}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"scroll\":33.03846153846154}"
-                },
-                {
-                  "title": "Cs Polymorphism",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":14},\"to\":{\"line\":45,\"ch\":14}},\"scroll\":34.005412719891744}"
-                },
-                {
-                  "title": "Back-end MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Back-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":9},\"to\":{\"line\":10,\"ch\":9}},\"scroll\":8}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
-                },
-                {
-                  "title": "Cs Access Modifiers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":148,\"ch\":8},\"to\":{\"line\":148,\"ch\":8}},\"scroll\":8}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":9},\"to\":{\"line\":34,\"ch\":9}},\"scroll\":30.47114556416882}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":11},\"to\":{\"line\":47,\"ch\":11}},\"scroll\":31.87878787878788}"
                 },
                 {
                   "title": "Library",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":9.833333333333334}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/المحاضرة الخامسة-دورة الإيمان.md",
+                "file": "+/Cs Binding.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -222,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -249,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الخامسة-دورة الإيمان.md"
+                "file": "+/Cs Binding.md"
               }
             }
           },
@@ -375,7 +314,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "3d767c407ab4c865",
@@ -397,7 +336,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/المحاضرة الخامسة-دورة الإيمان.md",
+                "file": "+/Cs Binding.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -448,7 +387,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/المحاضرة الخامسة-دورة الإيمان.md",
+                "file": "+/Cs Binding.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -474,7 +413,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/المحاضرة الخامسة-دورة الإيمان.md",
+                "file": "+/Cs Binding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -495,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/المحاضرة الخامسة-دورة الإيمان.md"
+                "file": "+/Cs Binding.md"
               }
             }
           }
@@ -503,8 +442,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -527,15 +465,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69de7e3aae7721b2",
+  "active": "8ae324f25c078ff6",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+    "+/Cs Binding.md",
+    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Maps/Library.md",
+    "Home.md",
+    "+/المحاضرة الخامسة-دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20241004143106.png",
     "Atlas/Utilities/Images/Pasted image 20241004141919.png",
     "+/دورة الإيمان.md",
-    "+/المحاضرة الخامسة-دورة الإيمان.md",
     "+/المحاضرة الرابعة-دورة الإيمان.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
-    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
     "+/Polymorphism.md",
@@ -554,13 +496,9 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md",
     "Atlas/Utilities/Images/Pasted image 20240414210231.png",
     "Atlas/Utilities/Images/Pasted image 20240414205632.png",
-    "Atlas/Maps/Library.md",
-    "Home.md",
     "Atlas/Utilities/Images/Pasted image 20240927154956.png",
-    "Atlas/Utilities/Images/Pasted image 20240927154953.png",
     "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md",
     "+/SOLID Principles.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
