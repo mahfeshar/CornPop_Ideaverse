@@ -45,6 +45,18 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":11},\"to\":{\"line\":38,\"ch\":11}},\"scroll\":34.23511904761905}"
+                },
+                {
+                  "title": "Cs Interface",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":0},\"to\":{\"line\":55,\"ch\":0}},\"scroll\":6}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":11},\"to\":{\"line\":38,\"ch\":11}},\"scroll\":35.603219696969695}"
                 },
                 {
@@ -226,7 +238,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"object\"",
+                "query": "abstract class",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -333,7 +345,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "3d767c407ab4c865",
@@ -484,13 +496,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ae324f25c078ff6",
+  "active": "77966b04a7f238ed",
   "lastOpenFiles": [
-    "Atlas/Utilities/Images/Pasted image 20241006233933.png",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+    "Atlas/Utilities/Images/Pasted image 20241006233933.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
     "Home.md",
     "Atlas/Utilities/Images/Pasted image 20241006105225.png",
@@ -521,7 +533,6 @@
     "Atlas/Utilities/Images/Pasted image 20240414194045.png",
     "Atlas/Utilities/Images/Pasted image 20240322152816.png",
     "Atlas/Utilities/Images/Pasted image 20240414210231.png",
-    "Atlas/Utilities/Images/Pasted image 20240414205632.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

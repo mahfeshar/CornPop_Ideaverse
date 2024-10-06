@@ -53,8 +53,119 @@ interface IMyType
 عندي اتنين Classes واحدة للعربية وواحدة للطيارة والعربية بتحرك عالأرض بس انما الطيارة بتتحرك في الطيارة وفي الجو
 هتلاقي ان الـ Functions بتاع الإتنين ليهم نفس الإسم فبالتالي لازم أستخدم الـ Explicitly Implement 
 ```cs
+interface IMoveable
+{
+    void Forward();
+}
+
+internal interface IFlyable
+{
+    void Forward();
+}
+
+class Car : IMoveable
+{
+    public void Forward()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+class Airplane : IMoveable, IFlyable
+{
+    //public void Forward() // implicit implementation
+	//{
+	//    throw new NotImplementedException();
+	//}
+
+	void IMoveable.Forward() // explicit implementation
+	{
+	    throw new NotImplementedException();
+	}
+	
+	void IFlyable.Forward()
+	{
+	    throw new NotImplementedException();
+	}
+}
+
+// MAIN
 
 ```
+
+#### 1. **Implicit Implementation**:
+When you implicitly implement an interface, the members of the interface are public members of the class. These members **can be accessed directly via an instance of the class**, and there is no need to cast the instance to the interface type.
+
+**When to use**:   
+- If you want the interface's members to be directly accessible via the class's object.
+
+```csharp
+public interface IAnimal
+{
+    void Speak();
+}
+
+public class Dog : IAnimal
+{
+    // Implicit implementation
+    public void Speak()
+    {
+        Console.WriteLine("Woof!");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Dog dog = new Dog();
+        dog.Speak();  // No cast required, direct access
+    }
+}
+```
+
+#### 2. **Explicit Implementation**:
+When you explicitly implement an interface, the members are not directly accessible via an instance of the class. Instead, they can **only be accessed by casting the instance to the interface type**. This is useful when you want to provide different implementations for the same method name across multiple interfaces or avoid exposing interface members as part of the class's public API.
+
+- **When to use**:
+  - If you want to hide the interface methods from being accessed directly through the class's object.
+  - If there are method name conflicts when implementing multiple interfaces.
+
+```csharp
+public interface IAnimal
+{
+    void Speak();
+}
+
+public class Dog : IAnimal
+{
+    // Explicit implementation
+    void IAnimal.Speak()
+    {
+        Console.WriteLine("Woof!");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Dog dog = new Dog();
+        // dog.Speak();  // This will give a compilation error
+        // To call Speak, cast the object to IAnimal
+        ((IAnimal)dog).Speak();  // Casting is required
+    }
+}
+```
+
+#### Key Differences:
+- **Accessibility**:
+  - **Implicit**: Interface methods are accessible directly via the class instance.
+  - **Explicit**: Interface methods are only accessible via a cast to the interface type.
+  
+- **Use case**:
+  - **Implicit**: Suitable when you want the methods to be part of the class's public API.
+  - **Explicit**: Suitable when you want to implement multiple interfaces with methods of the same name or when you don’t want the interface methods to be part of the public API.
 ### Simple Example
 ```cs
 interface IMyType
@@ -108,7 +219,6 @@ T1.MyFunc();
 
 T3.Print(); // OK -> Down casting from Interface to class
 ```
-
 ## Access modifiers
 ![[Cs Access Modifiers#Inside Cs Interface Interface]]
 
