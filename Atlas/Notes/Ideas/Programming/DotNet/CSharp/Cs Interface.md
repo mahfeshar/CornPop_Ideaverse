@@ -90,7 +90,14 @@ class Airplane : IMoveable, IFlyable
 }
 
 // MAIN
+Car c1 = new();
+c1.Forward();
 
+Airplane a1 = new();
+//a1.Forward(); // Cannot call method 'Forward()' because it is Explicitly Implemented
+
+IMoveable moveable = new Airplane();
+moveable.Forward();
 ```
 
 #### 1. **Implicit Implementation**:
@@ -302,5 +309,125 @@ namespace InterfaceEx1
 ```
 ### Example 2
 ```cs
+namespace D04
+{
+    interface IMyType
+    {
+        //int X; Not Supported
 
+        void FunOne();
+
+        decimal Salary { get; set; }
+
+        ///C# 8.0 Feature: Default Implemented Methods
+        //internal void FunTwo ()
+        //{
+        //    Console.WriteLine("Inside Interface");
+        //}
+    }
+
+    struct MyType : IMyType
+    {
+        public decimal Salary 
+        {
+            get { return 0; }
+            set { }
+        }
+
+        public void FunOne()
+        {
+            Console.WriteLine("My Type Fun one");
+        }
+    }
+
+}
+```
+
+### Example 3
+```cs
+namespace D04
+{
+    struct Employee:IComparable
+    {
+        public int ID;
+
+        string Name; 
+
+        public string GetName ()
+        {
+            return Name;
+        }
+
+        internal void SetName ( string name)
+        {
+            Name = name.Length <= 20 ? name : name.Substring(0, 20);
+        }
+
+        decimal salary;
+
+        public decimal Salary
+        {
+            get { return salary; }
+            internal set { salary = value >= 1200 ? value : 1200; }
+        }
+
+        public decimal Deductions
+        {
+            get { return 0.11M * salary; }
+        }
+
+        public Employee(int _id , string _Name , decimal _salary)
+        {
+            ID = _id;
+            Name = _Name;
+            salary = _salary;
+        }
+
+        public override string ToString()
+        {
+            return $"{ID}::{Name}::{salary}";
+        }
+
+        ///return +ve this > obj
+        ///return -ve this < obj
+        ///return 0 this == obj
+        ///items[j].compareTo(items[j+1]) //Inside Sort
+        public int CompareTo(object obj)
+        {
+            //foreach (var item in (new StackTrace()).GetFrames())
+            //    Console.WriteLine(item.GetMethod().Name);
+
+            Employee Right = (Employee)obj; //UnBoxing
+
+            //if (salary > Right.salary)
+            //    return 1;
+            //else if (salary < Right.salary)
+            //    return -1;
+            //else
+            //    return 0;
+
+            return salary.CompareTo(Right.salary);
+        }
+    }
+    
+    class Program
+    {
+		    static void MainV1(string[] args)
+		    {
+				    Employee[] EArr = new Employee[3]
+            {
+                new Employee(5 , "Ahmed Aly" , 17000),
+                new Employee(8 , "Sayed Aly" , 5000),
+                new Employee(2 , "Mona Aly" , 10000)
+            };
+
+            Array.Sort(EArr);
+
+            foreach (var item in EArr)
+            {
+                Console.WriteLine(item);
+            }
+		    }
+    }
+}
 ```

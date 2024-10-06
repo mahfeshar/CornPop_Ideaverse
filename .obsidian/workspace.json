@@ -238,7 +238,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "abstract class",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -496,7 +496,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77966b04a7f238ed",
+  "active": "8ae324f25c078ff6",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
