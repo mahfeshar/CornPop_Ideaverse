@@ -28,6 +28,7 @@ interface IMyType
   ودي الطريقة الوحيدة اللي أقدر أوصل بيها للـ Default implemented method
 - مبستخدم الـ Default implemented method غير في حالة واحدة وهي ان يبقا عندي أكتر من Class ليهم نفس الـ Interface وبيبقا عندهم Function مشتركة
 - للوهلة الأولى تحس العملية دي شبه الـ [[Cs Binding]]
+- **بستخدمها** في الأغلب لو عندي Function عامة معرفش ممكن يبقا فيها ايه وممكن تتغير زي مثال الـ Series فمثلًا `GetNext` هتتغير وبيبقا زي **عقد** وبجبر الشخص اللي بيعمله انه يمشي على العقد دا
 
 ### Simple Example
 ```cs
