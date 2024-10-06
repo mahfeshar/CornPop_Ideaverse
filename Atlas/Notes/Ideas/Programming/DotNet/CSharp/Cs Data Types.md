@@ -72,7 +72,7 @@ decimal z = 13.5M;
 - [[Cs Value and Reference Types#Reference Types|Reference Types]]
 - بتتخزن في حتة في الميموري اسمها **Heap** بطريقة ال Reference
 - اللي بعملها بنفسي
-- زي ال [[Cs Class]], [[Cs Struct]], [[Cs Arrays]], [[Cs Enums]]
+- زي ال [[Cs Class]], [[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct]], [[Cs Arrays]], [[Cs Enums]]
 ### Classes
 ```cs
 public class Vehicle

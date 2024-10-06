@@ -37,7 +37,7 @@ tags:
 - [[Cs Class]]
 - Value Type
 	- [[Cs Enums]]
-	- [[Cs Struct]]
+	- [[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct]]
 - [[Cs Constructor]]
 1. [[Cs Encapsulation]] 
 	- [[Cs Properties]]

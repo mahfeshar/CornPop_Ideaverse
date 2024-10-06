@@ -42,7 +42,7 @@ class Car
 
 ## Struct vs Class
  الفرق بينهم 
- - ان الـ Default constructor بيتعمل دايمًا في الـ [[Cs Struct]]
+ - ان الـ Default constructor بيتعمل دايمًا في الـ [[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct]]
  - انما في الـ [[Cs Class]] بيتعمل في حالة إن مفيش ctor انت عامله انما لو عملت واحد الـ Default مبيبقاش موجود وانت ممكن تعمله عادي بعد كدا
    بمعنى انك لو جيت تستخدمه بعد ما عملت واحد هتلاقيه مديلك Error
 ## Constructor Overloading

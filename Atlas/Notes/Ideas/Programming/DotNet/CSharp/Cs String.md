@@ -14,7 +14,7 @@ string greeting2 = "Nice to meet you!";
 - عبارة عن class وجواه properties and methods
 - ال string عبارة عن [[Mutable vs Immutable#Immutable Objects|immutable]] يعني لما بضيف حاجة أو بشيل حاجة بيعمل string جديدة خالص مختلفة عن القديمة ودا بيأثر على سرعة العملية وعلى الميموري
 - عبارة عن [[Array#Static Arrays|array]] of characters وطبيعي لازم تبقا معرفها مسبقا هي هتاخد size قد ايه وهنا المشكلة
-- الحل هو ال StringBuilder واللي بيفرق عنها في حاجات كتير [[CSharp StringBuilder]]
+- الحل هو ال StringBuilder واللي بيفرق عنها في حاجات كتير [[Cs StringBuilder]]
 ## Why string always reference type?
 - في كل لغات البرمجة اللي قابلتنا عرفنا ان ال string هو reference مش value
   لاني لما باجي أحجز string مش ببقا عارف انا هحجز قد ايه بالظبط في ال memory انما لو جيت تحجز `int x` هو بيبقا عارف انه هيحجز 4 byte 

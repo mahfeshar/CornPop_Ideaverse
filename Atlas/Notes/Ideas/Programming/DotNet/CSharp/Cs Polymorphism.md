@@ -9,7 +9,7 @@ created: 2024-09-28
 
 ## Overloading
 - مش محتاج أي حاجة قبلها مطلوبة أو كدا
--  شغالة مع الـ [[Cs Class]] و [[Cs Struct]]
+-  شغالة مع الـ [[Cs Class]] و [[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct]]
 - هو خمس أشكال: 
   (Constructor - Indexer - Method - Operator - Casting operator)
 - اتكلمنا عن الـ Constructor overloading في [[Cs Constructor]]

@@ -50,5 +50,22 @@ object O1 = 3;
 // Cause
 // O1 = "Ahmed"; // Object can be anything
 int x = (int) O1; // بوعدك هيبقا انتجر
-//
+// (int): build in casting operator
+
+TypeA T1;
+T1 = new TypeA(1);
+T1 = new TypeB(1, 2); // Child -> Binding
+
+TypeB = T2;
+T2 = new TypeA(); // ERROR
+T2 = T1; // ERROR
+T2 = (TypeB) T1; 
+// بوعدك انه هيبقا الإبن دا بالذات لأن هو عنده أبناء كتير
+// This is NOT Binding
+
+// (TypeB): We need to make this casting operator
 ```
+
+الموضوع دا مرتبط بالـ [[Cs Casting Operator]] شوية لأن لازم أعمل Casting Operator للإبن لما بخليه ياخد Object أب لأن فيه حاجة زيادة بتبقا موجودة 
+مثال: الأب عنده A والإبن ورثه منه وكمان زود B 
+أنا دلوقتي هعمل ابن من Object أب بس الإبن المفروض يعرف الحاجة الزيادة بتاعته هتبقا بإيه 

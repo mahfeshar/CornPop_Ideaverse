@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Binding",
-      "path": "+/Cs Binding.md"
-    },
-    {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Binding",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md"
+    },
+    {
+      "basename": "Cs Protective code",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md"
+    },
+    {
+      "basename": "Cs StringBuilder",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs StringBuilder.md"
+    },
+    {
+      "basename": "Cs Access Modifiers",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
+    },
+    {
+      "basename": "Cs Struct",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
     },
     {
       "basename": "Cs Value and Reference Types",
@@ -35,10 +51,6 @@
     {
       "basename": "Cs Polymorphism",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md"
-    },
-    {
-      "basename": "Cs Access Modifiers",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
     },
     {
       "basename": "Polymorphism",
@@ -101,20 +113,12 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md"
     },
     {
-      "basename": "Cs Struct",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
-    },
-    {
       "basename": "Cs Null",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md"
     },
     {
       "basename": "DotNet",
       "path": "Atlas/Maps/DotNet.md"
-    },
-    {
-      "basename": "CSharp Struct",
-      "path": "+/CSharp Struct.md"
     },
     {
       "basename": "Cs System.Object",
@@ -135,10 +139,6 @@
     {
       "basename": "Cs Properties",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md"
-    },
-    {
-      "basename": "CSharp Protective code",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/CSharp Protective code.md"
     },
     {
       "basename": "المحاضرة الثانية-دورة الإيمان",
@@ -191,14 +191,6 @@
     {
       "basename": "VS Secrets",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/VS Secrets.md"
-    },
-    {
-      "basename": "Cs Arrays",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md"
-    },
-    {
-      "basename": "Cs Input",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Input.md"
     }
   ],
   "omittedPaths": [],

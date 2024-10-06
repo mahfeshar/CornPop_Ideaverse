@@ -59,7 +59,7 @@ struct feel{
 - نقدر نقول ان ال struct هي الحاجة اللي قبل ال object ولكن لسا عندي مشكلة في ال struct
 
 - مش بعرف أعرف function جوا ال struct ودي مشكلة
-- وكمان مش بيبقا فيه [[Inheritance]] فيها زي ما اتكلمنا عن الموضوع دا في [[Cs Struct#^8c8987|Struct vs Class]]
+- وكمان مش بيبقا فيه [[Inheritance]] فيها زي ما اتكلمنا عن الموضوع دا في [[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct#^8c8987|Struct vs Class]]
 - يعني الفيل اللي فوق دا محتاج يتحرك يعني محتاج يعمل وظيفة معينة 
 ## Object
 - Object is an instance نموذج of a Class

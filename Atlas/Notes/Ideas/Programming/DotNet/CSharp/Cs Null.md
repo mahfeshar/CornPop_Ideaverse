@@ -21,7 +21,7 @@ Y = null;
 
 ---
 ### Syntax Sugar
-هو عبارة عن syntax sugar لـ[[Cs Struct]] اسمه Nullable 
+هو عبارة عن syntax sugar لـ[[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct]] اسمه Nullable 
 ```cs
 int? x = 5; // Nullable<int>
 x = null;
@@ -62,7 +62,7 @@ for (int i = 0; i < Arr.Length; i++)
 	Console.WriteLine(Arr[i]);
 ```
 
-فعشان كدا لازم تعمل check عشان توصل لمرحلة ال [[CSharp Protective code]]
+فعشان كدا لازم تعمل check عشان توصل لمرحلة ال [[Cs Protective code]]
 ```cs
 for (int i = 0; (Arr != null) && (i < Arr.Length); i++);
 ```

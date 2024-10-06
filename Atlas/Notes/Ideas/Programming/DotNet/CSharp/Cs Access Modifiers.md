@@ -205,7 +205,7 @@ internal class TypeB : TypeA
 بنقدر نكتب جوا ال Namespace أربع حاجات:
 1. [[Cs Class]]
 2. [[Cs Struct]] stands for structure
-3. [[CSharp Interface]]
+3. [[Cs Interface]]
 4. [[Cs Enums]]
 
 ---
@@ -225,12 +225,12 @@ internal class TypeB : TypeA
 - الحل إنك تعملها public عشان تقدر توصلها في أي Project وأي Library مختلفة
 
 
-## Inside [[Cs Class|Class]] or [[Cs Struct|Struct]]
+## Inside [[Cs Class|Class]] or [[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct|Struct]]
 بنقدر نكتب جواهم:
 1. Attributes (Fields) -> Member Variables
-2. [[CSharp Property]] (Full Property, Automatic Property, Indexer -> Special)
+2. [[Cs Properties]] (Full Property, Automatic Property, Indexer -> Special)
 3. [[Cs Function]] (Constructor, Getter Setter, Method)
-4. [[CSharp Event]]
+4. [[Cs Event]]
 
 ---
 متاح 3 Access Modifiers جوا الـ **Struct**: (نفس بتاع الـ Name Space وهنزود الـ Private)
@@ -249,7 +249,7 @@ internal class TypeB : TypeA
 > [!example] Default
 > الـ Default فيهم الإتنين هو **Private**
 
-## Inside [[CSharp Interface|Interface]]
+## Inside [[Cs Interface|Interface]]
 نقدر نكتب جواها:
 1. Signature for Property
 2. Signature for Method
