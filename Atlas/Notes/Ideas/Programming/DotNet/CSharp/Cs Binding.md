@@ -4,6 +4,7 @@ up:
 related: 
 created: 2024-10-06
 ---
+![[Pasted image 20241006105225.png]]
 ```cs
 TypeA T1 = new TypeA();
 TypeB T2 = new TypeB();
