@@ -38,14 +38,20 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "Cs Access Modifiers",
+                  "title": "Cs List",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":264,\"ch\":77},\"to\":{\"line\":264,\"ch\":77}},\"scroll\":251.3888}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":24.873106060606062}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Cs Interface",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":190},\"to\":{\"line\":30,\"ch\":190}},\"scroll\":6}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -88,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -201,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md"
+                "file": "Atlas/Maps/CSharp MOC.md"
               }
             }
           },
@@ -349,7 +355,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -400,7 +406,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -426,7 +432,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -447,7 +453,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md"
+                "file": "Atlas/Maps/CSharp MOC.md"
               }
             }
           }
@@ -480,10 +486,11 @@
   },
   "active": "8ae324f25c078ff6",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
-    "Home.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
+    "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
     "Atlas/Utilities/Images/Pasted image 20241006105225.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md",
@@ -510,7 +517,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
     "Atlas/Maps/Back-end MOC.md",
-    "Atlas/Maps/OOP.md",
     "Atlas/Utilities/Images/PolyMorphism.jpg",
     "Atlas/Utilities/Images/Pasted image 20240414194045.png",
     "Atlas/Utilities/Images/Pasted image 20240322152816.png",
