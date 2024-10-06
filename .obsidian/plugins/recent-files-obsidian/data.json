@@ -5,12 +5,12 @@
       "path": "+/Cs Binding.md"
     },
     {
-      "basename": "Cs Value and Reference Types",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
-    },
-    {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Value and Reference Types",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
     },
     {
       "basename": "Home",
