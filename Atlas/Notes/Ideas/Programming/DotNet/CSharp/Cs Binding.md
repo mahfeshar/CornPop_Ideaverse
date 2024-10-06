@@ -70,3 +70,66 @@ T2 = (TypeB) T1;
 الموضوع دا مرتبط بالـ [[Cs Casting Operator]] شوية لأن لازم أعمل Casting Operator للإبن لما بخليه ياخد Object أب لأن فيه حاجة زيادة بتبقا موجودة 
 مثال: الأب عنده A والإبن ورثه منه وكمان زود B 
 أنا دلوقتي هعمل ابن من Object أب بس الإبن المفروض يعرف الحاجة الزيادة بتاعته هتبقا بإيه 
+
+## Example
+```cs
+internal class Employee
+{
+	public int id { get; set; }
+	public string name { get; set; }
+
+	public void MyFunc01()
+	{
+		Console.WriteLine("I am Employee");
+	}
+
+	public virtual void MyFunc02()
+	{
+		Console.WriteLine($"ID: {id}, Name: {name}");
+	}
+}
+
+class FullTimeEmployee : Employee
+{
+	public int salary { get; set; }
+	public new void MyFunc01()
+	{
+		Console.WriteLine("I am FullTime Employee");
+	}
+	public override void MyFunc02()
+	{
+		Console.WriteLine($"ID: {id}, Name: {name}, Salary: {salary}");
+	}
+}
+class PartTimeEmployee : Employee
+{
+	public int HoursOfWork { get; set; }
+	public new void MyFunc01()
+	{
+		Console.WriteLine("I am PartTime Employee");
+	}
+	public override void MyFunc02()
+	{
+		Console.WriteLine($"ID: {id}, Name: {name}, HoursOfWork: {HoursOfWork}");
+	}
+}
+
+// We will try to make function for them
+public void ProcessEmployee(FullTimeEmployee emp)
+{
+	emp.MyFunc01();
+	emp.MyFunc02();
+}
+public void ProcessEmployee(PartTimeEmployee emp)
+{
+	emp.MyFunc01();
+	emp.MyFunc02();
+}
+// دا مش اوفرلودينج دا عك، لأن الإتنين نفس البودي
+// The solution here is BINDING
+public void ProcessEmployee(Employee emp)
+{
+    emp.MyFunc01();
+    emp.MyFunc02();
+}
+```
