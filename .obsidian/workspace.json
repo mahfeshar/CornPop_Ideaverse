@@ -35,11 +35,29 @@
             "id": "8ae324f25c078ff6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Access Modifiers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":264,\"ch\":77},\"to\":{\"line\":264,\"ch\":77}},\"scroll\":251.3888}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":13},\"to\":{\"line\":38,\"ch\":13}},\"scroll\":28.848484848484848}"
+                },
+                {
+                  "title": "Cs Binding",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":41},\"to\":{\"line\":10,\"ch\":41}},\"scroll\":6}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -70,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md"
               }
             }
           },
@@ -331,7 +349,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -382,7 +400,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -408,7 +426,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -429,7 +447,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md"
               }
             }
           }
@@ -462,21 +480,22 @@
   },
   "active": "8ae324f25c078ff6",
   "lastOpenFiles": [
-    "Atlas/Utilities/Images/Pasted image 20241006105225.png",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+    "Home.md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
+    "Atlas/Utilities/Images/Pasted image 20241006105225.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs StringBuilder.md",
     "+/CSharp Event.md",
     "+/CSharp Interface.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
     "+/Cs Struct.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
     "+/CSharp Value and Reference Types.md",
     "+/CSharp Access Modifiers.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Maps/Library.md",
-    "Home.md",
     "+/المحاضرة الخامسة-دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20241004143106.png",
     "Atlas/Utilities/Images/Pasted image 20241004141919.png",
@@ -497,7 +516,6 @@
     "Atlas/Utilities/Images/Pasted image 20240322152816.png",
     "Atlas/Utilities/Images/Pasted image 20240414210231.png",
     "Atlas/Utilities/Images/Pasted image 20240414205632.png",
-    "Atlas/Utilities/Images/Pasted image 20240927154956.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

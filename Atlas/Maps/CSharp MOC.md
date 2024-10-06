@@ -34,10 +34,12 @@ tags:
 ## OOP
 - [[Cs Access Modifiers]]
 - [[Cs System.Object]]
-- [[Cs Class]]
+- Reference Type
+	- [[Cs Class]]
+	- [[Cs Interface]]
 - Value Type
 	- [[Cs Enums]]
-	- [[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct]]
+	- [[Cs Struct]]
 - [[Cs Constructor]]
 1. [[Cs Encapsulation]] 
 	- [[Cs Properties]]

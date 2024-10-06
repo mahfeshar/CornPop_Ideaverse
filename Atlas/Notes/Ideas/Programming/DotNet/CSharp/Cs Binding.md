@@ -8,7 +8,7 @@ created: 2024-10-06
 ```cs
 TypeA T1 = new TypeA();
 TypeB T2 = new TypeB();
-// Not Binding: Reference from Parent --< object from Parent
+// Not Binding: Reference from Parent --> object from Parent
 ```
 
 - إني أعمل Reference يشاور على Child للـ class اللي بعمل منه Reference

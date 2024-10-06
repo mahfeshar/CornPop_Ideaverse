@@ -251,9 +251,24 @@ internal class TypeB : TypeA
 
 ## Inside [[Cs Interface|Interface]]
 نقدر نكتب جواها:
-1. Signature for Property
-2. Signature for Method
-3. Default Implemented Method (فانكشن كاملة)
+1. Signature for Property (بحدد شكلها بس هيبقا عامل إزاي)
+```cs
+public int Salary {get; set;} 
+// In interface called Signature for Property
+// In class or Struct called Auto Property
+```
+In Class or Struct =>[[Cs Properties#Automatic Properties (Short Hand)|Automatic Property]]
+2. Signature for Method (مبنكتبش برامتر)
+```cs
+public void MyFun();
+```
+3. Default Implemented Method (فانكشن كاملة) => C# 8.0 Feature (.NET Core 3.1)
+```cs
+public void Print()
+{
+	Console.WriteLine("Hello Default Implemented");
+}
+```
 
 الـ Method بتتكون من جزئين (Signature - Body):
 الـ Signature اللي هو اسمها والـ Parameters اللي بتستقبلها وكدا
