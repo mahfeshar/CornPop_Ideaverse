@@ -30,6 +30,10 @@ interface IMyType
 - للوهلة الأولى تحس العملية دي شبه الـ [[Cs Binding]]
 - **بستخدمها** في الأغلب لو عندي Function عامة معرفش ممكن يبقا فيها ايه وممكن تتغير زي مثال الـ Series فمثلًا `GetNext` هتتغير وبيبقا زي **عقد** وبجبر الشخص اللي بيعمله انه يمشي على العقد دا
 
+---
+حلت مشكلتين عندنا:
+- معنديش Multiple [[Cs Inheritance]] في الـ CSharp في الـ [[Cs Class]]
+- معنديش [[Cs Inheritance]] في الـ [[Cs Struct]]
 ### Simple Example
 ```cs
 interface IMyType
@@ -89,5 +93,78 @@ T3.Print(); // OK -> Down casting from Interface to class
 
 ## Examples
 ```cs
+namespace InterfaceEx1
+{
+		interface ISeries
+		{
+				int Current { get; }
+				void GetNext();
+				void Reset();
+		}
+		class FibSeries : ISeries
+		{
+				int current;
+				int prev;
+				public FibSeries()
+				{
+						prev = 0;
+						current = 1;
+				}
+				public int Current { get { return current; } }
+				public void GetNext()
+				{
+						int Temp = Current;
+						current += prev;
+						prev = Temp;
+				}
+				public void Reset()
+				{
+						current = 1;
+						prev = 0;	
+				}
+		}
+			
+		struct SeriesByTwo : ISeries
+	  {
+		    int current;
+		    public int Current { get { return current; } }
+		
+		    public void GetNext()
+		    {
+			       current += 2;
+		    }
+		
+		    public void Reset()
+		    {
+			       current = 0;
+		    }
+	  }
+	  
+	  class Program
+	  {
+			  public static void ProcessSeries (ISeries series)
+        {
+            for ( int i=0; i < 10; i++)
+            {
+                Console.Write($"{series.Current} , ");
+                series.GetNext();
+            }
+            Console.WriteLine("");
+            series.Reset();
+        }
+        
+        static void MainV1(string[] args)
+        {
+		        SeriesByTwo series01 = new SeriesByTwo();
 
+            ProcessSeries(series01);
+
+            ISeries series02; ///Valid ,
+            //Refrence to any Class\Struct Implementing ISeries Interface
+            //series01 = new ISeries(); ///Not Valid
+            series02 = new FibSeries();
+            ProcessSeries(series02);
+        }
+	  }  
+}
 ```
