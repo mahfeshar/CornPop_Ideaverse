@@ -26,6 +26,8 @@ interface IMyType
 ---
 - الـ Reference من الـ Interface يقدر يشاور على Object من الـ Class بشرط إن الـ Class يكون بي Implement الـ Interface
   ودي الطريقة الوحيدة اللي أقدر أوصل بيها للـ Default implemented method
+- مبستخدم الـ Default implemented method غير في حالة واحدة وهي ان يبقا عندي أكتر من Class ليهم نفس الـ Interface وبيبقا عندهم Function مشتركة
+- للوهلة الأولى تحس العملية دي شبه الـ [[Cs Binding]]
 
 ### Simple Example
 ```cs
@@ -85,3 +87,6 @@ T3.Print(); // OK -> Down casting from Interface to class
 ![[Cs Access Modifiers#Inside Cs Interface Interface]]
 
 ## Examples
+```cs
+
+```
