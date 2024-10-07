@@ -4,8 +4,6 @@ up:
 related: 
 created: 2024-07-11
 ---
-
-
 ### Single Responsibility Principle
 
 ال **Single Responsibility Principle** بيقول إن الكلاس لازم يكون ليها سبب واحد إنها تتغير. بمعنى:

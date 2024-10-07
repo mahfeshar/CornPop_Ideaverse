@@ -34,4 +34,55 @@ static void Main(string[] args)
 ```
 
 - مفيش حاجة اسمها clone غير في الـ [[Cs Arrays#Array Clone|Array clone]] ودي بتستخدم الـ Interface اللي اسمه ICloneable
-- بس أي Object تاني لازم أورث منه وأمضي على الـ Contract بتاع الـ Interface الأول وبعدين أس
+- بس أي Object تاني لازم أورث منه وأمضي على الـ Contract بتاع الـ Interface الأول وبعدين أعمل Implement بقا للـ Clone دي تعمل ايه بالظبط
+
+```cs
+    public abstract partial class Array : ICloneable, IList, IStructuralComparable, IStructuralEquatable
+
+
+//
+// Summary:
+//     Supports cloning, which creates a new instance of a class with the same value
+//     as an existing instance.
+public interface ICloneable
+{
+    //
+    // Summary:
+    //     Creates a new object that is a copy of the current instance.
+    //
+    // Returns:
+    //     A new object that is a copy of this instance.
+    object Clone();
+}
+```
+- الـ Interface جواه Method واحدة اللي هي الـ Clone
+- بيحقق مبدأ الـ [[Single Responsibility Principle]] انك مش هتلاقي غير method واحدة أو ممكن يبقا فيها أكتر من method بس مرتبطين ببعض
+
+```cs
+class Employee : ICloneable
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int Salary { get; set; }
+    public object Clone()
+    {
+        return new Employee()
+        {
+            Id = this.Id,
+            Name = this.Name,
+            Salary = this.Salary
+        };
+    }
+}
+
+// Main
+emp01 = (Employee) emp02.Clone(); // Deep Copy
+
+Console.WriteLine("Employee 1");
+Console.WriteLine(emp01.GetHashCode()); // 2606490
+Console.WriteLine($"{emp01.Id}, {emp01.Name}, {emp01.Salary:c}"); // 1, John, $1,000.00
+
+Console.WriteLine("Employee 2");
+Console.WriteLine(emp02.GetHashCode()); // 43942917
+Console.WriteLine($"{emp02.Id}, {emp02.Name}, {emp02.Salary:c}"); // 1, John, $1,000.00
+```

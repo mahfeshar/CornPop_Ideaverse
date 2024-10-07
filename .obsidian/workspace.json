@@ -135,17 +135,17 @@
             "id": "7e565a64184e3c69",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Cs Arrays",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":195,\"ch\":12},\"to\":{\"line\":195,\"ch\":12}},\"scroll\":106.38690476190476}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Cs ICloneable",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs ICloneable.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":0},\"to\":{\"line\":79,\"ch\":0}},\"scroll\":70.38095238095238}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -176,7 +176,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs ICloneable.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs ICloneable.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
               }
             }
           },
@@ -415,7 +415,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs ICloneable.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -466,7 +466,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs ICloneable.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -492,7 +492,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs ICloneable.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -513,7 +513,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs ICloneable.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
               }
             }
           }
@@ -546,8 +546,9 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "+/Cs ICloneable.md",
+    "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md",
     "Atlas/Utilities/Images/Pasted image 20241007043103.png",
@@ -576,7 +577,6 @@
     "+/دورة الإيمان.md",
     "+/المحاضرة الرابعة-دورة الإيمان.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md",
     "Atlas/Utilities/Images/Overloading 1.jpg",
     "Atlas/Utilities/Images/Overloading.jpg",
     "Atlas/Utilities/Images/PolyMorphism.jpg",

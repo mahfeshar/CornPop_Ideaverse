@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Cs Constructor",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
+    },
+    {
       "basename": "Cs ICloneable",
       "path": "+/Cs ICloneable.md"
+    },
+    {
+      "basename": "Single Responsibility Principle",
+      "path": "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md"
     },
     {
       "basename": "Cs Arrays",
@@ -87,10 +95,6 @@
     {
       "basename": "Cs Indexer",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
-    },
-    {
-      "basename": "Cs Constructor",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
     },
     {
       "basename": "Back-end MOC",
@@ -195,10 +199,6 @@
     {
       "basename": "Data Structure and Algorithms MOC",
       "path": "Atlas/Maps/Data Structure and Algorithms MOC.md"
-    },
-    {
-      "basename": "Prefix Sums",
-      "path": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md"
     }
   ],
   "omittedPaths": [],

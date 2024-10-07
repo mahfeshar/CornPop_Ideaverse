@@ -105,3 +105,9 @@ public class Customer
 - بينفذ اللي أنا عامل منه Chain الأول وبعدين ينفذ اللي انا فيه
 - نقدر نخلي أي constructor ينادي أي واحد قبله بشرط إني أحط ال parameters جوا القوسين بعد this
 - ممكن نعمل Chaining على constructor موجود في class تاني
+## Copy Constructor
+- اني بديله داتا Object معين وينسخلي الحاجات اللي جواه في الـ Object الجديد 
+- بتعمل [[Cs Shallow and deep copy#Deep Copy]] 
+```cs
+
+```
