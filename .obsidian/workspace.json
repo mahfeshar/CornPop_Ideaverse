@@ -135,8 +135,14 @@
             "id": "7e565a64184e3c69",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Arrays",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":195,\"ch\":12},\"to\":{\"line\":195,\"ch\":12}},\"scroll\":106.38690476190476}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -540,11 +546,11 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
-    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "+/Cs ICloneable.md",
+    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md",
     "Atlas/Utilities/Images/Pasted image 20241007043103.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Notes/Ideas/Programming/Python/Py Shallow and Deep copy.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
