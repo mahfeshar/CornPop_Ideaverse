@@ -116,7 +116,7 @@ Console.WriteLine($"Size {Arr01.Length} , Number of Dimensions {Arr01.Rank}");
 ### Array copy
 `Array.Copy` method is used to copy elements from one array to another. 
 This method provides a way to duplicate the contents of an array into another array, **either partially or fully**, depending on the parameters used.
-### Basic Syntax
+#### Basic Syntax
 ```cs
 public static void Copy(Array sourceArray, Array destinationArray, int length);
 ```
@@ -126,7 +126,7 @@ public static void Copy(Array sourceArray, Array destinationArray, int length);
 - **destinationArray**: The array that will receive the copied data.
 - **length**: The number of elements to copy.
 
-### Overloads
+#### Overloads
 
 There are several overloads of the `Array.Copy` method that allow for more flexibility:
 
@@ -145,7 +145,7 @@ There are several overloads of the `Array.Copy` method that allow for more flexi
     Copies `length` elements from `sourceArray` starting at `sourceIndex` to `destinationArray` starting at `destinationIndex`.
 
 
-### Example Usage
+#### Example Usage
 
 Here's an example demonstrating how to use `Array.Copy`:
 ```cs
@@ -179,118 +179,20 @@ class Program
     }
 }
 ```
-### Important Considerations
+#### Important Considerations
 
 - **Type Compatibility**: Both the source and destination arrays must be of compatible types, otherwise a runtime exception will occur.
 - **Bounds Checking**: Ensure that the destination array is large enough to hold the copied elements to avoid an `ArgumentOutOfRangeException`.
 - **Shallow Copy**: `Array.Copy` performs a shallow copy, meaning if the array contains reference types, only the references are copied, not the actual objects.
-  [[Py Shallow and Deep copy#Shallow Copy|Shallow Copy]]
+  [[Cs Shallow and Deep copy#Shallow Copy|Shallow Copy]]
 
 Using `Array.Copy` is a straightforward way to duplicate or move data between arrays in C#, providing flexibility through its various overloads and ease of use.
 
-### Shallow and deep copy
-- We talked about this before [[Py Shallow and Deep copy]]
-#### Shallow Copy
+We talked more about [[Cs Shallow and deep copy]]
 
-A shallow copy of an object copies **the references of nested objects**, not the actual nested objects themselves. 
-This means that changes made to the nested objects in the copied array or object will reflect in the original array or object and vice versa.
 
-#### Deep Copy
-
-A deep copy of an object copies not only the object itself **but also the objects that are referenced by the original object**. 
-This means that changes made to the nested objects in the copied array or object will not affect the original array or object and vice versa.
-
-#### Example in C\#
-
-Consider the following example:
-
-```cs
-using System;
-
-class Person
-{
-    public string Name { get; set; }
-}
-
-class Program
-{
-    static void Main()
-    {
-        // Create an array of Person objects
-        Person[] originalArray = new Person[2];
-        originalArray[0] = new Person { Name = "Alice" };
-        originalArray[1] = new Person { Name = "Bob" };
-
-        // Shallow copy
-        Person[] shallowCopyArray = new Person[originalArray.Length];
-        Array.Copy(originalArray, shallowCopyArray, originalArray.Length);
-
-        // Deep copy
-        Person[] deepCopyArray = new Person[originalArray.Length];
-        for (int i = 0; i < originalArray.Length; i++)
-        {
-            deepCopyArray[i] = new Person { Name = originalArray[i].Name };
-        }
-
-        // Change the name of the first person in the shallow copy
-        shallowCopyArray[0].Name = "Charlie";
-
-        // Change the name of the second person in the deep copy
-        deepCopyArray[1].Name = "Dave";
-
-        // Display the names in the original array
-        Console.WriteLine("Original Array:");
-        foreach (var person in originalArray)
-        {
-            Console.WriteLine(person.Name);
-        }
-
-        // Display the names in the shallow copy array
-        Console.WriteLine("\nShallow Copy Array:");
-        foreach (var person in shallowCopyArray)
-        {
-            Console.WriteLine(person.Name);
-        }
-
-        // Display the names in the deep copy array
-        Console.WriteLine("\nDeep Copy Array:");
-        foreach (var person in deepCopyArray)
-        {
-            Console.WriteLine(person.Name);
-        }
-    }
-}
-
-```
-#### Explanation
-
-1. **Original Array**:
-    - Contains two `Person` objects: "Alice" and "Bob".
-2. **Shallow Copy**:
-    - Uses `Array.Copy` to create a new array `shallowCopyArray` that references the same `Person` objects as the `originalArray`.
-3. **Deep Copy**:
-    - Manually creates a new array `deepCopyArray` and new `Person` objects with the same names as those in the `originalArray`.
-4. **Modifications**:
-    - Changing the name of the first person in `shallowCopyArray` to "Charlie" affects the `originalArray` because they reference the same objects.
-    - Changing the name of the second person in `deepCopyArray` to "Dave" does not affect the `originalArray` because they are separate objects.
-
-#### Output
-```plaintext
-Original Array:
-Charlie
-Bob
-
-Shallow Copy Array:
-Charlie
-Bob
-
-Deep Copy Array:
-Alice
-Dave
-```
-
-As shown, the shallow copy reflects changes in the original array, while the deep copy does not. This illustrates the fundamental difference between shallow and deep copying in C#.
-
+### Array Clone
+دي بستخدمها عشان أعمل [[Cs Shallow and deep copy#Deep Copy|Deep Copy]]
 ### Sort an Array
 هنستخدم ال method اللي اسمها `Sort()` وبترتب تصاعدي وال method  دي موجودة جوا class ال `Array`
 ```csharp

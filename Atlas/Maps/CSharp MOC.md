@@ -29,6 +29,7 @@ tags:
 - [[Cs Files]]
 - [[Cs Control Flow Statements]]
 - [[Cs Arrays]]
+- [[Cs Shallow and deep copy]]
 - [[Cs List]]
 ---
 ## OOP

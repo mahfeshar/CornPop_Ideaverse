@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Interface",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md"
-    },
-    {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
+      "basename": "Cs Shallow and deep copy",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md"
+    },
+    {
+      "basename": "Cs Arrays",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md"
+    },
+    {
+      "basename": "Cs Value and Reference Types",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
+    },
+    {
+      "basename": "Py Shallow and Deep copy",
+      "path": "Atlas/Notes/Ideas/Programming/Python/Py Shallow and Deep copy.md"
+    },
+    {
       "basename": "Cs Binding",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md"
+    },
+    {
+      "basename": "Cs Interface",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md"
+    },
+    {
+      "basename": "Obsidian Callouts",
+      "path": "+/Obsidian Callouts.md"
     },
     {
       "basename": "Cs List",
@@ -35,10 +55,6 @@
     {
       "basename": "Cs Struct",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
-    },
-    {
-      "basename": "Cs Value and Reference Types",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
     },
     {
       "basename": "المحاضرة الخامسة-دورة الإيمان",
@@ -183,18 +199,6 @@
     {
       "basename": "Innotech Intern",
       "path": "+/Innotech Intern.md"
-    },
-    {
-      "basename": "Cs Type Casting",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Type Casting.md"
-    },
-    {
-      "basename": "Cs Handle Exception",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Handle Exception.md"
-    },
-    {
-      "basename": "VS Secrets",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/VS Secrets.md"
     }
   ],
   "omittedPaths": [],
