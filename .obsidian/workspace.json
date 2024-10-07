@@ -142,6 +142,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":16},\"to\":{\"line\":52,\"ch\":16}},\"scroll\":40.33049242424242}"
+                },
+                {
                   "title": "Cs Shallow and deep copy",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -164,7 +170,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Cs ICloneable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -277,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md"
+                "file": "+/Cs ICloneable.md"
               }
             }
           },
@@ -403,7 +409,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Cs ICloneable.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -454,7 +460,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Cs ICloneable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -480,7 +486,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Cs ICloneable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -501,7 +507,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md"
+                "file": "+/Cs ICloneable.md"
               }
             }
           }
@@ -534,11 +540,12 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
+    "Atlas/Maps/CSharp MOC.md",
+    "+/Cs ICloneable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md",
     "Atlas/Utilities/Images/Pasted image 20241007043103.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
-    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/Python/Py Shallow and Deep copy.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",

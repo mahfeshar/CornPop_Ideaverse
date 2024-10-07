@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Cs ICloneable",
+      "path": "+/Cs ICloneable.md"
+    },
+    {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Prefix Sums",
       "path": "Atlas/Notes/Ideas/Programming/Data Structure and Algorithms/Prefix Sums.md"
-    },
-    {
-      "basename": "Innotech Intern",
-      "path": "+/Innotech Intern.md"
     }
   ],
   "omittedPaths": [],

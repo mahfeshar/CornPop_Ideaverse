@@ -49,7 +49,8 @@ tags:
 3. [[Cs Polymorphism]]
 - Relationships between classes: [[Cs Inheritance]], [[Cs Aggregation]]
 - [[Cs Binding]]
-- 
+- Built-in Interfaces
+	- [[Cs ICloneable]]
 
 ---
 ## Resources
