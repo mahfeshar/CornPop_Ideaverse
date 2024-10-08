@@ -107,7 +107,7 @@ public class Customer
 - ممكن نعمل Chaining على constructor موجود في class تاني
 ## Copy Constructor
 - اني بديله داتا Object معين وينسخلي الحاجات اللي جواه في الـ Object الجديد 
-- بتعمل [[Cs Shallow and deep copy#Deep Copy]] 
+- بتعمل [[Cs Shallow and deep copy#Deep Copy|Deep Copy]] 
 ```cs
 
 ```
