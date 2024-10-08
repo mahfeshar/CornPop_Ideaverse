@@ -135,17 +135,17 @@
             "id": "7e565a64184e3c69",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Constructor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":117,\"ch\":25},\"to\":{\"line\":117,\"ch\":25}},\"scroll\":63.27651515151515}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Cs ICloneable",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs ICloneable.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":0},\"to\":{\"line\":79,\"ch\":0}},\"scroll\":70.38095238095238}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -176,7 +176,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
+                "file": "+/Cs ICloneable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
+                "file": "+/Cs ICloneable.md"
               }
             }
           },
@@ -415,7 +415,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
+                "file": "+/Cs ICloneable.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -466,7 +466,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
+                "file": "+/Cs ICloneable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -492,7 +492,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
+                "file": "+/Cs ICloneable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -513,7 +513,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
+                "file": "+/Cs ICloneable.md"
               }
             }
           }
@@ -546,6 +546,7 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
     "+/Cs ICloneable.md",
     "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
@@ -576,7 +577,6 @@
     "Atlas/Utilities/Images/Pasted image 20241004141919.png",
     "+/دورة الإيمان.md",
     "+/المحاضرة الرابعة-دورة الإيمان.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Utilities/Images/Overloading 1.jpg",
     "Atlas/Utilities/Images/Overloading.jpg",
     "Atlas/Utilities/Images/PolyMorphism.jpg",

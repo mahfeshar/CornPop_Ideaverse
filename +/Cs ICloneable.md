@@ -35,6 +35,7 @@ static void Main(string[] args)
 
 - مفيش حاجة اسمها clone غير في الـ [[Cs Arrays#Array Clone|Array clone]] ودي بتستخدم الـ Interface اللي اسمه ICloneable
 - بس أي Object تاني لازم أورث منه وأمضي على الـ Contract بتاع الـ Interface الأول وبعدين أعمل Implement بقا للـ Clone دي تعمل ايه بالظبط
+- بنستخدم الطرق دي عشان نعمل [[Cs Shallow and deep copy#Deep Copy|Deep Copy]]
 
 ```cs
     public abstract partial class Array : ICloneable, IList, IStructuralComparable, IStructuralEquatable
@@ -85,4 +86,15 @@ Console.WriteLine($"{emp01.Id}, {emp01.Name}, {emp01.Salary:c}"); // 1, John, $1
 Console.WriteLine("Employee 2");
 Console.WriteLine(emp02.GetHashCode()); // 43942917
 Console.WriteLine($"{emp02.Id}, {emp02.Name}, {emp02.Salary:c}"); // 1, John, $1,000.00
+```
+
+---
+We can also use [[Cs Constructor#Copy Constructor|Copy constructor]]
+Or we can use copy with Clone
+
+```cs
+public object Clone()
+{
+	return new Employee(this);
+}
 ```

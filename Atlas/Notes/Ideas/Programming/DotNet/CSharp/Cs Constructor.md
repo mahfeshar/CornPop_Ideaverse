@@ -109,5 +109,11 @@ public class Customer
 - اني بديله داتا Object معين وينسخلي الحاجات اللي جواه في الـ Object الجديد 
 - بتعمل [[Cs Shallow and deep copy#Deep Copy|Deep Copy]] 
 ```cs
-
+public Employee(Employee empCopy)
+{
+    this.Id = empCopy.Id;
+    this.Name = empCopy.Name;
+    this.Salary = empCopy.Salary;
+}
+// this --> اللي عامل كول
 ```
