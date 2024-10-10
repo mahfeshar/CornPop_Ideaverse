@@ -107,3 +107,5 @@ class Square : RectBase
     }
 }
 ```
+
+## Abstract Class vs Interface
