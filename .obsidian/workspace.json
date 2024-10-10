@@ -289,7 +289,7 @@
       {
         "id": "ea89fdbc5439f479",
         "type": "tabs",
-        "dimension": 31.324582338902147,
+        "dimension": 29.36893203883495,
         "children": [
           {
             "id": "90d026528dc7103b",
@@ -415,7 +415,7 @@
       {
         "id": "3d767c407ab4c865",
         "type": "tabs",
-        "dimension": 31.324582338902147,
+        "dimension": 43.44660194174757,
         "children": [
           {
             "id": "c3f1ee10bb319298",
@@ -455,7 +455,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5359795996226119,
+                  "scale": 0.7514342322277844,
                   "close": true
                 }
               }
@@ -466,7 +466,7 @@
       {
         "id": "8e15cd93a6a4be64",
         "type": "tabs",
-        "dimension": 37.3508353221957,
+        "dimension": 27.184466019417474,
         "children": [
           {
             "id": "d535bd36dbc98e0b",
@@ -561,7 +561,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e565a64184e3c69",
+  "active": "c3f1ee10bb319298",
   "lastOpenFiles": [
     "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md",
