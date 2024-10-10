@@ -431,3 +431,8 @@ namespace D04
     }
 }
 ```
+
+## Built-in Interfaces
+- [[Cs ICloneable]]
+- [[Cs ICompareable]]
+- 

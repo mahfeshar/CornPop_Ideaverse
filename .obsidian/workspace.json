@@ -135,17 +135,23 @@
             "id": "7e565a64184e3c69",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Cs Constructor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":117,\"ch\":25},\"to\":{\"line\":117,\"ch\":25}},\"scroll\":63.27651515151515}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Cs Interface",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":436,\"ch\":11},\"to\":{\"line\":436,\"ch\":11}},\"scroll\":411.85}"
+                },
+                {
+                  "title": "Cs ICloneable",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICloneable.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":92,\"ch\":34},\"to\":{\"line\":92,\"ch\":34}},\"scroll\":6}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -176,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs ICloneable.md",
+                "file": "+/Cs ICompareable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -289,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs ICloneable.md"
+                "file": "+/Cs ICompareable.md"
               }
             }
           },
@@ -415,7 +421,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs ICloneable.md",
+                "file": "+/Cs ICompareable.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -466,7 +472,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs ICloneable.md",
+                "file": "+/Cs ICompareable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -492,7 +498,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs ICloneable.md",
+                "file": "+/Cs ICompareable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -513,7 +519,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs ICloneable.md"
+                "file": "+/Cs ICompareable.md"
               }
             }
           }
@@ -546,8 +552,10 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+    "+/Cs ICompareable.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICloneable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
-    "+/Cs ICloneable.md",
     "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Maps/CSharp MOC.md",
@@ -556,7 +564,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Notes/Ideas/Programming/Python/Py Shallow and Deep copy.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
     "+/Obsidian Callouts.md",
     "Atlas/Utilities/Images/Pasted image 20241006233933.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
@@ -576,7 +583,6 @@
     "Atlas/Utilities/Images/Pasted image 20241004143106.png",
     "Atlas/Utilities/Images/Pasted image 20241004141919.png",
     "+/دورة الإيمان.md",
-    "+/المحاضرة الرابعة-دورة الإيمان.md",
     "Atlas/Utilities/Images/Overloading 1.jpg",
     "Atlas/Utilities/Images/Overloading.jpg",
     "Atlas/Utilities/Images/PolyMorphism.jpg",

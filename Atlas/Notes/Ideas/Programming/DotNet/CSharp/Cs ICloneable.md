@@ -90,7 +90,7 @@ Console.WriteLine($"{emp02.Id}, {emp02.Name}, {emp02.Salary:c}"); // 1, John, $1
 
 ---
 We can also use [[Cs Constructor#Copy Constructor|Copy constructor]]
-Or we can use copy with Clone
+Or we can use copy constructor and Clone
 
 ```cs
 public object Clone()

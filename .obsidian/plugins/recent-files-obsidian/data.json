@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Cs ICompareable",
+      "path": "+/Cs ICompareable.md"
+    },
+    {
+      "basename": "Cs Interface",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md"
+    },
+    {
       "basename": "Cs ICloneable",
-      "path": "+/Cs ICloneable.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICloneable.md"
     },
     {
       "basename": "Cs Constructor",
@@ -35,10 +43,6 @@
     {
       "basename": "Cs Binding",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md"
-    },
-    {
-      "basename": "Cs Interface",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md"
     },
     {
       "basename": "Obsidian Callouts",
@@ -195,10 +199,6 @@
     {
       "basename": "Programming MOC",
       "path": "Atlas/Maps/Programming MOC.md"
-    },
-    {
-      "basename": "Data Structure and Algorithms MOC",
-      "path": "Atlas/Maps/Data Structure and Algorithms MOC.md"
     }
   ],
   "omittedPaths": [],
