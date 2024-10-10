@@ -2,7 +2,11 @@
   "recentFiles": [
     {
       "basename": "Cs Abstraction",
-      "path": "+/Cs Abstraction.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md"
+    },
+    {
+      "basename": "Abstraction",
+      "path": "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md"
     },
     {
       "basename": "CSharp MOC",
@@ -15,10 +19,6 @@
     {
       "basename": "Data Abstraction, Data Encapsulation, and Information Hiding",
       "path": "Atlas/Notes/Ideas/Programming/OOP/Data Abstraction, Data Encapsulation, and Information Hiding.md"
-    },
-    {
-      "basename": "Abstraction",
-      "path": "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md"
     },
     {
       "basename": "Cs Interface",
