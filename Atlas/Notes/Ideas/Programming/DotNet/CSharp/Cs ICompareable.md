@@ -41,5 +41,25 @@ class Employee : IComparable
 }
 
 // MAIN
+Employee[] employees =
+{
+    new Employee() {Id = 1, Name = "John", Salary = 10_000},
+    new Employee() {Id = 2, Name = "Mary", Salary = 30_000},
+    new Employee() {Id = 3, Name = "Peter", Salary = 20_000}
+};
+int result = employees[0].CompareTo(employees[1]);
+Console.WriteLine($"Expected result = -1, actual result = {result}");
 
+Console.WriteLine("==========");
+Console.WriteLine("Before sort:");
+foreach (Employee emp in employees)
+    Console.WriteLine(emp.Name + " " + emp.Salary);
+
+Array.Sort(employees);
+Console.WriteLine("==========");
+Console.WriteLine("After sort:");
+foreach (Employee emp in employees)
+    Console.WriteLine(emp.Name + " " + emp.Salary);
 ```
+
+- ولازم نعمله (إجبار)، ونمضي على العقد (Contract)

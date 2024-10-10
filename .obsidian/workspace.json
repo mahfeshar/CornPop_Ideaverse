@@ -142,10 +142,16 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":14},\"to\":{\"line\":50,\"ch\":14}},\"scroll\":34.5632}"
+                },
+                {
                   "title": "Cs Interface",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":436,\"ch\":11},\"to\":{\"line\":436,\"ch\":11}},\"scroll\":411.85}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
                 },
                 {
                   "title": "Cs ICloneable",
@@ -182,7 +188,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs ICompareable.md",
+                "file": "+/Cs Abstraction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -268,8 +274,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -295,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs ICompareable.md"
+                "file": "+/Cs Abstraction.md"
               }
             }
           },
@@ -421,7 +426,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs ICompareable.md",
+                "file": "+/Cs Abstraction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -444,7 +449,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.0534979423868673,
+                  "scale": 0.5359795996226119,
                   "close": true
                 }
               }
@@ -472,7 +477,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs ICompareable.md",
+                "file": "+/Cs Abstraction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -498,7 +503,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs ICompareable.md",
+                "file": "+/Cs Abstraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -519,7 +524,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs ICompareable.md"
+                "file": "+/Cs Abstraction.md"
               }
             }
           }
@@ -552,13 +557,18 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
+    "Atlas/Maps/CSharp MOC.md",
+    "+/Cs Abstraction.md",
+    "Atlas/Maps/OOP.md",
+    "Atlas/Notes/Ideas/Programming/OOP/Data Abstraction, Data Encapsulation, and Information Hiding.md",
+    "Atlas/Utilities/Images/Pasted image 20240218092537.png",
+    "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
-    "+/Cs ICompareable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICloneable.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
     "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
-    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md",
     "Atlas/Utilities/Images/Pasted image 20241007043103.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
@@ -577,17 +587,12 @@
     "+/Cs Struct.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md",
     "+/CSharp Value and Reference Types.md",
-    "+/CSharp Access Modifiers.md",
-    "Atlas/Maps/Library.md",
-    "+/المحاضرة الخامسة-دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20241004143106.png",
     "Atlas/Utilities/Images/Pasted image 20241004141919.png",
-    "+/دورة الإيمان.md",
     "Atlas/Utilities/Images/Overloading 1.jpg",
     "Atlas/Utilities/Images/Overloading.jpg",
     "Atlas/Utilities/Images/PolyMorphism.jpg",
     "Atlas/Utilities/Images/Pasted image 20240414194045.png",
-    "Atlas/Utilities/Images/Pasted image 20240322152816.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

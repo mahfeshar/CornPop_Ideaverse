@@ -42,15 +42,19 @@ tags:
 	- [[Cs Enums]]
 	- [[Cs Struct]]
 - [[Cs Constructor]]
-1. [[Cs Encapsulation]] 
-	- [[Cs Properties]]
-	- [[Cs Indexer]]
-2. [[Cs Inheritance]]
-3. [[Cs Polymorphism]]
+- OOP
+	1. [[Cs Encapsulation]] 
+		- [[Cs Properties]]
+		- [[Cs Indexer]]
+	2. [[Cs Inheritance]]
+	3. [[Cs Polymorphism]]
+	4. [[Cs Abstraction]]
 - Relationships between classes: [[Cs Inheritance]], [[Cs Aggregation]]
 - [[Cs Binding]]
 - Built-in Interfaces
 	- [[Cs ICloneable]]
+	- [[Cs ICompareable]]
+- 
 
 ---
 ## Resources

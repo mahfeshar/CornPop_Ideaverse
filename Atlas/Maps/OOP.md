@@ -23,6 +23,7 @@ tags:
 - [[Polymorphism]]
 
 فيه ناس بدأت تستخدم الحاجات دي غلط فطلع عندنا حاجة اسمها [[SOLID Principles]]
+فيه فرق كبير بين الـ [[Data Abstraction, Data Encapsulation, and Information Hiding]]
 # Why OOP?
 ## Primitively Data Types
 - أنواع البيانات البدائية: بتخزن Single simple value
