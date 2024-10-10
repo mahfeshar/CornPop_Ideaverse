@@ -55,6 +55,9 @@ Person P;
 //not Valid
 //Person P1 = new Person("Ahmed", "Ali");  
 ```
+
+![[Pasted image 20241011023730.png]]
+![[Pasted image 20241011023717.png]]
 ## Example
 ```cs
 abstract class GeoShape

@@ -12,6 +12,7 @@ tags:
 - [[VS Secrets]]
 - [[Cs Library vs Console App]]
 	- [[Consume dll]]
+- [[Code-first or Database-First]]
 ---
 - [[Cs Intro]]
 	- [[Cs Output]]

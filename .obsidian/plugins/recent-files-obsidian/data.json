@@ -5,6 +5,14 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md"
     },
     {
+      "basename": "CSharp MOC",
+      "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Code-first or Database-First",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md"
+    },
+    {
       "basename": "Cs Access Modifiers",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Abstraction",
       "path": "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md"
-    },
-    {
-      "basename": "CSharp MOC",
-      "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
       "basename": "OOP",
@@ -195,10 +199,6 @@
     {
       "basename": "المبادئ العشرة",
       "path": "Atlas/Notes/Ideas/البناء المنهجي/المبادئ العشرة.md"
-    },
-    {
-      "basename": "Binary Search",
-      "path": "Atlas/Notes/Ideas/Programming/Problem Solving/Binary Search.md"
     }
   ],
   "omittedPaths": [],
