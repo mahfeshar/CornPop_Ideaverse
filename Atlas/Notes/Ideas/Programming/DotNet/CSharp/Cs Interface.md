@@ -5,7 +5,7 @@ related:
 created: 2024-10-06
 ---
 ## What is Interfaces?
-- هو عبارة عن Code contract بين الـ Developer اللي كتبه والـ Developer اللي هيعمله Implementation 
+- هو عبارة عن Code contract بين الـ Developer اللي كتبه والـ Developer اللي هيعمله Implementation  ^e9bd02
 - Interface → prototype - code contract - no data in
 - If class follows an interface we must initialize all interface (methods, properties) in the class
 - بيتكتب جوا الـ [[Cs Namespace]] وقولنا الموضوع دا في [[Cs Access Modifiers#Inside Cs Namespace Namespace|Inside Namespace]] 
@@ -227,7 +227,7 @@ T1.MyFunc();
 T3.Print(); // OK -> Down casting from Interface to class
 ```
 ## Access modifiers
-![[Cs Access Modifiers#Inside Cs Interface Interface]]
+![[Cs Access Modifiers#Inside Cs Interface Interface]] ^917dd1
 
 ## Examples
 ### Example 1

@@ -26,9 +26,9 @@ Shape sh1;
 ## Abstract Class
 - وبما إن الـ Class فيها حاجة مش كاملة وهي الـ Method فبالتالي الـ Class نفسه مش كامل وبالتالي لازم أستخدمله كلمة Abstract
   ممكن يبقا الـ Class abstracted برضو وفيه كل حاجة كاملة عادي بس أنا عايز محدش يقدر يوصله 
-- مينفعش تعمل object من الـ Abstract class لأنه Not fully implemented (ناقص)
-- ممكن يبقا الـ Abstract class **عبارة عن Container code** لحاجات هتيجي في المستقبل أو بيبقا حاجة Standard لحاجة هتيجي بعد كدا
-  مثال: لو عندي نوعين Employee واحد Partial, Fully فالـ Employee الأب مش هحتاج أشوفه
+- مينفعش تعمل object من الـ Abstract class لأنه Not fully implemented (ناقص) ^0960ec
+- ممكن يبقا الـ Abstract class **عبارة عن Container code** لحاجات هتيجي في المستقبل أو بيبقا حاجة Standard لحاجة هتيجي بعد كدا (not fully implemented)
+  مثال: لو عندي نوعين Employee واحد Partial, Fully فالـ Employee الأب مش هحتاج أشوفه ^fafd73
 ```cs
 //class created to be base class for childs
 // can't intialize object from abstract class
@@ -109,3 +109,13 @@ class Square : RectBase
 ```
 
 ## Abstract Class vs Interface
+### Interface
+![[Cs Interface#^e9bd02]]
+![[Cs Access Modifiers#Inside Cs Interface Interface]]
+
+### Abstract Class
+![[Cs Abstraction#^fafd73]]
+![[Cs Access Modifiers#Inside Cs Class Class or Cs Struct Struct]]
+متاح أيضًا كمان حاجتين:
+1. Abstract method
+2. Abstract property

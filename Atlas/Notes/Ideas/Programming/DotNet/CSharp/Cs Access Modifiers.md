@@ -225,7 +225,7 @@ internal class TypeB : TypeA
 - الحل إنك تعملها public عشان تقدر توصلها في أي Project وأي Library مختلفة
 
 
-## Inside [[Cs Class|Class]] or [[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct|Struct]]
+## Inside [[Cs Class|Class]] or [[Cs Struct|Struct]]
 بنقدر نكتب جواهم:
 1. Attributes (Fields) -> Member Variables
 2. [[Cs Properties]] (Full Property, Automatic Property, Indexer -> Special)
