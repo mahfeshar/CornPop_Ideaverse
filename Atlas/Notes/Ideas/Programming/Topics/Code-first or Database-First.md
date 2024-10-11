@@ -14,3 +14,4 @@ created: 2024-08-02
 
 ## Database-First
 ![[Pasted image 20241011025423.png]]
+إني أعمل الـ Database الأول وأحولها أو أعملها Mapping عن طريق ORM عشان يحولي الـ Table لكود

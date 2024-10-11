@@ -42,6 +42,36 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Cs Class",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":192,\"ch\":22},\"to\":{\"line\":192,\"ch\":22}},\"scroll\":6}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":12},\"to\":{\"line\":39,\"ch\":12}},\"scroll\":28.848484848484848}"
+                },
+                {
+                  "title": "Cs Partial Class",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":74},\"to\":{\"line\":37,\"ch\":74}},\"scroll\":6}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":10},\"to\":{\"line\":61,\"ch\":10}},\"scroll\":49.87594696969697}"
+                },
+                {
+                  "title": "Cs Partial Class",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -178,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -264,7 +294,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -290,7 +321,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md"
               }
             }
           },
@@ -309,7 +340,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"overloading\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -416,7 +447,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -467,7 +498,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -493,7 +524,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -514,7 +545,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md"
               }
             }
           }
@@ -522,7 +553,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -547,20 +579,22 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md",
+    "Atlas/Utilities/Images/Pasted image 20241011063204.png",
+    "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
     "cshra",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Type Casting.md",
@@ -577,13 +611,10 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICloneable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
-    "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md",
     "Atlas/Utilities/Images/Pasted image 20241007043103.png",
     "Atlas/Utilities/Images/Pasted image 20241006233933.png",
     "Atlas/Utilities/Images/Pasted image 20241006105225.png",
     "Atlas/Utilities/Images/Pasted image 20241004143106.png",
-    "Atlas/Utilities/Images/Pasted image 20241004141919.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

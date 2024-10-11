@@ -186,3 +186,9 @@ class Program
 ## Constructor
 - we talked about [[Cs Constructor]] before.
 - We can make more than one constructor.
+## Class Types
+1. Concrete Class (Regular Class)
+2. [[Cs Abstraction#Abstract Class|Abstract Class]]: Not fully implemented
+3. [[Cs Static|Static Class]]: بنستخدم من الكلاس مباشر مش لازم أعمل أوبجيكت
+4. [[Cs Sealed|Sealed Class]]: لو مش عايز حاجة بعد كدا تورث مني
+5. [[Cs Partial Class|Partial Class]]: لو أكتر من حد شغال على نفس الكلاس وحابب تقسمه على كذا فايل
