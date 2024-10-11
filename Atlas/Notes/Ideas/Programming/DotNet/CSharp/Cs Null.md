@@ -21,7 +21,7 @@ Y = null;
 
 ---
 ### Syntax Sugar
-هو عبارة عن syntax sugar لـ[[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct]] اسمه Nullable 
+هو عبارة عن syntax sugar لـ[[Cs Struct]] اسمه Nullable 
 ```cs
 int? x = 5; // Nullable<int>
 x = null;
