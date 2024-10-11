@@ -58,6 +58,8 @@ tags:
 - [[Cs Operator Overloading]]
 	- [[Cs Casting Operator]]
 - [[Cs Static]]
+- [[Cs Sealed]]
+- [[Cs Partial Class]]
 
 ---
 ## Resources

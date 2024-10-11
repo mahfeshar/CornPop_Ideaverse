@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Static",
-      "path": "+/Cs Static.md"
-    },
-    {
-      "basename": "Cs Operator Overloading",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
+      "basename": "Cs Partial Class",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Sealed",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md"
+    },
+    {
+      "basename": "Cs Static",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md"
+    },
+    {
+      "basename": "Cs Operator Overloading",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
     },
     {
       "basename": "Cs Class",
@@ -191,14 +199,6 @@
     {
       "basename": "Cs Variables",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Variables.md"
-    },
-    {
-      "basename": "Cs Data Types",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Data Types.md"
-    },
-    {
-      "basename": "Cs Properties",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Properties.md"
     }
   ],
   "omittedPaths": [],
