@@ -37,7 +37,7 @@ public string this [int Index]
 // Note["Corn"] = 012875424123 // We can use object like this
 ```
 - اقدر من خلالها اعمل **overloading** اني أستخدم أكتر من واحدة لنفس ال object باختلاف ال parameters اللي داخله او باختلاف عددهم
-
+ ^bb0e19
 - مثال على ال indexer **هو الـ strings**: هو عبارة عن class فالأساس بس بقدر أستخدمه كـ Array
 
 ```cs

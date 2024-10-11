@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Cs Operator Overloading",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
+    },
+    {
+      "basename": "CSharp MOC",
+      "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
       "basename": "Cs Casting Operator",
-      "path": "+/Cs Casting Operator.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md"
+    },
+    {
+      "basename": "Cs Polymorphism",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md"
+    },
+    {
+      "basename": "Cs Indexer",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
     },
     {
       "basename": "Code-first or Database-First",
@@ -11,10 +27,6 @@
     {
       "basename": "Cs Binding",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md"
-    },
-    {
-      "basename": "CSharp MOC",
-      "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
       "basename": "Cs Arrays",
@@ -117,16 +129,8 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
     },
     {
-      "basename": "Cs Polymorphism",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md"
-    },
-    {
       "basename": "Polymorphism",
       "path": "+/Polymorphism.md"
-    },
-    {
-      "basename": "Cs Indexer",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
     },
     {
       "basename": "Back-end MOC",

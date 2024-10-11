@@ -9,11 +9,12 @@ created: 2024-09-28
 
 ## Overloading
 - مش محتاج أي حاجة قبلها مطلوبة أو كدا
--  شغالة مع الـ [[Cs Class]] و [[Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct]]
+-  شغالة مع الـ [[Cs Class]] و [[Cs Struct]]
 - هو خمس أشكال: 
   (Constructor - Indexer - Method - Operator - Casting operator)
-- اتكلمنا عن الـ Constructor overloading في [[Cs Constructor]]
-- اتكلمنا عن الـ Indexer Overloading في [[Cs Indexer]]
+- اتكلمنا عن الـ Constructor overloading في [[Cs Constructor#Constructor Overloading|Constructor Overloading]]
+- اتكلمنا عن الـ Indexer Overloading في [[Cs Indexer#^bb0e19|Indexer Overloading]]
+- اتكلمنا عن الـ [[Cs Operator Overloading]]
 
 ### Method Overloading
 ودي بكل بساطة إن بيبقا عندي أكتر من [[Cs Function]] ليهم نفس الإسم بس مختلفين في:

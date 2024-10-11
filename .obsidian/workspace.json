@@ -135,17 +135,41 @@
             "id": "7e565a64184e3c69",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Code-first or Database-First",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":14},\"to\":{\"line\":57,\"ch\":14}},\"scroll\":51.96685606060606}"
+                },
+                {
+                  "title": "Cs Operator Overloading",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Cs Polymorphism",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":35},\"to\":{\"line\":16,\"ch\":35}},\"scroll\":6}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":12},\"to\":{\"line\":60,\"ch\":12}},\"scroll\":46.391098484848484}"
+                },
+                {
+                  "title": "Cs Casting Operator",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -230,7 +254,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs Casting Operator.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -342,7 +366,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Casting Operator.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
               }
             }
           },
@@ -361,7 +385,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"casting\"",
+                "query": "\"overloading\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -468,7 +492,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs Casting Operator.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -519,7 +543,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs Casting Operator.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -545,7 +569,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs Casting Operator.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -566,7 +590,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Casting Operator.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
               }
             }
           }
@@ -599,10 +623,13 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
-    "+/Cs Casting Operator.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Type Casting.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
@@ -629,8 +656,6 @@
     "Home.md",
     "Atlas/Utilities/Images/Pasted image 20241006105225.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs StringBuilder.md",
-    "+/CSharp Event.md",
     "Atlas/Utilities/Images/Pasted image 20241004143106.png",
     "Atlas/Utilities/Images/Pasted image 20241004141919.png",
     "Atlas/Utilities/Images/Overloading 1.jpg",
