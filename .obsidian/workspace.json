@@ -214,9 +214,95 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f7ea1c1ec608af13",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "دورة الإيمان",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/دورة الإيمان.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":25},\"to\":{\"line\":0,\"ch\":25}}}"
+                },
+                {
+                  "title": "Library",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/المحاضرة الأولى-دورة الإيمان.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2217e1947e8aea5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "التحرير - الجن",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/التحرير - الجن.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":15},\"to\":{\"line\":6,\"ch\":15}}}"
+                },
+                {
+                  "title": "التحرير - الجن - الآية 24",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/التحرير الجن - الآية 24.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":16},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "التحرير - الجن",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/التحرير - الجن.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":23},\"to\":{\"line\":6,\"ch\":23}}}"
+                },
+                {
+                  "title": "التحرير والتنوير - ابن عاشور",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/التحرير والتنوير - ابن عاشور.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":14},\"to\":{\"line\":5,\"ch\":14}},\"scroll\":0}"
+                },
+                {
+                  "title": "Library",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":11},\"to\":{\"line\":24,\"ch\":11}},\"scroll\":8}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/التحرير الجن - الآية 24.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -321,7 +407,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md"
+                "file": "+/التحرير الجن - الآية 24.md"
               }
             }
           },
@@ -447,7 +533,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
+                "file": "+/التحرير الجن - الآية 24.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -498,7 +584,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
+                "file": "+/التحرير الجن - الآية 24.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -524,7 +610,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
+                "file": "+/التحرير الجن - الآية 24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -545,7 +631,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md"
+                "file": "+/التحرير الجن - الآية 24.md"
               }
             }
           }
@@ -577,8 +663,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e565a64184e3c69",
+  "active": "f2217e1947e8aea5",
   "lastOpenFiles": [
+    "+/التحرير - الجن.md",
+    "+/التحرير الجن - الآية 24.md",
+    "+/التحرير الجن - الآية 24.md",
+    "+/سورة الجن - الآية 24.md",
+    "+/التحرير والتنوير - ابن عاشور.md",
+    "Atlas/Maps/Library.md",
+    "Atlas/Maps/القرآن الكريم.md",
+    "+/72. الجن.md",
+    "Home.md",
+    "+/المحاضرة الأولى-دورة الإيمان.md",
+    "+/دورة الإيمان.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
     "Atlas/Maps/CSharp MOC.md",
@@ -586,7 +684,6 @@
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
@@ -597,20 +694,10 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Type Casting.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
     "Atlas/Utilities/Images/Pasted image 20241011025423.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md",
     "Atlas/Utilities/Images/Pasted image 20241011023730.png",
     "Atlas/Utilities/Images/Pasted image 20241011023717.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
-    "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md",
-    "Atlas/Maps/OOP.md",
-    "Atlas/Notes/Ideas/Programming/OOP/Data Abstraction, Data Encapsulation, and Information Hiding.md",
     "Atlas/Utilities/Images/Pasted image 20240218092537.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICloneable.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
     "Atlas/Utilities/Images/Pasted image 20241007043103.png",
     "Atlas/Utilities/Images/Pasted image 20241006233933.png",
     "Atlas/Utilities/Images/Pasted image 20241006105225.png",

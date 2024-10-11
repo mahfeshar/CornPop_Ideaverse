@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "التحرير الجن - الآية 24",
+      "path": "+/التحرير الجن - الآية 24.md"
+    },
+    {
+      "basename": "التحرير - الجن",
+      "path": "+/التحرير - الجن.md"
+    },
+    {
+      "basename": "سورة الجن - الآية 24",
+      "path": "+/سورة الجن - الآية 24.md"
+    },
+    {
+      "basename": "التحرير والتنوير - ابن عاشور",
+      "path": "+/التحرير والتنوير - ابن عاشور.md"
+    },
+    {
+      "basename": "Library",
+      "path": "Atlas/Maps/Library.md"
+    },
+    {
+      "basename": "القرآن الكريم",
+      "path": "Atlas/Maps/القرآن الكريم.md"
+    },
+    {
+      "basename": "72. الجن",
+      "path": "+/72. الجن.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "المحاضرة الأولى-دورة الإيمان",
+      "path": "+/المحاضرة الأولى-دورة الإيمان.md"
+    },
+    {
+      "basename": "دورة الإيمان",
+      "path": "+/دورة الإيمان.md"
+    },
+    {
       "basename": "Cs Sealed",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md"
     },
@@ -121,10 +161,6 @@
       "path": "+/Obsidian Callouts.md"
     },
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "Cs StringBuilder",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs StringBuilder.md"
     },
@@ -135,10 +171,6 @@
     {
       "basename": "المحاضرة الخامسة-دورة الإيمان",
       "path": "+/المحاضرة الخامسة-دورة الإيمان.md"
-    },
-    {
-      "basename": "دورة الإيمان",
-      "path": "+/دورة الإيمان.md"
     },
     {
       "basename": "المحاضرة الرابعة-دورة الإيمان",
@@ -163,42 +195,6 @@
     {
       "basename": "Cs Inheritance",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md"
-    },
-    {
-      "basename": "Library",
-      "path": "Atlas/Maps/Library.md"
-    },
-    {
-      "basename": "Inheritance",
-      "path": "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md"
-    },
-    {
-      "basename": "SOLID Principles",
-      "path": "+/SOLID Principles.md"
-    },
-    {
-      "basename": "Cs Encapsulation",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Encapsulation.md"
-    },
-    {
-      "basename": "Encapsulation",
-      "path": "Atlas/Notes/Ideas/Programming/OOP/Encapsulation.md"
-    },
-    {
-      "basename": "DotNet",
-      "path": "Atlas/Maps/DotNet.md"
-    },
-    {
-      "basename": "Cs System.Object",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md"
-    },
-    {
-      "basename": "Cs Boxing and Unboxing",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md"
-    },
-    {
-      "basename": "Cs Variables",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Variables.md"
     }
   ],
   "omittedPaths": [],
