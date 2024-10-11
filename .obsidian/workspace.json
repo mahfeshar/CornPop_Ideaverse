@@ -135,8 +135,14 @@
             "id": "7e565a64184e3c69",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Code-first or Database-First",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -145,7 +151,43 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":15},\"to\":{\"line\":51,\"ch\":15}},\"scroll\":43.81534090909091}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":26},\"to\":{\"line\":57,\"ch\":26}},\"scroll\":37.30018939393939}"
+                },
+                {
+                  "title": "Cs Arrays",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":100,\"ch\":122},\"to\":{\"line\":100,\"ch\":122}},\"scroll\":6}"
+                },
+                {
+                  "title": "Cs Interface",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":226,\"ch\":26},\"to\":{\"line\":226,\"ch\":26}},\"scroll\":215.26904761904763}"
+                },
+                {
+                  "title": "Cs Arrays",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":48},\"to\":{\"line\":76,\"ch\":48}},\"scroll\":62.39791666666667}"
+                },
+                {
+                  "title": "Cs Interface",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":134,\"ch\":13},\"to\":{\"line\":134,\"ch\":13}},\"scroll\":165.19495412844037}"
+                },
+                {
+                  "title": "Code-first or Database-First",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":36},\"to\":{\"line\":15,\"ch\":36}},\"scroll\":8.8234375}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":23},\"to\":{\"line\":14,\"ch\":23}},\"scroll\":8}"
                 },
                 {
                   "title": "Cs Interface",
@@ -188,7 +230,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md",
+                "file": "+/Cs Casting Operator.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -300,7 +342,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md"
+                "file": "+/Cs Casting Operator.md"
               }
             }
           },
@@ -319,7 +361,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Shallow\"",
+                "query": "\"casting\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -426,7 +468,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md",
+                "file": "+/Cs Casting Operator.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -477,7 +519,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md",
+                "file": "+/Cs Casting Operator.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -503,7 +545,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md",
+                "file": "+/Cs Casting Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -524,7 +566,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md"
+                "file": "+/Cs Casting Operator.md"
               }
             }
           }
@@ -557,13 +599,18 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
+    "+/Cs Casting Operator.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
+    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Type Casting.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+    "Atlas/Utilities/Images/Pasted image 20241011025423.png",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md",
     "Atlas/Utilities/Images/Pasted image 20241011023730.png",
     "Atlas/Utilities/Images/Pasted image 20241011023717.png",
-    "Atlas/Maps/CSharp MOC.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
     "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md",
     "Atlas/Maps/OOP.md",
     "Atlas/Notes/Ideas/Programming/OOP/Data Abstraction, Data Encapsulation, and Information Hiding.md",
@@ -572,12 +619,10 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md",
     "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md",
     "Atlas/Utilities/Images/Pasted image 20241007043103.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Notes/Ideas/Programming/Python/Py Shallow and Deep copy.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
     "+/Obsidian Callouts.md",
     "Atlas/Utilities/Images/Pasted image 20241006233933.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
@@ -586,13 +631,9 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs StringBuilder.md",
     "+/CSharp Event.md",
-    "+/CSharp Interface.md",
-    "+/Cs Struct.md",
     "Atlas/Utilities/Images/Pasted image 20241004143106.png",
     "Atlas/Utilities/Images/Pasted image 20241004141919.png",
     "Atlas/Utilities/Images/Overloading 1.jpg",
-    "Atlas/Utilities/Images/Overloading.jpg",
-    "Atlas/Utilities/Images/PolyMorphism.jpg",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",
