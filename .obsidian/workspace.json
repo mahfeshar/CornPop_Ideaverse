@@ -142,10 +142,16 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":9},\"to\":{\"line\":39,\"ch\":9}},\"scroll\":34.46666666666667}"
+                },
+                {
                   "title": "Cs Operator Overloading",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":91,\"ch\":31},\"to\":{\"line\":91,\"ch\":31}},\"scroll\":80.50198412698413}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":91,\"ch\":31},\"to\":{\"line\":91,\"ch\":31}},\"scroll\":6}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -272,7 +278,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -385,7 +391,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
               }
             }
           },
@@ -511,7 +517,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -562,7 +568,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -588,7 +594,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -609,7 +615,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
               }
             }
           }
@@ -642,8 +648,9 @@
   },
   "active": "7e565a64184e3c69",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
     "Atlas/Maps/CSharp MOC.md",
+    "+/Cs Static.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md",
@@ -673,7 +680,6 @@
     "Atlas/Notes/Ideas/Programming/Python/Py Shallow and Deep copy.md",
     "+/Obsidian Callouts.md",
     "Atlas/Utilities/Images/Pasted image 20241006233933.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
     "Atlas/Utilities/Images/Pasted image 20241006105225.png",
     "Atlas/Utilities/Images/Pasted image 20241004143106.png",
     "Atlas/Utilities/Images/Pasted image 20241004141919.png",

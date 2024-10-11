@@ -57,6 +57,7 @@ tags:
 	- [[Cs ICompareable]]
 - [[Cs Operator Overloading]]
 	- [[Cs Casting Operator]]
+- [[Cs Static]]
 
 ---
 ## Resources

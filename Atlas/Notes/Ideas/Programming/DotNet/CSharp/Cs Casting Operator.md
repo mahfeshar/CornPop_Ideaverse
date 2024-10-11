@@ -8,7 +8,7 @@ created: 2024-10-11
 - اتكلمنا قبل كدا عن الـ [[Cs Type Casting]] وقولنا نبذه عنه برضو في الـ [[Cs Binding#Not Binding]]
 
 
-## Manual Mapping
+## Manual Mapping (Build-in Casting Operator)
 احنا اتكلمنا عن الـ [[Code-first or Database-First#Code-First|code-first]]
 - بنبني أول حاجة الـ class بتاعي عادي
 - دا الـ Model وهنا الـ Class بيمثل Table في الـ Database
