@@ -4,72 +4,81 @@ up:
 related: 
 created: 2024-10-12
 ---
-## Events in C#
+## الأحداث (Events) في C#
 
-تعتبر من المفاهيم المهمة جدًا، وخصوصًا لو كنت شغال على تطبيقات متقدمة. 
+تعتبر الأحداث من المفاهيم الأساسية في البرمجة بلغة C#، وخصوصًا في تطوير التطبيقات المتقدمة.
 
-### What's Event?
-
-الـ Events هي عبارة عن إشعارات أو تنبيهات بتظهر لما يحصل حاجة مهمة في البرنامج. بمعنى تاني، لو حصل حدث معين في الكود، النظام هيبلغك عشان تقدر تتفاعل معاه. 
-مثلاً، لو محفظتك اتسرقت، تقدر تقول "يا جماعة، أنا اتسرقت" كنوع من الإشعار.
-وبناءًا عليها أي حد مهتم بالحدث دا بيتصرف على أساسه
+### What is Event?
+الـ Events هي إشعارات أو تنبيهات تحدث عندما يحدث شيء مهم في البرنامج. 
+بمعنى آخر، عندما يحصل حدث معين في الكود، يتم إعلام النظام بذلك ليتمكن من التفاعل مع هذا الحدث. 
+على سبيل المثال، إذا تمت سرقة محفظتك، يمكنك أن تقول: "يا جماعة، أنا اتسرقت"، وهذا بمثابة إشعار. 
+وبناءً عليه، أي شخص مهتم بهذا الحدث يمكنه اتخاذ إجراء بناءً على المعلومات المتاحة.
 
 ### Delegates
-اتكلمنا عنه قبل كدا [[Cs Delegates]]
-هنا هنستخدمه عشان نحدد الحاجة اللي هتتنفذ لما الـ Event يحصل
 
-### [[Single Responsibility Principle]]
-مبدأ المسؤولية الواحدة يعني إن كل كلاس (Class) في الكود لازم يكون عنده سبب واحد بس عشان يتعدل. 
-يعني، مثلاً، لو عندك كلاس خاص بحساب الرواتب، مهمته الوحيدة تكون حساب الرواتب، مش إنه يبعت إيميلات أو يسجل لوجات.
+المندوبين هو نوع من أنواع الكود يُستخدم لتحديد الوظائف التي ستُنفذ عندما يحدث الحدث. يوفر المندوب وسيلة مرنة للإشارة إلى دالة معينة أو أكثر، مما يسهل التعامل مع الأحداث.
 
-```cs
-public void CalculateSalaries(List<Emploee> employees, ShouldCalculate predicate)
+### مبدأ المسؤولية الواحدة (Single Responsibility Principle)
+
+مبدأ المسؤولية الواحدة ينص على أن كل كلاس (Class) يجب أن يكون لديه سبب واحد فقط للتعديل. على سبيل المثال، إذا كان لديك كلاس مسؤول عن حساب الرواتب، فإن مهمته الوحيدة يجب أن تكون حساب الرواتب، وليس إرسال إيميلات أو تسجيل معلومات في السجلات. يمكننا استخدام الأحداث لتفويض هذه المسؤوليات.
+
+```csharp
+public void CalculateSalaries(List<Employee> employees, Func<Employee, bool> predicate)
 {
-	foreach(var employee in employees)
-	{
-		if (predocate(employee))
-		{
-			var salary = employee.BasicSalary + employee.Bonus - employee.Deductions;
-			// Send Email
-			// Send SMS
-			// We can't make log or smth like that
-			// only one responsible
-			// But we can make event
-		}
-	}
+    foreach (var employee in employees)
+    {
+        if (predicate(employee))
+        {
+            var salary = employee.BasicSalary + employee.Bonus - employee.Deductions;
+            // هنا يجب ألا نقوم بعمليات أخرى مثل إرسال إيميل أو تسجيل لوج
+            // بل يمكننا استخدام الأحداث
+        }
+    }
 }
 ```
-### Declare Event
 
-لما تحب تعرف حدث في الكود، بتعمله بالشكل التالي:
+### كيفية تعريف الحدث
 
-1. **إنشاء حدث**: لازم تحدد اسم الحدث ونوع البيانات اللي هيتبعت معاه.
-2. **تعريف الـ Event Handler**: ده الكود اللي هيتنفذ لما الحدث يحصل.
+عند تعريف حدث في الكود، هناك خطوات معينة يجب اتباعها:
 
-```cs
-// Event Handler (Deleget)
+1. **إنشاء حدث**: يجب تحديد اسم الحدث ونوع البيانات التي سيتم تمريرها مع الحدث.
+2. **تعريف الـ Event Handler**: هو الكود الذي سيتم تنفيذه عندما يحدث الحدث.
+
+```csharp
+// تعريف المندوب (Delegate)
 public delegate void NameEventHandler(int para1, int para2);
 
-// Event
+// تعريف الحدث
 public event NameEventHandler NameEvent;
 
-// Invoke (Fire)
-NameEvent(para1, para2);
-// OR
+// استدعاء (Trigger) الحدث
+NameEvent(para1, para2); // أو
 NameEvent.Invoke(para1, para2);
-// We should handel if deleget not pointing to any method
-if (NameEvent is not null)
-{
-	NameEvent.Invoke(para1, para2);
-}
-// OR
-NameEvent?.Invoke(para1, para2)
-```
-- الـ Event: هو إشعار أو تنبية
-- الـ Event handler: الكود اللي بيسمع ويستنى الإيفينت يدي الإشعار عشان **ينفذ حاجة**
-- الـ Trigger  (Raise - Fire) Event: عملية الإشعار نفسها
 
-مثال على ذلك:
+// تحقق مما إذا كان المندوب غير موجه إلى أي دالة
+if (NameEvent != null)
+{
+    NameEvent.Invoke(para1, para2);
+}
+
+// أو استخدام Null Propagation
+NameEvent?.Invoke(para1, para2);
+```
+
+### عناصر الحدث
+
+- **الحدث (Event)**: هو الإشعار أو التنبيه.
+- **معالج الحدث (Event Handler)**: هو الكود الذي ينتظر الحدث ليتم تنفيذه.
+- **استدعاء الحدث (Trigger)**: هو عملية الإشعار نفسها.
+
+### مثال كامل على الأحداث
+
+لنأخذ مثالًا كاملًا يوضح كيفية استخدام الأحداث في تطبيق حساب الرواتب:
+
+#### 1. تعريف الحدث
+
+سنبدأ بتعريف حدث خاص بحساب الراتب.
+
 ```csharp
 public class SalaryCalculator
 {
@@ -81,7 +90,7 @@ public class SalaryCalculator
         // حساب الراتب
         decimal salary = employee.BaseSalary + employee.Bonus;
         
-        // إشعار إن الراتب اتحسب
+        // إشعار بأن الراتب قد تم حسابه
         OnSalaryCalculated(employee, salary);
     }
 
@@ -91,26 +100,58 @@ public class SalaryCalculator
     }
 }
 ```
-استخدمنا الـ [[Cs Null#Null Propagation (Conditional) Operator|Null Propagation]]
-### كيف نتعامل مع الأحداث
 
-عند التعامل مع الأحداث، بنستخدم حاجة اسمها "Event Handlers". 
-الـ Event Handler هو الوظيفة اللي هتشتغل لما الحدث يحصل. 
-مثلاً، ممكن يكون عندك Event Handler بيبعت إيميل للموظف بعد حساب راتبه.
+#### 2. تعريف بيانات الحدث
 
-#### مثال على الـ Event Handler:
+```csharp
+public class SalaryEventArgs : EventArgs
+{
+    public Employee Employee { get; }
+    public decimal Salary { get; }
+
+    public SalaryEventArgs(Employee employee, decimal salary)
+    {
+        Employee = employee;
+        Salary = salary;
+    }
+}
+```
+
+#### 3. تعريف Event Handler
 
 ```csharp
 public void OnSalaryCalculated(object sender, SalaryEventArgs e)
 {
-    Console.WriteLine($"راتب {e.Employee.Name} اتحسب، والراتب هو {e.Salary}");
+    Console.WriteLine($"راتب {e.Employee.Name} تم حسابه، والراتب هو {e.Salary}");
 }
 ```
 
-### أهمية الأحداث
+#### 4. الاستخدام في البرنامج الرئيسي
 
-الأحداث بتساعدنا في فصل الكود بطريقة أفضل، لأن الكلاسات تركز على مهامها المحددة فقط. لو عايز تضيف سلوك جديد، كل اللي عليك تعمله هو إضافة Event Handler جديد بدل ما تعدل في الكود الأساسي.
+الآن سنجمع كل شيء معًا في البرنامج الرئيسي.
 
-### خلاصة
+```csharp
+class Program
+{
+    static void Main(string[] args)
+    {
+        SalaryCalculator calculator = new SalaryCalculator();
+        calculator.SalaryCalculated += OnSalaryCalculated; // الاشتراك في الحدث
 
-الأحداث في C# هي وسيلة قوية للتفاعل مع الأحداث المهمة في التطبيق. بفهمك لمفهوم المندوبين ومبدأ المسؤولية الواحدة، هتقدر تنشئ أحداث تتفاعل مع وظائف متعددة، وتضيف سلوكيات جديدة بشكل بسيط وسهل. لو عندك أي أسئلة أو محتاج تفاصيل أكتر، ما تترددش في السؤال!
+        // إنشاء موظف وهمي
+        Employee employee = new Employee { Name = "أحمد", BaseSalary = 1000, Bonus = 200 };
+
+        // حساب الراتب
+        calculator.CalculateSalary(employee);
+    }
+
+    public static void OnSalaryCalculated(object sender, SalaryEventArgs e)
+    {
+        Console.WriteLine($"راتب {e.Employee.Name} تم حسابه، والراتب هو {e.Salary}");
+    }
+}
+```
+
+### الخلاصة
+
+الأحداث تعتبر أداة قوية جدًا لتنظيم الكود وتحسين أدائه في تطبيقات C#. عن طريق استخدام الأحداث، يمكنك تفويض المسؤوليات بوضوح، مما يسهل عليك إدارة وتطوير تطبيقاتك بشكل أكثر كفاءة.
