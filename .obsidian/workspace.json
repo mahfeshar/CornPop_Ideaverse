@@ -45,7 +45,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":11},\"to\":{\"line\":64,\"ch\":11}},\"scroll\":58.51231060606061}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":17},\"to\":{\"line\":65,\"ch\":17}},\"scroll\":61.84564393939394}"
                 },
                 {
                   "title": "Library",
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs Extension Methods.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -144,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Extension Methods.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md"
               }
             }
           },
@@ -297,7 +296,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs Extension Methods.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -348,7 +347,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs Extension Methods.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -374,7 +373,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs Extension Methods.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -395,7 +394,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Extension Methods.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md"
               }
             }
           }
@@ -403,8 +402,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -430,7 +428,13 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
-    "+/Cs Extension Methods.md",
+    "+/Cs Pass parameters.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+    "Atlas/Utilities/Images/Pasted image 20240318120750.png",
+    "Atlas/Utilities/Images/Pasted image 20240318115829.png",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
+    "Atlas/Utilities/Images/Pasted image 20241012091519.png",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
     "Atlas/Maps/Library.md",
     "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
@@ -443,7 +447,6 @@
     "+/المحاضرة الأولى-دورة الإيمان.md",
     "+/دورة الإيمان.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
@@ -455,17 +458,11 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Binding.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Utilities/Images/Pasted image 20241011025423.png",
     "Atlas/Utilities/Images/Pasted image 20241011023730.png",
     "Atlas/Utilities/Images/Pasted image 20241011023717.png",
     "Atlas/Utilities/Images/Pasted image 20240218092537.png",
     "Atlas/Utilities/Images/Pasted image 20241007043103.png",
-    "Atlas/Utilities/Images/Pasted image 20241006233933.png",
-    "Atlas/Utilities/Images/Pasted image 20241006105225.png",
-    "Atlas/Utilities/Images/Pasted image 20241004143106.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

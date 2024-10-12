@@ -2,11 +2,23 @@
   "recentFiles": [
     {
       "basename": "Cs Extension Methods",
-      "path": "+/Cs Extension Methods.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Pass parameters",
+      "path": "+/Cs Pass parameters.md"
+    },
+    {
+      "basename": "Cs Value and Reference Types",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
+    },
+    {
+      "basename": "Cs Static",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md"
     },
     {
       "basename": "Library",
@@ -55,10 +67,6 @@
     {
       "basename": "Cs Class",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
-    },
-    {
-      "basename": "Cs Static",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md"
     },
     {
       "basename": "Cs Partial Class",
@@ -153,10 +161,6 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md"
     },
     {
-      "basename": "Cs Value and Reference Types",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
-    },
-    {
       "basename": "Py Shallow and Deep copy",
       "path": "Atlas/Notes/Ideas/Programming/Python/Py Shallow and Deep copy.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Cs Aggregation",
       "path": "+/Cs Aggregation.md"
-    },
-    {
-      "basename": "Cs Inheritance",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Inheritance.md"
     }
   ],
   "omittedPaths": [],

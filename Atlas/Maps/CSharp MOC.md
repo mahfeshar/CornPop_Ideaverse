@@ -21,6 +21,7 @@ tags:
 - [[Cs Data Types]]
 	- [[Cs Value and Reference Types]]
 		- [[Cs String]]
+	- [[Cs Pass parameters]]
 	- [[Cs Variables]]
 	- [[Cs Operators]]
 	- [[Cs Type Casting]]
