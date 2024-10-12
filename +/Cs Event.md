@@ -94,7 +94,9 @@ public class SalaryCalculator
 استخدمنا الـ [[Cs Null#Null Propagation (Conditional) Operator|Null Propagation]]
 ### كيف نتعامل مع الأحداث
 
-عند التعامل مع الأحداث، بنستخدم حاجة اسمها "Event Handlers". الـ Event Handler هو الوظيفة اللي هتشتغل لما الحدث يحصل. مثلاً، ممكن يكون عندك Event Handler بيبعت إيميل للموظف بعد حساب راتبه.
+عند التعامل مع الأحداث، بنستخدم حاجة اسمها "Event Handlers". 
+الـ Event Handler هو الوظيفة اللي هتشتغل لما الحدث يحصل. 
+مثلاً، ممكن يكون عندك Event Handler بيبعت إيميل للموظف بعد حساب راتبه.
 
 #### مثال على الـ Event Handler:
 
