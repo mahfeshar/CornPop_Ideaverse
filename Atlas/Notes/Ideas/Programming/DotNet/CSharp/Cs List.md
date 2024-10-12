@@ -6,7 +6,7 @@ created: 2024-07-15
 ---
 - هي زي ال Array بس الفرق انها Dynamic size نفس فكرة ال [[Array#Dynamic Arrays|Dynamic Arrays]]
 - هي عبارة عن [[Generic Type]] عشان كدا بنستخدم معاها `<new List <int`
-	- لما تيجي تتعامل مع ال generic type لازم تحد ال generic parameter اللي بتبقا بينangle brackets `<>`
+	- لما تيجي تتعامل مع ال generic type لازم تحدد ال generic parameter اللي بتبقا بينangle brackets `<>`
 - تقدر تعمل list من أي  نوع زي ال char او string أو حتى أي non primitive types زي ال classes
 
 ## Syntax
@@ -27,7 +27,7 @@ var numbers = new List<int>() {1, 2, 3, 4};
 
 > [!globe] Tip
 > - لما تيجي تحاول تستخدم ال `AddRange` هيقولك انه بياخد `IEnumerable`
-> - لازم تعرف ان أي كلمة بادئة بحرف`I` هي عبارة عن [[Interface]] 
+> - لازم تعرف ان أي كلمة بادئة بحرف`I` هي عبارة عن [[Cs Interface]] 
 > - بس لحد دلوقتي لما تلاقي الكلمة دي اعرف انه يقصد انك تدخل Array أو List
 
 

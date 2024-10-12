@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "CSharp MOC",
+      "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs List",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md"
+    },
+    {
       "basename": "Cs Event",
-      "path": "+/Cs Event.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Event.md"
     },
     {
       "basename": "Cs Null",
@@ -11,10 +19,6 @@
     {
       "basename": "Single Responsibility Principle",
       "path": "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md"
-    },
-    {
-      "basename": "CSharp MOC",
-      "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
       "basename": "Cs Delegates",
@@ -109,10 +113,6 @@
       "path": "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md"
     },
     {
-      "basename": "Cs List",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md"
-    },
-    {
       "basename": "Cs Operator Overloading",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "Cs StringBuilder",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs StringBuilder.md"
-    },
-    {
-      "basename": "Cs Struct",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
     }
   ],
   "omittedPaths": [],

@@ -35,23 +35,23 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 2,
               "stack": [
                 {
-                  "title": "Cs Null",
+                  "title": "Cs List",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":72,\"ch\":9},\"to\":{\"line\":72,\"ch\":9}},\"scroll\":65.13188073394495}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":47},\"to\":{\"line\":8,\"ch\":47}},\"scroll\":18.765071902654867}"
+                },
+                {
+                  "title": "Interface",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":9},\"to\":{\"line\":68,\"ch\":9}},\"scroll\":61.84564393939394}"
                 },
                 {
                   "title": "Library",
@@ -64,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs Event.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -176,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Event.md"
+                "file": "Atlas/Maps/CSharp MOC.md"
               }
             }
           },
@@ -302,7 +303,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs Event.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -353,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs Event.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -379,7 +380,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs Event.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -400,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Event.md"
+                "file": "Atlas/Maps/CSharp MOC.md"
               }
             }
           }
@@ -433,10 +434,12 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
-    "+/Cs Event.md",
-    "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
+    "+/Interface.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Event.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
+    "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Delegates.md",
     "Atlas/Notes/Ideas/Programming/Topics/Recursion.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Pass parameters.md",
@@ -461,8 +464,6 @@
     "+/72. الجن.md",
     "+/المحاضرة الأولى-دورة الإيمان.md",
     "+/دورة الإيمان.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
