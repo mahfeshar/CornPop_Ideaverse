@@ -45,7 +45,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":17},\"to\":{\"line\":65,\"ch\":17}},\"scroll\":61.84564393939394}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":8},\"to\":{\"line\":66,\"ch\":8}},\"scroll\":61.84564393939394}"
                 },
                 {
                   "title": "Library",
@@ -58,7 +58,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
+                "file": "+/Cs Recursion.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2fa09e0701a61bac",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":8},\"to\":{\"line\":9,\"ch\":8}},\"scroll\":8}"
+                },
+                {
+                  "title": "Back-end MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Back-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
+                },
+                {
+                  "title": "Library",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":17.472646001360413}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Recursion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -170,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md"
+                "file": "+/Cs Recursion.md"
               }
             }
           },
@@ -296,7 +336,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
+                "file": "+/Cs Recursion.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -347,7 +387,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
+                "file": "+/Cs Recursion.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -373,7 +413,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
+                "file": "+/Cs Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -394,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md"
+                "file": "+/Cs Recursion.md"
               }
             }
           }
@@ -428,15 +468,20 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
+    "+/Cs Recursion.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
+    "+/Recursion.md",
+    "Atlas/Utilities/Images/Recursion.pdf",
+    "Atlas/Maps/Programming MOC.md",
+    "Atlas/Maps/Back-end MOC.md",
+    "Atlas/Maps/Library.md",
+    "Home.md",
     "+/Cs Pass parameters.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
     "Atlas/Utilities/Images/Pasted image 20241012091519.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
-    "Atlas/Maps/Library.md",
-    "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
     "+/التحرير الجن - الآية 24.md",
     "+/التحرير - الجن.md",
@@ -455,9 +500,6 @@
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md",
     "Atlas/Utilities/Images/Pasted image 20241011025423.png",
     "Atlas/Utilities/Images/Pasted image 20241011023730.png",
     "Atlas/Utilities/Images/Pasted image 20241011023717.png",
@@ -471,7 +513,6 @@
     "Atlas/Notes/X",
     "Atlas/Notes/Sources/كتب",
     "Atlas/Notes/Sources/فيديوهات/مدخل إلى علم الفقة 5.pdf",
-    "Atlas/Notes/Sources/فيديوهات/مدخل إلى علم الفقة 4.pdf",
     "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
     "Atlas/Notes/Ideas/Untitled.canvas",
     "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",

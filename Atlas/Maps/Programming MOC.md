@@ -7,6 +7,7 @@ tags:
   - map
 ---
 ## Important Topics(Concepts)
+- [[Recursion]]
 - [[Strongly and weakly typed languages]]
 - [[Mutable vs Immutable]]
 - [[Code-first or Database-First]]
