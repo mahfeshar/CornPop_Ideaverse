@@ -117,6 +117,7 @@ class Program
     }
 }
 ```
+- ممكن تاخد برامتر واحد بس وهو بيبقا من النوع Object
 
 #### **شرح الطريقة باستخدام Multithreading**:
 - هنا بنستخدم **Thread** لكل عملية طباعة، واحد للطباعة باللون الأحمر والتاني للطباعة باللون الأخضر.
@@ -434,16 +435,91 @@ class Program
 الـ**Foreground Thread** هو اللي بيمنع البرنامج إنه يقفل لحد ما يخلص. 
 يعني مثلاً لو عندك **Foreground Thread** شغال، البرنامج مش هيقفل لحد ما الثريد ده يخلص. 
 أما **Background Thread**، فالبرنامج ممكن يقفل حتى لو الثريد ده لسه شغال.
+بمجرد ما الـ Foreground Thread تخلص البرنامج بيقفل حتى لو فيه Background Thread
+والـ Default ان كله Foreground Thread والـ Main بتاعي برضو Foreground
+> [!tip]
+> لما تيجي تعمل Thread اعمله Background Thread لأن طبيعي لما اليوزر يقفل البرنامج يقف ميفضلش شغال لحد ما الـ Threads التانية تفتح
 
+```cs
+var th1 = new Thread(ProcessBatch1);
+var th2 = new Thread(ProcessBatch2);
+th1.IsBackGround = true;
+th1.IsBackGround = true;
+th1.Start;
+th2.Start;
+// The program will close instant if there's no any other threads
+```
 ### Thread Pool
 
-فيه طريقة تانية كمان لإنشاء **Threads** اسمها **Thread Pool**. دي طريقة أفضل لإنشاء وإدارة الـ**Threads**، بحيث إنها تعيد استخدام الـ**Threads** بدل ما تنشئ **Thread** جديدة كل مرة. وده بيخلي أداء البرنامج أحسن لإنه بيقلل استهلاك الموارد.
+فيه طريقة تانية كمان لإنشاء **Threads** اسمها **Thread Pool**. 
+دي طريقة أفضل لإنشاء وإدارة الـ**Threads**، بحيث إنها تعيد استخدام الـ**Threads** بدل ما تنشئ **Thread** جديدة كل مرة. وده بيخلي أداء البرنامج أحسن لإنه بيقلل استهلاك الموارد.
 
+الـ Default هنا بيبقا Background Thread
+
+```cs
+using System;
+using System.Threading;
+
+class Program
+{
+    // دالة تمثل المهمة التي سيتم تنفيذها بواسطة Thread
+    static void PrintMessage(object state)
+    {
+        var data = (Tuple<string, CancellationToken>)state;
+        string message = data.Item1;
+        CancellationToken token = data.Item2;
+
+        Console.WriteLine($"Starting task: {message}");
+
+        // تحقق دوريًا إذا تم طلب الإلغاء
+        for (int i = 0; i < 5; i++)
+        {
+            if (token.IsCancellationRequested)
+            {
+                Console.WriteLine($"Task {message} canceled.");
+                return;  // توقف المهمة عند طلب الإلغاء
+            }
+
+            Thread.Sleep(500);  // نحاكي تأخيرًا في التنفيذ
+        }
+
+        Console.WriteLine($"Finished task: {message}");
+    }
+
+    static void Main()
+    {
+        // إنشاء مصدر الإلغاء
+        CancellationTokenSource cts = new CancellationTokenSource();
+
+        // إرسال المهام إلى ThreadPool مع تمرير CancellationToken
+        ThreadPool.QueueUserWorkItem(PrintMessage, Tuple.Create("Task 1", cts.Token));
+        ThreadPool.QueueUserWorkItem(PrintMessage, Tuple.Create("Task 2", cts.Token));
+        ThreadPool.QueueUserWorkItem(PrintMessage, Tuple.Create("Task 3", cts.Token));
+
+        // السماح لبعض الوقت بمرور المهام
+        Thread.Sleep(1000);
+
+        // طلب إلغاء المهام
+        Console.WriteLine("Requesting cancellation...");
+        cts.Cancel();  
+        // طلب إلغاء جميع المهام التي تستخدم هذا الـ token
+        // المهمة نفسها بتشوف أنسب مكان للكنسلة بعد الطلب
+        // عن طريق الـ Return
+
+        // نضيف انتظارًا للتأكد من انتهاء جميع المهام قبل خروج البرنامج
+        Thread.Sleep(2000);
+
+        Console.WriteLine("Main thread finished.");
+    }
+}
+
+```
 ### مهم
 
 الـ**Multithreading** مش بيزود سرعة البرنامج، لكنه بيخلي البرنامج أكتر استجابة. 
 يعني بدل ما الـUser يحس إن البرنامج هنج لما يدوس على زرار، بيقدر يتعامل معاه عادي والعمليات الطويلة شغالة في الخلفية. 
 بس خد بالك، استخدام عدد كبير من الـ**Threads** ممكن يقلل أداء البرنامج بسبب الـ**Context Switching** اللي بيحصل بين الـ**Threads**.
+فمتستخدمهاش كتير غير لما يبقا عندك فعلًا Process **هتاخد وقت طويل جدًا** 
 
 في النهاية، لازم تفهم الأساسيات دي عشان لما تدخل في المواضيع المتقدمة زي **TPL** أو **Task Library**، تكون عارف إيه اللي بيحصل تحت الغطاء.
 
