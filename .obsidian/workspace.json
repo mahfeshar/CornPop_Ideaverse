@@ -332,7 +332,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 5.706203700979742,
+                  "scale": 8,
                   "close": true
                 }
               }

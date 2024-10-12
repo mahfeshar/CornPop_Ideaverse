@@ -48,6 +48,8 @@ public async Task ExampleMethod()
 - الـ await قبلها حاجة وبعدها حاجة تانية خالص
   يعني الكود اللي قبلها بيتنفذ في نفس الـ Thread بتاع الـ Caller اللي هو ممكن يبقا Main
   إنما بعدها بيعمل Thread جديد
+- يعني من الأخر بتعمل block للـ Thread بتاع التاسك وبيرجع للـ Caller ينفذ اللي فيه لحد ما الـ Await تخلص وبعدين يرجع يكمل بس في Thread مختلف
+- أي Method هتستخدم فيها Await لازم ترجع  `async Task` وبلاش ترجع `async void` غير في حالة واحدة وهي الـ `EventHandler` اللي في الـ [[Cs Event]]
 ### الفرق بين Synchronous و Asynchronous
 في **Synchronous Code**، يتم حجب (Blocking) الثريد الأساسي حتى تنتهي العملية. على سبيل المثال:
 
