@@ -35,23 +35,23 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 1,
               "stack": [
                 {
-                  "title": "Cs List",
+                  "title": "Sh ps command",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":47},\"to\":{\"line\":8,\"ch\":47}},\"scroll\":18.765071902654867}"
-                },
-                {
-                  "title": "Interface",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":46},\"to\":{\"line\":53,\"ch\":46}},\"scroll\":35.00497219846022}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":16},\"to\":{\"line\":69,\"ch\":16}},\"scroll\":61.84564393939394}"
                 },
                 {
                   "title": "Library",
@@ -64,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Cs Multithreading Basics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md"
+                "file": "+/Cs Multithreading Basics.md"
               }
             }
           },
@@ -196,7 +196,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Thread",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -303,7 +303,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Cs Multithreading Basics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Cs Multithreading Basics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -380,7 +380,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Cs Multithreading Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -401,7 +401,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md"
+                "file": "+/Cs Multithreading Basics.md"
               }
             }
           }
@@ -434,9 +434,11 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md",
+    "+/Cs Multithreading Basics.md",
+    "Atlas/Maps/CSharp MOC.md",
     "+/Interface.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
-    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Event.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
     "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
@@ -462,8 +464,6 @@
     "+/التحرير والتنوير - ابن عاشور.md",
     "Atlas/Maps/القرآن الكريم.md",
     "+/72. الجن.md",
-    "+/المحاضرة الأولى-دورة الإيمان.md",
-    "+/دورة الإيمان.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",

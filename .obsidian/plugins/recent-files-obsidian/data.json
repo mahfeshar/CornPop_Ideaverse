@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Cs Multithreading Basics",
+      "path": "+/Cs Multithreading Basics.md"
+    },
+    {
+      "basename": "Sh ps command",
+      "path": "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md"
+    },
+    {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "Obsidian Callouts",
       "path": "+/Obsidian Callouts.md"
-    },
-    {
-      "basename": "Cs StringBuilder",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs StringBuilder.md"
     }
   ],
   "omittedPaths": [],
