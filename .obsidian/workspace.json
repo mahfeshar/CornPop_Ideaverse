@@ -35,17 +35,23 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Sh ps command",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":46},\"to\":{\"line\":53,\"ch\":46}},\"scroll\":35.00497219846022}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":70,\"ch\":27},\"to\":{\"line\":70,\"ch\":27}},\"scroll\":66.96401515151516}"
+                },
+                {
+                  "title": "Cs Multithreading Basics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":506,\"ch\":29},\"to\":{\"line\":506,\"ch\":29}},\"scroll\":7}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -64,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs Multithreading Basics.md",
+                "file": "+/Cs Task-Based Asynchronous Pattern.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Multithreading Basics.md"
+                "file": "+/Cs Task-Based Asynchronous Pattern.md"
               }
             }
           },
@@ -303,7 +309,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs Multithreading Basics.md",
+                "file": "+/Cs Task-Based Asynchronous Pattern.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -326,7 +332,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7514342322277844,
+                  "scale": 5.706203700979742,
                   "close": true
                 }
               }
@@ -354,7 +360,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs Multithreading Basics.md",
+                "file": "+/Cs Task-Based Asynchronous Pattern.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -380,7 +386,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs Multithreading Basics.md",
+                "file": "+/Cs Task-Based Asynchronous Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -401,7 +407,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Multithreading Basics.md"
+                "file": "+/Cs Task-Based Asynchronous Pattern.md"
               }
             }
           }
@@ -434,9 +440,10 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md",
-    "+/Cs Multithreading Basics.md",
     "Atlas/Maps/CSharp MOC.md",
+    "+/Cs Task-Based Asynchronous Pattern.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md",
+    "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md",
     "+/Interface.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Event.md",
@@ -463,7 +470,6 @@
     "+/سورة الجن - الآية 24.md",
     "+/التحرير والتنوير - ابن عاشور.md",
     "Atlas/Maps/القرآن الكريم.md",
-    "+/72. الجن.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",

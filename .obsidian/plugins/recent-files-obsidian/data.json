@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Multithreading Basics",
-      "path": "+/Cs Multithreading Basics.md"
-    },
-    {
-      "basename": "Sh ps command",
-      "path": "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md"
+      "basename": "Cs Task-Based Asynchronous Pattern",
+      "path": "+/Cs Task-Based Asynchronous Pattern.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Multithreading Basics",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md"
+    },
+    {
+      "basename": "Sh ps command",
+      "path": "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md"
     },
     {
       "basename": "Cs List",
@@ -195,10 +199,6 @@
     {
       "basename": "Py Shallow and Deep copy",
       "path": "Atlas/Notes/Ideas/Programming/Python/Py Shallow and Deep copy.md"
-    },
-    {
-      "basename": "Obsidian Callouts",
-      "path": "+/Obsidian Callouts.md"
     }
   ],
   "omittedPaths": [],
