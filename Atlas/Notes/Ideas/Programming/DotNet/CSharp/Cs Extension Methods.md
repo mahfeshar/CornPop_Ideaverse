@@ -67,5 +67,21 @@ else
 
 ## Example
 ```cs
+static class  StringExtension
+{
+    public static string RemoveWhiteSpace(this string value)
+    {
+        return value.Replace(" ", "");
+    }
+}
 
+// MAIN
+var str = Console.ReadLine(); // HELLO WORLD
+Console.WriteLine(str.RemoveWhiteSpace()); // HELLOWORLD
+
+// Using Class way
+Console.WriteLine(StringExtension.RemoveWhiteSpace(str)); //HELLOWORLD 
+
+// Method Chaining
+Console.WriteLine(str.RemoveWhiteSpace().ToLower()); //helloworld
 ```
