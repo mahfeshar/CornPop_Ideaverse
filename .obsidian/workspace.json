@@ -35,8 +35,14 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Null",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":72,\"ch\":9},\"to\":{\"line\":72,\"ch\":9}},\"scroll\":65.13188073394495}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -427,8 +433,10 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
-    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
     "+/Cs Event.md",
+    "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
+    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Delegates.md",
     "Atlas/Notes/Ideas/Programming/Topics/Recursion.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Pass parameters.md",
@@ -456,8 +464,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
-    "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
     "Atlas/Utilities/Images/Pasted image 20241011025423.png",

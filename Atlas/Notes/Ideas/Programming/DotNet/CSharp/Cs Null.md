@@ -70,6 +70,7 @@ for (int i = 0; (Arr != null) && (i < Arr.Length); i++);
 &&: بيشوف الأول لو محققش المطلوب بيقفل البرنامج يعني فوق لقى الأول بnull فمش هيكمل التاني
 &: دي عبارة عن bitwise ولازم يشوف قيمة الاتنين ويعملهم `anding` مع بعض
 ## Null Propagation (Conditional) Operator
+لو اللي قبل الـ ? بـ null، متنفذش اللي بعدها
 متعملش call لل length لو ال arr ب null
 ```cs
 for (int i = 0; i < Arr?.Length; i++);
