@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Cs Extension Methods",
+      "path": "+/Cs Extension Methods.md"
+    },
+    {
+      "basename": "CSharp MOC",
+      "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Library",
+      "path": "Atlas/Maps/Library.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Cs Sealed",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md"
+    },
+    {
       "basename": "التحرير الجن - الآية 24",
       "path": "+/التحرير الجن - الآية 24.md"
     },
@@ -17,20 +37,12 @@
       "path": "+/التحرير والتنوير - ابن عاشور.md"
     },
     {
-      "basename": "Library",
-      "path": "Atlas/Maps/Library.md"
-    },
-    {
       "basename": "القرآن الكريم",
       "path": "Atlas/Maps/القرآن الكريم.md"
     },
     {
       "basename": "72. الجن",
       "path": "+/72. الجن.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "المحاضرة الأولى-دورة الإيمان",
@@ -41,20 +53,12 @@
       "path": "+/دورة الإيمان.md"
     },
     {
-      "basename": "Cs Sealed",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md"
-    },
-    {
       "basename": "Cs Class",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
     },
     {
       "basename": "Cs Static",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md"
-    },
-    {
-      "basename": "CSharp MOC",
-      "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
       "basename": "Cs Partial Class",
