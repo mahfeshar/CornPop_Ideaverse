@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Delegates",
-      "path": "+/Cs Delegates.md"
+      "basename": "Cs Event",
+      "path": "+/Cs Event.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Delegates",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Delegates.md"
     },
     {
       "basename": "Recursion",
@@ -195,10 +199,6 @@
     {
       "basename": "Cs Struct",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md"
-    },
-    {
-      "basename": "المحاضرة الخامسة-دورة الإيمان",
-      "path": "+/المحاضرة الخامسة-دورة الإيمان.md"
     }
   ],
   "omittedPaths": [],
