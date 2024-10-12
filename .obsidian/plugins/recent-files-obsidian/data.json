@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Recursion",
-      "path": "+/Cs Recursion.md"
+      "basename": "Cs Delegates",
+      "path": "+/Cs Delegates.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
-      "basename": "Cs Extension Methods",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md"
+      "basename": "Recursion",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/Recursion.md"
     },
     {
-      "basename": "Recursion",
-      "path": "+/Recursion.md"
+      "basename": "Cs Pass parameters",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Pass parameters.md"
+    },
+    {
+      "basename": "Cs Recursion",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Recursion.md"
+    },
+    {
+      "basename": "Cs Extension Methods",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md"
     },
     {
       "basename": "Programming MOC",
@@ -31,10 +39,6 @@
     {
       "basename": "Home",
       "path": "Home.md"
-    },
-    {
-      "basename": "Cs Pass parameters",
-      "path": "+/Cs Pass parameters.md"
     },
     {
       "basename": "Cs Value and Reference Types",
@@ -195,10 +199,6 @@
     {
       "basename": "المحاضرة الخامسة-دورة الإيمان",
       "path": "+/المحاضرة الخامسة-دورة الإيمان.md"
-    },
-    {
-      "basename": "المحاضرة الرابعة-دورة الإيمان",
-      "path": "+/المحاضرة الرابعة-دورة الإيمان.md"
     }
   ],
   "omittedPaths": [],

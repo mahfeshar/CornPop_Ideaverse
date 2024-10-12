@@ -45,7 +45,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":8},\"to\":{\"line\":66,\"ch\":8}},\"scroll\":61.84564393939394}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":13},\"to\":{\"line\":67,\"ch\":13}},\"scroll\":61.84564393939394}"
                 },
                 {
                   "title": "Library",
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs Recursion.md",
+                "file": "+/Cs Delegates.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Recursion.md",
+                "file": "Atlas/Notes/Ideas/Programming/Topics/Recursion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Recursion.md"
+                "file": "+/Cs Delegates.md"
               }
             }
           },
@@ -336,7 +336,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs Recursion.md",
+                "file": "+/Cs Delegates.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -387,7 +387,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs Recursion.md",
+                "file": "+/Cs Delegates.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -413,7 +413,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs Recursion.md",
+                "file": "+/Cs Delegates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Recursion.md"
+                "file": "+/Cs Delegates.md"
               }
             }
           }
@@ -468,15 +468,16 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
-    "+/Cs Recursion.md",
+    "+/Cs Delegates.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Recursion.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Pass parameters.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Recursion.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
-    "+/Recursion.md",
     "Atlas/Utilities/Images/Recursion.pdf",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Maps/Back-end MOC.md",
     "Atlas/Maps/Library.md",
     "Home.md",
-    "+/Cs Pass parameters.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
@@ -499,7 +500,6 @@
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
     "Atlas/Utilities/Images/Pasted image 20241011025423.png",
     "Atlas/Utilities/Images/Pasted image 20241011023730.png",
     "Atlas/Utilities/Images/Pasted image 20241011023717.png",

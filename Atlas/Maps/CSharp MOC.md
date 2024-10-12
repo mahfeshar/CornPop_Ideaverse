@@ -65,6 +65,7 @@ tags:
 ## Advanced
 - [[Cs Extension Methods]]
 - [[Cs Recursion]]
+- [[Cs Delegates]]
 ---
 ## Resources
 - [Mazen Summary](https://piquant-lark-b92.notion.site/C-_ITI-4cff65ced65e4138aa6ba093898884c3?pvs=4)

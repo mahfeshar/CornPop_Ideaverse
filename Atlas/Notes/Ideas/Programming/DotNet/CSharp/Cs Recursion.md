@@ -1,10 +1,11 @@
 ---
-up: 
+up:
+  - "[[CSharp MOC]]"
 related: 
 created: 2024-10-12
 ---
 - We talked about [[Recursion]] before
-
+- أكتر حاجة بتحتاج تفكر فيها هي إنك امتا توقف البرنامج
 ## Factorial Example
 ```cs
 static int CalculateFactorial(int number)
@@ -30,6 +31,7 @@ static int CalculateFactorial(int number)
 
 **باختصار**، الـ Recursion يسمح لك بالتعامل مع بنى معقدة ومتداخلة بطريقة بسيطة وواضحة، كما هو الحال في استعراض جميع الملفات والمجلدات الموجودة داخل مسار غير محدد العمق.
 
+### Ex 1
 ```cs
 class Program
 {
@@ -55,6 +57,39 @@ class Program
             // استدعاء الدالة بشكل تكراري لاستعراض المجلدات الفرعية
             PrintDirectoryContents(subDir, level + 1);
         }
+    }
+}
+```
+
+### Ex 2
+```cs
+class Program
+{
+    static void Main(string[] args)
+    {
+        // استدعاء الدالة لحساب حجم المجلد
+        long totalSize = CalculateDirectorySize(@"G:\Path\To\Directory");
+        Console.WriteLine($"Total directory size: {totalSize} bytes");
+    }
+
+    // دالة لحساب حجم المجلد بما في ذلك الملفات والمجلدات الفرعية
+    static long CalculateDirectorySize(string dirPath)
+    {
+        long size = 0;
+
+        // حساب حجم جميع الملفات في المجلد الحالي
+        foreach (var filePath in Directory.GetFiles(dirPath))
+        {
+            size += new FileInfo(filePath).Length;
+        }
+
+        // حساب حجم المجلدات الفرعية باستخدام التكرار الذاتي
+        foreach (var subDir in Directory.GetDirectories(dirPath))
+        {
+            size += CalculateDirectorySize(subDir);
+        }
+
+        return size;
     }
 }
 ```
