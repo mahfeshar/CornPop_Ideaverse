@@ -79,9 +79,134 @@ private IEnumerable<int> TestYield()
 ### الفرق بين Enumerator العادي و yield:
 الـ **Enumerator** العادي بيتطلب إنك تبني كل حاجة بنفسك، زي تحديد العداد (index) والحالة اللي بتكون فيها دلوقتي في التعداد. لكن **yield** بيخليك تعمل ده بشكل تلقائي وسهل، من غير ما تكتب كل الكود ده بنفسك.
 
-### الخلاصة:
-في الفيديو، الفكرة الأساسية هي إنك ازاي تخلي أي **object** في C# يكون **Enumerable** باستخدام الكلمة المفتاحية **yield**. ده بيساعدنا في كتابة كود بسيط وفعال لعمل **loops** على أي بيانات جوه الأوبجكت، سواء كانت مصفوفات، قوائم، أو حتى كائنات خاصة.
+### مثال على العادي
+خلينا نفترض إن عندنا **class** بيمثل مكتبة فيها مجموعة من الكتب، وعايزين نعمل **Enumerator** يسمح لنا بالتنقل بين الكتب واحد واحد.
 
----
+#### الخطوات:
+1. نبني كلاس **Library** اللي بيحتوي على مجموعة من الكتب.
+2. نعمل **Enumerator** اللي بيتعامل مع عملية التنقل بين الكتب.
 
-بكده نكون شرحنا الموضوع ببساطة وباستخدام الأسلوب العامي، مع شرح الكود اللي اتقال في الفيديو. لو في أي حاجة مش واضحة، ممكن ترجع تشوف الفيديو تاني وإن شاء الله هيكون الموضوع أسهل.
+#### الكود:
+
+```csharp
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+public class Book
+{
+    public string Title { get; set; }
+
+    public Book(string title)
+    {
+        Title = title;
+    }
+}
+
+public class Library : IEnumerable
+{
+    private List<Book> books = new List<Book>();
+
+    // إضافة كتاب جديد للمكتبة
+    public void AddBook(Book book)
+    {
+        books.Add(book);
+    }
+
+    // هنا بنعمل Implement للـ GetEnumerator عشان نرجع الـ Enumerator
+    public IEnumerator GetEnumerator()
+    {
+        return new LibraryEnumerator(books);
+    }
+}
+
+public class LibraryEnumerator : IEnumerator
+{
+    private List<Book> _books;
+    private int position = -1;  // الـ Position بيبدأ من -1 لأنه لسه مش على أول عنصر
+
+    // Constructor بياخد القائمة اللي هي الكتب
+    public LibraryEnumerator(List<Book> books)
+    {
+        _books = books;
+    }
+
+    // MoveNext() بتحرك المؤشر على الكتاب اللي بعده
+    public bool MoveNext()
+    {
+        position++;
+        return (position < _books.Count);
+    }
+
+    // Reset() بتعيد المؤشر للبداية
+    public void Reset()
+    {
+        position = -1;
+    }
+
+    // Current بترجع الكتاب الحالي اللي واقف عليه المؤشر
+    public object Current
+    {
+        get
+        {
+            if (position == -1 || position >= _books.Count)
+            {
+                throw new InvalidOperationException();
+            }
+            return _books[position];
+        }
+    }
+}
+```
+
+#### شرح الكود:
+
+1. **Library class**:
+   - عندنا كلاس اسمه **Library**، واللي بيحتوي على قائمة من الكتب (`List<Book>`).
+   - أضفنا ميثود `AddBook()` عشان نقدر نضيف كتب للمكتبة.
+   - الكلاس ده بيطبق الـ **IEnumerable** عشان نقدر نعمل **foreach** عليه.
+   - في الميثود `GetEnumerator()`، بنرجع كائن من نوع **LibraryEnumerator** اللي بنبنيه يدويًا.
+
+2. **LibraryEnumerator class**:
+   - هنا بنبني **Enumerator** من الصفر.  
+   - الميثود `MoveNext()` بتحرك المؤشر للكتاب اللي بعده.
+   - الميثود `Reset()` بترجع المؤشر للبداية، يعني كأننا بنقول للعداد "ابدأ من أول وجديد".
+   - الميثود `Current` بترجع الكتاب اللي المؤشر واقف عليه دلوقتي.
+
+#### استخدام الـ Enumerator:
+
+```csharp
+public class Program
+{
+    public static void Main()
+    {
+        Library library = new Library();
+        library.AddBook(new Book("C# Programming"));
+        library.AddBook(new Book("Design Patterns"));
+        library.AddBook(new Book("Data Structures"));
+
+        // استخدام الـ Enumerator العادي
+        IEnumerator enumerator = library.GetEnumerator();
+
+        while (enumerator.MoveNext())
+        {
+            Book currentBook = (Book)enumerator.Current;
+            Console.WriteLine(currentBook.Title);
+        }
+    }
+}
+```
+
+#### شرح الكود:
+- في الكود ده، أنشأنا مكتبة جديدة وضفنا فيها 3 كتب.
+- بعد كده، استخدمنا الـ **Enumerator** للتنقل بين الكتب باستخدام `MoveNext()` و `Current`.
+- بنطبع اسم كل كتاب لما المؤشر يتحرك على العنصر اللي بعده.
+
+#### النتيجة:
+```
+C# Programming
+Design Patterns
+Data Structures
+```
+
+### 
