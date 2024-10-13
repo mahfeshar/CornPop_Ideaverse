@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Cs Enums",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
+    },
+    {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Cs Shallow and deep copy",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md"
-    },
-    {
-      "basename": "Py Shallow and Deep copy",
-      "path": "Atlas/Notes/Ideas/Programming/Python/Py Shallow and Deep copy.md"
     }
   ],
   "omittedPaths": [],
