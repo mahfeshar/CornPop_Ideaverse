@@ -45,7 +45,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":10},\"to\":{\"line\":43,\"ch\":10}},\"scroll\":40.75473484848485}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":72,\"ch\":11},\"to\":{\"line\":72,\"ch\":11}},\"scroll\":58.08806818181818}"
                 },
                 {
                   "title": "Cs Multithreading Basics",
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+                "file": "+/Cs Enumerables.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
+                "file": "+/Cs Enumerables.md"
               }
             }
           },
@@ -309,7 +309,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+                "file": "+/Cs Enumerables.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -360,7 +360,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+                "file": "+/Cs Enumerables.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -386,7 +386,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+                "file": "+/Cs Enumerables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -407,7 +407,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
+                "file": "+/Cs Enumerables.md"
               }
             }
           }
@@ -441,6 +441,8 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
+    "+/Cs Enumerables.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Task-Based Asynchronous Pattern.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md",
     "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md",
@@ -468,8 +470,6 @@
     "+/التحرير الجن - الآية 24.md",
     "+/التحرير - الجن.md",
     "+/سورة الجن - الآية 24.md",
-    "+/التحرير والتنوير - ابن عاشور.md",
-    "Atlas/Maps/القرآن الكريم.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",

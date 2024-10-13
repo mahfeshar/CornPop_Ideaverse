@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Enums",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
+      "basename": "Cs Enumerables",
+      "path": "+/Cs Enumerables.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Enums",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
     },
     {
       "basename": "Cs Task-Based Asynchronous Pattern",
@@ -195,10 +199,6 @@
     {
       "basename": "Cs Constructor",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Constructor.md"
-    },
-    {
-      "basename": "Cs Shallow and deep copy",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Shallow and deep copy.md"
     }
   ],
   "omittedPaths": [],

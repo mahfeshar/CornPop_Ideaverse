@@ -8,7 +8,7 @@ tags:
 ---
 
 - عبارة عن datatype انت اللي بتحدد ال values اللي ممكن ياخدها 
-- هو Object أقدر أعمل عليه Loops
+
 - بعرفها جوا الـ [[Cs Namespace]] 
 - تعتبر [[Cs Value and Reference Types#Value Types|Value Types]]
 - بيحسن ال readability بتاع الكود وبيقلل ان انت وزمايلك اللي شغالين على نفس البروجكت تغلطو
