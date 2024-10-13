@@ -1,4 +1,9 @@
-
+---
+up:
+  - "[[CSharp MOC]]"
+related: 
+created: 2024-10-14
+---
 ### إيه هو Enumerable؟
 كلمة **Enumerable** معناها إنك بتتعامل مع أوبجكت تقدر تعد عليه. 
 يعني أي حاجة تقدر تعمل عليها **for loop** أو **foreach loop**، زي المصفوفات (arrays) أو القوائم (lists). 
@@ -209,4 +214,51 @@ Design Patterns
 Data Structures
 ```
 
-### 
+## الفرق بين Enumerable و Enum و Enumerator
+الفرق بين **Enumerator** و **Enumerables** و **Enums** في C# هو في الأساس فرق في الوظيفة والاستخدام، ولكل منهم دور مختلف في البرمجة:
+
+### 1. **Enumerable**:
+- **الوظيفة**: أي كائن في C# يمكن التعامل معاه كـ **Enumerable** يعني تقدر تعد عليه باستخدام **foreach loop**.  
+- **الاستخدام**: يتم استخدامه مع هياكل البيانات مثل المصفوفات والقوائم (arrays, lists) عشان نقدر نعمل **loop** على عناصرها. أي حاجة في **C#** يمكن أن تكون **Enumerable** لو كان فيها ميثود `GetEnumerator()`.
+- **المثال**:
+  ```csharp
+  List<int> numbers = new List<int> { 1, 2, 3 };
+  foreach (var number in numbers)
+  {
+      Console.WriteLine(number);
+  }
+  ```
+  هنا الـ **List** قابلة للعد، وده لأنها **Enumerable**.
+
+### 2. **Enumerator**:
+- **الوظيفة**: هو الكائن اللي بيتعامل مع عملية التعداد نفسها (enumeration). بيحدد كيفية التنقل عبر العناصر داخل كائن **Enumerable**.  
+- **الاستخدام**: بيستخدم جوه **foreach loop** عشان يعد العناصر، وكمان تقدر تستخدمه بشكل مباشر لو عايز تتحكم في عملية التعداد خطوة بخطوة عن طريق الميثودز `MoveNext()`, `Current`, و `Reset()`.
+- **المثال**:
+  ```csharp
+  List<int> numbers = new List<int> { 1, 2, 3 };
+  IEnumerator<int> enumerator = numbers.GetEnumerator();
+
+  while (enumerator.MoveNext())
+  {
+      Console.WriteLine(enumerator.Current);
+  }
+  ```
+  هنا بنستخدم الـ **Enumerator** مباشرة للتنقل بين عناصر القائمة.
+
+### 3. **Enum (Enumeration)**:
+- **الوظيفة**: هو نوع بيانات خاص بيسمح لك بتحديد مجموعة من القيم الثابتة اللي بتكون لها معاني مرتبطة. يستخدم لتحديد خيارات ثابتة، وبيساعد في تحسين قراءة الكود وتجنب الأخطاء في القيم.
+- **الاستخدام**: بيستخدم لما يكون عندك مجموعة محددة ومعروفة من القيم اللي مش هتتغير، زي أيام الأسبوع أو اتجاهات الرياح.
+- **المثال**:
+  ```csharp
+  enum Days { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday }
+
+  Days today = Days.Monday;
+  Console.WriteLine(today);
+  ```
+  هنا الـ **Enum** بيحتوي على قيم ثابتة زي الأيام، وبيسمح لنا نستخدمها بدل ما نكتب نصوص أو أرقام ثابتة.
+
+### ملخص الفرق:
+
+- **Enumerable**: هو أي حاجة تقدر تعد عليها، زي الـ **List** أو **Array**، وبيتم استخدامه في **foreach loops**.
+- **Enumerator**: هو الأداة اللي بتعمل عملية التعداد وتتحكم فيها، زي العداد اللي بيقول لنا نروح للعنصر اللي بعده أو نرجع العنصر الحالي.
+- **Enum**: هو نوع بيانات بيسمح بتحديد مجموعة من القيم الثابتة اللي بتسهل التعامل مع خيارات ثابتة ومعروفة.
