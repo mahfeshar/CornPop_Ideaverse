@@ -35,17 +35,17 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Task-Based Asynchronous Pattern",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Task-Based Asynchronous Pattern.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":171.38571428571427}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":70,\"ch\":27},\"to\":{\"line\":70,\"ch\":27}},\"scroll\":66.96401515151516}"
                 },
                 {
                   "title": "Cs Multithreading Basics",
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs Task-Based Asynchronous Pattern.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Task-Based Asynchronous Pattern.md"
+                "file": "Atlas/Maps/CSharp MOC.md"
               }
             }
           },
@@ -309,7 +309,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs Task-Based Asynchronous Pattern.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -360,7 +360,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs Task-Based Asynchronous Pattern.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -386,7 +386,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs Task-Based Asynchronous Pattern.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -407,7 +407,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Task-Based Asynchronous Pattern.md"
+                "file": "Atlas/Maps/CSharp MOC.md"
               }
             }
           }
@@ -440,8 +440,8 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Task-Based Asynchronous Pattern.md",
     "Atlas/Maps/CSharp MOC.md",
-    "+/Cs Task-Based Asynchronous Pattern.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md",
     "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md",
     "+/Interface.md",
