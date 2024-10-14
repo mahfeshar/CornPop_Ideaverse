@@ -1,3 +1,10 @@
+---
+up:
+  - "[[CSharp MOC]]"
+related: 
+created: 2024-10-14
+---
+
 ## شرح مبسط لمفهوم ArrayList في C#
 
 هنتكلم عن نوع بيانات مهم جدًا في C# اسمه **ArrayList**. 
@@ -36,16 +43,22 @@ list.Add(true);
 في المثال ده، حطينا أرقام، نصوص، وBoolean، وكل ده من غير ما نحدد نوع البيانات اللي بنخزنها.
 
 ### إضافة عناصر في ArrayList
-ممكن تضيف عناصر فردية أو حتى مجموعات من العناصر مرة واحدة باستخدام **AddRange**
+ممكن تضيف عناصر فردية أو حتى مجموعات من العناصر مرة واحدة باستخدام **`AddRange`**
+الـ `AddRange` بتاخد [[Cs Interface]] اسمه `ICollection` فيه معظم الـ List Types بيستخدموه
 #### مثال:
 ```csharp
 list.Add(42); // إضافة عنصر واحد
 list.AddRange(new int[] { 10, 20, 30 }); // إضافة مجموعة من العناصر
 ```
 
+- هي من النوع [[Cs Enumerable]] فعشان كدا تقدر تعمل عليها Loops براحتك 
+```cs
+foreach (var item in list) // var or object (not any type else)
+	Console.WriteLine(item)
+```
 ### الوصول للعناصر والـ Index
 
-تقدر توصل لأي عنصر في **ArrayList** عن طريق **Index** بنفس طريقة الـ **Array**.
+تقدر توصل لأي عنصر في **`ArrayList`** عن طريق **Index** بنفس طريقة الـ **Array**.
 
 ```csharp
 Console.WriteLine(list[0]); // هتطبع 1
@@ -54,15 +67,16 @@ Console.WriteLine(list[1]); // هتطبع "Test"
 
 ### إزالة عناصر من ArrayList
 
-عندك أكتر من طريقة تقدر بيها تشيل عناصر من **ArrayList**:
-- **Remove**: بتشيل أول عنصر بيطابق القيمة اللي بتحددها.
-- **RemoveAt**: بتشيل العنصر اللي في مكان معين (index).
-- **RemoveRange**: بتشيل مجموعة من العناصر في دفعة واحدة.
+عندك أكتر من طريقة تقدر بيها تشيل عناصر من **`ArrayList`**:
+- **`Remove`**: بتشيل أول عنصر بيطابق القيمة اللي بتحددها.
+- **`RemoveAt`**: بتشيل العنصر اللي في مكان معين (index).
+- **`RemoveRange`**: بتشيل مجموعة من العناصر في دفعة واحدة.
 
 ```csharp
 list.Remove(1); // هتشيل العنصر اللي قيمته 1
 list.RemoveAt(0); // هتشيل أول عنصر
 list.RemoveRange(0, 3); // هتشيل أول 3 عناصر
+// (index, count)
 ```
 
 ### البحث في ArrayList
@@ -72,6 +86,8 @@ list.RemoveRange(0, 3); // هتشيل أول 3 عناصر
 ```csharp
 int index = list.IndexOf("Test");
 Console.WriteLine(index); // هتطبع 1
+// تقدر تديله انديكس يبدأ تدوير منه
+Console.WriteLine(list.IndexOf("Test", 2)) // -1
 ```
 
 ### الفرق بين Add و Insert

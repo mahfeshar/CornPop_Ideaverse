@@ -2,7 +2,15 @@
   "recentFiles": [
     {
       "basename": "Cs ArrayList",
-      "path": "+/Cs ArrayList.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md"
+    },
+    {
+      "basename": "Cs Boxing and Unboxing",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md"
+    },
+    {
+      "basename": "Cs Enumerable",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerable.md"
     },
     {
       "basename": "CSharp MOC",
@@ -15,10 +23,6 @@
     {
       "basename": "Cs Arrays",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md"
-    },
-    {
-      "basename": "Cs Enumerables",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerables.md"
     },
     {
       "basename": "Cs Enums",
@@ -195,10 +199,6 @@
     {
       "basename": "Cs ICloneable",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICloneable.md"
-    },
-    {
-      "basename": "Cs ICompareable",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md"
     }
   ],
   "omittedPaths": [],

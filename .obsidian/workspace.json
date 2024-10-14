@@ -35,8 +35,14 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Boxing and Unboxing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":29.506880733944953}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -48,9 +54,9 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":13},\"to\":{\"line\":35,\"ch\":13}},\"scroll\":25.818181818181817}"
                 },
                 {
-                  "title": "Cs Enumerables",
+                  "title": "Cs Enumerable",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerables.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerable.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":22},\"to\":{\"line\":6,\"ch\":22}},\"scroll\":0}"
                 },
                 {
@@ -82,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs ArrayList.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -195,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs ArrayList.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md"
               }
             }
           },
@@ -320,7 +326,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs ArrayList.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -371,7 +377,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs ArrayList.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -397,7 +403,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs ArrayList.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -418,7 +424,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs ArrayList.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md"
               }
             }
           }
@@ -451,11 +457,12 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerable.md",
     "Atlas/Maps/CSharp MOC.md",
-    "+/Cs ArrayList.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerables.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Task-Based Asynchronous Pattern.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md",
@@ -480,7 +487,6 @@
     "Atlas/Utilities/Images/Pasted image 20241012091519.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
-    "+/التحرير الجن - الآية 24.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
