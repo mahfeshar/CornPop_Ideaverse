@@ -35,14 +35,8 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Cs Aggregation",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs Aggregation.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":14}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -51,7 +45,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":13},\"to\":{\"line\":78,\"ch\":13}},\"scroll\":66.95413333333333}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":8},\"to\":{\"line\":79,\"ch\":8}},\"scroll\":71.64583333333333}"
                 },
                 {
                   "title": "Programming MOC",
@@ -124,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs LINQ Intro.md",
+                "file": "+/Cs LINQ Sorting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -237,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs LINQ Intro.md"
+                "file": "+/Cs LINQ Sorting.md"
               }
             }
           },
@@ -363,7 +357,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs LINQ Intro.md",
+                "file": "+/Cs LINQ Sorting.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -414,7 +408,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs LINQ Intro.md",
+                "file": "+/Cs LINQ Sorting.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -440,7 +434,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs LINQ Intro.md",
+                "file": "+/Cs LINQ Sorting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -461,7 +455,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs LINQ Intro.md"
+                "file": "+/Cs LINQ Sorting.md"
               }
             }
           }
@@ -494,12 +488,13 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
+    "Atlas/Maps/CSharp MOC.md",
+    "+/Cs LINQ Sorting.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Intro.md",
     "Atlas/Utilities/Images/Pasted image 20241014101440.png",
     "Atlas/Utilities/Images/Pasted image 20241014101417.png",
     "Atlas/Utilities/Images/Pasted image 20241014101320.png",
     "+/Cs Aggregation.md",
-    "+/Cs LINQ Intro.md",
-    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
@@ -531,7 +526,6 @@
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
     "Atlas/Utilities/Images/Pasted image 20241011025423.png",
     "Atlas/Utilities/Images/Pasted image 20241011023730.png",
-    "Atlas/Utilities/Images/Pasted image 20241011023717.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",
