@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs LINQ Sorting",
-      "path": "+/Cs LINQ Sorting.md"
+      "basename": "Cs LINQ Quantifiers, Partitioning, and Set Operations",
+      "path": "+/Cs LINQ Quantifiers, Partitioning, and Set Operations.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Programming Paradigms",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md"
+    },
+    {
+      "basename": "Web application frameworks",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md"
+    },
+    {
+      "basename": "Cs LINQ Sorting",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Sorting.md"
     },
     {
       "basename": "Cs LINQ Intro",
@@ -23,10 +35,6 @@
     {
       "basename": "Programming MOC",
       "path": "Atlas/Maps/Programming MOC.md"
-    },
-    {
-      "basename": "Web application frameworks",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md"
     },
     {
       "basename": "API",
@@ -191,14 +199,6 @@
     {
       "basename": "Cs Protective code",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Protective code.md"
-    },
-    {
-      "basename": "Cs Polymorphism",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Polymorphism.md"
-    },
-    {
-      "basename": "Cs Indexer",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
     }
   ],
   "omittedPaths": [],

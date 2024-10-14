@@ -45,12 +45,36 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":14},\"to\":{\"line\":80,\"ch\":14}},\"scroll\":70.44886363636364}"
+                },
+                {
+                  "title": "Cs LINQ Quantifiers, Partitioning, and Set Operations",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs LINQ Quantifiers, Partitioning, and Set Operations.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":51},\"to\":{\"line\":80,\"ch\":51}},\"scroll\":69.99431818181819}"
+                },
+                {
+                  "title": "Cs LINQ Sorting",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Sorting.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":42},\"to\":{\"line\":6,\"ch\":42}},\"scroll\":6}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":14},\"to\":{\"line\":79,\"ch\":14}},\"scroll\":75.38825757575758}"
                 },
                 {
                   "title": "Cs LINQ Sorting",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs LINQ Sorting.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Sorting.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":175,\"ch\":45},\"to\":{\"line\":175,\"ch\":45}},\"scroll\":6}"
                 },
                 {
@@ -130,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs LINQ Sorting.md",
+                "file": "+/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -243,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs LINQ Sorting.md"
+                "file": "+/Cs LINQ Quantifiers, Partitioning, and Set Operations.md"
               }
             }
           },
@@ -368,7 +392,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs LINQ Sorting.md",
+                "file": "+/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -419,7 +443,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs LINQ Sorting.md",
+                "file": "+/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -445,7 +469,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs LINQ Sorting.md",
+                "file": "+/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -466,7 +490,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs LINQ Sorting.md"
+                "file": "+/Cs LINQ Quantifiers, Partitioning, and Set Operations.md"
               }
             }
           }
@@ -497,18 +521,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "90d026528dc7103b",
+  "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
+    "+/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Sorting.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Intro.md",
-    "+/Cs LINQ Sorting.md",
     "Atlas/Utilities/Images/Pasted image 20241014101440.png",
     "Atlas/Utilities/Images/Pasted image 20241014101417.png",
     "Atlas/Utilities/Images/Pasted image 20241014101320.png",
     "+/Cs Aggregation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Maps/Programming MOC.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
     "Atlas/Notes/Ideas/Programming/Topics/API.md",
     "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
     "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md",
@@ -526,8 +552,6 @@
     "+/Interface.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Event.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
-    "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Delegates.md",
     "Atlas/Utilities/Images/Recursion.pdf",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
