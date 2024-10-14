@@ -45,7 +45,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":13},\"to\":{\"line\":75,\"ch\":13}},\"scroll\":66.95413333333333}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":13},\"to\":{\"line\":78,\"ch\":13}},\"scroll\":66.95413333333333}"
                 },
                 {
                   "title": "Programming MOC",
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs Generics.md",
+                "file": "+/Cs LINQ Intro.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Generics.md"
+                "file": "+/Cs LINQ Intro.md"
               }
             }
           },
@@ -356,7 +356,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs Generics.md",
+                "file": "+/Cs LINQ Intro.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -407,7 +407,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs Generics.md",
+                "file": "+/Cs LINQ Intro.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -433,7 +433,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs Generics.md",
+                "file": "+/Cs LINQ Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -454,7 +454,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Generics.md"
+                "file": "+/Cs LINQ Intro.md"
               }
             }
           }
@@ -488,13 +488,14 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
+    "+/Cs LINQ Intro.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
     "Atlas/Notes/Ideas/Programming/Topics/API.md",
     "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
     "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md",
     "Atlas/Maps/Back-end MOC.md",
-    "+/Cs Generics.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
@@ -512,7 +513,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Delegates.md",
     "Atlas/Notes/Ideas/Programming/Topics/Recursion.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Pass parameters.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Recursion.md",
     "Atlas/Utilities/Images/Recursion.pdf",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
