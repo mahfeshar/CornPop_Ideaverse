@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs LINQ Joins and Grouping.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs LINQ Joins and Grouping.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md"
               }
             }
           },
@@ -392,7 +392,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs LINQ Joins and Grouping.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -443,7 +443,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs LINQ Joins and Grouping.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -469,7 +469,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs LINQ Joins and Grouping.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -490,7 +490,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs LINQ Joins and Grouping.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md"
               }
             }
           }
@@ -524,7 +524,7 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
-    "+/Cs LINQ Joins and Grouping.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
