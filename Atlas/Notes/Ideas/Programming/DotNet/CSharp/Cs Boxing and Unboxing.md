@@ -21,6 +21,15 @@ Object Obj = num; // Value(int) -> Reference(object) : Boxing
 ```
 
 ![[Pasted image 20240706121625.png]]
+بتفقد كل مميزات الحاجة اللي بتعملها Boxing 
+```cs
+int x = 5;
+object o = x; // Boxing
+
+int y = x + o; // ERROR
+int z = (int) o; // Unboxing
+```
+عشان تقدر تستخدمه تاني لازم تعمله Unboxing تاني
 ## Unboxing
 - عكس العملية اللي فاتت
 - بحول ال Reference Type(Heap) إلى Value Type (Stack)

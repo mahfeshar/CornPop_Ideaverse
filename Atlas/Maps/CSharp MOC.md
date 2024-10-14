@@ -34,7 +34,7 @@ tags:
 - [[Cs Shallow and deep copy]]
 - [[Cs List]]
 - [[Cs ArrayList]]
-- 
+- [[Cs Generic List & Dictionary]]
 ---
 ## OOP
 - [[Cs Access Modifiers]]

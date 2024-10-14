@@ -35,14 +35,8 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Cs Boxing and Unboxing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":29.506880733944953}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -51,7 +45,19 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":13},\"to\":{\"line\":35,\"ch\":13}},\"scroll\":25.818181818181817}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":11},\"to\":{\"line\":36,\"ch\":11}},\"scroll\":21.939393939393938}"
+                },
+                {
+                  "title": "Cs Generic List & Dictionary",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs Generic List & Dictionary.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":6}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":21},\"to\":{\"line\":36,\"ch\":21}},\"scroll\":25.818181818181817}"
                 },
                 {
                   "title": "Cs Enumerable",
@@ -88,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
+                "file": "+/Cs Generic List & Dictionary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -201,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md"
+                "file": "+/Cs Generic List & Dictionary.md"
               }
             }
           },
@@ -326,7 +332,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
+                "file": "+/Cs Generic List & Dictionary.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -349,7 +355,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7514342322277584,
+                  "scale": 0.7514342322277585,
                   "close": true
                 }
               }
@@ -377,7 +383,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
+                "file": "+/Cs Generic List & Dictionary.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -403,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
+                "file": "+/Cs Generic List & Dictionary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -424,7 +430,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md"
+                "file": "+/Cs Generic List & Dictionary.md"
               }
             }
           }
@@ -457,11 +463,12 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerable.md",
     "Atlas/Maps/CSharp MOC.md",
+    "+/Cs Generic List & Dictionary.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Task-Based Asynchronous Pattern.md",
@@ -486,7 +493,6 @@
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
     "Atlas/Utilities/Images/Pasted image 20241012091519.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
