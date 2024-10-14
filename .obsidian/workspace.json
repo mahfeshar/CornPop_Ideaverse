@@ -45,7 +45,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":10},\"to\":{\"line\":32,\"ch\":10}},\"scroll\":25.818181818181817}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":13},\"to\":{\"line\":35,\"ch\":13}},\"scroll\":25.818181818181817}"
                 },
                 {
                   "title": "Cs Enumerables",
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
+                "file": "+/Cs ArrayList.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md"
+                "file": "+/Cs ArrayList.md"
               }
             }
           },
@@ -320,7 +320,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
+                "file": "+/Cs ArrayList.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -343,7 +343,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 8,
+                  "scale": 0.7514342322277584,
                   "close": true
                 }
               }
@@ -371,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
+                "file": "+/Cs ArrayList.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -397,7 +397,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
+                "file": "+/Cs ArrayList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -418,7 +418,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md"
+                "file": "+/Cs ArrayList.md"
               }
             }
           }
@@ -452,13 +452,15 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
+    "+/Cs ArrayList.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerables.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Task-Based Asynchronous Pattern.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md",
     "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md",
     "+/Interface.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Event.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
     "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
@@ -479,8 +481,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Sealed.md",
     "+/التحرير الجن - الآية 24.md",
-    "+/التحرير - الجن.md",
-    "+/سورة الجن - الآية 24.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",
