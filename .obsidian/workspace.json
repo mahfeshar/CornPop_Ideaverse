@@ -35,8 +35,14 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -45,7 +51,19 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":81,\"ch\":20},\"to\":{\"line\":81,\"ch\":20}},\"scroll\":75.96685606060606}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":25},\"to\":{\"line\":84,\"ch\":25}},\"scroll\":78.41964285714286}"
+                },
+                {
+                  "title": "Auth Intro",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Intro.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":8},\"to\":{\"line\":49,\"ch\":8}},\"scroll\":6}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":83,\"ch\":11},\"to\":{\"line\":83,\"ch\":11}},\"scroll\":75.96685606060606}"
                 },
                 {
                   "title": "Cs LINQ Quantifiers, Partitioning, and Set Operations",
@@ -154,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
+                "file": "+/Auth Safe storage of passwords.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -250,7 +268,7 @@
       {
         "id": "ea89fdbc5439f479",
         "type": "tabs",
-        "dimension": 29.368932038834952,
+        "dimension": 27.063106796116504,
         "children": [
           {
             "id": "90d026528dc7103b",
@@ -267,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md"
+                "file": "+/Auth Safe storage of passwords.md"
               }
             }
           },
@@ -375,7 +393,7 @@
       {
         "id": "3d767c407ab4c865",
         "type": "tabs",
-        "dimension": 43.44660194174757,
+        "dimension": 45.75242718446602,
         "children": [
           {
             "id": "c3f1ee10bb319298",
@@ -392,7 +410,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
+                "file": "+/Auth Safe storage of passwords.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -415,7 +433,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7514342322277588,
+                  "scale": 0.7514342322277607,
                   "close": true
                 }
               }
@@ -443,7 +461,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
+                "file": "+/Auth Safe storage of passwords.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -469,7 +487,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
+                "file": "+/Auth Safe storage of passwords.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -490,7 +508,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md"
+                "file": "+/Auth Safe storage of passwords.md"
               }
             }
           }
@@ -524,6 +542,8 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
+    "+/Auth Safe storage of passwords.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Intro.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
@@ -550,8 +570,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Task-Based Asynchronous Pattern.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md",
     "Atlas/Notes/Ideas/Programming/Shell/Sh ps command.md",
-    "+/Interface.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Event.md",
     "Atlas/Utilities/Images/Recursion.pdf",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",

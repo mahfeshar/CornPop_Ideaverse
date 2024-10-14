@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs LINQ Joins and Grouping",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md"
+      "basename": "Auth Safe storage of passwords",
+      "path": "+/Auth Safe storage of passwords.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Auth Intro",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Intro.md"
+    },
+    {
+      "basename": "Cs LINQ Joins and Grouping",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md"
     },
     {
       "basename": "Cs LINQ Quantifiers, Partitioning, and Set Operations",
@@ -191,14 +199,6 @@
     {
       "basename": "Code-first or Database-First",
       "path": "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md"
-    },
-    {
-      "basename": "Cs Operator Overloading",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
-    },
-    {
-      "basename": "Cs Casting Operator",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md"
     }
   ],
   "omittedPaths": [],
