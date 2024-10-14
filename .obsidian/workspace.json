@@ -45,7 +45,31 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":14},\"to\":{\"line\":75,\"ch\":14}},\"scroll\":59.66382575757576}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":13},\"to\":{\"line\":75,\"ch\":13}},\"scroll\":66.95413333333333}"
+                },
+                {
+                  "title": "Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":13},\"to\":{\"line\":45,\"ch\":13}},\"scroll\":40.413333333333334}"
+                },
+                {
+                  "title": "Web application frameworks",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":7}"
+                },
+                {
+                  "title": "Back-end MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Back-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":31},\"to\":{\"line\":19,\"ch\":31}},\"scroll\":9.887466666666667}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":14},\"to\":{\"line\":75,\"ch\":14}},\"scroll\":8}"
                 },
                 {
                   "title": "Cs Generic List & Dictionary",
@@ -355,7 +379,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.535979599622594,
+                  "scale": 0.7514342322277588,
                   "close": true
                 }
               }
@@ -464,6 +488,12 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Maps/Programming MOC.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
+    "Atlas/Notes/Ideas/Programming/Topics/API.md",
+    "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
+    "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md",
+    "Atlas/Maps/Back-end MOC.md",
     "+/Cs Generics.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
@@ -483,13 +513,7 @@
     "Atlas/Notes/Ideas/Programming/Topics/Recursion.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Pass parameters.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Recursion.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md",
     "Atlas/Utilities/Images/Recursion.pdf",
-    "Atlas/Maps/Programming MOC.md",
-    "Atlas/Maps/Back-end MOC.md",
-    "Atlas/Maps/Library.md",
-    "Home.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
     "Atlas/Utilities/Images/Pasted image 20241012091519.png",

@@ -9,6 +9,30 @@
       "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
+      "basename": "Programming MOC",
+      "path": "Atlas/Maps/Programming MOC.md"
+    },
+    {
+      "basename": "Web application frameworks",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md"
+    },
+    {
+      "basename": "API",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/API.md"
+    },
+    {
+      "basename": "REST API",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/REST API.md"
+    },
+    {
+      "basename": "API and Web apps IBM Course",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md"
+    },
+    {
+      "basename": "Back-end MOC",
+      "path": "Atlas/Maps/Back-end MOC.md"
+    },
+    {
       "basename": "Cs Generic List & Dictionary",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md"
     },
@@ -79,14 +103,6 @@
     {
       "basename": "Cs Extension Methods",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Extension Methods.md"
-    },
-    {
-      "basename": "Programming MOC",
-      "path": "Atlas/Maps/Programming MOC.md"
-    },
-    {
-      "basename": "Back-end MOC",
-      "path": "Atlas/Maps/Back-end MOC.md"
     },
     {
       "basename": "Library",
@@ -183,22 +199,6 @@
     {
       "basename": "Cs Interface",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md"
-    },
-    {
-      "basename": "Cs Abstraction",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Abstraction.md"
-    },
-    {
-      "basename": "Cs Access Modifiers",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Access Modifiers.md"
-    },
-    {
-      "basename": "Abstraction",
-      "path": "Atlas/Notes/Ideas/Programming/OOP/Abstraction.md"
-    },
-    {
-      "basename": "OOP",
-      "path": "Atlas/Maps/OOP.md"
     }
   ],
   "omittedPaths": [],
