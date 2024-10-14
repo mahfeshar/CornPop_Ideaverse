@@ -45,6 +45,18 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":14},\"to\":{\"line\":79,\"ch\":14}},\"scroll\":75.38825757575758}"
+                },
+                {
+                  "title": "Cs LINQ Sorting",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs LINQ Sorting.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":175,\"ch\":45},\"to\":{\"line\":175,\"ch\":45}},\"scroll\":6}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":8},\"to\":{\"line\":79,\"ch\":8}},\"scroll\":71.64583333333333}"
                 },
                 {
@@ -334,8 +346,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3d767c407ab4c865",
@@ -486,11 +497,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef7083121c9f9335",
+  "active": "90d026528dc7103b",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
-    "+/Cs LINQ Sorting.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Intro.md",
+    "+/Cs LINQ Sorting.md",
     "Atlas/Utilities/Images/Pasted image 20241014101440.png",
     "Atlas/Utilities/Images/Pasted image 20241014101417.png",
     "Atlas/Utilities/Images/Pasted image 20241014101320.png",
