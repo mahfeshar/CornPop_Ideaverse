@@ -5,7 +5,7 @@ related:
 created: 2024-07-15
 ---
 - هي زي ال Array بس الفرق انها Dynamic size نفس فكرة ال [[Array#Dynamic Arrays|Dynamic Arrays]]
-- هي عبارة عن [[Generic Type]] عشان كدا بنستخدم معاها `<new List <int`
+- هي عبارة عن [[Cs Generics]] عشان كدا بنستخدم معاها `<new List <int`
 	- لما تيجي تتعامل مع ال generic type لازم تحدد ال generic parameter اللي بتبقا بينangle brackets `<>`
 - تقدر تعمل list من أي  نوع زي ال char او string أو حتى أي non primitive types زي ال classes
 
@@ -25,10 +25,7 @@ var numbers = new List<int>() {1, 2, 3, 4};
 - `Contains`: If the list contains the given object or not
 - `Count`: Return the number of objects in the list
 
-> [!globe] Tip
-> - لما تيجي تحاول تستخدم ال `AddRange` هيقولك انه بياخد `IEnumerable`
-> - لازم تعرف ان أي كلمة بادئة بحرف`I` هي عبارة عن [[Cs Interface]] 
-> - بس لحد دلوقتي لما تلاقي الكلمة دي اعرف انه يقصد انك تدخل Array أو List
+
 
 
 ## Example

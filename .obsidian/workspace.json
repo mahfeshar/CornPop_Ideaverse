@@ -45,12 +45,12 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":11},\"to\":{\"line\":36,\"ch\":11}},\"scroll\":21.939393939393938}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":14},\"to\":{\"line\":75,\"ch\":14}},\"scroll\":59.66382575757576}"
                 },
                 {
                   "title": "Cs Generic List & Dictionary",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs Generic List & Dictionary.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":6}"
                 },
                 {
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs Generic List & Dictionary.md",
+                "file": "+/Cs Generics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Generic List & Dictionary.md"
+                "file": "+/Cs Generics.md"
               }
             }
           },
@@ -332,7 +332,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs Generic List & Dictionary.md",
+                "file": "+/Cs Generics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -355,7 +355,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7514342322277585,
+                  "scale": 0.535979599622594,
                   "close": true
                 }
               }
@@ -383,7 +383,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs Generic List & Dictionary.md",
+                "file": "+/Cs Generics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -409,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Cs Generic List & Dictionary.md",
+                "file": "+/Cs Generics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -430,7 +430,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Cs Generic List & Dictionary.md"
+                "file": "+/Cs Generics.md"
               }
             }
           }
@@ -464,9 +464,10 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
-    "+/Cs Generic List & Dictionary.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
+    "+/Cs Generics.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
@@ -492,7 +493,6 @@
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
     "Atlas/Utilities/Images/Pasted image 20241012091519.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Static.md",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "cshra",
     "Atlas/Utilities/Images/Pasted image 20241011051605.png",

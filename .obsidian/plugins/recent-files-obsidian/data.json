@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Generic List & Dictionary",
-      "path": "+/Cs Generic List & Dictionary.md"
+      "basename": "Cs Generics",
+      "path": "+/Cs Generics.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
     },
     {
-      "basename": "Cs List",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md"
+      "basename": "Cs Generic List & Dictionary",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md"
     },
     {
       "basename": "Cs ArrayList",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md"
+    },
+    {
+      "basename": "Cs List",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md"
     },
     {
       "basename": "Cs Boxing and Unboxing",
@@ -195,10 +199,6 @@
     {
       "basename": "OOP",
       "path": "Atlas/Maps/OOP.md"
-    },
-    {
-      "basename": "Data Abstraction, Data Encapsulation, and Information Hiding",
-      "path": "Atlas/Notes/Ideas/Programming/OOP/Data Abstraction, Data Encapsulation, and Information Hiding.md"
     }
   ],
   "omittedPaths": [],
