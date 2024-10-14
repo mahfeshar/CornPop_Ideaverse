@@ -87,7 +87,7 @@ var result = (from number in numbers
 بكده بنكون نفذنا الاستعلام فورًا وخدنا نسخة من البيانات بالوضع الحالي.
 يعني على عكس اللي فوق الـ result هيشيل الـ List نفسها مش الـ Query.
 
-
+![[Pasted image 20241014101440.png]]
 ### Method Syntax
 
 في **LINQ**، تقدر تكتب نفس الاستعلام بطرق مختلفة، زي الطريقة اللي فوق (query syntax)، أو باستخدام **Lambda Expressions** واللي بتستخدم شكل الـ **method syntax**، مثال:
