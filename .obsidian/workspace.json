@@ -35,8 +35,14 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Aggregation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs Aggregation.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":14}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -250,7 +256,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Thread",
+                "query": "aggre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -334,7 +340,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3d767c407ab4c865",
@@ -487,8 +494,11 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
-    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Utilities/Images/Pasted image 20241014101417.png",
+    "Atlas/Utilities/Images/Pasted image 20241014101320.png",
+    "+/Cs Aggregation.md",
     "+/Cs LINQ Intro.md",
+    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
@@ -511,8 +521,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md",
     "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Delegates.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Recursion.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Pass parameters.md",
     "Atlas/Utilities/Images/Recursion.pdf",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
@@ -524,7 +532,6 @@
     "Atlas/Utilities/Images/Pasted image 20241011023730.png",
     "Atlas/Utilities/Images/Pasted image 20241011023717.png",
     "Atlas/Utilities/Images/Pasted image 20240218092537.png",
-    "Atlas/Utilities/Images/Pasted image 20241007043103.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",
