@@ -85,6 +85,7 @@ tags:
 - [[Auth Safe storage of passwords]]
 - [[Auth Updating the user entity]]
 - [[Auth Creating a base API controller]]
+- [[Auth Creating an Account Controller with a register endpoint]]
 - 
 
 ---

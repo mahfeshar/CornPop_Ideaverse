@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Auth Creating a base API controller",
-      "path": "+/Auth Creating a base API controller.md"
+      "basename": "Auth Creating an Account Controller with a register endpoint",
+      "path": "+/Auth Creating an Account Controller with a register endpoint.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Auth Creating a base API controller",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating a base API controller.md"
     },
     {
       "basename": "Auth Updating the user entity",
@@ -195,10 +199,6 @@
     {
       "basename": "دورة الإيمان",
       "path": "+/دورة الإيمان.md"
-    },
-    {
-      "basename": "Cs Class",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
     }
   ],
   "omittedPaths": [],
