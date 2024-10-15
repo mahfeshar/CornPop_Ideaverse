@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Auth Safe storage of passwords",
-      "path": "+/Auth Safe storage of passwords.md"
+      "basename": "Auth Creating a base API controller",
+      "path": "+/Auth Creating a base API controller.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Auth Updating the user entity",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Updating the user entity.md"
+    },
+    {
+      "basename": "Auth Safe storage of passwords",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Safe storage of passwords.md"
     },
     {
       "basename": "Auth Intro",
@@ -191,14 +199,6 @@
     {
       "basename": "Cs Class",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Class.md"
-    },
-    {
-      "basename": "Cs Partial Class",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Partial Class.md"
-    },
-    {
-      "basename": "Code-first or Database-First",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md"
     }
   ],
   "omittedPaths": [],

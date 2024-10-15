@@ -35,14 +35,8 @@
             "id": "ef7083121c9f9335",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -51,7 +45,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":25},\"to\":{\"line\":84,\"ch\":25}},\"scroll\":78.41964285714286}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":15},\"to\":{\"line\":86,\"ch\":15}},\"scroll\":75.51231060606061}"
                 },
                 {
                   "title": "Auth Intro",
@@ -172,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Auth Safe storage of passwords.md",
+                "file": "+/Auth Creating a base API controller.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -285,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Auth Safe storage of passwords.md"
+                "file": "+/Auth Creating a base API controller.md"
               }
             }
           },
@@ -410,7 +404,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Auth Safe storage of passwords.md",
+                "file": "+/Auth Creating a base API controller.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -461,7 +455,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Auth Safe storage of passwords.md",
+                "file": "+/Auth Creating a base API controller.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -487,7 +481,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Auth Safe storage of passwords.md",
+                "file": "+/Auth Creating a base API controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -508,7 +502,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Auth Safe storage of passwords.md"
+                "file": "+/Auth Creating a base API controller.md"
               }
             }
           }
@@ -541,11 +535,13 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
+    "Atlas/Maps/CSharp MOC.md",
+    "+/Auth Creating a base API controller.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Updating the user entity.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Safe storage of passwords.md",
     "Atlas/Utilities/Images/Pasted image 20241015030503.png",
     "Atlas/Utilities/Images/Pasted image 20241015030300.png",
     "Atlas/Utilities/Images/Pasted image 20241015030044.png",
-    "Atlas/Maps/CSharp MOC.md",
-    "+/Auth Safe storage of passwords.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Intro.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
@@ -571,14 +567,12 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Task-Based Asynchronous Pattern.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md",
     "Atlas/Utilities/Images/Recursion.pdf",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
     "Atlas/Utilities/Images/Pasted image 20241012091519.png",
     "Atlas/Utilities/Images/Pasted image 20241011063204.png",
     "cshra",
-    "Atlas/Utilities/Images/Pasted image 20241011051605.png",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities/Images",

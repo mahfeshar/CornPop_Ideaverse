@@ -80,9 +80,12 @@ tags:
 - [[Cs LINQ Sorting]]
 - [[Cs LINQ Quantifiers, Partitioning, and Set Operations]]
 - [[Cs LINQ Joins and Grouping]]
-## Authentication basics
+## Authentication basics (Application)
 - [[Auth Intro]]
 - [[Auth Safe storage of passwords]]
+- [[Auth Updating the user entity]]
+- [[Auth Creating a base API controller]]
+- 
 
 ---
 ## Resources
