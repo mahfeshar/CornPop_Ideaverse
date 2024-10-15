@@ -45,12 +45,12 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":16},\"to\":{\"line\":87,\"ch\":16}},\"scroll\":78.41964285714286}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":16},\"to\":{\"line\":88,\"ch\":16}},\"scroll\":78.11626666666666}"
                 },
                 {
                   "title": "Auth Creating an Account Controller with a register endpoint",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Auth Creating an Account Controller with a register endpoint.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -178,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Auth Creating an Account Controller with a register endpoint.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Auth Creating an Account Controller with a register endpoint.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md"
               }
             }
           },
@@ -416,7 +416,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Auth Creating an Account Controller with a register endpoint.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -467,7 +467,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Auth Creating an Account Controller with a register endpoint.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -493,7 +493,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Auth Creating an Account Controller with a register endpoint.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -514,7 +514,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Auth Creating an Account Controller with a register endpoint.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md"
               }
             }
           }
@@ -548,7 +548,8 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
-    "+/Auth Creating an Account Controller with a register endpoint.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Using.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating a base API controller.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Updating the user entity.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Safe storage of passwords.md",
@@ -578,7 +579,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Utilities/Images/Recursion.pdf",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
