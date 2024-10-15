@@ -45,6 +45,18 @@
                   "title": "Asp DotNet Core",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":18},\"to\":{\"line\":6,\"ch\":18}},\"scroll\":6}"
+                },
+                {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":22},\"to\":{\"line\":6,\"ch\":22}}}"
+                },
+                {
+                  "title": "Asp DotNet Core",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}}}"
                 },
                 {
@@ -577,6 +589,7 @@
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
+    "Atlas/Notes/Ideas/Programming/Topics/API.md",
     "+/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP",
     "Atlas/Maps/DotNet.md",
@@ -603,7 +616,6 @@
     "+/Cs Aggregation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Maps/Programming MOC.md",
-    "Atlas/Notes/Ideas/Programming/Topics/API.md",
     "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
     "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md",
