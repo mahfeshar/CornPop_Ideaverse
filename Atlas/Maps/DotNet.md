@@ -10,3 +10,4 @@ tags:
 - [[Programming Paradigms]]
 - [[DotNet Story]]
 - [[CSharp MOC]]: We will use this language
+- [[Asp DotNet Core]]

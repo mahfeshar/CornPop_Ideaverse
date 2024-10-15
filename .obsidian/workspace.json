@@ -42,6 +42,36 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Asp DotNet Core",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}}}"
+                },
+                {
+                  "title": "DotNet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":12},\"to\":{\"line\":12,\"ch\":12}},\"scroll\":8}"
+                },
+                {
+                  "title": "Back-end MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Back-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":7},\"to\":{\"line\":22,\"ch\":7}},\"scroll\":8}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":13},\"to\":{\"line\":85,\"ch\":13}},\"scroll\":8}"
+                },
+                {
+                  "title": "Auth Creating an Account Controller with a register endpoint",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":53},\"to\":{\"line\":6,\"ch\":53}},\"scroll\":6}"
+                },
+                {
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -178,7 +208,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
+                "file": "+/Asp DotNet Core Web API.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -264,8 +294,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -291,7 +320,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md"
+                "file": "+/Asp DotNet Core Web API.md"
               }
             }
           },
@@ -416,7 +445,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
+                "file": "+/Asp DotNet Core Web API.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -467,7 +496,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
+                "file": "+/Asp DotNet Core Web API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -493,7 +522,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
+                "file": "+/Asp DotNet Core Web API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -514,7 +543,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md"
+                "file": "+/Asp DotNet Core Web API.md"
               }
             }
           }
@@ -547,16 +576,21 @@
   },
   "active": "ef7083121c9f9335",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
+    "+/Asp DotNet Core Web API.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP",
+    "Atlas/Maps/DotNet.md",
+    "Atlas/Maps/Back-end MOC.md",
     "Atlas/Maps/CSharp MOC.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Using.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Safe storage of passwords.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Intro.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Using.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating a base API controller.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Updating the user entity.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Safe storage of passwords.md",
     "Atlas/Utilities/Images/Pasted image 20241015030503.png",
     "Atlas/Utilities/Images/Pasted image 20241015030300.png",
     "Atlas/Utilities/Images/Pasted image 20241015030044.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Intro.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
@@ -572,13 +606,9 @@
     "Atlas/Notes/Ideas/Programming/Topics/API.md",
     "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
     "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md",
-    "Atlas/Maps/Back-end MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerable.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md",
     "Atlas/Utilities/Images/Recursion.pdf",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
@@ -592,7 +622,6 @@
     "Atlas/Utilities",
     "Atlas/Notes/X",
     "Atlas/Notes/Sources/كتب",
-    "Atlas/Notes/Sources/فيديوهات/مدخل إلى علم الفقة 5.pdf",
     "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
     "Atlas/Notes/Ideas/Untitled.canvas",
     "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
