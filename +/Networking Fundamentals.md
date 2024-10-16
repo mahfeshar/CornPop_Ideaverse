@@ -30,6 +30,7 @@ created: 2024-07-06
 - [[MAC Address]]
 - [[IP Address]]
 - [[SSH]]
+- [[HTTP]]
 
 ## Output
 - [[OSI model - Article]]
