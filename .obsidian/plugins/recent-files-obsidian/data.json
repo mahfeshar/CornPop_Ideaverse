@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DNAPI Project Structure",
+      "path": "+/DNAPI Project Structure.md"
+    },
+    {
       "basename": "DNAPI Project Anatomy",
       "path": "+/DNAPI Project Anatomy.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "API",
       "path": "Atlas/Notes/Ideas/Programming/Topics/API.md"
-    },
-    {
-      "basename": "DNAPI Project Structure",
-      "path": "+/DNAPI Project Structure.md"
     },
     {
       "basename": "Asp DotNet Core",

@@ -35,17 +35,6 @@
   [ApiController]
   ```
   هنا بنحدد اسم الكنترولر اللي هيتعامل مع الـ requests من خلال اسم الـ controller في الـ route.
-
-كلمة `ApiController` دي بنقول عليها Attribute أو Decoration لأنها بتخلي الـ Function يغير الديكور بتاعه ويعمل حاجات مكنش بيعملها، واستعملنا واحدة زيها قبل كدا في الـ [[Cs Enums]]
-## الفرق في الوراثة بين MVC و API:
-- في الـ **MVC**:
-  - الـ Controller بيورث من **Controller** class وهو بيبقا وارث من الـ `BaseController`.
-  - بيورث من كلاس وارث ليه؟ 
-    بيكون عنده حاجات إضافية زي **`ViewData`** و`TempData` اللي بتتعامل مع البيانات قبل ما توصل للمستخدم.
-
-- في الـ **API**:
-  - الـ Controller بيورث من **`BaseController`** على طول.
-  - مش بيحتاج أي `ViewData` أو `TempData` لأنه مش بيرجع بيانات كـ View.
 ## استخدام Postman واختبار الـ API:
 - بعد تشغيل المشروع، بتفتح **Postman** وتضيف الـ URL الخاص بالـ API (اللي بيكون عادةً **localhost**).
 - بتعمل Request لكل Endpoint عشان تجرب الـ API.
@@ -124,37 +113,7 @@
   3. الـ**IIS Express**: بيشغل المشروع على IIS Express مع توثيق **Swagger**.
 
 - كل البروفايلات بتستخدم بيئة **Development** وبتفتح الـ **Swagger** تلقائيًا بعد التشغيل.
-## شرح `appsettings.json`:
 
-الـ `appsettings.json` هو ملف مهم جدًا في مشاريع الـ ASP.NET Core لأنه بيخزن إعدادات التكوين (configuration settings) اللي بيستخدمها التطبيق. 
-الملف ده بيوفر طريقة مرنة لتغيير الإعدادات زي الـ Connection Strings الخاصة بالـ Database أو أي إعدادات تانية من غير ما نحتاج نعدل في الكود مباشرة. 
-وده بيكون مفيد جدًا لما نيجي ننقل التطبيق بين بيئات مختلفة (زي بيئة التطوير أو الإنتاج).
-
-```json
-{
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
-  "AllowedHosts": "*",
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=StoreDB;Trusted_Connection=True;"
-  }
-}
-```
-
-- الـ**Logging**:
-  - ده الجزء الخاص بإعدادات الـ Logging (يعني إزاي التطبيق بيسجل الأحداث اللي بتحصل أثناء التشغيل).
-  - ممكن تحدد مستوى الـ Logging لكل نوع (مثلاً: **Information**، **Warning**، أو **Error**). في المثال ده، المستوى الافتراضي هو **Information** (يعني هيسجل كل الأحداث المعلوماتية)، وبالنسبة لأحداث الـ **`Microsoft.AspNetCore`** هيسجل **Warning** فقط.
-
-- الـ`AllowedHosts`:
-  - ده اللي بيسمح لك تحدد الـ Hosts اللي التطبيق ممكن يتفاعل معاها. لو كتبت "\*" ده معناه إن التطبيق ممكن يتفاعل مع أي Host.
-
-- الـ`ConnectionStrings`:
-  - هنا بنحط الـ Connection Strings الخاصة بالـ Database. في المثال ده، بنستخدم **SQL Server** المحلي (`LocalDB`) والـ Database اسمها **`StoreDB`**.
-  - الـ Connection String دي بتقول للتطبيق يتصل بـ SQL Server ويستخدم `StoreDB` كقاعدة بيانات.
 
 ## شرح **dummy example** بتاع الـ "WeatherForecast":
 
