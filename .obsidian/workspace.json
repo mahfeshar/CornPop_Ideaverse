@@ -42,6 +42,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}}}"
+                },
+                {
                   "title": "Asp DotNet Core",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -64,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/DNAPI Project Structure.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -176,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+                "file": "+/DNAPI Project Structure.md"
               }
             }
           },
@@ -301,7 +307,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/DNAPI Project Structure.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -352,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/DNAPI Project Structure.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -378,7 +384,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/DNAPI Project Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,7 +405,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+                "file": "+/DNAPI Project Structure.md"
               }
             }
           }
@@ -432,9 +438,11 @@
   },
   "active": "9957efb875ee5c75",
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241016045609.png",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "+/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
     "Atlas/Maps/DotNet.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md",
     "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API",
@@ -464,8 +472,6 @@
     "+/Cs Aggregation.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Maps/Programming MOC.md",
-    "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md",
     "Atlas/Utilities/Images/Recursion.pdf",
     "Atlas/Utilities/Images/Pasted image 20240318120750.png",
     "Atlas/Utilities/Images/Pasted image 20240318115829.png",
