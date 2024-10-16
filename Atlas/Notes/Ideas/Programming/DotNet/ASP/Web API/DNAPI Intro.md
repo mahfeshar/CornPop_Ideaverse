@@ -1,10 +1,11 @@
 ---
 up:
-  - "[[Asp DotNet Core]]"
+  - "[[Asp DotNet Core Web API]]"
 related: 
-created: 2024-10-15
+created: 2024-10-16
 ---
-بص يا سيدي، الـ Web API لها أنواع كتير، لكن الأكثر شيوعًا هو اللي اسمه [[REST API]]، وفي أنواع تانية. 
+
+بص يا سيدي، الـ Web API لها أنواع كتير، لكن الأكثر شيوعًا هو اللي اسمه [[REST API]]، وفي أنواع تانية.
 ### الفرق بين الـ MVC و الـ API.
 **الـ MVC** أو Model-View-Controller هو ببساطة بيبعت للـ end-user "View" والـ View دا بيبقى فيه الـ data. 
 يعني باختصار، الـ User بيشوف الـ data المعروضة.
@@ -29,7 +30,3 @@ created: 2024-10-15
 POST /api/login
 ```
 والـ "backend" من خلال الـ API بيرد على الطلب.
-
----
-هنا بتيجي أهمية الـ Onion Architecture pattern، اللي هنشتغل عليه. 
-الفكرة إننا هنعمل مشروع Web API باستخدام الـ **Onion pattern**، وهنديله اسم، ونختار مكانه، ونعمل Solution جديد.
