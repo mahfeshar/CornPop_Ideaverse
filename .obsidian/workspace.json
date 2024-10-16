@@ -35,23 +35,17 @@
             "id": "9957efb875ee5c75",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "JSON",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/JSON.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":23.884531759589997}"
-                },
-                {
-                  "title": "DNAPI Introduction",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/DNAPI Introduction.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":74},\"to\":{\"line\":158,\"ch\":74}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":23},\"to\":{\"line\":12,\"ch\":23}},\"scroll\":8}"
                 },
                 {
                   "title": "Asp DotNet Core",
@@ -76,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/DNAPI Project Anatomy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -210,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+                "file": "+/DNAPI Project Anatomy.md"
               }
             }
           },
@@ -313,8 +307,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3d767c407ab4c865",
@@ -336,7 +329,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/DNAPI Project Anatomy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -387,7 +380,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/DNAPI Project Anatomy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -413,7 +406,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/DNAPI Project Anatomy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,7 +427,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+                "file": "+/DNAPI Project Anatomy.md"
               }
             }
           }
@@ -465,8 +458,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9957efb875ee5c75",
+  "active": "90d026528dc7103b",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "+/DNAPI Project Anatomy.md",
     "+/DNAPI Introduction.md",
     "Atlas/Notes/Ideas/Programming/Topics/JSON.md",
     "Atlas/Notes/Ideas/Programming/Networking/How the web works.md",
@@ -480,7 +475,6 @@
     "Atlas/Notes/Ideas/Programming/Networking/Network.md",
     "+/HTTP response status codes.md",
     "Atlas/Notes/Ideas/Programming/Topics/API.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "+/DNAPI Project Structure.md",
     "Atlas/Utilities/Images/Pasted image 20241016045609.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
@@ -501,7 +495,6 @@
     "Atlas/Utilities/Images/Pasted image 20241015030503.png",
     "Atlas/Utilities/Images/Pasted image 20241015030300.png",
     "Atlas/Utilities/Images/Pasted image 20241015030044.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
     "Atlas/Utilities/Images/Pasted image 20241014101440.png",
     "Atlas/Utilities/Images/Pasted image 20241014101417.png",
     "Atlas/Utilities/Images/Pasted image 20241014101320.png",

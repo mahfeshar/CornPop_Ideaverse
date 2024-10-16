@@ -10,7 +10,7 @@ tags:
 - [[DNAPI Project Structure]]
 ---
 - [[DNAPI Introduction]]
-- 
+- [[DNAPI Project Anatomy]]
 
 ---
 هنا بتيجي أهمية الـ Onion Architecture pattern، اللي هنشتغل عليه. 
