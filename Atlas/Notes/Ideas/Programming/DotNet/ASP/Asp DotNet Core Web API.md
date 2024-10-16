@@ -11,6 +11,8 @@ tags:
 ---
 - [[DNAPI Introduction]]
 - [[DNAPI Project Anatomy]]
+- [[Dependency Injection]]
+- 
 
 ---
 هنا بتيجي أهمية الـ Onion Architecture pattern، اللي هنشتغل عليه. 

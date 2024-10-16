@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "SOLID Principles",
-      "path": "Atlas/Maps/SOLID Principles.md"
+      "basename": "Dependency Injection",
+      "path": "+/Dependency Injection.md"
     },
     {
-      "basename": "Dependency Inversion Principle (DIP)",
-      "path": "Atlas/Notes/Ideas/Programming/SOLID/Dependency Inversion Principle (DIP).md"
+      "basename": "Asp DotNet Core Web API",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
     },
     {
       "basename": "DNAPI Project Structure",
       "path": "+/DNAPI Project Structure.md"
     },
     {
-      "basename": "Asp DotNet Core Web API",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+      "basename": "SOLID Principles",
+      "path": "Atlas/Maps/SOLID Principles.md"
+    },
+    {
+      "basename": "Dependency Inversion Principle (DIP)",
+      "path": "Atlas/Notes/Ideas/Programming/SOLID/Dependency Inversion Principle (DIP).md"
     },
     {
       "basename": "DNAPI Introduction",
@@ -195,10 +199,6 @@
     {
       "basename": "Cs Null",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Null.md"
-    },
-    {
-      "basename": "Single Responsibility Principle",
-      "path": "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md"
     }
   ],
   "omittedPaths": [],
