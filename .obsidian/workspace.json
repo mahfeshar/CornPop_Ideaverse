@@ -35,23 +35,23 @@
             "id": "9957efb875ee5c75",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 2,
               "stack": [
                 {
-                  "title": "HTTP response status codes",
+                  "title": "JSON",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/HTTP response status codes.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/JSON.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":23.884531759589997}"
+                },
+                {
+                  "title": "DNAPI Introduction",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/DNAPI Introduction.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":74},\"to\":{\"line\":158,\"ch\":74}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Asp DotNet Core Web API",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":8},\"to\":{\"line\":11,\"ch\":9}},\"scroll\":8}"
                 },
                 {
                   "title": "Asp DotNet Core",
@@ -76,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/DNAPI Introduction.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,39 +84,21 @@
             }
           },
           {
-            "id": "34839da309227a24",
+            "id": "a17fd96896f20f7b",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Web application frameworks",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":30},\"to\":{\"line\":31,\"ch\":30}},\"scroll\":28.439727446855276}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Networking Fundamentals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":6},\"to\":{\"line\":32,\"ch\":6}},\"scroll\":23.321066666666667}"
-                },
-                {
-                  "title": "Network",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Networking/Network.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/HTTP.md",
+                "file": "Atlas/Notes/Ideas/Programming/Networking/HTTP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/HTTP.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
               }
             }
           },
@@ -247,7 +229,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"HTTP\"",
+                "query": "\"DNS\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -354,7 +336,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/HTTP.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -405,7 +387,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/HTTP.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -431,7 +413,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/HTTP.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -452,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/HTTP.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
               }
             }
           }
@@ -483,11 +465,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34839da309227a24",
+  "active": "9957efb875ee5c75",
   "lastOpenFiles": [
-    "+/Networking Fundamentals.md",
     "+/DNAPI Introduction.md",
-    "+/HTTP.md",
+    "Atlas/Notes/Ideas/Programming/Topics/JSON.md",
+    "Atlas/Notes/Ideas/Programming/Networking/How the web works.md",
+    "Atlas/Notes/Ideas/Programming/Networking/Server.md",
+    "Atlas/Utilities/Images/Pasted image 20241016223130.png",
+    "Atlas/Utilities/Images/Pasted image 20241016222956.png",
+    "Atlas/Utilities/Images/Pasted image 20241016222623.png",
+    "Atlas/Notes/Ideas/Programming/Networking/HTTP.md",
+    "+/Networking Fundamentals.md",
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
     "Atlas/Notes/Ideas/Programming/Networking/Network.md",
     "+/HTTP response status codes.md",
@@ -514,16 +502,10 @@
     "Atlas/Utilities/Images/Pasted image 20241015030300.png",
     "Atlas/Utilities/Images/Pasted image 20241015030044.png",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Quantifiers, Partitioning, and Set Operations.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Sorting.md",
     "Atlas/Utilities/Images/Pasted image 20241014101440.png",
     "Atlas/Utilities/Images/Pasted image 20241014101417.png",
     "Atlas/Utilities/Images/Pasted image 20241014101320.png",
     "Atlas/Utilities/Images/Recursion.pdf",
-    "Atlas/Utilities/Images/Pasted image 20240318120750.png",
-    "Atlas/Utilities/Images/Pasted image 20240318115829.png",
-    "Atlas/Utilities/Images/Pasted image 20241012091519.png",
     "cshra",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
