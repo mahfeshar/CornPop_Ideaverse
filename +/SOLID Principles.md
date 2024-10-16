@@ -13,6 +13,7 @@ tags:
 - منبل (Maintainable): يعني نقدر نغير ونعدل فيه بسهولة.
 - ريوسبل (Reusable): يعني نقدر نعيد استخدامه بعد كده.
 
-ال**S.O.L.I.D Principles** بتتكون من خمس مبادئ أساسية. كل حرف في كلمة **S.O.L.I.D** بيمثل مبدأ مهم. في أول جزء هنركز على أول حرف وهو الـ S، والـ S يعني **Single Responsibility Principle**.
+ال**S.O.L.I.D Principles** بتتكون من خمس مبادئ أساسية. 
+كل حرف في كلمة **S.O.L.I.D** بيمثل مبدأ مهم. في أول جزء هنركز على أول حرف وهو الـ S، والـ S يعني **Single Responsibility Principle**.
 - [[Single Responsibility Principle]]
-
+- [[Dependency Inversion Principle (DIP)]]

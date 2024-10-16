@@ -86,13 +86,25 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "SOLID Principles",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/SOLID Principles.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":34},\"to\":{\"line\":18,\"ch\":34}},\"scroll\":8}"
+                },
+                {
+                  "title": "DNAPI Project Structure",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/DNAPI Project Structure.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":59,\"ch\":0},\"to\":{\"line\":59,\"ch\":0}},\"scroll\":57.39260912698413}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/DNAPI Project Structure.md",
+                "file": "+/Dependency Inversion Principle (DIP).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -122,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -226,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+                "file": "+/Dependency Inversion Principle (DIP).md"
               }
             }
           },
@@ -351,7 +363,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/Dependency Inversion Principle (DIP).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -402,7 +414,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/Dependency Inversion Principle (DIP).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -428,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/Dependency Inversion Principle (DIP).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -449,7 +461,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+                "file": "+/Dependency Inversion Principle (DIP).md"
               }
             }
           }
@@ -480,14 +492,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9957efb875ee5c75",
+  "active": "854623e0f7bdebe2",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md",
+    "Atlas/Utilities/Images/Pasted image 20241017002945.png",
+    "Atlas/Utilities/Images/Pasted image 20241017002920.png",
+    "+/SOLID Principles.md",
+    "+/Dependency Inversion Principle (DIP).md",
+    "+/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
     "Atlas/Utilities/Images/Pasted image 20241016235304.png",
     "Atlas/Utilities/Images/Pasted image 20241016235142.png",
-    "+/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/Topics/JSON.md",
     "Atlas/Notes/Ideas/Programming/Networking/How the web works.md",
     "Atlas/Notes/Ideas/Programming/Networking/Server.md",
@@ -513,12 +529,9 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Safe storage of passwords.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Intro.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Using.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating a base API controller.md",
     "Atlas/Utilities/Images/Pasted image 20241015030503.png",
     "Atlas/Utilities/Images/Pasted image 20241015030300.png",
     "Atlas/Utilities/Images/Pasted image 20241015030044.png",
-    "Atlas/Utilities/Images/Pasted image 20241014101440.png",
     "Atlas/Utilities/Images/Recursion.pdf",
     "cshra",
     "Atlas/Notes/Ideas/Programming/Problem Solving",

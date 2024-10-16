@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Dependency Inversion Principle (DIP)",
+      "path": "+/Dependency Inversion Principle (DIP).md"
+    },
+    {
+      "basename": "SOLID Principles",
+      "path": "+/SOLID Principles.md"
+    },
+    {
+      "basename": "DNAPI Project Structure",
+      "path": "+/DNAPI Project Structure.md"
+    },
+    {
       "basename": "Asp DotNet Core Web API",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "DNAPI Project Anatomy",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md"
-    },
-    {
-      "basename": "DNAPI Project Structure",
-      "path": "+/DNAPI Project Structure.md"
     },
     {
       "basename": "JSON",
@@ -191,14 +199,6 @@
     {
       "basename": "Single Responsibility Principle",
       "path": "Atlas/Notes/Ideas/Programming/SOLID/Single Responsibility Principle.md"
-    },
-    {
-      "basename": "Cs Delegates",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Delegates.md"
-    },
-    {
-      "basename": "Recursion",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/Recursion.md"
     }
   ],
   "omittedPaths": [],
