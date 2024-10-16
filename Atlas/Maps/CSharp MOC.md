@@ -6,6 +6,7 @@ created: 2024-05-11
 tags:
   - map
 ---
+## Intro and more
 - [[Programming Paradigms]]
 - [[DotNet Story]]
 - [[CLS and CTS]]
@@ -14,6 +15,7 @@ tags:
 	- [[Consume dll]]
 - [[Code-first or Database-First]]
 ---
+## Beginner
 - [[Cs Intro]]
 	- [[Cs Output]]
 	- [[Cs Input]]

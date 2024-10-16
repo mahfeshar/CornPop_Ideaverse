@@ -69,7 +69,7 @@ public class JobApplicationManager
 ---
 
 ## تطبيق DIP (Loose Coupling) باستخدام Interfaces وDI:
-الـ Dependency Inversion دا المبدأ العام و الـ [[Dependency Injection]] دا إحدى الطرق اللي بتتطبق بيها المبدأ دا
+الـ Dependency Inversion دا المبدأ العام و الـ [[DNAPI Dependency Injection]] دا إحدى الطرق اللي بتتطبق بيها المبدأ دا
 
 ### [[Cs Interface]]
 #### حل المشكلة باستخدام Interfaces:

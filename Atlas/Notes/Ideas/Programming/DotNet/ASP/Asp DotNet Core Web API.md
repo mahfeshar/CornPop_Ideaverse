@@ -11,7 +11,7 @@ tags:
 ---
 - [[DNAPI Introduction]]
 - [[DNAPI Project Anatomy]]
-- [[Dependency Injection]]
+- [[DNAPI Dependency Injection]]
 - 
 
 ---

@@ -66,7 +66,7 @@ app.Run();
 
 #### إضافة الخدمات (Services):
 - **`builder.Services`**:
-  - هو **Container** يتم فيه تعريف جميع الخدمات التي يمكن استخدامها في المشروع عبر **[[Dependency Injection]]**.  
+  - هو **Container** يتم فيه تعريف جميع الخدمات التي يمكن استخدامها في المشروع عبر **[[DNAPI Dependency Injection]]**.  
   - الخدمات قد تكون من إطار العمل نفسه (مثل Controllers) أو من مكتبات خارجية (مثل أدوات التوثيق في Swagger).
 
 - **`AddControllers()`**:  
