@@ -46,55 +46,20 @@
 - في الـ **API**:
   - الـ Controller بيورث من **`BaseController`** على طول.
   - مش بيحتاج أي `ViewData` أو `TempData` لأنه مش بيرجع بيانات كـ View.
-
-### مثال على مشروع API:
-
-```csharp
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        var builder = WebApplication.CreateBuilder(args);
-
-        // Configure Services
-        builder.Services.AddControllers();  // إضافة الـ Controllers مع الـ Dependency Injection
-
-        // Swagger/OpenAPI
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();  // لإضافة توثيق Swagger
-
-        var app = builder.Build();
-
-        // Middleware Configuration
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseSwagger();
-            app.UseSwaggerUI();
-        }
-
-        app.UseHttpsRedirection();
-        app.UseAuthorization();
-
-        app.MapControllers();  // لتحديد الـ routes الخاصة بالـ Controllers
-        app.Run();  // لتشغيل التطبيق
-    }
-}
-```
-
 ## استخدام Postman واختبار الـ API:
 - بعد تشغيل المشروع، بتفتح **Postman** وتضيف الـ URL الخاص بالـ API (اللي بيكون عادةً **localhost**).
 - بتعمل Request لكل Endpoint عشان تجرب الـ API.
 - تقدر تعمل **Export** للـ Collection من Postman عشان تبعته لأي حد يشتغل معاك على المشروع.
 
-#### RESTful APIs:
+## RESTful APIs:
 - الـ REST API بتشتغل على أساس الـ HTTP Verbs زي **GET**، **POST**، **PUT**، و**DELETE**.
 - مثلاً، لو بعت **GET** request، الـ API هيرد بالبيانات، ولو بعت **POST** هيضيف البيانات.
 
-#### مميزات .NET 6 و .NET 8:
+## مميزات .NET 6 و .NET 8:
 - في .NET 6 تم دمج ملفات الـ `Program` و `Startup` في ملف واحد لتبسيط الكود.
 - في .NET 8، التحسينات بتركز أكتر على الأداء وزيادة دعم مميزات زي الـ **Blazor** والـ **Minimal APIs**، بالإضافة إلى تحسينات كبيرة في سرعة الاستجابة وتطوير الأدوات الخاصة بالـ Developer Experience.
 
-#### مثال على استخدام الـ Dependency Injection مع الـ DbContext:
+## مثال على استخدام الـ Dependency Injection مع الـ `DbContext`:
 - هنا بنستخدم SQL Server كـ Database للـ API:
   ```csharp
   builder.Services.AddDbContext<StoreContext>(options => {
@@ -103,35 +68,44 @@ public class Program
   ```
   - الـ Dependency Injection هنا بتمكننا من استدعاء الـ DbContext بسهولة في أي مكان في الكود.
 
----
+## ملف **`launchSettings.json`**:
 
-### ملف **launchSettings.json**:
-الـ **launchSettings.json** بيحدد إعدادات التشغيل الخاصة بالمشروع في وضع التطوير (Development). وده بيشمل الـ profiles اللي بتحدد إزاي المشروع هيشتغل.
-
-##### مثال على ملف **launchSettings.json**:
 ```json
 {
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:48931",
+      "sslPort": 44327
+    }
+  },
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "Kestrel": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "WebApi": {
+    "http": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5055",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7078;http://localhost:5055",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -140,15 +114,116 @@ public class Program
 }
 ```
 
-#### شرح محتويات الملف:
-- **profiles**: بيحدد الـ profiles المختلفة اللي بتشغل المشروع.
-  - **IIS Express**: ده بيستخدم الـ IIS Express لتشغيل المشروع.
-  - **Kestrel**: بيستخدم الـ Kestrel server لتشغيل المشروع مباشرة على الـ localhost.
-  - **WebApi**: بيشغل المشروع كـ Console Application باستخدام الـ URLs المحددة.
+- الـ**iisSettings**:  
+  - بيعطل **Windows Authentication** ويسمح بالـ **Anonymous Access**.
+  - الـ IIS Express شغال على `http://localhost:48931` بـ SSL Port `44327`.
 
-- **ASPNETCORE_ENVIRONMENT**: بيحدد بيئة التشغيل (هنا هي "Development").
-- **launchBrowser**: لو true، هيفتح المتصفح تلقائيًا على الـ URL بتاع المشروع بعد تشغيله.
+- الـ**profiles**: عندك 3 بروفايلات لتشغيل المشروع:
+  1. الـ**http**: تشغيل المشروع على **HTTP** باستخدام **Kestrel** على `http://localhost:5055`.
+  2. الـ**https**: تشغيل المشروع على **HTTPS** و**HTTP** معًا على `https://localhost:7078` و `http://localhost:5055`.
+  3. الـ**IIS Express**: بيشغل المشروع على IIS Express مع توثيق **Swagger**.
 
----
+- كل البروفايلات بتستخدم بيئة **Development** وبتفتح الـ **Swagger** تلقائيًا بعد التشغيل.
+## شرح `appsettings.json`:
 
-ده كان الشرح النهائي للسيشن الأولى بالتفصيل المطلوب ومع التعديلات والإضافات اللي طلبتها. لو عندك أي استفسار إضافي أو محتاج شرح أكتر في أي جزء، أنا موجود!
+الـ `appsettings.json` هو ملف مهم جدًا في مشاريع الـ ASP.NET Core لأنه بيخزن إعدادات التكوين (configuration settings) اللي بيستخدمها التطبيق. 
+الملف ده بيوفر طريقة مرنة لتغيير الإعدادات زي الـ Connection Strings الخاصة بالـ Database أو أي إعدادات تانية من غير ما نحتاج نعدل في الكود مباشرة. 
+وده بيكون مفيد جدًا لما نيجي ننقل التطبيق بين بيئات مختلفة (زي بيئة التطوير أو الإنتاج).
+
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=StoreDB;Trusted_Connection=True;"
+  }
+}
+```
+
+- الـ**Logging**:
+  - ده الجزء الخاص بإعدادات الـ Logging (يعني إزاي التطبيق بيسجل الأحداث اللي بتحصل أثناء التشغيل).
+  - ممكن تحدد مستوى الـ Logging لكل نوع (مثلاً: **Information**، **Warning**، أو **Error**). في المثال ده، المستوى الافتراضي هو **Information** (يعني هيسجل كل الأحداث المعلوماتية)، وبالنسبة لأحداث الـ **`Microsoft.AspNetCore`** هيسجل **Warning** فقط.
+
+- الـ`AllowedHosts`:
+  - ده اللي بيسمح لك تحدد الـ Hosts اللي التطبيق ممكن يتفاعل معاها. لو كتبت "\*" ده معناه إن التطبيق ممكن يتفاعل مع أي Host.
+
+- الـ`ConnectionStrings`:
+  - هنا بنحط الـ Connection Strings الخاصة بالـ Database. في المثال ده، بنستخدم **SQL Server** المحلي (`LocalDB`) والـ Database اسمها **`StoreDB`**.
+  - الـ Connection String دي بتقول للتطبيق يتصل بـ SQL Server ويستخدم `StoreDB` كقاعدة بيانات.
+
+## شرح **dummy example** بتاع الـ "WeatherForecast":
+
+في بداية أي مشروع ASP.NET Core Web API، بيجي معاه **dummy example** بيبسط مفهوم الـ API عن طريق تقديم مثال بسيط اسمه **`WeatherForecast`**. 
+ده عبارة عن كلاس بيستخدمه المشروع عشان يرجع بيانات وهمية (dummy data) عن درجات الحرارة المتوقعة، وده بيسهل فهم إزاي الـ API شغالة.
+
+#### الكود
+```csharp
+public class WeatherForecast
+{
+    public DateTime Date { get; set; }  // تاريخ اليوم
+    public int TemperatureC { get; set; }  // درجة الحرارة بالـ Celsius
+    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);  // حساب درجة الحرارة بالـ Fahrenheit
+    public string? Summary { get; set; }  // وصف الطقس (مشمس، ممطر، إلخ)
+}
+```
+
+#### الـController بتاع WeatherForecast:
+
+الكلاس ده بيستخدمه الـ API في **`WeatherForecastController`**. 
+ده الـ Controller اللي بيستقبل الـ HTTP requests وبيعمل Generate للـ Weather data الوهمية ويرجعها كـ JSON.
+
+```csharp
+[ApiController]
+[Route("[controller]")]
+public class WeatherForecastController : ControllerBase
+{
+    private static readonly string[] Summaries = new[]
+    {
+        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+    };
+
+    [HttpGet]
+    public IEnumerable<WeatherForecast> Get()
+    {
+        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        {
+            Date = DateTime.Now.AddDays(index),
+            TemperatureC = Random.Shared.Next(-20, 55),
+            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+        })
+        .ToArray();
+    }
+}
+```
+
+- الـ**Summaries**: مصفوفة فيها بعض الأوصاف لحالة الطقس (مثلاً "Freezing" يعني برد جامد، "Hot" يعني حر جدًا، إلخ).
+- الـ`HttpGet`: ده الـ Action اللي بيتم استدعاؤه لما نبعت request على الـ route بتاع الـ Controller (اللي هو "`WeatherForecast`" في الحالة دي).
+- الـ**Get()**: بتعمل Loop على عدد الأيام (من 1 لـ 5 أيام قدام) وبتعمل Generate لبيانات الطقس الوهمية.
+  - الـ**Date**: بيحسب تاريخ الأيام الجاية.
+  - الـ**TemperatureC**: بيستخدم Random عشان يجيب درجة حرارة عشوائية بين -20 و 55.
+  - الـ**Summary**: بيجيب وصف عشوائي للطقس من مصفوفة **Summaries**.
+
+##### النتيجة:
+لما تبعت request لـ `localhost:5001/WeatherForecast` مثلاً، الـ API هترجعلك بيانات عن الطقس للأيام الجاية في شكل JSON زي ده:
+
+```json
+[
+    {
+        "date": "2024-10-16T10:22:32.843Z",
+        "temperatureC": 25,
+        "temperatureF": 77,
+        "summary": "Mild"
+    },
+    {
+        "date": "2024-10-17T10:22:32.843Z",
+        "temperatureC": 10,
+        "temperatureF": 50,
+        "summary": "Bracing"
+    }
+]
+```
