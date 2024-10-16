@@ -1,5 +1,11 @@
+---
+up:
+  - "[[Asp DotNet Core Web API]]"
+related: 
+created: 2024-10-16
+---
 
-## 1. اختيار نوع المشروع - ASP.NET Core Web API  
+## 1. Make Project Web API  
 لما تبدأ في **Visual Studio**، هنفتح "Create New Project" ونختار قالب **ASP.NET Core Web API**. 
 القالب دا مخصص للـ backend، وبيخلينا نركز على بناء APIs من غير التعامل مع الواجهات الأمامية (front-end). 
 لو مش لاقي القالب، ممكن تكتبه في البحث "Web API" وتختار النسخة المكتوبة بـ **C#**.
@@ -371,22 +377,78 @@ https://localhost:5001/WeatherForecast?city=Cairo
   - هنا بنحط الـ Connection Strings الخاصة بالـ Database. في المثال ده، بنستخدم **SQL Server** المحلي (`LocalDB`) والـ Database اسمها **`StoreDB`**.
   - الـ Connection String دي بتقول للتطبيق يتصل بـ SQL Server ويستخدم `StoreDB` كقاعدة بيانات.
 
-## 5. فهم Swagger UI واستخدامه في المشروع  
-**Swagger** هو أداة قوية بتساعد في توثيق واختبار الـ APIs بشكل تلقائي. لما نشغل المشروع باستخدام **Swagger UI**، هيفتح متصفح بـ واجهة سهلة نقدر منها نستعرض الـ API ونجربها.
+## 6. launchSettings.json:
 
-#### **Swagger في وضع التشغيل:**
-لما نشغل التطبيق ونفتح **Swagger UI**، هنشوف الـ Endpoints المتاحة مع وصف ليهم. بنقدر نضغط على أي Endpoint ونجربه باستخدام **Try it out** عشان نختبر الـ API مباشرة من الواجهة.
+```json
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:48931",
+      "sslPort": 44327
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5055",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7078;http://localhost:5055",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+```
 
-### 6. ملاحظات حول الأمان والاستخدام في بيئات مختلفة  
-- **Swagger** بيتفعل في بيئة التطوير فقط (**Development Environment**). في الإنتاج (**Production**)، بنقفل الـ Swagger لأسباب أمان، عشان ما نديش أي معلومات حساسة عن الـ APIs.
+- الـ**iisSettings**:  
+  - بيعطل **Windows Authentication** ويسمح بالـ **Anonymous Access**.
+  - الـ IIS Express شغال على `http://localhost:48931` بـ SSL Port `44327`.
+
+- الـ**profiles**: عندك 3 بروفايلات لتشغيل المشروع:
+  دي عبارة عن الـ Servers اللي تقدر تشغل بيها عندك
+  1. الـ**http**: تشغيل المشروع على **HTTP** باستخدام **Kestrel** على `http://localhost:5055`.
+  2. الـ**https**: تشغيل المشروع على **HTTPS** و**HTTP** معًا على `https://localhost:7078` و `http://localhost:5055`.
+  3. الـ**IIS Express**: بيشغل المشروع على IIS Express مع توثيق **Swagger**.
+
+- كل البروفايلات بتستخدم بيئة **Development** وبتفتح الـ **Swagger** تلقائيًا بعد التشغيل.
+
+
+## 5. Swagger UI  
+الـ**Swagger** هو أداة قوية بتساعد في توثيق واختبار الـ APIs بشكل تلقائي. 
+لما نشغل المشروع باستخدام **Swagger UI**، هيفتح متصفح بـ واجهة سهلة نقدر منها نستعرض الـ API ونجربها.
+
+![[Pasted image 20241016235142.png]]
+![[Pasted image 20241016235304.png]]
+
+## 6. ملاحظات حول الأمان والاستخدام في بيئات مختلفة  
+- الـ**Swagger** بيتفعل في بيئة التطوير فقط (**Development Environment**). 
+- في الإنتاج (**Production**)، بنقفل الـ Swagger لأسباب أمان، عشان ما نديش أي معلومات حساسة عن الـ APIs.
 - ممكن نفعّله في أنظمة داخلية لو الشبكة مغلقة، عشان يسهل على الفرق المختلفة التواصل مع الـ APIs.
 
-### 8. أهمية Postman في اختبار الـ APIs  
-إلى جانب **Swagger**، هنحتاج نستخدم **Postman**. دي أداة من Google بتمكننا من اختبار الـ APIs بطرق متقدمة، وإرسال طلبات معقدة (GET, POST, PUT, DELETE) وتجربة ردود الأفعال المختلفة.
+## 7. أهمية Postman في اختبار الـ APIs  
+إلى جانب **Swagger**، هنحتاج نستخدم **Postman**. 
+دي أداة من Google بتمكننا من اختبار الـ APIs بطرق متقدمة، وإرسال طلبات معقدة (GET, POST, PUT, DELETE) وتجربة ردود الأفعال المختلفة.
 
----
-
-### الخاتمة  
-الفيديو دا غطى الأساسيات المهمة في بناء مشروع **ASP.NET Core Web API**، من إنشاء المشروع، إعداد `Program.cs`، تنظيم الـ Controllers، لاستخدام Swagger. في الحلقات الجاية، هنتعمق أكتر في بناء الـ APIs ونشرح الميدل وير بالتفصيل. استعد للتطبيق العملي باستخدام **Postman** وتجربة السيناريوهات المختلفة!
-
-**اشوفكم في فيديو جديد قريب، والسلام عليكم ورحمة الله وبركاته!**

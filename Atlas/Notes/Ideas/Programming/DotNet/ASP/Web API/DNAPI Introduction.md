@@ -1,4 +1,11 @@
-## المتطلبات الأساسية (Prerequisites)
+---
+up:
+  - "[[Asp DotNet Core Web API]]"
+related: 
+created: 2024-10-16
+---
+
+## Prerequisites
 
 علشان تقدر تبدأ في السلسلة دي، لازم تكون فاهم شوية حاجات مهمة، زي:
 
