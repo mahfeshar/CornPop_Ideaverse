@@ -81,17 +81,17 @@
             "id": "854623e0f7bdebe2",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Dependency Inversion Principle (DIP)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/SOLID/Dependency Inversion Principle (DIP).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "SOLID Principles",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/SOLID Principles.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":34},\"to\":{\"line\":18,\"ch\":34}},\"scroll\":8}"
                 },
                 {
                   "title": "DNAPI Project Structure",
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Dependency Inversion Principle (DIP).md",
+                "file": "Atlas/Maps/SOLID Principles.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -238,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Dependency Inversion Principle (DIP).md"
+                "file": "Atlas/Maps/SOLID Principles.md"
               }
             }
           },
@@ -363,7 +363,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Dependency Inversion Principle (DIP).md",
+                "file": "Atlas/Maps/SOLID Principles.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -414,7 +414,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Dependency Inversion Principle (DIP).md",
+                "file": "Atlas/Maps/SOLID Principles.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -440,7 +440,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Dependency Inversion Principle (DIP).md",
+                "file": "Atlas/Maps/SOLID Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -461,7 +461,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Dependency Inversion Principle (DIP).md"
+                "file": "Atlas/Maps/SOLID Principles.md"
               }
             }
           }
@@ -494,10 +494,10 @@
   },
   "active": "854623e0f7bdebe2",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/SOLID/Dependency Inversion Principle (DIP).md",
     "Atlas/Utilities/Images/Pasted image 20241017002945.png",
     "Atlas/Utilities/Images/Pasted image 20241017002920.png",
-    "+/SOLID Principles.md",
-    "+/Dependency Inversion Principle (DIP).md",
+    "Atlas/Maps/SOLID Principles.md",
     "+/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md",
@@ -531,7 +531,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md",
     "Atlas/Utilities/Images/Pasted image 20241015030503.png",
     "Atlas/Utilities/Images/Pasted image 20241015030300.png",
-    "Atlas/Utilities/Images/Pasted image 20241015030044.png",
     "Atlas/Utilities/Images/Recursion.pdf",
     "cshra",
     "Atlas/Notes/Ideas/Programming/Problem Solving",

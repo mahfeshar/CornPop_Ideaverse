@@ -1,3 +1,10 @@
+---
+up:
+  - "[[SOLID Principles]]"
+related: 
+created: 2024-10-17
+---
+
 
 هو واحد من أهم المبادئ في **SOLID Principles**، وبيساعدك تفصل ما بين الأجزاء المختلفة في الكود بتاعك بشكل يخلي الصيانة أسهل والاختبار أذكى. 
 أول حاجة هو معتمد على [[Cs Abstraction]]
@@ -64,10 +71,11 @@ public class JobApplicationManager
 ## تطبيق DIP (Loose Coupling) باستخدام Interfaces وDI:
 الـ Dependency Inversion دا المبدأ العام و الـ [[Dependency Injection]] دا إحدى الطرق اللي بتتطبق بيها المبدأ دا
 
-### حل المشكلة باستخدام Interfaces:
+### [[Cs Interface]]
+#### حل المشكلة باستخدام Interfaces:
 هنبدأ بإننا نعرّف **Interfaces** لكل من **Logger** و**EmailSender**.
 
-#### **ILogger Interface:**
+##### **ILogger Interface:**
 ```csharp
 public interface ILogger
 {
@@ -75,7 +83,7 @@ public interface ILogger
 }
 ```
 
-#### **EmailSender Interface:**
+##### **EmailSender Interface:**
 ```csharp
 public interface IEmailSender
 {
@@ -84,9 +92,9 @@ public interface IEmailSender
 ```
 
 
-### كود مُحسن باستخدام DIP:
+#### كود مُحسن باستخدام DIP:
 
-#### **Logger.cs:**
+##### **Logger.cs:**
 ```csharp
 public class Logger : ILogger
 {
@@ -97,7 +105,7 @@ public class Logger : ILogger
 }
 ```
 
-#### **EmailSender.cs:**
+##### **EmailSender.cs:**
 ```csharp
 public class EmailSender : IEmailSender
 {
@@ -108,7 +116,7 @@ public class EmailSender : IEmailSender
 }
 ```
 
-#### **JobApplicationManager.cs:**
+##### **JobApplicationManager.cs:**
 ```csharp
 public class JobApplicationManager
 {
@@ -131,7 +139,7 @@ public class JobApplicationManager
 
 ---
 
-### الـProgram.cs بعد تطبيق DIP:
+#### الـProgram.cs بعد تطبيق DIP:
 ```csharp
 var logger = new Logger();
 var emailSender = new EmailSender();
@@ -167,6 +175,7 @@ var app = builder.Build();
 app.Run();
 ```
 
+
 #### **استخدام JobApplicationManager في Controller:**
 ```csharp
 [ApiController]
@@ -190,8 +199,9 @@ public class JobApplicationController : ControllerBase
 ```
 
 ---
-
-### **الخلاصة:**
+## Factory 
+هو اسخدم على JobApplicationManager class مبدأ الـ [[Factory]] عشان يظبطها
+## **الخلاصة:**
 - الـ**Dependency Inversion Principle (DIP)** بيقولك إن الكود اللي فيه منطق الأعمال ما يعتمدش بشكل مباشر على التفاصيل.  
 - الطريقة الأسهل لتطبيق DIP هي استخدام **Dependency Injection (DI)**، اللي بيسمح لك تفصل ما بين الكلاسات وتحقن الكائنات اللي محتاجها كل كائن.  
 - باستخدام DI، الكود بتاعك بيبقى أنظف وأسهل في الصيانة، وبتقدر تعمل **Unit Testing** بشكل أذكى.
