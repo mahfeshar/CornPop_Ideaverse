@@ -181,7 +181,7 @@ public class ProductController : ControllerBase
 
 ---
 
-### شرح الكود:
+#### شرح الكود:
 - الـ**Create**: يستقبل **Product** جديد ويضيفه لقاعدة البيانات.
 - الـ**GetAll**: يسترجع كل المنتجات.
 - الـ**GetById**: يسترجع منتج معين بناءً على **Id**.
