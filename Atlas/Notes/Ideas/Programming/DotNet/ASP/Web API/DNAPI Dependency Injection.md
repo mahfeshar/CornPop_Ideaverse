@@ -106,7 +106,7 @@ public class WeatherForecastController : ControllerBase
 
 #### **WeatherForecastService:**
 ```csharp
-public class WeatherForecastService
+public class *WeatherForecastService*
 {
     public IEnumerable<WeatherForecast> GetForecast()
     {
