@@ -48,15 +48,16 @@ CREATE TABLE Products (
 ---
 
 ### إنشاء الـ Entity والـ DbContext  
-الـ **Entity** هي الكلاس اللي بتمثل **Table** في قاعدة البيانات. أما الـ **DbContext** فهو الكلاس اللي بيوصل بين التطبيق وقاعدة البيانات.
+الـ **Entity** هي الكلاس اللي بتمثل **Table** في قاعدة البيانات. (Record or row in table)
+أما الـ **DbContext** فهو الكلاس اللي بيوصل بين التطبيق وقاعدة البيانات. (ممثل الـ Database)
 
 #### **Product.cs**:
 ```csharp
 public class Product
 {
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string SKU { get; set; }
+    public required int Id { get; set; }
+    public required string Name { get; set; }
+    public required string SKU { get; set; }
 }
 ```
 
@@ -76,6 +77,12 @@ public class ApplicationDbContext : DbContext
 }
 ```
 
+- لازم يورث من كلاس اسمه `DbContext`
+- أول حاجة لازم نعمل override لميثود اسمها `OnModelCreating` ودي بكل بساطة بقوله إن معايا Entities وبعرفه `ToTable` انه هيروح يعدل هناك في الجدول دا
+- لو هو هو نفس اسم الـ Entity مش لازم تديله اسم انما لو مختلف لازم تكتب اسم الجدول في الـ DB بالظبط
+- لو الـ Primary Key اسمه ID أو اسمه اسم الـ Entity وبعده ID زي `ProuctID` هو تلقائي بيتعرف عليها انما لو مختلف لازم استخدم `HasKey("Id")` واكتب الـ Primary key
+- متنساش تعمل empty constructor عشان ميعمليش ايرور ويبقا بياخد `DbContextOptions`
+
 ---
 
 ### تسجيل الـ DbContext في الـ Dependency Injection Container  
@@ -85,8 +92,7 @@ public class ApplicationDbContext : DbContext
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer("Server=.;Database=Products;Trusted_Connection=True;"));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=.;Database=Products;Trusted_Connection=True;"));
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
@@ -176,16 +182,16 @@ public class ProductController : ControllerBase
 ---
 
 ### شرح الكود:
-- **Create**: يستقبل **Product** جديد ويضيفه لقاعدة البيانات.
-- **GetAll**: يسترجع كل المنتجات.
-- **GetById**: يسترجع منتج معين بناءً على **Id**.
-- **Update**: يعدل بيانات منتج موجود.
-- **Delete**: يحذف منتج بناءً على **Id**.
+- الـ**Create**: يستقبل **Product** جديد ويضيفه لقاعدة البيانات.
+- الـ**GetAll**: يسترجع كل المنتجات.
+- الـ**GetById**: يسترجع منتج معين بناءً على **Id**.
+- الـ**Update**: يعدل بيانات منتج موجود.
+- الـ**Delete**: يحذف منتج بناءً على **Id**.
 
 ---
 
 ### تجربة الـ API باستخدام Swagger  
-Swagger بيكون جاهز تلقائيًا مع **ASP.NET Core**، وبيسهل عليك تجربة الـ API. 
+الـSwagger بيكون جاهز تلقائيًا مع **ASP.NET Core**، وبيسهل عليك تجربة الـ API. 
 
 1. شغل التطبيق، وافتح Swagger من الرابط:  
    `https://localhost:5001/swagger/index.html`
