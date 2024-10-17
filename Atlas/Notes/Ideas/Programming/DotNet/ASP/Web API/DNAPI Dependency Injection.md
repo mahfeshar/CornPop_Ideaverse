@@ -22,52 +22,6 @@ created: 2024-10-17
 الفكرة الأساسية هنا إنك بدل ما تستخدم `new` كل مرة، بتطلب الـ Dependency دي في **Constructor**، و **ASP.NET Core** هي اللي بتوفرها بشكل تلقائي.
 
 ---
-
-## إيه هو بقى Injection؟
-كلمة **Injection** معناها "حقن"، يعني إحنا مش بنخلي الكائن (class) هو اللي ينشئ الـ dependency بنفسه، بل بنعمل **حقن للكائنات اللي بيعتمد عليها** من خارج الكود.  
-
-> وده يخلي الكود بتاعك **أكتر مرونة وقابلية للاختبار**. بدل ما كل كائن يقرر بنفسه يعمل object جديد من اللي هو محتاجه، الكود هيطلب الـdependency من مكان خارجي، وهو اللي يبعته ليه.
-
----
-
-### Program.cs
-في المشاريع اللي بنبنيها بـASP.NET Core، الملف الأساسي اللي بيبدأ منه كل حاجة هو **`Program.cs`**. 
-دلوقتي مع **top-level statements**، مش محتاج تكتب `namespace` ولا `class`، بل الكود بيتكتب مباشرة كأنه **سكريبت**.
-
-ده مثال للكود اللي هيكون في **`Program.cs`**:
-
-```csharp
-var builder = WebApplication.CreateBuilder(args);
-
-// إضافة الخدمات للـ Dependency Injection Container
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// تمكين Swagger في بيئة التطوير
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-app.UseAuthorization();
-app.MapControllers();
-app.Run();
-```
-
----
-
-### **إزاي الـDependency Injection بيشتغل؟**
-- في المثال اللي فوق، لما بنكتب `builder.Services.AddControllers()`، إحنا بنقول للـ **DI Container** الخاص بـ ASP.NET Core إن في كائنات **Controllers** هنحتاجها في التطبيق.
-
-- الـ**Swagger** كمان بيتم تسجيله عشان يشتغل في بيئة التطوير. واللي بيعمله ASP.NET إنه بيراقب الـ dependencies اللي انت سجلتها، ولما الكنترولر يحتاج حاجة، **الـContainer** بيبعتهاله تلقائيًا.
-
----
-
 ### **مثال عملي: Inject Logger في Controller**
 تعالى نبص على كنترولر بسيط بيستخدم **ILogger** عشان يسجل الأحداث:
 
@@ -101,35 +55,48 @@ public class WeatherForecastController : ControllerBase
 ```
 
 - هنا بنشوف إزاي الـ **ILogger** بيتحقن في الكنترولر عن طريق الـ **constructor**. الكنترولر ده بيعتمد على **ILogger**، والـ **DI Container** هو اللي بيقوم بإنشاء **instance** من `ILogger` وبيديه للكنترولر.
+- الـ**Constructor Injection**: هنا بنستخدم **ILogger** في الـ **Constructor** بدل ما ننشئه يدويًا.
+- الـ**Log Information**: نكتب Log في كل مرة يتم فيها استدعاء الـ API، عشان نعرف وقت التشغيل لو حصلت أي مشكلة.
 
 ---
 
-### **إزاي أسجل كائن في الـDI Container؟**
-خلينا نفترض إن إحنا عايزين نفصل اللوجيك الخاص بالـ **WeatherForecast** في **Service** لوحدها. هنعمل **class** جديدة اسمها `WeatherForecastService`.
-
-#### **WeatherForecastService:**
+### بناء خدمة (Service) جديدة
+دلوقتي هننقل المنطق اللي في `WeatherForecastController` لكلاس تاني، ونسميه **WeatherForecastService**، وده بيوضح إزاي الـ Dependency Injection بتشتغل مع الخدمات (Services).
 ```csharp
-public class *WeatherForecastService*
+public interface IWeatherForecastService
 {
+    IEnumerable<WeatherForecast> GetForecast();
+}
+
+public class WeatherForecastService : IWeatherForecastService
+{
+    private readonly ILogger<WeatherForecastService> _logger;
+
+    public WeatherForecastService(ILogger<WeatherForecastService> logger)
+    {
+        _logger = logger;
+    }
+
     public IEnumerable<WeatherForecast> GetForecast()
     {
+        _logger.LogInformation("Fetching weather forecast data");
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
             Date = DateTime.Now.AddDays(index),
             TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = "Cool"
-        })
-        .ToArray();
+            Summary = "Sample Data"
+        }).ToArray();
     }
 }
+
 ```
 
-#### **تسجيل الـ Service في Program.cs:**
+#### تحديث `Program.cs` لتسجيل الـ Service
 ```csharp
 builder.Services.AddScoped<WeatherForecastService>();
 ```
 
-دلوقتي الـ **WeatherForecastService** بقت متاحة لأي كائن يحتاجها، والـ DI Container هيتكفل بإنشاء **instance** منها عند الطلب.
+عشان نستخدم الـ **Service** دي في المشروع، لازم نضيفها في الـ **DI Container** باستخدام `AddScoped`
 
 ---
 
@@ -182,7 +149,11 @@ builder.Services.AddScoped<IWeatherService, WeatherService>();
 ```
 
 ---
+### أهمية استخدام Dependency Injection
 
+- **تنظيم الكود**: الكود بيبقى أنضف وأسهل في الإدارة.
+- **المرونة**: ممكن تغير الـ Implementation بسهولة عن طريق تسجيل Services جديدة.
+- **الوحدة (Unit Testing)**: بتساعدك في كتابة اختبارات أفضل لأنك بتقدر تستبدل الـ Services الحقيقية بـ **Mocks** أثناء الاختبار.
 ### **الخلاصة:**
 الـ**Dependency Injection** هو أسلوب بيخليك تفصل الـ dependencies عن بعض، وتخلي **ASP.NET Core** هو المسؤول عن إنشاء وإدارة الكائنات اللي التطبيق محتاجها. 
 ده بيخلي الكود أنظف وأسهل في الصيانة، وكمان بيسهل جدًا اختبار التطبيق. 

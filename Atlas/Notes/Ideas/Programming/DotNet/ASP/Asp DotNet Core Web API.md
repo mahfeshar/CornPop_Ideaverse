@@ -12,6 +12,7 @@ tags:
 - [[DNAPI Introduction]]
 - [[DNAPI Project Anatomy]]
 - [[DNAPI Dependency Injection]]
+- [[DNAPI Basic CRUD Operations]]
 - 
 
 ---
