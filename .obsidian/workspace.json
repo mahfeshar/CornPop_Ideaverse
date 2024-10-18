@@ -46,8 +46,8 @@
                 {
                   "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":16},\"to\":{\"line\":14,\"ch\":16}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":17},\"to\":{\"line\":15,\"ch\":17}},\"scroll\":8}"
                 },
                 {
                   "title": "DNAPI Dependency Injection",
@@ -132,34 +132,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/DNAPI Basic CRUD Operations.md",
+                "file": "+/DBAPI Middlewares.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNAPI Basic CRUD Operations"
-            }
-          },
-          {
-            "id": "12aaa1444c92eb0f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "DBAPI Middlewares"
             }
           },
           {
@@ -297,10 +276,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/DNAPI Basic CRUD Operations.md"
+                "file": "+/DBAPI Middlewares.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of DNAPI Basic CRUD Operations"
+              "title": "Outline of DBAPI Middlewares"
             }
           },
           {
@@ -435,7 +414,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/DNAPI Basic CRUD Operations.md",
+                "file": "+/DBAPI Middlewares.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -463,7 +442,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of DNAPI Basic CRUD Operations"
+              "title": "Graph of DBAPI Middlewares"
             }
           }
         ]
@@ -488,7 +467,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/DNAPI Basic CRUD Operations.md",
+                "file": "+/DBAPI Middlewares.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -498,7 +477,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DNAPI Basic CRUD Operations"
+              "title": "Backlinks for DBAPI Middlewares"
             }
           },
           {
@@ -516,12 +495,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/DNAPI Basic CRUD Operations.md",
+                "file": "+/DBAPI Middlewares.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DNAPI Basic CRUD Operations"
+              "title": "Outgoing links from DBAPI Middlewares"
             }
           },
           {
@@ -539,10 +518,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/DNAPI Basic CRUD Operations.md"
+                "file": "+/DBAPI Middlewares.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of DNAPI Basic CRUD Operations"
+              "title": "Outline of DBAPI Middlewares"
             }
           }
         ]
@@ -574,11 +553,14 @@
   },
   "active": "9957efb875ee5c75",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/Networking/HTTP.md",
+    "+/DBAPI Middlewares.md",
+    "Atlas/Utilities/Images/Pasted image 20241018080329.png.~tmp",
+    "Atlas/Utilities/Images/Pasted image 20241018080329.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
-    "+/DNAPI Basic CRUD Operations.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md",
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
-    "Atlas/Notes/Ideas/Programming/Networking/HTTP.md",
     "Atlas/Maps/DotNet.md",
     "Atlas/Maps/Back-end MOC.md",
     "Atlas/Maps/CSharp MOC.md",
@@ -606,12 +588,9 @@
     "Atlas/Notes/Ideas/Programming/Topics/API.md",
     "Atlas/Utilities/Images/Pasted image 20241016045609.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md",
-    "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API",
-    "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP",
     "Atlas/Utilities/Images/Pasted image 20241015030503.png",
-    "Atlas/Utilities/Images/Pasted image 20241015030300.png",
     "Atlas/Utilities/Images/Recursion.pdf",
     "cshra",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
@@ -619,7 +598,6 @@
     "Atlas/Utilities/Images",
     "Atlas/Utilities/Excalidraw",
     "Atlas/Utilities",
-    "Atlas/Notes/X",
     "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
     "Atlas/Notes/Ideas/Untitled.canvas",
     "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
