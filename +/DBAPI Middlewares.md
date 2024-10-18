@@ -64,7 +64,7 @@ public class ProfileMiddleware
 
 ---
 
-## تسجيل الـ Middleware في التطبيق  
+### تسجيل الـ Middleware في التطبيق  
 لازم نضيف الـ Middleware في الـ **Program.cs** عشان يتم تنفيذه ضمن الـ Pipeline.
 
 ```csharp
@@ -96,7 +96,6 @@ app.Run();
 
 ### إنشاء Middleware جديد لتحديد عدد الطلبات (Rate Limiting)  
 
-#### **RateLimitingMiddleware.cs**:
 ```csharp
 public class RateLimitingMiddleware
 {
