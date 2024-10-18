@@ -82,6 +82,8 @@ public class ApplicationDbContext : DbContext
 - لو هو هو نفس اسم الـ Entity مش لازم تديله اسم انما لو مختلف لازم تكتب اسم الجدول في الـ DB بالظبط
 - لو الـ Primary Key اسمه ID أو اسمه اسم الـ Entity وبعده ID زي `ProuctID` هو تلقائي بيتعرف عليها انما لو مختلف لازم استخدم `HasKey("Id")` واكتب الـ Primary key
 - متنساش تعمل empty constructor عشان ميعمليش ايرور ويبقا بياخد `DbContextOptions`
+- الـ ctor يقوم بتمرير **`DbContextOptions`** الذي يحتوي على **إعدادات الاتصال** (مثل سلسلة الاتصال Connection String) وخيارات أخرى، مثل **مقدم الخدمة** (Provider) مثل SQL Server، SQLite، أو PostgreSQL.
+- الـ`DbSet<Product> Products { get; set; }` هو التمثيل البرمجي لجدول `Products` في قاعدة البيانات.
 
 ---
 

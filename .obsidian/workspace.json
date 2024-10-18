@@ -187,7 +187,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -271,8 +271,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -298,10 +297,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "+/DNAPI Basic CRUD Operations.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of DNAPI Basic CRUD Operations"
             }
           },
           {
@@ -395,7 +394,7 @@
             }
           },
           {
-            "id": "859f54b6c3bde63e",
+            "id": "777a14ab1a13cce9",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -409,11 +408,12 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "3d767c407ab4c865",
@@ -435,7 +435,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home.md",
+                "file": "+/DNAPI Basic CRUD Operations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -463,7 +463,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Home"
+              "title": "Graph of DNAPI Basic CRUD Operations"
             }
           }
         ]
@@ -488,7 +488,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "+/DNAPI Basic CRUD Operations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -498,7 +498,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for DNAPI Basic CRUD Operations"
             }
           },
           {
@@ -516,12 +516,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "+/DNAPI Basic CRUD Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Home"
+              "title": "Outgoing links from DNAPI Basic CRUD Operations"
             }
           },
           {
@@ -539,10 +539,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "+/DNAPI Basic CRUD Operations.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of DNAPI Basic CRUD Operations"
             }
           }
         ]
@@ -565,14 +565,14 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "cmdr:Toggle stacked tabs": false,
       "callout-manager:Insert Callout": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "12aaa1444c92eb0f",
+  "active": "9957efb875ee5c75",
   "lastOpenFiles": [
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "+/DNAPI Basic CRUD Operations.md",
