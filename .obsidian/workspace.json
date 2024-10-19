@@ -44,10 +44,28 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":17},\"to\":{\"line\":14,\"ch\":17}},\"scroll\":8}"
+                },
+                {
+                  "title": "DotNet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DotNet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":11},\"to\":{\"line\":13,\"ch\":11}},\"scroll\":8}"
+                },
+                {
+                  "title": "Back-end MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Back-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Back-end MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":5},\"to\":{\"line\":22,\"ch\":5}},\"scroll\":8}"
+                },
+                {
                   "title": "Programming MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":19},\"to\":{\"line\":29,\"ch\":19}},\"scroll\":15.90625}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":11},\"to\":{\"line\":39,\"ch\":11}},\"scroll\":24.553066666666666}"
                 },
                 {
                   "title": "Library",
@@ -60,13 +78,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/Data Structure and Algorithms MOC.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Structure and Algorithms MOC"
+              "title": "DNAPI Basic CRUD Operations"
             }
           }
         ],
@@ -337,7 +355,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/Data Structure and Algorithms MOC.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -365,7 +383,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Data Structure and Algorithms MOC"
+              "title": "Graph of DNAPI Basic CRUD Operations"
             }
           }
         ]
@@ -390,7 +408,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/Data Structure and Algorithms MOC.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -400,7 +418,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Data Structure and Algorithms MOC"
+              "title": "Backlinks for DNAPI Basic CRUD Operations"
             }
           },
           {
@@ -476,19 +494,21 @@
   },
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
+    "Atlas/Maps/DotNet.md",
+    "Atlas/Maps/Back-end MOC.md",
     "Atlas/Maps/Programming MOC.md",
-    "Atlas/Maps/Library.md",
     "Home.md",
+    "Atlas/Maps/Data Structure and Algorithms MOC.md",
+    "Atlas/Maps/Library.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md",
     "Atlas/Notes/Ideas/Programming/Networking/HTTP.md",
     "Atlas/Utilities/Images/Pasted image 20241018080329.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241018080329.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md",
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
-    "Atlas/Maps/DotNet.md",
-    "Atlas/Maps/Back-end MOC.md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
@@ -499,7 +519,6 @@
     "Atlas/Utilities/Images/Pasted image 20241017002945.png",
     "Atlas/Utilities/Images/Pasted image 20241017002920.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
     "Atlas/Utilities/Images/Pasted image 20241016235304.png",
     "Atlas/Utilities/Images/Pasted image 20241016235142.png",
     "Atlas/Notes/Ideas/Programming/Topics/JSON.md",
@@ -510,7 +529,6 @@
     "Atlas/Utilities/Images/Pasted image 20241016222623.png",
     "+/Networking Fundamentals.md",
     "Atlas/Notes/Ideas/Programming/Networking/Network.md",
-    "+/HTTP response status codes.md",
     "Atlas/Utilities/Images/Pasted image 20241016045609.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP",
