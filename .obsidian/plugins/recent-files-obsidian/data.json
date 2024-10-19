@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "DBAPI Middlewares",
-      "path": "+/DBAPI Middlewares.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md"
     },
     {
       "basename": "HTTP",
@@ -99,10 +103,6 @@
     {
       "basename": "DNAPI Intro",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "REST API",
