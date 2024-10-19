@@ -110,31 +110,39 @@ public class RateLimitingMiddleware
 
     public async Task InvokeAsync(HttpContext context)
     {
+	    _requestCount++;
         if ((DateTime.Now - _lastRequestTime).TotalSeconds > 10)
         {
             _requestCount = 1;
             _lastRequestTime = DateTime.Now;
+            await _next(context);
         }
-        else if (_requestCount >= 5)
+        else 
         {
-            context.Response.StatusCode = 429; // Too Many Requests
-            await context.Response.WriteAsync("Rate limit exceeded. Please try again later.");
-            return;
+	        if (_requestCount >= 5)
+	        {
+		        _lastRequestTime = DateTime.Now;
+	            context.Response.StatusCode = 429; 
+	            // Too Many Requests
+	            await context.Response.WriteAsync("Rate limit exceeded.");
+	            return;
+	        }
+	        else
+	        {
+	            _lastRequestTime = DateTime.Now;
+	            await _next(context);
+	        }
         }
-        else
-        {
-            _requestCount++;
-        }
+        
 
         await _next(context);
     }
 }
 ```
 
-### شرح الكود:
-- **`_requestCount`**: عدد الطلبات اللي بعتها المستخدم خلال 10 ثواني.
-- **`_lastRequestTime`**: آخر وقت تم فيه إرسال طلب.
-- **Status Code 429**: بيتم إرجاعه لو المستخدم تجاوز الحد المسموح للطلبات.
+- الـ`_requestCount`: عدد الطلبات اللي بعتها المستخدم خلال 10 ثواني.
+- الـ`_lastRequestTime`: آخر وقت تم فيه إرسال طلب.
+- الـ**Status Code 429**: بيتم إرجاعه لو المستخدم تجاوز الحد المسموح للطلبات.
 
 ---
 
@@ -142,19 +150,6 @@ public class RateLimitingMiddleware
 ```csharp
 app.UseMiddleware<RateLimitingMiddleware>();
 ```
+خد بالك تحطه بعد الـ Swagger عشان هو بيعمل كذا Request ورا بعض
 
 ---
-
-### تجربة الـ Middlewares باستخدام Swagger  
-1. شغل التطبيق وافتح Swagger:  
-   `https://localhost:5001/swagger/index.html`
-
-2. جرب تبعت أكتر من 5 طلبات خلال 10 ثواني، هتلاقي التطبيق بيرجع:  
-   **429 Too Many Requests** مع رسالة "Rate limit exceeded."
-
----
-
-### الخاتمة  
-الـ Middlewares جزء أساسي في أي تطبيق **ASP.NET Core**. شفنا إزاي نعمل Middleware مخصص، وازاي نتحكم في عدد الطلبات باستخدام **Rate Limiting Middleware**.  
-
-يا رب يكون الشرح واضح وبسيط ليكم، ولا تنسوا الدعاء لإخواننا في فلسطين، والسلام عليكم ورحمة الله وبركاته.
