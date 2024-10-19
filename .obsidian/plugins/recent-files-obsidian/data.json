@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Data Structure and Algorithms MOC",
+      "path": "Atlas/Maps/Data Structure and Algorithms MOC.md"
+    },
+    {
+      "basename": "Programming MOC",
+      "path": "Atlas/Maps/Programming MOC.md"
+    },
+    {
+      "basename": "Library",
+      "path": "Atlas/Maps/Library.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -157,10 +169,6 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
     },
     {
-      "basename": "Programming MOC",
-      "path": "Atlas/Maps/Programming MOC.md"
-    },
-    {
       "basename": "API and Web apps IBM Course",
       "path": "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Cs Enums",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md"
-    },
-    {
-      "basename": "Cs Task-Based Asynchronous Pattern",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Task-Based Asynchronous Pattern.md"
-    },
-    {
-      "basename": "Cs Multithreading Basics",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Multithreading Basics.md"
     }
   ],
   "omittedPaths": [],

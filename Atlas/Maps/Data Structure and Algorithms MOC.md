@@ -6,7 +6,7 @@ created: 2024-07-05
 tags:
   - map
 ---
-- [[Amortized analysis]]
+  - [[Amortized analysis]]
 ---
 - [[RAM]]
 ## Arrays & Hashing
