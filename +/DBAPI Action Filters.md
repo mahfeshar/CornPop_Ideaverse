@@ -30,6 +30,10 @@ created: 2024-10-21
 - الـ **Action Filters** بيشتغلوا بس على **Actions**، يعني لما يوصل الطلب لكنترولر معين.
 
 ---
+- الـ**Middleware** بتتعامل مع كل الريكوستات سواء كانت API أو Static Files، لكن الـ **Action Filters** بتتعامل مع الـ API فقط.
+- الـ**Middleware** ما بتقدرش تشوف تفاصيل الـ Action زي اسمها أو البراميترز، لكن الـ **Filters** بتقدر تعرف كل ده.
+
+---
 
 ### الكود الأساسي لإنشاء Action Filter  
 
@@ -65,7 +69,7 @@ public class LogActivityFilter : IActionFilter
 
 
 #### تسجيل كـ Global Filter  
-لو عايز تطبق الفلتر على كل **Actions** في التطبيق، سجل الفلتر بالشكل ده في **Program.cs**:
+لو عايز تطبق الفلتر على كل **Actions** في التطبيق، سجل الفلتر بالشكل ده في **Program.cs**
 دي طريقة التسجيل ك Global هيشتغل على أي Action عندي بتحصل
 ```csharp
 builder.Services.AddControllers(options =>
@@ -110,7 +114,38 @@ public IActionResult GetProductById(int id)
 
 ---
 
-### شرح الـ Result, Arguments
+### Short-Circuiting
+إزاي يتم استخدام **Action Filters** لتنفيذ ما يسمى بـ **Short-Circuiting**.
+#### شرح الكود:
+
+```csharp
+public void OnActionExecuting(ActionExecutingContext context)
+{
+    context.Result = new NotFoundResult();
+}
+```
+
+1. **OnActionExecuting**:  
+   دي ميثود خاصة بتنفيذ فلتر بيشتغل **قبل** تنفيذ الـ Action نفسه. بمعنى إن أي ريكويست بيوصل هنا هيمر على الفلتر الأول.
+
+2. **ActionExecutingContext context**:  
+   بيحتوي على **كل التفاصيل** الخاصة بالريكوست، زي اسم الـ Controller، الـ Action، والـ Parameters اللي جاية مع الريكوست.
+
+3. **context.Result = new NotFoundResult();**  
+   - هنا بيتم **تعيين النتيجة** مباشرة على إنها **NotFound (404)**.  
+   - ده معناه إن الفلتر عمل **Short-Circuit**، يعني منع الـ Action نفسه من التنفيذ.  
+   - النتيجة "404 Not Found" بترجع على طول للمستخدم من غير ما يتم استدعاء أي **Action Method**.  
+
+#### فكرة Short-Circuiting:
+- ده بيحصل لما نقرر في الفلتر نمنع الريكوست من إكمال مساره الطبيعي (يعني من الوصول إلى الـ Controller أو الـ Action).
+- الفلتر بيوقف الريكوست وبيحدد **النتيجة النهائية** قبل حتى ما يوصل للـ Action.
+
+#### متى نستخدم هذه الطريقة؟
+- لما تكون عايز تتحقق من حاجة معينة قبل تنفيذ الـ Action، زي إنك تمنع الدخول لو ما تحقق شرط معين (مثلاً: المستخدم مش مفوض).
+- أو لو كنت بتتعامل مع بيانات مش متاحة، فبتعيد "Not Found" بدل ما تخلي الـ Action Method تشتغل.
+
+#### الخلاصة:
+الـ Action Filter ده مثال على إزاي نستخدم **OnActionExecuting** لإيقاف الريكوست عند نقطة معينة، وتحديد استجابة مباشرة باستخدام **NotFoundResult()**.
 ### مثال إضافي على Action Filter باستخدام Async  
 
 ```csharp
@@ -139,8 +174,8 @@ public class AsyncLogActivityFilter : IAsyncActionFilter
 ---
 
 ### الفرق بين الفلتر المتزامن والغير متزامن  
-- **IActionFilter**: بيشتغل بشكل عادي ومتزامن.
-- **IAsyncActionFilter**: بيشتغل بشكل غير متزامن باستخدام **async/await**. 
+- الـ**IActionFilter**: بيشتغل بشكل عادي ومتزامن.
+- الـ**IAsyncActionFilter**: بيشتغل بشكل غير متزامن باستخدام **async/await**. 
 
 ---
 
