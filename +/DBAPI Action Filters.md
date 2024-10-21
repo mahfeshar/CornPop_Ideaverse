@@ -56,17 +56,16 @@ public class LogActivityFilter : IActionFilter
 ```
 
 #### شرح الكود:  
-- الـ**`IActionFilter`**: ده الـ **Interface** اللي بنبني منه الفلتر. لازم نطبق **OnActionExecuting** و**OnActionExecuted**.
-- الـ**`OnActionExecuting`**: دي بتشتغل قبل تنفيذ الـ **Action**.
-- الـ**`OnActionExecuted`**: دي بتشتغل بعد ما الـ **Action** ينفذ وتقدر تعدل في الرد.
+- الـ`IActionFilter`: ده الـ **Interface** اللي بنبني منه الفلتر. لازم نطبق **OnActionExecuting** و**OnActionExecuted**.
+- الـ`OnActionExecuting`: دي بتشتغل قبل تنفيذ الـ **Action**.
+- الـ`OnActionExecuted`: دي بتشتغل بعد ما الـ **Action** ينفذ وتقدر تعدل في الرد.
 
 ---
 
-### تسجيل الفلتر في التطبيق  
 
 #### تسجيل كـ Global Filter  
 لو عايز تطبق الفلتر على كل **Actions** في التطبيق، سجل الفلتر بالشكل ده في **Program.cs**:
-
+دي طريقة التسجيل ك Global هيشتغل على أي Action عندي بتحصل
 ```csharp
 builder.Services.AddControllers(options =>
 {
@@ -75,6 +74,7 @@ builder.Services.AddControllers(options =>
 	// More Filters
 );
 ```
+لما تبدأ تشغله بيبدأ يروح الأول لـ `OnActionExecuting` وبعدين يعمل Action وبعدين `OnActionExecuted`
 
 #### تطبيق الفلتر على كنترولر معين  
 ممكن تطبقه على كنترولر معين بس، عن طريق إضافة الفلتر فوق الكنترولر بالشكل ده:
@@ -109,6 +109,7 @@ public IActionResult GetProductById(int id)
 
 ---
 
+### شرح الـ Result, Arguments
 ### مثال إضافي على Action Filter باستخدام Async  
 
 ```csharp
