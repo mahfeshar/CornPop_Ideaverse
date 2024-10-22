@@ -54,6 +54,13 @@ public class GenericList<T>
 }
 ```
 
+تقدر تعرف أكتر من Generic Type
+```cs
+public static void SWAP <T, T1, T2> (ref T num1, ref T num2)
+{
+	// CODE
+}
+```
 #### شرح الكود:
 - الـ**T** هو Placeholder لنوع البيانات اللي المستخدم هيحدده عند إنشاء **`GenericList`**. 
 - في الكود ده، أنشأنا **List** داخلية من النوع **T**، وأضفنا ميثود **`Add`** عشان نضيف العناصر، و **`GetItem`** لاسترجاع عنصر معين.
@@ -91,6 +98,17 @@ Console.WriteLine(result);        // هتطبع 15
 Console.WriteLine(resultDouble);  // هتطبع 15.8
 ```
 
+> [!info]
+> In Case Generic Type "T" is declared on **method** level, Not Class, Not Interface, Not Struct
+> Compiler can detect the type of "T" based on the type of the method Input Parameters
+> ```cs
+> int A = 5;
+> int B = 10;
+> Helper.Swap(ref A, ref B)
+> double A = 5;
+> double B = 10;
+> Helper.Swap(ref A, ref B)
+> ```
 ### الـ Constraints على Generics:
 في بعض الأحيان، ممكن تحتاج تحط شروط (Constraints) على الأنواع اللي بتتعامل معاها في الـ **Generics**. 
 مثلاً، ممكن تضيف شرط إن النوع اللي المستخدم هيبعتوا لازم يكون نوع رقمي.
