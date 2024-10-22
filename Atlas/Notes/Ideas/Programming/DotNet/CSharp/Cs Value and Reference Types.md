@@ -31,7 +31,7 @@ We talked about [[CLS and CTS]], Read it again
   اعرف برضو ان الاتنين دول *لا بيورثوا ولا بيورثوا*
 
 - كل ال built-in يعتبروا value types ما عدا كام حاجة بس زي ال string و System.Object
-[[Cs Data Types#Bulit-in types table (Primitive)]]
+[[Cs Data Types#Bulit-in types table (Primitive)|Bulit-in types table (Primitive)]]
 
 ```cs
 int X; // int: c# keyword 
