@@ -47,7 +47,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":10},\"to\":{\"line\":78,\"ch\":10}},\"scroll\":36.479166666666664}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":13},\"to\":{\"line\":78,\"ch\":13}},\"scroll\":40.510416666666664}"
                 },
                 {
                   "title": "DotNet",
@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -556,7 +557,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -582,6 +584,8 @@
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Maps/DotNet.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
@@ -611,10 +615,8 @@
     "Atlas/Notes/Ideas/Programming/SOLID/Dependency Inversion Principle (DIP).md",
     "Atlas/Utilities/Images/Pasted image 20241017002945.png",
     "Atlas/Utilities/Images/Pasted image 20241017002920.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md",
     "Atlas/Utilities/Images/Pasted image 20241016235304.png",
     "Atlas/Utilities/Images/Pasted image 20241016235142.png",
-    "Atlas/Notes/Ideas/Programming/Topics/JSON.md",
     "Atlas/Utilities/Images/Pasted image 20241016223130.png",
     "Atlas/Utilities/Images/Pasted image 20241016222956.png",
     "Atlas/Utilities/Images/Pasted image 20241016222623.png",
