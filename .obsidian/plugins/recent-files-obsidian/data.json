@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Cs Generics",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
+    },
+    {
+      "basename": "CSharp MOC",
+      "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
       "basename": "Cs Equality",
-      "path": "+/Cs Equality.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Equality.md"
     },
     {
       "basename": "Cs Value and Reference Types",
@@ -11,14 +19,6 @@
     {
       "basename": "Cs System.Object",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md"
-    },
-    {
-      "basename": "CSharp MOC",
-      "path": "Atlas/Maps/CSharp MOC.md"
-    },
-    {
-      "basename": "Cs Generics",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
     },
     {
       "basename": "Cs Operator Overloading",

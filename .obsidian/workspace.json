@@ -37,14 +37,8 @@
             "id": "a712844f471d7de6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Cs Value and Reference Types",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Value and Reference Types\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":21},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":6}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -53,7 +47,7 @@
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":12},\"to\":{\"line\":68,\"ch\":12}},\"scroll\":52.87026515151515}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":11},\"to\":{\"line\":80,\"ch\":11}},\"scroll\":74.07954545454545}"
                 },
                 {
                   "title": "DotNet",
@@ -114,13 +108,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Cs Equality.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cs Equality"
+              "title": "Cs Generics"
             }
           }
         ],
@@ -449,7 +443,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Cs Equality.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -477,7 +471,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cs Equality"
+              "title": "Graph of Cs Generics"
             }
           }
         ]
@@ -502,7 +496,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Cs Equality.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -512,7 +506,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cs Equality"
+              "title": "Backlinks for Cs Generics"
             }
           },
           {
@@ -588,10 +582,10 @@
   },
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
-    "+/Cs Equality.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Equality.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
     "Atlas/Maps/DotNet.md",

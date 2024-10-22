@@ -152,10 +152,8 @@ public T Add<T>(T a, T b) where T : Employee
 ### الـ Generics في Classes و Methods:
 الـ Generics مش بتسهل بس كتابة كود مختصر وفعال، لكنها كمان بتحل مشكلة **Type Safety** وبتديك مرونة في التعامل مع أنواع مختلفة بدون الحاجة لكتابة كود مكرر.
 
-### مثال تطبيقي أكبر:
-خلينا نطبق كل اللي شرحناه في مثال عملي أكبر بدمج **Generic Class** مع **Generic Method** و**Constraints**.
-
-#### الكود:
+### Examples:
+#### Example 1:
 ```csharp
 public class Calculator
 {
@@ -171,10 +169,8 @@ public class Calculator
 }
 ```
 
-#### شرح الكود:
 - هنا عندنا كلاس **Calculator** بيستخدم الـ **Generics** في ميثود **Add** و **Subtract** اللي بتقدر تتعامل مع أنواع رقمية مختلفة، سواء أرقام صحيحة أو أرقام عشرية.
 
-#### استخدام الكود:
 ```csharp
 Calculator calc = new Calculator();
 int sum = calc.Add<int>(5, 10);
@@ -183,7 +179,131 @@ double diff = calc.Subtract<double>(10.5, 5.3);
 Console.WriteLine(sum);  // هتطبع 15
 Console.WriteLine(diff); // هتطبع 5.2
 ```
+#### Example 2
+```cs
+class Helper
+{
+    public static void Swap (ref int A, ref int B)
+    {
+        Console.WriteLine("====Swap====");
+        int temp = A;
+        A = B;
+        B = temp;
+    }
+}
 
+// MAIN
+int a = 5;
+int b = 10;
+Console.WriteLine($"a = {a}");
+Console.WriteLine($"b = {b}");
+Helper.Swap(ref a, ref b);
+Console.WriteLine($"a = {a}");
+Console.WriteLine($"b = {b}");
+Console.WriteLine("-----------------------");
+double d = 2.2;
+double c = 3.3;
+Helper.Swap(ref d, ref c); // ERROR
+/* 
+OUTPUT:
+a = 5
+b = 10
+====Swap====
+a = 10
+b = 5
+*/
+
+// Solution 
+class Helper
+{
+    public static void Swap<T> (ref T A, ref T B)
+    {
+        Console.WriteLine("====Swap====");
+        T temp = A;
+        A = B;
+        B = temp;
+    }
+}
+
+/*
+OUTPUT:
+a = 5
+b = 10
+====Swap====
+a = 10
+b = 5
+-----------------------
+d = 2.2
+c = 3.3
+====Swap====
+d = 3.3
+c = 2.2
+*/
+```
+#### Example 3
+Read before, [[Cs Equality]]
+```cs
+static class Helper
+{
+    public static int SearchArray(int[] arr, int value)
+    {
+        for (int i = 0; i < arr?.Length; i++)
+        { 
+            if (arr[i] == value)
+                return i;
+        }
+        return -1;
+    }
+}
+
+// MAIN
+int[] array = { 1, 2, 6, 4, 10, 13, 20 };
+double[] doubles = { 2.1, 10.2, 12.3 };
+Console.WriteLine(Helper.SearchArray(array, 10)); // 4
+Console.WriteLine(Helper.SearchArray(array, 5));  // -1
+Console.WriteLine(Helper.SearchArray(doubles, 10.2)); // ERROR
+
+// SOLUTION: Is to make it Generic But
+class Employee
+{
+    
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int Salary { get; set; }
+    public Employee(int _id, string _name, int _salary)
+    {
+        Id = _id;
+        Name = _name;
+        Salary = _salary;
+    }
+}
+
+static class Helper <T>
+{
+    public static int SearchArray(T[] arr, T value)
+    {
+        for (int i = 0; i < arr?.Length; i++)
+        { 
+            if (arr[i].Equals(value))
+                return i;
+        }
+        return -1;
+    }
+}
+
+// MAIN
+Employee[] employees = {
+    new (15, "Ahmed", 13_000),
+    new (20, "Salma", 50_000),
+    new (35, "Corn", 5_000)
+};
+Console.WriteLine(Helper<Employee>.SearchArray(employees, new(35, "Corn", 5_000))); // -1
+// The address is not equals
+```
+
+المشكلة اللي هتحصل ان فيه حاجات مفيش فيها الـ `\==` فدا بيعمل مشاكل إنه ميعرفش هيعملها ازاي فعشان كدا 
+الحل اننا نستخدم الـ Equals اللي بيورثها من الـ Object عشان هي موجودة في كله
+وبعد كدا أقدر أعملها Overloading في الـ Class بتاعي
 ### الخلاصة:
 - الـ **Generics** بيسمحوا بكتابة كود مرن وقابل لإعادة الاستخدام بشكل كبير، وبيوفروا عليك كتابة كود مكرر لأنواع بيانات مختلفة.
 - بيحلوا مشاكل **Type Safety** اللي بتواجهنا في الـ **ArrayList** وبيساعدوا في تحسين أداء التطبيقات من خلال تجنب عمليات الـ **Boxing** و **Unboxing**.
