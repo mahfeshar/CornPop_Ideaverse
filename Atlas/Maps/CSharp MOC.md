@@ -66,6 +66,8 @@ tags:
 - [[Cs Static]]
 - [[Cs Sealed]]
 - [[Cs Partial Class]]
+- [[Cs Equality]]
+- 
 
 ## Advanced
 - [[Cs Extension Methods]]

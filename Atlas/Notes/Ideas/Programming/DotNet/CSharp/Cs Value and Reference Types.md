@@ -27,7 +27,7 @@ We talked about [[CLS and CTS]], Read it again
 
 - بيبدأ يحجز مكان في ال memory لما بتديله قيمة غير كدا مبيدخلش (مشكوك في أمر هذا الكلام)
 
-- ال struct وال enum يعتبرو value types 
+- ال [[Cs Struct]] وال enum يعتبرو value types 
   اعرف برضو ان الاتنين دول *لا بيورثوا ولا بيورثوا*
 
 - كل ال built-in يعتبروا value types ما عدا كام حاجة بس زي ال string و System.Object

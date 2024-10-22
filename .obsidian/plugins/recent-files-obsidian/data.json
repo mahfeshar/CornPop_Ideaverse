@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Cs Generics",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
+      "basename": "Cs Value and Reference Types",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
+    },
+    {
+      "basename": "Cs Equality",
+      "path": "+/Cs Equality.md"
+    },
+    {
+      "basename": "Cs System.Object",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md"
     },
     {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Generics",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
     },
     {
       "basename": "Cs Operator Overloading",
@@ -187,18 +199,6 @@
     {
       "basename": "API and Web apps IBM Course",
       "path": "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md"
-    },
-    {
-      "basename": "Cs Generic List & Dictionary",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generic List & Dictionary.md"
-    },
-    {
-      "basename": "Cs ArrayList",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md"
-    },
-    {
-      "basename": "Cs List",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md"
     }
   ],
   "omittedPaths": [],
