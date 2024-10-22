@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "+/Untitled.md"
+    },
+    {
       "basename": "Cs Generics",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Cs Aggregation",
       "path": "+/Cs Aggregation.md"
-    },
-    {
-      "basename": "API and Web apps IBM Course",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/API and Web apps IBM Course.md"
     }
   ],
   "omittedPaths": [],

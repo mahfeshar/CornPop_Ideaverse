@@ -116,9 +116,33 @@
               "icon": "lucide-file",
               "title": "Cs Generics"
             }
+          },
+          {
+            "id": "7f8c816fd50dd162",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Untitled.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -443,7 +467,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
+                "file": "+/Untitled.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -471,7 +495,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cs Generics"
+              "title": "Graph of Untitled"
             }
           }
         ]
@@ -496,7 +520,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
+                "file": "+/Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -506,7 +530,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cs Generics"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -580,13 +604,14 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "a712844f471d7de6",
+  "active": "7f8c816fd50dd162",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
+    "+/Untitled.md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Equality.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
     "Atlas/Maps/DotNet.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
@@ -611,7 +636,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md",
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
     "Atlas/Utilities/Images/Pasted image 20241017002945.png",
     "Atlas/Utilities/Images/Pasted image 20241017002920.png",
     "Atlas/Utilities/Images/Pasted image 20241016235304.png",
