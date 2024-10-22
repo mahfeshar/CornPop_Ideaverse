@@ -5,12 +5,20 @@
       "path": "+/DBAPI Action Filters.md"
     },
     {
-      "basename": "Asp DotNet Core Web API",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
-    },
-    {
       "basename": "DBAPI Middlewares",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md"
+    },
+    {
+      "basename": "Py Format for print",
+      "path": "Atlas/Notes/Ideas/Programming/Python/Py Format for print.md"
+    },
+    {
+      "basename": "Python MOC",
+      "path": "Atlas/Maps/Python MOC.md"
+    },
+    {
+      "basename": "Asp DotNet Core Web API",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
     },
     {
       "basename": "DNAPI Basic CRUD Operations",
@@ -187,18 +195,6 @@
     {
       "basename": "Cs List",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs List.md"
-    },
-    {
-      "basename": "Cs Boxing and Unboxing",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md"
-    },
-    {
-      "basename": "Cs Enumerable",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enumerable.md"
-    },
-    {
-      "basename": "Cs Arrays",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Arrays.md"
     }
   ],
   "omittedPaths": [],

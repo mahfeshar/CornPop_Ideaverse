@@ -64,6 +64,8 @@ public class LogActivityFilter : IActionFilter
 - الـ`IActionFilter`: ده الـ **Interface** اللي بنبني منه الفلتر. لازم نطبق **OnActionExecuting** و**OnActionExecuted**.
 - الـ`OnActionExecuting`: دي بتشتغل قبل تنفيذ الـ **Action**.
 - الـ`OnActionExecuted`: دي بتشتغل بعد ما الـ **Action** ينفذ وتقدر تعدل في الرد.
+- عندنا Interface تانية اسمها `IAsyncActionFilter` بيبقا فيها Method واحدة بدل الإتنين اللي فوق
+	- لو حطيت الإتنين Interfaces مع بعض هيحصل ايه؟ 
 
 ---
 
