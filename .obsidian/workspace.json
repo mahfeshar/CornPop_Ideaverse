@@ -37,35 +37,29 @@
             "id": "a712844f471d7de6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "DBAPI Middlewares",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DBAPI Middlewares\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":141.96428571428572}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Py Format for print",
+                  "title": "Asp DotNet Core",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Python/Py Format for print.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Py Format for print\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
                 },
                 {
-                  "title": "Python MOC",
+                  "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Python MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Python MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":11},\"to\":{\"line\":26,\"ch\":11}},\"scroll\":18.297348484848484}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
                 },
                 {
                   "title": "DBAPI Action Filters",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/DBAPI Action Filters.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DBAPI Action Filters\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
                 },
                 {
                   "title": "Asp DotNet Core Web API",
@@ -102,13 +96,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/DBAPI Action Filters.md",
+                "file": "Atlas/Maps/DotNet.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBAPI Action Filters"
+              "title": "DotNet"
             }
           }
         ],
@@ -436,7 +430,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/DBAPI Action Filters.md",
+                "file": "Atlas/Maps/DotNet.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -464,7 +458,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of DBAPI Action Filters"
+              "title": "Graph of DotNet"
             }
           }
         ]
@@ -489,7 +483,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/DBAPI Action Filters.md",
+                "file": "Atlas/Maps/DotNet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -499,7 +493,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DBAPI Action Filters"
+              "title": "Backlinks for DotNet"
             }
           },
           {
@@ -575,12 +569,13 @@
   },
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md",
-    "+/DBAPI Action Filters.md",
-    "Atlas/Notes/Ideas/Programming/Python/Py Format for print.md",
-    "+/Py Abstraction.md",
-    "Atlas/Maps/Python MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "+/DBAPI Action Filters.md",
+    "Atlas/Maps/Python MOC.md",
+    "Atlas/Notes/Ideas/Programming/Python/Py Format for print.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md",
+    "+/Py Abstraction.md",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
@@ -599,7 +594,6 @@
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
     "+/DNAPI Project Structure.md",
     "Atlas/Maps/SOLID Principles.md",
     "Atlas/Notes/Ideas/Programming/SOLID/Dependency Inversion Principle (DIP).md",
