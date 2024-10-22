@@ -37,17 +37,17 @@
             "id": "a712844f471d7de6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Value and Reference Types",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Value and Reference Types\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":21},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":6}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Cs Equality",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Cs Equality.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Equality\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":33},\"to\":{\"line\":13,\"ch\":33}},\"scroll\":6}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -114,13 +114,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+                "file": "+/Cs Equality.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cs Value and Reference Types"
+              "title": "Cs Equality"
             }
           }
         ],
@@ -449,7 +449,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+                "file": "+/Cs Equality.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -477,7 +477,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cs Value and Reference Types"
+              "title": "Graph of Cs Equality"
             }
           }
         ]
@@ -502,7 +502,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
+                "file": "+/Cs Equality.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -512,7 +512,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cs Value and Reference Types"
+              "title": "Backlinks for Cs Equality"
             }
           },
           {
@@ -588,6 +588,7 @@
   },
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
     "+/Cs Equality.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
     "Atlas/Maps/CSharp MOC.md",
@@ -617,7 +618,6 @@
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
-    "+/DNAPI Project Structure.md",
     "Atlas/Utilities/Images/Pasted image 20241017002945.png",
     "Atlas/Utilities/Images/Pasted image 20241017002920.png",
     "Atlas/Utilities/Images/Pasted image 20241016235304.png",
