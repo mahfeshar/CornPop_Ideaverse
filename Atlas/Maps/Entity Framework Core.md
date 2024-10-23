@@ -11,4 +11,7 @@ tags:
 - [[EF Add First Migration]]
 - [[EF Add row]]
 - [[EF Migration Rollback]]
+- [[EF Add Your Own Migration]]
+- [[EF DataAnnotations vs FluentApi]]
+- 
 
