@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Back-end MOC]]"
+  - "[[DotNet]]"
 related: 
 created: 2024-05-11
 tags:
@@ -29,6 +29,8 @@ tags:
 	- [[Cs Type Casting]]
 	- [[Cs Boxing and Unboxing]]
 	- [[Cs Null]]
+	- [[Cs is]]
+	- [[Cs as]]
 - [[Cs Handle Exception]]
 - [[Cs Files]]
 - [[Cs Control Flow Statements]]
@@ -67,7 +69,6 @@ tags:
 - [[Cs Sealed]]
 - [[Cs Partial Class]]
 - [[Cs Equality]]
-- 
 
 ## Advanced
 - [[Cs Extension Methods]]
@@ -85,6 +86,7 @@ tags:
 - [[Cs LINQ Sorting]]
 - [[Cs LINQ Quantifiers, Partitioning, and Set Operations]]
 - [[Cs LINQ Joins and Grouping]]
+
 ## Authentication basics (Application)
 - [[Auth Intro]]
 - [[Auth Safe storage of passwords]]

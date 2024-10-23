@@ -63,3 +63,51 @@ foreach (Employee emp in employees)
 ```
 
 - ولازم نعمله (إجبار)، ونمضي على العقد (Contract)
+## Generic ICompareable
+لو شوفنا في اللي فوق هي بتاخد [[Cs System.Object]] ودا بيعمل مشاكل لما نيجي نعمل [[Cs Type Casting]]
+فممكن كنا نحل المشكلة دي عن طريق [[Cs is]] ثم بعد كدا اخترعوا [[Cs as]]
+
+---
+بس برضو دا مش أحسن حل في وجود الـ [[Cs Generics]]
+عملوا الـ interface انه ياخد T وتقدر تحط فيه أي حاجة فدا سهل الموضوع كتير
+
+```cs
+static class Helper <T> where T : IComparable<T>
+{
+    static public void Swap (ref T a, ref T b)
+    {
+        T temp = a;
+        a = b;
+        b = temp;
+    }
+    static public void BubbleSort(T[] x)
+    {
+        for (int i = 0; i < x?.Length; i++)
+        {
+            for (int j = 0; j < x?.Length - i - 1; j++)
+            {
+                if (x[j].CompareTo(x[j+1]) == 1)
+                {
+                    Swap(ref x[j], ref x[j+1]);
+                }
+            }
+        }
+    }
+}
+class Employee : IComparable<Employee>
+{
+    public int CompareTo(Employee? other)
+    {
+        if (other == null) return 1; 
+        return this.Salary.CompareTo(other.Salary); 
+        // int.CompareTo(int)
+        // if (m_value < value) return -1;
+		// if (m_value > value) return 1;
+		// return 0;
+    }
+
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int Salary { get; set; }
+}
+```

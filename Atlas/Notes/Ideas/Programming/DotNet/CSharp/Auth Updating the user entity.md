@@ -46,7 +46,7 @@ dotnet ef migrations add UserPasswordAdded
 dotnet ef database update
 ```
 
-### دور [[Entity Framework]]:
+### دور [[Entity Framework Core]]:
 في الحالة دي، إحنا بنستخدم **SQLite**، والـ **Entity Framework** بترجم الـ **byte arrays** لصيغة اسمها **BLOB** (Binary Large Object) في قاعدة البيانات. 
 وده اللي بيحصل تلقائيًا من غير تدخلنا.
 
