@@ -7,3 +7,5 @@ tags:
   - map
 ---
 - [[EF Introduction]]
+- [[EF Add DbContext and ConnectionString]]
+- [[EF Add First Migration]]
