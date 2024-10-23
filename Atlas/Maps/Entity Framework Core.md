@@ -9,3 +9,4 @@ tags:
 - [[EF Introduction]]
 - [[EF Add DbContext and ConnectionString]]
 - [[EF Add First Migration]]
+- [[EF Add row]]
