@@ -37,17 +37,17 @@
             "id": "a712844f471d7de6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "EF DataAnnotations vs FluentApi",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF DataAnnotations vs FluentApi.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EF DataAnnotations vs FluentApi\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":36},\"to\":{\"line\":6,\"ch\":36}},\"scroll\":6}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Entity Framework Core",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Entity Framework Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Entity Framework Core\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":17},\"to\":{\"line\":15,\"ch\":17}},\"scroll\":8}"
                 },
                 {
                   "title": "DotNet",
@@ -198,13 +198,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/Entity Framework Core.md",
+                "file": "+/EF Mark Column as Required.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Entity Framework Core"
+              "title": "EF Mark Column as Required"
             }
           }
         ],
@@ -319,10 +319,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/Entity Framework Core.md"
+                "file": "+/EF Mark Column as Required.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Entity Framework Core"
+              "title": "Outline of EF Mark Column as Required"
             }
           },
           {
@@ -571,7 +571,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/Entity Framework Core.md",
+                "file": "+/EF Mark Column as Required.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -599,7 +599,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Entity Framework Core"
+              "title": "Graph of EF Mark Column as Required"
             }
           }
         ]
@@ -624,7 +624,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/Entity Framework Core.md",
+                "file": "+/EF Mark Column as Required.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -634,7 +634,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Entity Framework Core"
+              "title": "Backlinks for EF Mark Column as Required"
             }
           },
           {
@@ -710,9 +710,10 @@
   },
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
+    "Atlas/Maps/Entity Framework Core.md",
+    "+/EF Mark Column as Required.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF DataAnnotations vs FluentApi.md",
     "Atlas/Utilities/Images/Pasted image 20241024015031.png",
-    "Atlas/Maps/Entity Framework Core.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add Your Own Migration.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md",
     "Atlas/Utilities/Images/Pasted image 20241024012759.png",

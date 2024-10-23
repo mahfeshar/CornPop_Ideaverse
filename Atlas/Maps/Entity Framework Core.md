@@ -13,5 +13,6 @@ tags:
 - [[EF Migration Rollback]]
 - [[EF Add Your Own Migration]]
 - [[EF DataAnnotations vs FluentApi]]
+- [[EF Mark Column as Required]]
 - 
 
