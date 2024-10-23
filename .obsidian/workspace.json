@@ -37,17 +37,41 @@
             "id": "a712844f471d7de6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Inheritance",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/OOP/Inheritance.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Inheritance\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":14},\"to\":{\"line\":7,\"ch\":20}},\"scroll\":9.314527503526094}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Cs Generics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Generics\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":321,\"ch\":108},\"to\":{\"line\":321,\"ch\":108}},\"scroll\":306.3817683344757}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":9},\"to\":{\"line\":80,\"ch\":9}},\"scroll\":71.72213333333333}"
+                },
+                {
+                  "title": "Cs ArrayList",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs ArrayList\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":34},\"to\":{\"line\":7,\"ch\":34}},\"scroll\":6}"
+                },
+                {
+                  "title": "Cs Boxing and Unboxing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Boxing and Unboxing\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":26},\"to\":{\"line\":42,\"ch\":35}},\"scroll\":35.02981651376147}"
+                },
+                {
+                  "title": "Cs System.Object",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs System.Object\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":18.40327380952381}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -138,13 +162,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cs System.Object"
+              "title": "Cs ICompareable"
             }
           }
         ],
@@ -280,7 +304,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CompareTo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -492,7 +516,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -520,7 +544,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cs System.Object"
+              "title": "Graph of Cs ICompareable"
             }
           }
         ]
@@ -545,7 +569,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -555,7 +579,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cs System.Object"
+              "title": "Backlinks for Cs ICompareable"
             }
           },
           {
@@ -631,14 +655,16 @@
   },
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
+    "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md",
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
     "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "+/Untitled.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Equality.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
@@ -657,8 +683,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
     "Atlas/Maps/Back-end MOC.md",
     "Atlas/Maps/Programming MOC.md",
-    "Home.md",
-    "Atlas/Maps/Data Structure and Algorithms MOC.md",
     "Atlas/Utilities/Images/Pasted image 20241018080329.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241018080329.png",
     "Atlas/Utilities/Images/Pasted image 20241017002945.png",

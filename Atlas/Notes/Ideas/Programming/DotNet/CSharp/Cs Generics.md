@@ -305,7 +305,58 @@ Console.WriteLine(Helper<Employee>.SearchArray(employees, new(35, "Corn", 5_000)
 الحل اننا نستخدم الـ Equals اللي بيورثها من الـ Object عشان هي موجودة في كله
 وبعد كدا أقدر أعملها Overloading في الـ Class بتاعي
 #### Example 4
+هنشرح على الـ [[Bubble Sort]] 
+```cs
+static public void BubbleSort(T[] x)
+{
+    for (int i = 0; i < x?.Length; i++)
+    {
+        for (int j = 0; j < x?.Length - i - 1; j++)
+        {
+            if (x[j] > x[j+1]) // ERROR
+                Swap(ref x[j], ref x[j+1]);
+        }
+    }
+}
+```
+المشكلة إن الـ == مينفعش تتنفذ على كل الـ Objects فعشان كدا هنستخدم `CompareTo` اللي موجودة في الـ [[Cs ICompareable]] وهنعملها override في الكلاس بتاعي
+وبعدين نعرف Constraint زي ما اتعلمنا فوق انها هتاخد الـ Classes اللي بتاخد ICompereable بس
+```cs
+class Employee : IComparable
+{
+    public int CompareTo(object? obj)
+    {
+        throw new NotImplementedException();
+    }
 
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int Salary { get; set; }
+}
+
+static class Helper <T> where T : IComparable<T>
+{
+    static public void Swap (ref T a, ref T b)
+    {
+        T temp = a;
+        a = b;
+        b = temp;
+    }
+    static public void BubbleSort(T[] x)
+    {
+        for (int i = 0; i < x?.Length; i++)
+        {
+            for (int j = 0; j < x?.Length - i - 1; j++)
+            {
+                if (x[j].CompareTo(x[j+1]) == 1)
+                {
+                    Swap(ref x[j], ref x[j+1]);
+                }
+            }
+        }
+    }
+}
+```
 ### الخلاصة:
 - الـ **Generics** بيسمحوا بكتابة كود مرن وقابل لإعادة الاستخدام بشكل كبير، وبيوفروا عليك كتابة كود مكرر لأنواع بيانات مختلفة.
 - بيحلوا مشاكل **Type Safety** اللي بتواجهنا في الـ **ArrayList** وبيساعدوا في تحسين أداء التطبيقات من خلال تجنب عمليات الـ **Boxing** و **Unboxing**.
