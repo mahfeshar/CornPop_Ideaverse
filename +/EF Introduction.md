@@ -116,66 +116,6 @@ created: 2024-10-23
 ببساطة، **ADO.NET** هو خيارك لما الأداء يكون أولوية أو لما تحتاج تحكم كامل في الـ SQL. 
 أما **Entity Framework** فهو الأنسب لو عايز تركز على **المنطق البرمجي** بدون الدخول في تفاصيل قواعد البيانات. 
 كل واحد فيهم ليه استخداماته، وقرار اختيار الأنسب بيختلف حسب احتياجات المشروع.
-### الكود المستخدم في الفيديو  
-في الفيديو، كان فيه كود بيشرح إزاي نستخدم Entity Framework خطوة بخطوة. الكود ده بيشمل إعداد الاتصال بالـ Database وإنشاء Class يمثل جدول في الـ Database:
-
-```csharp
-using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-
-// تعريف الـ DbContext اللي بيبقى مسئول عن الاتصال بالـ Database
-public class ApplicationDbContext : DbContext
-{
-    public DbSet<Product> Products { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        // تحديد نوع الـ Database واختيار SQL Server كمثال
-        optionsBuilder.UseSqlServer("Server=.;Database=MyDatabase;Trusted_Connection=True;");
-    }
-}
-
-// تعريف Class يمثل جدول Products في الـ Database
-public class Product
-{
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public decimal Price { get; set; }
-}
-
-// كود لإضافة بيانات جديدة للـ Database باستخدام EF
-public class Program
-{
-    public static void Main()
-    {
-        using (var context = new ApplicationDbContext())
-        {
-            var newProduct = new Product
-            {
-                Name = "Laptop",
-                Price = 1200.99M
-            };
-
-            context.Products.Add(newProduct);
-            context.SaveChanges(); // حفظ التغييرات في الـ Database
-
-            Console.WriteLine("Product added successfully!");
-        }
-    }
-}
-```
-
----
-
-### شرح الكود  
-1. الـ`ApplicationDbContext`: ده الـ **DbContext** اللي بيعمل الاتصال بالـ Database.
-2. **`DbSet<Product>`**: ده بيمثل الجدول **Products**.
-3. **OnConfiguring**: هنا بنحدد نوع الـ Database والـ Connection String اللي هنستخدمه.
-4. **Class Product**: ده الـ Model اللي بيبقى مطابق للجدول في الـ Database، وفيه أعمدة زي **Id**، **Name**، و**Price**.
-5. **إضافة بيانات**: في الكود، إحنا بنضيف منتج جديد اسمه "Laptop" للـ Database وبنستخدم `SaveChanges` عشان نحفظ التغييرات.
-
----
 
 ### Entity Framework vs. SQL العادي  
 الـ EF مش بس بيبسط الشغل، لكنه كمان بيخليك:
@@ -187,5 +127,6 @@ public class Program
 ---
 
 ### الخاتمة  
-ببساطة، **Entity Framework** هو طبقة بتسهل الاتصال بين الكود بتاعك والـ **Database**. بدل ما تكتب SQL بشكل يدوي، تقدر تتعامل مع **Classes** في الكود وتخلي EF يعمل كل الشغل التقيل. الموضوع بيساعدك تبدأ بسرعة، وبيوفر وقت ومجهود كبير خصوصاً لو المشروع بتاعك معقد أو فيه جداول كتير.
+ببساطة، **Entity Framework** هو طبقة بتسهل الاتصال بين الكود بتاعك والـ **Database**. بدل ما تكتب SQL بشكل يدوي، تقدر تتعامل مع **Classes** في الكود وتخلي EF يعمل كل الشغل التقيل. 
+الموضوع بيساعدك تبدأ بسرعة، وبيوفر وقت ومجهود كبير خصوصاً لو المشروع بتاعك معقد أو فيه جداول كتير.
 
