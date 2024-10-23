@@ -47,7 +47,7 @@
                   "title": "Entity Framework Core",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Entity Framework Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Entity Framework Core\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":20},\"to\":{\"line\":10,\"ch\":20}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":20},\"to\":{\"line\":10,\"ch\":20}},\"scroll\":8}"
                 },
                 {
                   "title": "DotNet",
@@ -692,8 +692,8 @@
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
     "Atlas/Maps/Entity Framework Core.md",
-    "+/EF Add First Migration.md",
     "+/EF Add DbContext and ConnectionString.md",
+    "+/EF Add First Migration.md",
     "+/EF Introduction.md",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png",
