@@ -13,7 +13,7 @@ created: 2024-09-24
   ولو بتـ return object هينفع ترجع أي data type
 
 
-- all data types **inherits from this class** for 2 reasons:
+- All data types **inherits from this class** for 2 reasons:
     - **generics was invented in 2005** so from 2002 to 2005 System.Object was used for every thing.
     - **set of behaviors should be supported in all Data Types:**
         - Public Virtual String `ToString();` → **return object state (values) in string form**

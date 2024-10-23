@@ -37,11 +37,35 @@
             "id": "a712844f471d7de6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Inheritance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/OOP/Inheritance.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Inheritance\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":14},\"to\":{\"line\":7,\"ch\":20}},\"scroll\":9.314527503526094}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":14},\"to\":{\"line\":43,\"ch\":14}},\"scroll\":21.327651515151516}"
+                },
+                {
+                  "title": "Cs Interface",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Interface\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Cs ICompareable",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs ICompareable\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":0},\"to\":{\"line\":30,\"ch\":0}},\"scroll\":6}"
                 },
                 {
                   "title": "Cs Generics",
@@ -114,13 +138,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cs ICompareable"
+              "title": "Cs System.Object"
             }
           }
         ],
@@ -468,7 +492,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -496,7 +520,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cs ICompareable"
+              "title": "Graph of Cs System.Object"
             }
           }
         ]
@@ -521,7 +545,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -531,7 +555,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cs ICompareable"
+              "title": "Backlinks for Cs System.Object"
             }
           },
           {
@@ -607,12 +631,17 @@
   },
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
+    "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "+/Untitled.md",
-    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Equality.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
     "Atlas/Maps/DotNet.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
@@ -630,13 +659,8 @@
     "Atlas/Maps/Programming MOC.md",
     "Home.md",
     "Atlas/Maps/Data Structure and Algorithms MOC.md",
-    "Atlas/Maps/Library.md",
-    "Atlas/Notes/Ideas/Programming/Networking/HTTP.md",
     "Atlas/Utilities/Images/Pasted image 20241018080329.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241018080329.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md",
     "Atlas/Utilities/Images/Pasted image 20241017002945.png",
     "Atlas/Utilities/Images/Pasted image 20241017002920.png",
     "Atlas/Utilities/Images/Pasted image 20241016235304.png",
