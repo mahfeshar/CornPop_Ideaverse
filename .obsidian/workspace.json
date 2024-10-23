@@ -47,7 +47,7 @@
                   "title": "Entity Framework Core",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Entity Framework Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Entity Framework Core\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":17},\"to\":{\"line\":15,\"ch\":17}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":19},\"to\":{\"line\":16,\"ch\":19}},\"scroll\":8}"
                 },
                 {
                   "title": "DotNet",
@@ -198,13 +198,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/EF Mark Column as Required.md",
+                "file": "+/EF Add Entity To Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EF Mark Column as Required"
+              "title": "EF Add Entity To Model"
             }
           }
         ],
@@ -319,10 +319,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/EF Mark Column as Required.md"
+                "file": "+/EF Add Entity To Model.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of EF Mark Column as Required"
+              "title": "Outline of EF Add Entity To Model"
             }
           },
           {
@@ -571,7 +571,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/EF Mark Column as Required.md",
+                "file": "+/EF Add Entity To Model.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -599,7 +599,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of EF Mark Column as Required"
+              "title": "Graph of EF Add Entity To Model"
             }
           }
         ]
@@ -624,7 +624,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/EF Mark Column as Required.md",
+                "file": "+/EF Add Entity To Model.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -634,7 +634,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for EF Mark Column as Required"
+              "title": "Backlinks for EF Add Entity To Model"
             }
           },
           {
@@ -711,7 +711,8 @@
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
     "Atlas/Maps/Entity Framework Core.md",
-    "+/EF Mark Column as Required.md",
+    "+/EF Add Entity To Model.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Mark Column as Required.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF DataAnnotations vs FluentApi.md",
     "Atlas/Utilities/Images/Pasted image 20241024015031.png",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add Your Own Migration.md",
@@ -747,7 +748,6 @@
     "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
     "+/Untitled.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Equality.md",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241018080329.png.~tmp",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API",

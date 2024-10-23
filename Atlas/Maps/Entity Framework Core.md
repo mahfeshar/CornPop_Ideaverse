@@ -14,5 +14,5 @@ tags:
 - [[EF Add Your Own Migration]]
 - [[EF DataAnnotations vs FluentApi]]
 - [[EF Mark Column as Required]]
-- 
+- [[EF Add Entity To Model]]
 

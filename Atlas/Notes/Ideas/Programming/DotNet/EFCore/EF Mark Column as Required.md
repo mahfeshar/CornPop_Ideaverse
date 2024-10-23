@@ -1,3 +1,9 @@
+---
+up:
+  - "[[Entity Framework Core]]"
+related: 
+created: 2024-10-24
+---
 
 اتكلمنا عن الـ [[EF DataAnnotations vs FluentApi]]
 ### 1. استخدام `Required` مع Data Annotations
