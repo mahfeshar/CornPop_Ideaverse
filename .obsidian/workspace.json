@@ -44,6 +44,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Cs Generics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Generics\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":307,\"ch\":0},\"to\":{\"line\":307,\"ch\":0}},\"scroll\":283.9845238095238}"
+                },
+                {
                   "title": "CSharp MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
@@ -108,13 +114,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cs Generics"
+              "title": "Cs ICompareable"
             }
           }
         ],
@@ -250,7 +256,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "equality",
+                "query": "CompareTo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -419,6 +425,25 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "1aa36987fd8134d5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
         "currentTab": 1
@@ -443,7 +468,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -471,7 +496,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cs Generics"
+              "title": "Graph of Cs ICompareable"
             }
           }
         ]
@@ -496,7 +521,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -506,7 +531,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cs Generics"
+              "title": "Backlinks for Cs ICompareable"
             }
           },
           {
@@ -582,8 +607,8 @@
   },
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
-    "+/Untitled.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
+    "+/Untitled.md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Equality.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md",
