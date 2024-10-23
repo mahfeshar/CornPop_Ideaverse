@@ -10,3 +10,5 @@ tags:
 - [[EF Add DbContext and ConnectionString]]
 - [[EF Add First Migration]]
 - [[EF Add row]]
+- [[EF Migration Rollback]]
+
