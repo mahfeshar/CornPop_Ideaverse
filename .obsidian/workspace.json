@@ -525,11 +525,31 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "551e5011704fc743",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
-        ]
+        ],
+        "currentTab": 11
       },
       {
         "id": "3d767c407ab4c865",
@@ -688,7 +708,7 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "a712844f471d7de6",
+  "active": "551e5011704fc743",
   "lastOpenFiles": [
     "Atlas/Maps/Entity Framework Core.md",
     "+/EF Add row.md",
@@ -737,14 +757,4 @@
     "Atlas/Notes/Ideas/Programming/Problem Solving",
     "Atlas/Utilities/Templates",
     "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
-    "Atlas/Notes/Ideas/Untitled.canvas",
-    "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
-    "Atlas/Utilities/Canvases/LYT W10 Calendar Canvas.canvas",
-    "Atlas/Utilities/Canvases/LYT Ship Dashboard.canvas",
-    "Atlas/Utilities/Canvases/LYT W11 Calendar Canvas.canvas",
-    "Atlas/Utilities/Canvases/Obsidian Canvas MOC.canvas",
-    "Atlas/Utilities/Canvases/Ship of the Sensemaker.canvas",
-    "Atlas/Utilities/Canvases/LYT 2023 Rules.canvas",
-    "Atlas/Utilities/Canvases/LYT Book Framing.canvas"
-  ]
-}
+    "Atlas/Notes/I
