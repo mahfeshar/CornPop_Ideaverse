@@ -15,4 +15,5 @@ tags:
 - [[EF DataAnnotations vs FluentApi]]
 - [[EF Mark Column as Required]]
 - [[EF Add Entity To Model]]
+- [[EF Exclude Entity From Model Or From Migrations]]
 

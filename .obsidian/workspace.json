@@ -37,17 +37,17 @@
             "id": "a712844f471d7de6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "EF Add Entity To Model",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add Entity To Model.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EF Add Entity To Model\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Entity Framework Core",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Entity Framework Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Entity Framework Core\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":21},\"to\":{\"line\":17,\"ch\":21}},\"scroll\":8}"
                 },
                 {
                   "title": "DotNet",
@@ -198,13 +198,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/Entity Framework Core.md",
+                "file": "+/EF Exclude Entity From Model Or From Migrations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Entity Framework Core"
+              "title": "EF Exclude Entity From Model Or From Migrations"
             }
           }
         ],
@@ -319,10 +319,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/Entity Framework Core.md"
+                "file": "+/EF Exclude Entity From Model Or From Migrations.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Entity Framework Core"
+              "title": "Outline of EF Exclude Entity From Model Or From Migrations"
             }
           },
           {
@@ -571,7 +571,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/Entity Framework Core.md",
+                "file": "+/EF Exclude Entity From Model Or From Migrations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -599,7 +599,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Entity Framework Core"
+              "title": "Graph of EF Exclude Entity From Model Or From Migrations"
             }
           }
         ]
@@ -624,7 +624,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/Entity Framework Core.md",
+                "file": "+/EF Exclude Entity From Model Or From Migrations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -634,7 +634,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Entity Framework Core"
+              "title": "Backlinks for EF Exclude Entity From Model Or From Migrations"
             }
           },
           {
@@ -710,9 +710,10 @@
   },
   "active": "a712844f471d7de6",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add Entity To Model.md",
     "Atlas/Maps/Entity Framework Core.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add Entity To Model.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Mark Column as Required.md",
+    "+/EF Exclude Entity From Model Or From Migrations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF DataAnnotations vs FluentApi.md",
     "Atlas/Utilities/Images/Pasted image 20241024015031.png",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add Your Own Migration.md",
@@ -747,7 +748,6 @@
     "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md",
     "Atlas/Notes/Ideas/Programming/Topics/Code-first or Database-First.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md",
-    "+/Untitled.md",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241018080329.png.~tmp",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API",
