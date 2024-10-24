@@ -1,3 +1,10 @@
+---
+up:
+  - "[[Entity Framework Core]]"
+related: 
+created: 2024-10-24
+---
+
 ### إزاي نربط الكلاسات بقاعدة البيانات في Entity Framework Core
 - مش أي **كلاس** تحطه في فولدر **Models** هيعتبره EF (Entity Framework) جزء من قاعدة البيانات.  
 - علشان EF يتعامل مع الكلاس على إنه **Table** في الـ **Database**، لازم تفهم الـ `ApplicationDbContext` بتاعك إن الكلاس ده **Domain Model**.  
