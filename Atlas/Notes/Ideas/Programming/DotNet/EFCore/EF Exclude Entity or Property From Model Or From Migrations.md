@@ -9,7 +9,7 @@ created: 2024-10-24
 
 ---
 
-### 1. استثناء الخصائص باستخدام `[NotMapped]`
+### 1. استثناء Properties باستخدام `[NotMapped]`
 
 - الـ`[NotMapped]` هو **Attribute** ضمن **Data Annotations** يتم استخدامه لإخبار **EF Core** بعدم تضمين **خاصية معينة** في الجداول عند إنشاء قاعدة البيانات أو إجراء Migrations.
 ```csharp
