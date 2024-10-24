@@ -16,4 +16,6 @@ tags:
 - [[EF Mark Column as Required]]
 - [[EF Add Entity To Model]]
 - [[EF Exclude Entity From Model Or From Migrations]]
+- [[EF Change Table Name]]
+- [[EF Change Schema & Map Model To View]]
 
