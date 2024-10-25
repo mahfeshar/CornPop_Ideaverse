@@ -78,13 +78,19 @@ created: 2024-05-20
 ![[Pasted image 20240520160445.png]]
 ### We also talked about [[Database#Database is __acid__|acid]]
 ## DBMS Terminologies
-- شوية مصطلحات مهمة في ال DBMS
+شوية مصطلحات مهمة في ال DBMS
 ### Data Model
-- It's a collection of concepts used for describing data
+![[Pasted image 20241025102219.png]]
+- It's a collection of concepts used for describing data.
 - It hides many low-level storage details
 - Most DBMSs today are based on the __relational data model__
+
+![[Pasted image 20241025102627.png]]
 ### Schema
 - It's a description of data in terms of a data model.
+
+![[Pasted image 20241025102707.png]]
+![[Pasted image 20241025102741.png]]
 ## Levels of abstraction in a DBMS
 - Data in a DBMS is described at three levels of abstraction: _Conceptional, physical, and external_
 
@@ -93,6 +99,6 @@ created: 2024-05-20
 - __Physical Schema__: specifies data storage details.
 - __External Schema__: We can define different external schemas to give customized access to different users and groups.
 
-
+![[Pasted image 20241025102830.png]]
 ## Popular DBMS
 ![[Pasted image 20240520161632.png]]

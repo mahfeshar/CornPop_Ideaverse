@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "a712844f471d7de6",
+            "id": "bdf49662b04ff678",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -44,167 +44,29 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Entity Framework Core",
+                  "title": "Database MOC",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Entity Framework Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Entity Framework Core\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":21},\"to\":{\"line\":20,\"ch\":21}},\"scroll\":8}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":14},\"to\":{\"line\":19,\"ch\":14}},\"scroll\":12.491950757575758}"
                 },
                 {
-                  "title": "DotNet",
+                  "title": "Database",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DotNet\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":16},\"to\":{\"line\":12,\"ch\":16}}}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}},\"scroll\":8}"
-                },
-                {
-                  "title": "DotNet",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DotNet\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":7},\"to\":{\"line\":11,\"ch\":7}},\"scroll\":8}"
-                },
-                {
-                  "title": "Back-end MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Back-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Back-end MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":5},\"to\":{\"line\":22,\"ch\":5}},\"scroll\":8}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":0},\"to\":{\"line\":88,\"ch\":0}},\"scroll\":8}"
-                },
-                {
-                  "title": "Cs Generics",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Generics\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":321,\"ch\":108},\"to\":{\"line\":321,\"ch\":108}},\"scroll\":6}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":9},\"to\":{\"line\":80,\"ch\":9}},\"scroll\":71.72213333333333}"
-                },
-                {
-                  "title": "Cs ArrayList",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs ArrayList\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":34},\"to\":{\"line\":7,\"ch\":34}},\"scroll\":6}"
-                },
-                {
-                  "title": "Cs Boxing and Unboxing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Boxing and Unboxing\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":26},\"to\":{\"line\":42,\"ch\":35}},\"scroll\":35.02981651376147}"
-                },
-                {
-                  "title": "Cs System.Object",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs System.Object\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":18.40327380952381}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":14},\"to\":{\"line\":43,\"ch\":14}},\"scroll\":21.327651515151516}"
-                },
-                {
-                  "title": "Cs Interface",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Interface.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Interface\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Cs ICompareable",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs ICompareable\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":0},\"to\":{\"line\":30,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "Cs Generics",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Generics\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":307,\"ch\":0},\"to\":{\"line\":307,\"ch\":0}},\"scroll\":283.9845238095238}"
-                },
-                {
-                  "title": "CSharp MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":11},\"to\":{\"line\":80,\"ch\":11}},\"scroll\":74.07954545454545}"
-                },
-                {
-                  "title": "DotNet",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DotNet\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":12},\"to\":{\"line\":11,\"ch\":12}}}"
-                },
-                {
-                  "title": "Asp DotNet Core",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Asp DotNet Core Web API",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "DBAPI Action Filters",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/DBAPI Action Filters.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DBAPI Action Filters\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "Asp DotNet Core Web API",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":21},\"to\":{\"line\":16,\"ch\":21}},\"scroll\":8}"
-                },
-                {
-                  "title": "DotNet",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DotNet\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":11},\"to\":{\"line\":13,\"ch\":11}},\"scroll\":8}"
-                },
-                {
-                  "title": "Back-end MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Back-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Back-end MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":5},\"to\":{\"line\":22,\"ch\":5}},\"scroll\":8}"
-                },
-                {
-                  "title": "Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":11},\"to\":{\"line\":39,\"ch\":11}},\"scroll\":24.553066666666666}"
-                },
-                {
-                  "title": "Library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Library\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":17.472646001360413}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Database.md\",\"mode\":\"preview\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database\"}",
+                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/EF Change Column Name.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EF Change Column Name"
+              "title": "Database Management System (DBMS)"
             }
           }
         ],
@@ -544,12 +406,31 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "551367c60319aad4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       },
       {
         "id": "3d767c407ab4c865",
@@ -571,7 +452,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/EF Change Column Name.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -599,7 +480,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of EF Change Column Name"
+              "title": "Graph of Database Management System (DBMS)"
             }
           }
         ]
@@ -624,7 +505,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/EF Change Column Name.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -634,7 +515,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for EF Change Column Name"
+              "title": "Backlinks for Database Management System (DBMS)"
             }
           },
           {
@@ -708,10 +589,24 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "a712844f471d7de6",
+  "active": "bdf49662b04ff678",
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241025102830.png",
+    "Atlas/Utilities/Images/Pasted image 20241025102741.png",
+    "Atlas/Utilities/Images/Pasted image 20241025102707.png",
+    "Atlas/Utilities/Images/Pasted image 20241025102627.png",
+    "Atlas/Maps/Database MOC.md",
+    "Atlas/Notes/Ideas/Programming/Database/Database.md",
+    "Atlas/Notes/Ideas/Programming/Database/MySQL/MySQL MOC.md",
+    "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+    "Atlas/Utilities/Images/Pasted image 20241025102219.png",
+    "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
+    "Atlas/Utilities/Images/Pasted image 20241025101405.png",
+    "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md",
+    "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md",
+    "Home.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Change Column Name.md",
     "Atlas/Maps/Entity Framework Core.md",
-    "+/EF Change Column Name.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Exclude Entity or Property From Model Or From Migrations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Change Schema & Map Model To View.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Change Table Name.md",
@@ -725,29 +620,15 @@
     "Atlas/Utilities/Images/Pasted image 20241024012439.png",
     "Atlas/Utilities/Images/Pasted image 20241024012428.png",
     "Atlas/Utilities/Images/Pasted image 20241024012406.png",
-    "Atlas/Utilities/Images/Pasted image 20241024012330.png",
-    "Atlas/Utilities/Images/Pasted image 20241024012255.png",
-    "Atlas/Utilities/Images/Pasted image 20241024012201.png",
-    "Atlas/Utilities/Images/Pasted image 20241024012150.png",
     "Atlas/Maps/DotNet.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add row.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add DbContext and ConnectionString.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore",
-    "Atlas/Utilities/Images/Pasted image 20241023102408.png",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png.~tmp",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Maps/Back-end MOC.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ICompareable.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs as.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Casting Operator.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs is.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs ArrayList.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Boxing and Unboxing.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs System.Object.md",
-    "Atlas/Notes/Ideas/Programming/OOP/Inheritance.md",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241018080329.png.~tmp",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API",

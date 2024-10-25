@@ -6,6 +6,7 @@ created: 2024-05-20
 tags:
   - map
 ---
+![[Pasted image 20241025101405.png]]
 Databases are everywhere:
 - Traditional (SQL) Databases
 	- ATM, cashier, Airport
@@ -13,6 +14,7 @@ Databases are everywhere:
 	- Social Media, Maps
 
 ---
+## Concepts
 - [[Database]]: What is database?
 - [[2+ Kinds of databases]]
 - [[Database Management System (DBMS)]]
@@ -25,5 +27,6 @@ Databases are everywhere:
 	4. Physical Design
 
 ---
+## [[Structured Query Language (SQL)|SQL]]
 - [[MySQL MOC]]
 - [[SQL Server MOC]]

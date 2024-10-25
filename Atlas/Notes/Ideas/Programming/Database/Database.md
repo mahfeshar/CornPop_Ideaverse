@@ -6,8 +6,8 @@ related:
 created: 2024-05-21
 ---
 ## What are databases for?
-- Storing data in your application (in memory) has the obvious shortcoming that, whatever the technology you’re using, your data dies when your server stops. 
-- Some programming languages and/or frameworks take it even further by being stateless, which, in the case of an HTTP server, means your data dies at the end of an HTTP request. 
+- Storing data in your application (in memory) has the obvious shortcoming that, whatever the technology you’re using, **your data dies when your server stops**. 
+- Some programming languages and/or frameworks take it even further by being **stateless**, which, in the case of an HTTP server, means your data dies at the end of an HTTP request. 
 - Whether the technology you’re using is stateless or stateful, you will need to persist your data somewhere. That’s what databases are for.
 
 ## Database
@@ -24,5 +24,4 @@ created: 2024-05-21
 - **D**urability: unplug your server at any time, boot it back up, and it didn’t lose any data.
 
 ## __ACID__ is a cool acronym! [[CRUD]] is another cool one
-
 ## [[Database Management System (DBMS)]]
