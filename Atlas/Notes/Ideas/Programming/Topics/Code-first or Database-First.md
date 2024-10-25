@@ -10,7 +10,7 @@ created: 2024-08-02
 ميزة كمان اني لو شغال كود فيرست فدا هيديلي صلاحية اني أغير من داتا بيز للتانية بسهولة لأن هو كود بيرن إنما مثلًا لو كنت شغال أوركال وعايز أغير لحاجة تانية وأنا شغال داتا بيز فيرست فدا مش هينفع ولازم أبنيها من الأول
 
 **مثال:**
-في الـ [[DotNet]] بعمل الـ Classes اللي عندي في الـ Application وبستخدم الـ Entity Framework core عشان يروح يعمل generate الـ Tables اللي بتمثل الـ Class دا
+في الـ [[DotNet MOC]] بعمل الـ Classes اللي عندي في الـ Application وبستخدم الـ Entity Framework core عشان يروح يعمل generate الـ Tables اللي بتمثل الـ Class دا
 
 ## Database-First
 ![[Pasted image 20241011025423.png]]

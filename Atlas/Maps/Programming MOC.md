@@ -40,7 +40,7 @@ tags:
 - [[Back-end MOC]]
 ## Frameworks
 - [[Flask]]
-- [[DotNet]]
+- [[DotNet MOC]]
 ## Programming Languages
 - [[Python MOC]]
 - [[CSharp MOC]]

@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[DotNet]]"
+  - "[[DotNet MOC]]"
 related: 
 created: 2024-10-23
 tags:

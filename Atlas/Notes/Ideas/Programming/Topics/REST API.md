@@ -5,107 +5,64 @@ related:
 created: 2024-08-02
 ---
 
-- الـ REST API هو نفس الـ [[API]] بالضبط، لكن مع بعض الإضافات البسيطة. 
-  لكي نتواصل مع طرف آخر، يجب أن نحدد ما نريده من الطرف الآخر.هل نريد بيانات معينة؟ هل نمتلك بيانات في الطرف الآخر ونريد تحديثها أو حتى حذفها؟
+### تعريف REST API
+الـ **REST API** هي طريقة للتواصل بين الأنظمة باستخدام **HTTP**، وده بيخلينا نطلب بيانات، نعدل عليها، أو نحذفها. 
+الهدف منها إنها تخلي التواصل بسيط وسريع، وتركز على الموارد (Resources) زي الكائنات والبيانات اللي بنتعامل معاها.
 
-بنستخدم طرق الـ HTTP لما باجي أعمل Request
-الـ REST API يمكننا من تحديد نوع الطلبية التي نريد إرسالها إلى الطرف الآخر. وهناك خمسة أنواع من الطلبات:
-1. **GET**: للحصول على بيانات.
-2. **POST**: لإرسال بيانات.
-3. **PUT**: لتعديل بيانات.
-4. **PATCH**: لتحديث جزء من البيانات.
-5. **DELETE**: لحذف بيانات.
-- الفرق بينها وبين الـ [[API]] العادي، ان لازم تحدد انت عايز ايه بالظبط من الطرف التاني 
-  لو عندي داتا في الطرف التاني، عايز منها ايه بالظبط 
-  (أخذ GET - تحديث PUT - حذف DELETE - إضافة POST)
-- الإتنين يعتبروا فكرة واحدة
+لكي نتواصل مع طرف آخر، يجب أن نحدد ما نريده من الطرف الآخر.هل نريد بيانات معينة؟ هل نمتلك بيانات في الطرف الآخر ونريد تحديثها أو حتى حذفها؟
+### الفرق بين REST API والـ API العادي
+- الـ **[[API]]** بشكل عام هو أي طريقة تقدر بيها تخلي برنامج يتواصل مع برنامج تاني.
+- الـ**REST API** بقى بتمشي على قواعد معينة باستخدام طرق الـ **HTTP** زي:
+  - الـ**GET**: لو عايز تجيب بيانات.
+  - الـ**POST**: لو عايز تضيف بيانات جديدة.
+  - الـ**PUT**: لو عايز تعدل بيانات موجودة بالكامل.
+  - الـ**PATCH**: لو عايز تعدل جزء صغير من البيانات.
+  - الـ**DELETE**: لو عايز تحذف بيانات.
 
-## REST API
-REST API is a software architectural style for Backend.
+---
 
-**REST = “REpresentational State Transfer”.** **API = Application Programming Interface**
+### أهم مكونات REST API
+1. الـ**Request (الطلب)**: العميل (Client) بيبعت طلب للسيرفر (Server) زي إنه يجيب بيانات.
+2. الـ**Response (الرد)**: السيرفر بيرد على العميل بالبيانات أو الحالة المطلوبة.
 
-Its purpose is to induce performance, scalability, simplicity, modifiability, visibility, portability, and reliability.
+---
 
-REST API is **Resource-based**, a resource is an object and can be access by a URI. An object is “displayed”/transferred via a **representation** (typically JSON). HTTP methods will be actions on a resource.
+### مثال عملي
+تخيل عندك تطبيق بيع آيس كريم وعايز تعرف النكهات المتاحة وتدي الموظفين صلاحية يضيفوا أو يحذفوا نكهات. 
 
-Example:
+- لما العميل يطلب النكهات:  
+  - الـ**Request**: هو GET على "`/api/flavors`".
+  - الـ**Response**: السيرفر يرد بـ **JSON** يحتوي النكهات المتاحة.
 
-- Resource: `Person` (John)
-- Service: contact information (`GET`)
-- Representation:
-    - `first_name`, `last_name`, `date_of_birth`
-    - JSON format
+- لما الموظف يضيف نكهة جديدة:  
+  - الـ**Request**: POST على "`/api/flavors`" مع بيانات النكهة الجديدة.
+  - الـ**Response**: السيرفر يرد بتأكيد إضافة النكهة.
 
-## عمل REST API
-#### ملفات المشروع
+---
 
-لدينا عدة ملفات مهمة في المشروع:
+### هيكل الطلب (Request Structure)
+1. الـ**Operation**: زي `GET`, `POST`, `PUT`.
+2. الـ**Endpoint**: المكان اللي بتطلب منه الخدمة، زي "`/api/flavors`".
+3. الـ**Parameters or Body**: البيانات اللي بتبعتها (لو فيه).
+4. الـ**Headers**: زي **API key** أو بيانات التوثيق.
 
-- **Route**: يستقبل الطلبيات ويوصلها.
-- **Controller**: ينفذ العمليات على الطلبيات.
-- **Model**: يخزن النتيجة النهائية في قاعدة البيانات.
+---
 
-#### مثال عملي
+### هيكل الرد (Response Structure)
+- الرد بيجي غالبًا في صورة **JSON**.
+- بيكون فيه كود حالة (Status Code) زي:
+  - الـ`200 OK`: الطلب نجح.
+  - الـ`201 Created`: تم إنشاء مورد جديد.
+  - الـ`404 Not Found`: المورد مش موجود.
+  - الـ`500 Internal Server Error`: فيه مشكلة في السيرفر.
 
-لنفترض أن المستخدم يريد تسجيل الدخول إلى الموقع بإدخال البريد الإلكتروني. سنأخذ البريد الإلكتروني هذا ونرسله إلى قاعدة البيانات عبر عملية **POST**.
+---
 
-1. البريد الإلكتروني يُرسل عبر **POST** إلى قاعدة البيانات.
-2. قاعدة البيانات تستقبل البريد الإلكتروني وترسله إلى ملف **Controller**.
-3. الـ Controller يعدل على الطلبية، يضيف أو يحذف منها، ثم يرسلها إلى ملف **Model**.
-4. الـ Model يخزن البيانات في قاعدة البيانات ويرد باستجابة لتأكيد ما إذا كانت العملية ناجحة أم لا.
-## الشرح بمثال
-### مثال بسيط:
-تخيل إنك شغال في محل آيس كريم وعاوز تعمل تطبيق ويب يعرض نكهات الآيس كريم اللي موجودة وتسمح للموظفين يحدثوا النكهات. 
-إزاي تعمل كده؟ باستخدام REST API.
+### القيود الأساسية في REST API
 
-### تعريف REST API:
-الـ REST بترمز لـ "Representational State Transfer". هو نوع من الـ API مشهور ومستخدم في الصناعة.
+### There are 6 constraints:
 
-### فوايد REST API:
-1. **التواصل السهل:** بيستخدم طريقة موحدة للتواصل بين العميل والسيرفر.
-2. **قابلية التوسع والـ stateless:** الخدمة تقدر تكبر وتتعقد بسهولة، ومفيش حاجة تتسجل أو تتبعها بين العميل والسيرفر.
-3. **أداء عالي:** بيدعم الـ caching اللي بيحسن الأداء مع تعقد الخدمة.
-
-### مثال عملي:
-لو عندنا endpoint زي "`icecream.com/api/flavors`، 
-الـ `api` دي بتشير لجزء الـ API، و"flavors" دي اسم الـ resource.
-
-### مكونات الـ REST API:
-1. **Request:** الطلب اللي العميل بيبعت للسيرفر.
-2. **Response:** الرد اللي السيرفر بيرده للعميل.
-
-### [[CRUD]] Operations:
-1. **Create:** باستخدام "POST".
-2. **Read:** باستخدام "GET".
-3. **Update:** باستخدام "PUT".
-4. **Delete:** باستخدام "DELETE".
-
-### هيكل الـ Request:
-1. الـ**Operation:** زي POST أو GET.
-2. الـ**Endpoint:** زي "`/api/flavors`".
-3. الـ**Parameters or Body:** البيانات اللي بتبعتها في الطلب.
-4. الـ **Headers:** ممكن يكون فيها API key أو بيانات التوثيق.
-
-### هيكل الـ Response:
-بيكون عادة في صورة [[JSON]].
-
-### سيناريوهات:
-1. **عرض النكهات المتاحة:**
-   - **Request:** GET على "/api/flavors".
-   - **Response:** array بالنكهات المتاحة.
-
-2. **تحديث نكهة:**
-   - **Request:** PUT على "/api/flavors/1" مع بيانات النكهة الجديدة.
-   - **Response:** تأكيد بتحديث النكهة.
-
-3. **إضافة نكهة جديدة:**
-   - **Request:** POST على "/api/flavors" مع بيانات النكهة الجديدة.
-   - **Response:** تأكيد بإضافة النكهة الجديدة.
-
-## There are 6 constraints:
-
-### 1. Uniform Interface
+#### 1. Uniform Interface
 
 - Define the interface between client-server
 - Simple and can be split in small parts
@@ -150,13 +107,13 @@ Some important status code:
 - `404`: not found => resource doesn’t exist
 - `500`: internal server error
 
-### 2. Stateless
+#### 2. Stateless
 
 The server is independent of the client. The server doesn’t store user client information/state. Each request contains enough context to process it (HTTP Headers, etc.)
 
 Some authentication systems like OAuth have to store information on the server side but they do it with REST API design.
 
-### 3. Cacheable
+#### 3. Cacheable
 
 All server responses (resource representation) are cacheable:
 
@@ -166,18 +123,70 @@ All server responses (resource representation) are cacheable:
 
 Caches are here to improve performances. In a REST API, clients don’t care about the caching strategy, if the resource representation comes from a cache or from a database…
 
-### 4. Client-Server
+#### 4. Client-Server
 
 REST API is designed to separate Client from the Server. The server doesn’t know who is talking to it. Clients are not concerned with data storage => the portability of client code is improved. Servers are not concerned with the user interface or user state so that servers can be simpler and more scalable
 
-### 5. Layered System
+#### 5. Layered System
 
 Client can’t assume direct connection to server. Intermediary servers may improve system scalability by enabling load-balancing and by providing shared caches. Layers may also enforce security policies.
 
-### 6. Code on Demand (optional)
+#### 6. Code on Demand (optional)
 
 Server can temporarily:
 
 - Transfer logic to client
 - Allow client to execute logic
 - Example: JavaScript
+#### ملخص
+1. **Uniform Interface (واجهة موحدة)**  
+   - كل الطلبات لها نفس الشكل والقواعد، مما يسهل التعامل معاها.
+
+2. **Stateless (بدون حالة)**  
+   - كل طلب مستقل، والسيرفر مش بيحتفظ بمعلومات عن العميل.
+
+3. **Cacheable (يدعم التخزين المؤقت)**  
+   - الردود ممكن تتخزن في الكاش لتحسين الأداء.
+
+4. **Client-Server (فصل العميل عن السيرفر)**  
+   - العميل ما يعرفش التفاصيل عن السيرفر، والعكس صحيح.
+
+5. **Layered System (نظام متعدد الطبقات)**  
+   - الطلبات ممكن تعدي على خوادم وسيطة لتحسين الأداء والأمان.
+
+6. **Code on Demand (اختياري)**  
+   - السيرفر ممكن يبعت كود (زي JavaScript) للعميل ينفذه عنده.
+
+---
+
+### الخلاصة
+الـ **REST API** بتسهل التواصل بين الأنظمة باستخدام HTTP، وبتمشي على قواعد زي إنها لازم تكون **stateless** وقابلة للتخزين المؤقت. الفكرة إنها تخلي العميل يقدر يتواصل مع السيرفر بسهولة، سواء كان بيجيب بيانات، يضيفها، يعدلها، أو يحذفها.
+
+---
+
+### ملاحظات وتصحيح
+- الكلام اللي مكتوب فوق صحيح، لكن مهم تعرف إن الفرق بين **PUT** و **PATCH** إن:
+  - **PUT** بيعدل كل البيانات.
+  - **PATCH** بيعدل جزء صغير منها.
+
+- الـ**Code on Demand** مش دايمًا بيتم استخدامه في كل الـ REST APIs، فده بيعتبر حاجة **اختيارية** مش إلزامية.
+
+---
+## عمل REST API
+#### ملفات المشروع
+
+لدينا عدة ملفات مهمة في المشروع:
+
+- **Route**: يستقبل الطلبيات ويوصلها.
+- **Controller**: ينفذ العمليات على الطلبيات.
+- **Model**: يخزن النتيجة النهائية في قاعدة البيانات.
+
+#### مثال عملي
+
+لنفترض أن المستخدم يريد تسجيل الدخول إلى الموقع بإدخال البريد الإلكتروني. سنأخذ البريد الإلكتروني هذا ونرسله إلى قاعدة البيانات عبر عملية **POST**.
+
+1. البريد الإلكتروني يُرسل عبر **POST** إلى قاعدة البيانات.
+2. قاعدة البيانات تستقبل البريد الإلكتروني وترسله إلى ملف **Controller**.
+3. الـ Controller يعدل على الطلبية، يضيف أو يحذف منها، ثم يرسلها إلى ملف **Model**.
+4. الـ Model يخزن البيانات في قاعدة البيانات ويرد باستجابة لتأكيد ما إذا كانت العملية ناجحة أم لا.
+

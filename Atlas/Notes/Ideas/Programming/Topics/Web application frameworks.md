@@ -70,3 +70,7 @@ It gets the user input from the View; after processing it, the Controller notifi
 The talking point about many discussions regarding the Controller is that it **isn’t always essential** (giving more importance to the separation of logic from the interface). 
 Assigning input processing, however, to either Model or View messes up the MVC’s traditional mantra of ‘Separated Presentation’-where tasks are separated on type-basis.
 For the project to remain transparent, adaptable and maintainable, each component in the MVC must be responsible for a sole line of tasks.
+
+## Stack
+.NET + C# + MS SQL => Stack
+PHP + Laravel + DB => Stack

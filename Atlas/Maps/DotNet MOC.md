@@ -7,7 +7,6 @@ tags:
   - map
 ---
 
-- [[Programming Paradigms]]
 - [[DotNet Story]]
 - [[CSharp MOC]]: We will use this language
 - [[Entity Framework Core]]
