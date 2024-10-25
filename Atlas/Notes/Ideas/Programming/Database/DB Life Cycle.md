@@ -7,10 +7,13 @@ created: 2024-05-20
 > هل لازم كل البرامج اللي في الدنيا يبقا ليها DB؟ لا مش لازم وفيه برامج ملهاش DB وممكن تبدلها بفايلات
 بس معظم البرامج الكبيرة بتستخدم فيها ال DB
 # Database Design Process
+
 ![[Pasted image 20240520164215.png]]
 ![[Pasted image 20240520164227.png]]
 ![[Pasted image 20240520164300.png]]
 ![[Pasted image 20240520164314.png]]
+
+![[Pasted image 20241025102916.png]]
 # DB Life Cycle
 ## 1. Analysis
 - أول مشكلة هي انك تفهم أصلا ال client عايز يعمل ايه بالظبط

@@ -101,4 +101,5 @@ created: 2024-05-20
 
 ![[Pasted image 20241025102830.png]]
 ## Popular DBMS
+
 ![[Pasted image 20240520161632.png]]
