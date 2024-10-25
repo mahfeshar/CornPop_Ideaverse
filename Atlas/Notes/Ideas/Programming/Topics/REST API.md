@@ -59,9 +59,6 @@ created: 2024-08-02
 ---
 
 ### القيود الأساسية في REST API
-
-### There are 6 constraints:
-
 #### 1. Uniform Interface
 
 - Define the interface between client-server
