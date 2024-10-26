@@ -52,7 +52,7 @@ created: 2024-10-26
 - في .NET 6 تم دمج ملفات الـ `Program` و `Startup` في ملف واحد لتبسيط الكود.
 - في .NET 8، التحسينات بتركز أكتر على الأداء وزيادة دعم مميزات زي الـ **Blazor** والـ **Minimal APIs**، بالإضافة إلى تحسينات كبيرة في سرعة الاستجابة وتطوير الأدوات الخاصة بالـ Developer Experience.
 
-## مثال على استخدام الـ Dependency Injection مع الـ `DbContext`:
+## مثال على استخدام الـ Dependency Injection مع الـ`DbContext`:
 - هنا بنستخدم SQL Server كـ Database للـ API:
   ```csharp
   builder.Services.AddDbContext<StoreContext>(options => {

@@ -47,7 +47,7 @@
                   "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":20},\"to\":{\"line\":9,\"ch\":20}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":16},\"to\":{\"line\":12,\"ch\":16}},\"scroll\":8}"
                 },
                 {
                   "title": "DNAPI Intro",
@@ -78,13 +78,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Structure.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNAPI Project Structure"
+              "title": "DNAPI Project Anatomy"
             }
           }
         ],
@@ -489,7 +489,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Structure.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -517,7 +517,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of DNAPI Project Structure"
+              "title": "Graph of DNAPI Project Anatomy"
             }
           }
         ]
@@ -542,7 +542,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Structure.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -552,7 +552,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DNAPI Project Structure"
+              "title": "Backlinks for DNAPI Project Anatomy"
             }
           },
           {
@@ -629,6 +629,9 @@
   "active": "5c215527749fd65d",
   "lastOpenFiles": [
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md",
     "Atlas/Maps/DotNet MOC.md",
@@ -658,9 +661,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Change Column Name.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Exclude Entity or Property From Model Or From Migrations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Change Schema & Map Model To View.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Change Table Name.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add Entity To Model.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Mark Column as Required.md",
     "Atlas/Utilities/Images/Pasted image 20241024015031.png",
     "Atlas/Utilities/Images/Pasted image 20241024012759.png",
     "Atlas/Utilities/Images/Pasted image 20241024012439.png",
