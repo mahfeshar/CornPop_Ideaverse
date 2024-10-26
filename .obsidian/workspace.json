@@ -44,23 +44,47 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":8}"
+                },
+                {
+                  "title": "DNAPI Intro",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DNAPI Intro\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
+                },
+                {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}},\"scroll\":8}"
+                },
+                {
+                  "title": "DotNet MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DotNet MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":21},\"to\":{\"line\":13,\"ch\":21}}}"
+                },
+                {
                   "title": "Entity Framework Core",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Entity Framework Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Entity Framework Core\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":17},\"to\":{\"line\":22,\"ch\":17}},\"scroll\":16.636363636363637}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":17},\"to\":{\"line\":22,\"ch\":17}},\"scroll\":8}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/EF Maximum Length.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EF Maximum Length"
+              "title": "Asp DotNet Core"
             }
           }
         ],
@@ -465,7 +489,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/EF Maximum Length.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -493,7 +517,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of EF Maximum Length"
+              "title": "Graph of Asp DotNet Core"
             }
           }
         ]
@@ -518,7 +542,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/EF Maximum Length.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -528,7 +552,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for EF Maximum Length"
+              "title": "Backlinks for Asp DotNet Core"
             }
           },
           {
@@ -604,14 +628,16 @@
   },
   "active": "5c215527749fd65d",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md",
+    "Atlas/Maps/DotNet MOC.md",
     "Atlas/Maps/Entity Framework Core.md",
-    "+/EF Maximum Length.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Maximum Length.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Column Data Types.md",
     "Home.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
-    "Atlas/Maps/DotNet MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
     "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
     "Atlas/Notes/Ideas/Programming/Topics/API.md",
@@ -635,9 +661,7 @@
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Change Table Name.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add Entity To Model.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Mark Column as Required.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF DataAnnotations vs FluentApi.md",
     "Atlas/Utilities/Images/Pasted image 20241024015031.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add Your Own Migration.md",
     "Atlas/Utilities/Images/Pasted image 20241024012759.png",
     "Atlas/Utilities/Images/Pasted image 20241024012439.png",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore",
