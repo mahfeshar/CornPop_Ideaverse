@@ -19,5 +19,7 @@ tags:
 - [[EF Change Table Name]]
 - [[EF Change Schema & Map Model To View]]
 - [[EF Change Column Name]]
+- [[EF Column Data Types]]
+- [[EF Maximum Length]]
 - 
 
