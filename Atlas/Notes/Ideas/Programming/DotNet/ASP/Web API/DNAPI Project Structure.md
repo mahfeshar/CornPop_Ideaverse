@@ -1,5 +1,9 @@
-
-
+---
+up:
+  - "[[Asp DotNet Core Web API]]"
+related: 
+created: 2024-10-26
+---
 ## الفرق بين MVC والـ API:
 - في الـ **MVC**:
   - لما الـ user يبعت request للـ MVC، التطبيق بيرجع **View** فيه البيانات المطلوبة ويظهرها للمستخدم.
@@ -58,12 +62,12 @@
   - الـ Dependency Injection هنا بتمكننا من استدعاء الـ DbContext بسهولة في أي مكان في الكود.
 
 
-## شرح **dummy example** بتاع الـ "WeatherForecast":
+## شرح dummy example:
 
 في بداية أي مشروع ASP.NET Core Web API، بيجي معاه **dummy example** بيبسط مفهوم الـ API عن طريق تقديم مثال بسيط اسمه **`WeatherForecast`**. 
 ده عبارة عن كلاس بيستخدمه المشروع عشان يرجع بيانات وهمية (dummy data) عن درجات الحرارة المتوقعة، وده بيسهل فهم إزاي الـ API شغالة.
 
-#### الكود
+#### Class
 ```csharp
 public class WeatherForecast
 {
@@ -74,7 +78,7 @@ public class WeatherForecast
 }
 ```
 
-#### الـController بتاع WeatherForecast:
+#### الـController بتاع `WeatherForecast`:
 
 الكلاس ده بيستخدمه الـ API في **`WeatherForecastController`**. 
 ده الـ Controller اللي بيستقبل الـ HTTP requests وبيعمل Generate للـ Weather data الوهمية ويرجعها كـ JSON.
@@ -110,7 +114,7 @@ public class WeatherForecastController : ControllerBase
   - الـ**TemperatureC**: بيستخدم Random عشان يجيب درجة حرارة عشوائية بين -20 و 55.
   - الـ**Summary**: بيجيب وصف عشوائي للطقس من مصفوفة **Summaries**.
 
-##### النتيجة:
+#### النتيجة:
 لما تبعت request لـ `localhost:5001/WeatherForecast` مثلاً، الـ API هترجعلك بيانات عن الطقس للأيام الجاية في شكل JSON زي ده:
 
 ```json
