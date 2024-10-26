@@ -405,12 +405,31 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "551367c60319aad4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "d004d145cce01435",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -429,7 +448,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 13
       },
       {
         "id": "3d767c407ab4c865",
@@ -588,7 +607,7 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "c3f1ee10bb319298",
+  "active": "d004d145cce01435",
   "lastOpenFiles": [
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Maps/Database MOC.md",
