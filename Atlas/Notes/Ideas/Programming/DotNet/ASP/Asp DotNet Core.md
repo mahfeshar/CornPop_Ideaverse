@@ -43,7 +43,7 @@ created: 2024-10-15
 
 #### ازاي بتعمل Web API؟
 - بتعمل **Controller** مخصص للـAPI.
-- كل Action جوه الـController ده بيبقى Endpoint، يعني كل Action ممكن يتنادى عليه من client عن طريق HTTP request (زي GET, POST, PUT, DELETE).
+- كل Action جوه الـController ده بيبقى **Endpoint**، يعني كل **Action** ممكن يتنادى عليه من client عن طريق HTTP request (زي GET, POST, PUT, DELETE).
 
 #### مثال على Web API في ASP.NET Core:
 ```csharp
