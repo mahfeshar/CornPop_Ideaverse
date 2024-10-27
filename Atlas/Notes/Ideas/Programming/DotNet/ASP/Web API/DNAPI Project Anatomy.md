@@ -165,6 +165,7 @@ public class WeatherForecastController : ControllerBase
 - الـ`ApiController`: **بيعلم** إن الكلاس دا API Controller.
   كلمة `ApiController` دي بنقول عليها Attribute أو Decoration لأنها بتخلي الـ Function يغير الديكور بتاعه ويعمل حاجات مكنش بيعملها، واستعملنا واحدة زيها قبل كدا في الـ [[Cs Enums]] وهي مشروحه في الـ [[Reflection]]
 - الـ`[Route("[controller]")]`: بيوفر Routing ديناميكي باستخدام اسم الـ Controller.
+  الطريقة الأكثر الإستخدام لل Routing هنا اننا نهندل كل Controller لوحده
   الـ Controller دا لما هاجي أوصله من خلال الـ URL بتاعه هيكون شكله عامل إزاي
   كلمة controller بين ال Square bracket دا معناه ان الـ URL هيبقا كدا `https://myapp.com/ClassName`
 - الـ`[HttpGet]`: بيعرف إن الميثود دي بتستجيب لطلبات HTTP GET.
