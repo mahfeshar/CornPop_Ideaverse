@@ -28,6 +28,8 @@
 
 ### Relationships
 - العلاقات بين الـ Entities وبعض
+- ممكن يبقا الـ Relation تبقا عندها Attributes
+	- بنعملها لو الـ Attribute له علاقة بالـ Verb (On Relation action) بمعنى كل أما الـRelation تحصل فيه معلومات بتظهر
 
 ![[Pasted image 20241029205324.png]]
 الـ(عدد المشاركين في العلاقة) **Degree** ممكن تبقا:

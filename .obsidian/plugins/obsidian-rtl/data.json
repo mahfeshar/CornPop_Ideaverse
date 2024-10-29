@@ -1,6 +1,7 @@
 {
   "fileDirections": {
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md": "auto"
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md": "auto",
+    "+/Database Design.md": "auto"
   },
   "defaultDirection": "auto",
   "rememberPerFile": true,
