@@ -30,14 +30,19 @@
 - العلاقات بين الـ Entities وبعض
 
 ![[Pasted image 20241029205324.png]]
+الـ(عدد المشاركين في العلاقة) **Degree** ممكن تبقا:
+- Unary
+- Binary
+- Ternary
 
 #### Participation Constraints
 ![[Pasted image 20241029212512.png]]
-#### Cardinality Ration
+#### Cardinality Ratio
 ![[Pasted image 20241029211240.png]]
 ![[Pasted image 20241029211259.png]]
 ![[Pasted image 20241029211309.png]]
 ![[Pasted image 20241029211321.png]]
 ### Symbols
 ![[Pasted image 20241029214357.png]]
-- جنب الـ ERD بنسلم فايل بيبقا فيه Equations زي مثلًا حسا
+- جنب الـ ERD بنسلم فايل بيبقا فيه Equations زي مثلًا حساب الـ Derived Attributes أو طريقة كتابة الـ Composite 
+	- لو هحسب العمر من تاريخ الميلاد فدا هيبقا Derived عشان كدا لازم أديله معادلة الحساب وهكذا لو الإسم بيتكون من Fname , Lname لازم أقوله هتتكتب ازاي

@@ -67,7 +67,7 @@
               "type": "markdown",
               "state": {
                 "file": "+/Database Design.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -703,7 +703,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -727,6 +728,9 @@
     }
   },
   "active": "1b5b42b4ec11b3a8",
+  "ophidian:layout-settings": {
+    "pane-relief:focus-lock": false
+  },
   "lastOpenFiles": [
     "Atlas/Utilities/Images/Pasted image 20241029214357.png",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
