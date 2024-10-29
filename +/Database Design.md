@@ -11,8 +11,19 @@
 - ممكن يبقا عندي مجموعة من الـ Entities زي Cars وبنقول عليه **Entity Set**
 
 ![[Pasted image 20241029204413.png]]
+![[Pasted image 20241029211658.png]]
 ### Attributes
 - هي الصفات اللي بتوصف الـ Entity 
 - ليها أنواع كتير:
 
 ![[Pasted image 20241029204751.png]]
+### Relationships
+- العلاقات بين الـ Entities وبعض
+
+![[Pasted image 20241029205324.png]]
+
+#### Cardinality Ration
+![[Pasted image 20241029211240.png]]
+![[Pasted image 20241029211259.png]]
+![[Pasted image 20241029211309.png]]
+![[Pasted image 20241029211321.png]]

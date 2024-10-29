@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -589,7 +589,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/Programming MOC.md",
+                "file": "+/Database Design.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -617,7 +617,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Programming MOC"
+              "title": "Graph of Database Design"
             }
           }
         ]
@@ -642,7 +642,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/Programming MOC.md",
+                "file": "+/Database Design.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -652,7 +652,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Programming MOC"
+              "title": "Backlinks for Database Design"
             }
           },
           {
@@ -726,8 +726,15 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "e14a7361765910fa",
+  "active": "1b5b42b4ec11b3a8",
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241029211658.png",
+    "Atlas/Utilities/Images/Pasted image 20241029211321.png",
+    "Atlas/Utilities/Images/Pasted image 20241029211309.png",
+    "Atlas/Utilities/Images/Pasted image 20241029211259.png",
+    "Atlas/Utilities/Images/Pasted image 20241029211240.png",
+    "Atlas/Utilities/Images/Pasted image 20241029205324.png",
+    "Atlas/Maps/Programming MOC.md",
     "+/Database Design.md",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
@@ -736,7 +743,6 @@
     "Atlas/Utilities/Images/Pasted image 20241029203429.png",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
-    "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/Topics/Application Development Lifecycle.md",
     "Atlas/Maps/Library.md",
     "Home.md",
@@ -752,7 +758,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
     "Atlas/Utilities/Images/Pasted image 20241029065902.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md",
-    "Atlas/Utilities/Images/ASP.NET Core Life Cycle - Paint.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md",
@@ -760,10 +765,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Maximum Length.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Column Data Types.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
-    "Atlas/Utilities/Images/Pasted image 20241025102916.png",
-    "Atlas/Utilities/Images/Pasted image 20241025102830.png",
-    "Atlas/Utilities/Images/Pasted image 20241025102741.png",
-    "Atlas/Utilities/Images/Pasted image 20241025102707.png",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
