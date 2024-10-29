@@ -28,7 +28,6 @@ tags:
 - [[Git - GitHub MOC]]
 - [[Programming Paradigms]]
 - [[OOP]]
-	- [[Encapsulation]]
 - [[Data Structure and Algorithms MOC]]
 - [[Problem Solving]]
 - [[Database MOC]]

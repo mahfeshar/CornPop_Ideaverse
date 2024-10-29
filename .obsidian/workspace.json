@@ -34,16 +34,58 @@
             }
           },
           {
-            "id": "5c215527749fd65d",
+            "id": "1b5b42b4ec11b3a8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Database MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":14},\"to\":{\"line\":27,\"ch\":14}},\"scroll\":13.249526515151516}"
+                },
+                {
+                  "title": "Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":14},\"to\":{\"line\":33,\"ch\":14}},\"scroll\":18.93655303030303}"
+                },
+                {
+                  "title": "Library",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Library\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":17.472646001360413}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Database Design.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Database Design"
+            }
+          },
+          {
+            "id": "e14a7361765910fa",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 1,
               "stack": [
                 {
-                  "title": "SW FE",
+                  "title": "Application Development Lifecycle",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Projects/SW FE.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SW FE\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":12.696969696969697}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/Application Development Lifecycle.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Application Development Lifecycle\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":40},\"to\":{\"line\":28,\"ch\":40}},\"scroll\":30.694289261328368}"
                 },
                 {
                   "state": "{}",
@@ -53,85 +95,7 @@
                   "title": "Library",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Library\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":19.960256534836265}"
-                },
-                {
-                  "title": "Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Back-end MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Back-end MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Back-end MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "DotNet MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DotNet MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Asp DotNet Core",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":37},\"to\":{\"line\":39,\"ch\":37}},\"scroll\":6}"
-                },
-                {
-                  "title": "SOAP API",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/SOAP API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SOAP API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":17},\"to\":{\"line\":6,\"ch\":17}},\"scroll\":6}"
-                },
-                {
-                  "title": "Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":9},\"to\":{\"line\":16,\"ch\":9}},\"scroll\":10.451704545454545}"
-                },
-                {
-                  "title": "REST API",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/REST API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"REST API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":116},\"to\":{\"line\":14,\"ch\":116}},\"scroll\":6}"
-                },
-                {
-                  "title": "DNAPI Introduction",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DNAPI Introduction\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":138,\"ch\":30},\"to\":{\"line\":138,\"ch\":30}},\"scroll\":26.411733333333334}"
-                },
-                {
-                  "title": "Asp DotNet Core Web API",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":20},\"to\":{\"line\":11,\"ch\":20}},\"scroll\":8}"
-                },
-                {
-                  "title": "DNAPI Intro",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DNAPI Intro\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
-                },
-                {
-                  "title": "Asp DotNet Core Web API",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}},\"scroll\":8}"
-                },
-                {
-                  "title": "DotNet MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/DotNet MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DotNet MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":21},\"to\":{\"line\":13,\"ch\":21}}}"
-                },
-                {
-                  "title": "Entity Framework Core",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Entity Framework Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Entity Framework Core\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":17},\"to\":{\"line\":22,\"ch\":17}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":22.447867068312117}"
                 }
               ]
             },
@@ -148,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -579,12 +543,31 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "48818d5a57ecdf73",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       },
       {
         "id": "3d767c407ab4c865",
@@ -743,11 +726,21 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "5c215527749fd65d",
+  "active": "e14a7361765910fa",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/Projects/SW FE.md",
+    "+/Database Design.md",
+    "Atlas/Utilities/Images/Pasted image 20241029204751.png",
+    "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
+    "Atlas/Utilities/Images/Pasted image 20241029204413.png",
+    "Atlas/Utilities/Images/Pasted image 20241029203532.png",
+    "Atlas/Utilities/Images/Pasted image 20241029203429.png",
+    "Atlas/Maps/Database MOC.md",
+    "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
     "Atlas/Maps/Programming MOC.md",
+    "Atlas/Notes/Ideas/Programming/Topics/Application Development Lifecycle.md",
     "Atlas/Maps/Library.md",
+    "Home.md",
+    "Atlas/Notes/Ideas/Programming/Projects/SW FE.md",
     "Atlas/Maps/Back-end MOC.md",
     "Atlas/Maps/DotNet MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
@@ -766,21 +759,11 @@
     "Atlas/Maps/Entity Framework Core.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Maximum Length.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Column Data Types.md",
-    "Home.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
-    "Atlas/Maps/Database MOC.md",
-    "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
-    "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md",
-    "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
     "Atlas/Utilities/Images/Pasted image 20241025102916.png",
     "Atlas/Utilities/Images/Pasted image 20241025102830.png",
     "Atlas/Utilities/Images/Pasted image 20241025102741.png",
     "Atlas/Utilities/Images/Pasted image 20241025102707.png",
-    "Atlas/Utilities/Images/Pasted image 20241025102627.png",
-    "Atlas/Utilities/Images/Pasted image 20241025102219.png",
-    "Atlas/Utilities/Images/Pasted image 20241025101405.png",
-    "Atlas/Utilities/Images/Pasted image 20241024015031.png",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
@@ -790,7 +773,6 @@
     "Atlas/Utilities/Images/Recursion.pdf",
     "cshra",
     "Atlas/Notes/Ideas/Programming/Problem Solving",
-    "Atlas/Utilities/Templates",
     "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
     "Atlas/Notes/Ideas/Untitled.canvas",
     "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
