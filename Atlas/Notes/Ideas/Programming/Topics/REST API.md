@@ -4,12 +4,14 @@ up:
 related: 
 created: 2024-08-02
 ---
-Representational State Transfer
-State => Data
-Representational => ليها تمثيل
-Transfer => بتتنقل بين اتنين كمبيوتر (السيرفر والكلاينت) 
-
+### REST
 عبارة عن Architectural style شكل لل [[API]] بيستخدم [[HTTP]]
+REST => Representational State Transfer
+	State => Data
+	Representational => ليها تمثيل
+	Transfer => بتتنقل بين اتنين كمبيوتر (السيرفر والكلاينت) 
+
+
 ### تعريف REST API
 الـ **REST API** هي طريقة للتواصل بين الأنظمة باستخدام **HTTP**، وده بيخلينا نطلب بيانات، نعدل عليها، أو نحذفها. 
 الهدف منها إنها تخلي **التواصل بسيط وسريع**، وتركز على الموارد (Resources) زي الكائنات والبيانات اللي بنتعامل معاها.

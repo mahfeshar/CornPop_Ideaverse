@@ -14,6 +14,7 @@ tags:
 - [[Code consistency]]
 - [[API]]
 	- [[REST API]]
+	- [[SOAP API]]
 - [[SOLID Principles]]
 - [[Web application frameworks]]
 - File Format
