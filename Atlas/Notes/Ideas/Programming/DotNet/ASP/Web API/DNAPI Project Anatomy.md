@@ -20,24 +20,31 @@ created: 2024-10-16
 دا ملف البداية أو نقطة الدخول للمشروع، زي ما شفنا قبل كده في مشاريع الـ **Console Applications**، وبيحتوي على **Main Method**. 
 ولكن في المشاريع الجديدة، لو استخدمت **Top-level Statements**، هتلاقي إنه اختصر كتابة الكود (من غير Namespace أو Class).
 
-## 3. Program.cs file
-
+## 3. `Program.cs` file
+![[ASP.NET Core Life Cycle - Paint.png]]
 ملف `Program.cs` هو **نقطة البداية (Entry Point)** لأي مشروع ASP.NET Core. 
 يتم استخدامه لتجهيز المشروع، إضافة الخدمات (Services)، وتحديد الـ Middleware الذي يتحكم في مسار الطلبات والردود.
 
-#### **محتويات `Program.cs` :**
+### محتويات `Program.cs` :
 
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 
-// إضافة الخدمات (Services) للـ Dependency Injection Container
+#region Configure Services
+// Add Services to the DI container
+
 builder.Services.AddControllers();
+// Register Required Web APIs Services to the DI Container
+// أستخدم الدي أي معاها
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+#endregion
 
 var app = builder.Build();
 
 // تفعيل Swagger في بيئة التطوير فقط
+#region Configure Kestrel Middlewares
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -52,6 +59,7 @@ app.UseAuthorization();
 
 // ربط الـ Controllers بالـ Routes
 app.MapControllers();
+#endregion
 
 // تشغيل التطبيق
 app.Run();
@@ -59,11 +67,11 @@ app.Run();
 
 ---
 
-### 1. إعداد WebApplicationBuilder:
+### 1. إعداد `WebApplicationBuilder`:
 - **`WebApplication.CreateBuilder(args)`**:
   - يُنشئ **Builder Object** باستخدام **[[Builder Pattern]]**. 
   - هذا الـ Builder يتيح تجهيز التطبيق بإضافة الخدمات (مثل Controllers وSwagger) وضبط الإعدادات.
-
+- هنلاقي جواه **6 حاجات** 
 #### إضافة الخدمات (Services):
 - **`builder.Services`**:
   - هو **Container** يتم فيه تعريف جميع الخدمات التي يمكن استخدامها في المشروع عبر **[[DNAPI Dependency Injection]]**.  
@@ -90,7 +98,7 @@ app.Run();
 
 ---
 
-### 3. إعداد الـ Middleware:
+### 3. إعداد الـ [[DBAPI Middlewares|Middleware]]:
 الـ **Middleware** هو مجموعة من الأدوات التي تمر بها الطلبات (Requests) والاستجابات (Responses).  
 - **`if (app.Environment.IsDevelopment())`**:  
   - يتم **تفعيل Swagger** وواجهة **SwaggerUI** في **بيئة التطوير فقط**، لضمان الأمان بعدم إتاحة التوثيق في بيئة الإنتاج.
@@ -107,13 +115,16 @@ app.Run();
   - يُعيد توجيه جميع الطلبات الواردة عبر HTTP إلى HTTPS لتعزيز الأمان.
 
 - **`UseAuthorization()`**:
-  - يضيف **Middleware** للتحقق من صلاحيات المستخدم. هذا لا يُفعّل الحماية مباشرة، بل يتطلب ضبط إعدادات **Authentication** و**Authorization** بشكل منفصل.
+  - يضيف **Middleware** للتحقق من صلاحيات المستخدم. 
+  - هذا لا يُفعّل الحماية مباشرة، بل يتطلب ضبط إعدادات **Authentication** و**Authorization** بشكل منفصل.
 
 ---
 
 ### 4. ربط الـ Controllers بالـ Routes:
 - **`app.MapControllers()`**:
   - يقوم التطبيق تلقائيًا بالبحث عن جميع الـ **Controllers** الموجودة في المشروع وربطها بمسارات URL (Routes) بناءً على التعريفات في كل Controller.
+  - عبارة عن **Middleware**
+  - بتعتمد على الـ Attribute اللي اسمه Route عشان يحدد الـ Route بتاع كل Class وكل Endpoint
 
 ---
 

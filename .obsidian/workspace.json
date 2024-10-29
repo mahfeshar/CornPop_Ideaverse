@@ -37,8 +37,14 @@
             "id": "5c215527749fd65d",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "DBAPI Middlewares",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DBAPI Middlewares\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -484,9 +490,38 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "b3b4ebee366679e9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "ad3abb0498c1674f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 16
       },
       {
         "id": "3d767c407ab4c865",
@@ -645,11 +680,13 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "d32d3882da2b06d1",
+  "active": "ad3abb0498c1674f",
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
+    "Atlas/Utilities/Images/ASP.NET Core Life Cycle - Paint.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md",
@@ -679,10 +716,8 @@
     "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Change Column Name.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Exclude Entity or Property From Model Or From Migrations.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Change Schema & Map Model To View.md",
     "Atlas/Utilities/Images/Pasted image 20241024015031.png",
     "Atlas/Utilities/Images/Pasted image 20241024012759.png",
-    "Atlas/Utilities/Images/Pasted image 20241024012439.png",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
