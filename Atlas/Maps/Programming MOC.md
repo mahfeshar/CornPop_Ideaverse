@@ -13,6 +13,7 @@ tags:
 - [[Code-first or Database-First]]
 - [[Code consistency]]
 - [[API]]
+	- [[REST API]]
 - [[SOLID Principles]]
 - [[Web application frameworks]]
 - File Format

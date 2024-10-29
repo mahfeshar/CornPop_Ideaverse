@@ -460,7 +460,45 @@ https://localhost:5001/WeatherForecast?city=Cairo
 - في الإنتاج (**Production**)، بنقفل الـ Swagger لأسباب أمان، عشان ما نديش أي معلومات حساسة عن الـ APIs.
 - ممكن نفعّله في أنظمة داخلية لو الشبكة مغلقة، عشان يسهل على الفرق المختلفة التواصل مع الـ APIs.
 
-## 7. أهمية Postman في اختبار الـ APIs  
+## 7. أهمية [[Postman]] في اختبار الـ APIs  
 إلى جانب **Swagger**، هنحتاج نستخدم **Postman**. 
 دي أداة من Google بتمكننا من اختبار الـ APIs بطرق متقدمة، وإرسال طلبات معقدة (GET, POST, PUT, DELETE) وتجربة ردود الأفعال المختلفة.
 
+### شغال في شركة
+بعمل أكونت بالإيميل بتاع الشركة على Postman وهيظهرلي الـ Workspace بتاع الشركة 
+اللي بيبقا عليه كل البروجكتس بتاع الشركة 
+ولو انت مش شغال في شركة بتعمل Workspace خاص بيك 
+
+![[Pasted image 20241029065902.png]]
+
+### Collection
+كل بروجكت عندك بيبقا له Collection خاص بيه في الشركة أو ليك انت
+
+### Mock Servers 
+بيعمل زي حاجة Draft عشان الفرونت ميفضلش مستنيني لحد أما أخلص إنما هو يشتغل ب Dummy API 
+
+### New Collection
+هنضغط على كلمة New وبعدها نختار Collection وبتسميها بإسم البروجكت زي
+`Talabat.APIs.CompanyName`
+كل بروجكت بيبقا له Collection وكل Collection بنقسمها لـ Folders لكل Module عندنا كطريقة تنظيمية
+Add => Folder
+جوا كل فولدر بنعمل الـ Requests بتاعنا مثلًا Get Weather Forecast News
+هنجيب ال Port ونحطه الـ URL كله أقصد وبعدين جنبها أحط الـ Route بتاع Controller عشان أوصل للـ Endpoint 
+`https://localhost:7265/api/WeatherForecast`
+
+هتلاقي عندنا حاجة اسمها Params اللي هي الـبارمترز بتاع الـ Query string وبتبقا عبارة عن Key, Value 
+ولما هتبدأ تضيف هتلاقيه بينكتب فوق في ال URL 
+
+وبعدين عندنا Authorization عشان تحدد لو عايز ال Endpoint عشان توصلها لازم تبقا Auth ولا لا
+
+عندنا Header و Body اشرح كل حاجة بتاع ايه؟
+
+عشان تعمل Send لازم يبقا شغال الأبلكيشن 
+
+لما تخلص هتلاقي رجعلك برد وله Status Code وكمان له Time اتنفذ فيه
+
+ممكن اعمل Invite لحد لل Workspace
+
+وممكن لبروجكت واحد برضو
+
+وممكن أعمل Export ل Collection 
