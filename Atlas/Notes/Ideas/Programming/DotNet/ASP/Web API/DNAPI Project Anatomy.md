@@ -6,13 +6,15 @@ created: 2024-10-16
 ---
 
 ## 1. Make Project Web API  
+![[Pasted image 20241016045609.png]]
 لما تبدأ في **Visual Studio**، هنفتح "Create New Project" ونختار قالب **ASP.NET Core Web API**. 
 القالب دا مخصص للـ backend، وبيخلينا نركز على بناء APIs من غير التعامل مع الواجهات الأمامية (front-end). 
 لو مش لاقي القالب، ممكن تكتبه في البحث "Web API" وتختار النسخة المكتوبة بـ **C#**.
 
 اختار أحدث نسخة من الـ **.NET Framework** وتأكد إنك مشغل الخيارات:
-- الـ**Use Controllers**: مهم جدًا لأننا هنا هنعتمد على **Controller-based APIs**.  
-- الـ**Enable OpenAPI Support**: دا اللي بيدينا **Swagger** عشان نقدر نعمل توثيق تلقائي للـ APIs.  
+- الـ**Use Controllers**: مهم جدًا لأننا هنا هنعتمد على **Controller-based APIs**.
+	- لو شلت علامة الصح من خيار "Use Controller"، المشروع هيبقى من غير Controllers زي اللي بنشوفه في **Node.js**، وده مش الطريقة المعتادة.
+- الـ**Enable OpenAPI Support**: دا اللي بيدينا **Swagger** عشان نقدر نعمل توثيق تلقائي documentation للـ APIs.  
 - الـ**Top-level Statements**: شيل العلامة منها عشان الكود يبان واضح بنمطه التقليدي (Class وNamespace).
 
 ## 2. Anatomy of the Project  
@@ -72,7 +74,7 @@ app.Run();
   - يُنشئ **Builder Object** باستخدام **[[Builder Pattern]]**. 
   - هذا الـ Builder يتيح تجهيز التطبيق بإضافة الخدمات (مثل Controllers وSwagger) وضبط الإعدادات.
 - هنلاقي جواه **6 حاجات** 
-#### إضافة الخدمات (Services):
+### 2. إضافة الخدمات (Services):
 - **`builder.Services`**:
   - هو **Container** يتم فيه تعريف جميع الخدمات التي يمكن استخدامها في المشروع عبر **[[DNAPI Dependency Injection]]**.  
   - الخدمات قد تكون من إطار العمل نفسه (مثل Controllers) أو من مكتبات خارجية (مثل أدوات التوثيق في Swagger).
@@ -82,14 +84,14 @@ app.Run();
 
 - **`AddEndpointsApiExplorer()`**:  
   - يُسهّل استكشاف الـ **Endpoints** في المشروع، خاصة في التطبيقات التي تستخدم **Minimal APIs**.
- - الـ **AddApiExplorer()**: عبارة عن أداة بتساعدك انك تشوف الـ API بتاعتك واللي الأبلكيشن بتاعك بيدعمها وبتبقا في البرامج اللي فيها Controllers 
-- الـ **AddEndpointsApiExplorer()**: نفس اللي فوق بس دي عشان الـ minimal API 
+ - الـ **`AddApiExplorer()`**: عبارة عن أداة بتساعدك انك تشوف الـ API بتاعتك واللي الأبلكيشن بتاعك بيدعمها وبتبقا في البرامج اللي فيها Controllers 
+- الـ **`AddEndpointsApiExplorer()`**: نفس اللي فوق بس دي عشان الـ minimal API 
 - **`AddSwaggerGen()`**:  
   - يضيف دعمًا لتوليد الوثائق التلقائية باستخدام **Swagger**، مما يتيح للمطورين رؤية كل الـ Endpoints وتفاصيلها بشكل تفاعلي.
 
 ---
 
-### 2. بناء التطبيق باستخدام `builder.Build()`
+### 3. بناء التطبيق باستخدام `builder.Build()`
 - بعد إضافة جميع الخدمات المطلوبة، نقوم باستخدام:
   ```csharp
   var app = builder.Build();
@@ -98,7 +100,7 @@ app.Run();
 
 ---
 
-### 3. إعداد الـ [[DBAPI Middlewares|Middleware]]:
+### 4. إعداد الـ [[DBAPI Middlewares|Middleware]]:
 الـ **Middleware** هو مجموعة من الأدوات التي تمر بها الطلبات (Requests) والاستجابات (Responses).  
 - **`if (app.Environment.IsDevelopment())`**:  
   - يتم **تفعيل Swagger** وواجهة **SwaggerUI** في **بيئة التطوير فقط**، لضمان الأمان بعدم إتاحة التوثيق في بيئة الإنتاج.
@@ -120,7 +122,7 @@ app.Run();
 
 ---
 
-### 4. ربط الـ Controllers بالـ Routes:
+### 5. ربط الـ Controllers بالـ Routes:
 - **`app.MapControllers()`**:
   - يقوم التطبيق تلقائيًا بالبحث عن جميع الـ **Controllers** الموجودة في المشروع وربطها بمسارات URL (Routes) بناءً على التعريفات في كل Controller.
   - عبارة عن **Middleware**
@@ -128,7 +130,7 @@ app.Run();
 
 ---
 
-### 5. تشغيل التطبيق:
+### 6. تشغيل التطبيق:
 - **`app.Run()`**:
   - يبدأ تشغيل التطبيق ويظل ينتظر استقبال الطلبات حتى يتم إيقافه. 
   - عند الوصول إلى هذا السطر، يبقى التطبيق في حالة تشغيل دائم إلى أن يتم إغلاقه.
@@ -145,10 +147,10 @@ app.Run();
 ## 4. Controllers
 في المشاريع اللي بتستخدم **ASP.NET Core Web API**، بننظم الكود في **Controllers**، وكل Controller بيكون مسؤول عن مجموعة من الوظائف. 
 الـ **Controller** هو مكون أساسي يحتوي على **الإجراءات (Actions)** التي يتم الوصول إليها عبر طلبات HTTP (مثل GET، POST، PUT).
-كل Controller يمثل مجموعة من **Endpoints** ذات علاقة ببعضها.
-مثال: ممكن يكون عندنا **StudentController** لإدارة بيانات الطلاب، و**EmployeeController** لإدارة بيانات الموظفين.
+كل Controller يمثل مجموعة من **Endpoints** اللي هي الـ Actions ذات علاقة ببعضها.
+مثال: ممكن يكون عندنا **`StudentController`** لإدارة بيانات الطلاب، و**`EmployeeController`** لإدارة بيانات الموظفين.
 
-#### **WeatherForecastController.cs - Controller Sample:**
+#### **`WeatherForecastController.cs` - Controller Sample:**
 ```csharp
 [ApiController]
 [Route("[controller]")]
@@ -455,12 +457,12 @@ https://localhost:5001/WeatherForecast?city=Cairo
 ![[Pasted image 20241016235142.png]]
 ![[Pasted image 20241016235304.png]]
 
-## 6. ملاحظات حول الأمان والاستخدام في بيئات مختلفة  
+## 6. Environments  
 - الـ**Swagger** بيتفعل في بيئة التطوير فقط (**Development Environment**). 
 - في الإنتاج (**Production**)، بنقفل الـ Swagger لأسباب أمان، عشان ما نديش أي معلومات حساسة عن الـ APIs.
 - ممكن نفعّله في أنظمة داخلية لو الشبكة مغلقة، عشان يسهل على الفرق المختلفة التواصل مع الـ APIs.
 
-## 7. أهمية [[Postman]] في اختبار الـ APIs  
+## 7. [[Postman]]  
 إلى جانب **Swagger**، هنحتاج نستخدم **Postman**. 
 دي أداة من Google بتمكننا من اختبار الـ APIs بطرق متقدمة، وإرسال طلبات معقدة (GET, POST, PUT, DELETE) وتجربة ردود الأفعال المختلفة.
 
