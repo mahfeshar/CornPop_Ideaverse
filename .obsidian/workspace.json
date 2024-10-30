@@ -136,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -613,7 +613,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Product Module - Entities.md",
+                "file": "+/Database Design.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -641,7 +641,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Product Module - Entities"
+              "title": "Graph of Database Design"
             }
           }
         ]
@@ -666,7 +666,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Product Module - Entities.md",
+                "file": "+/Database Design.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -676,7 +676,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Product Module - Entities"
+              "title": "Backlinks for Database Design"
             }
           },
           {
@@ -750,13 +750,15 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "3486dfe60674667e",
+  "active": "1b5b42b4ec11b3a8",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "+/Navigational Property.md",
+    "Atlas/Utilities/Images/Pasted image 20241030102513.png",
+    "Atlas/Utilities/Images/Pasted image 20241030102458.png",
     "+/Product Module - Entities.md",
+    "+/Navigational Property.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Exclude Entity or Property From Model Or From Migrations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "+/Onion Architecture.md",
@@ -781,7 +783,6 @@
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029212512.png",
-    "Atlas/Utilities/Images/Pasted image 20241029211658.png",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
@@ -793,7 +794,6 @@
     "+/SOAP API.md",
     "Atlas/Notes/Ideas/Programming/Topics/REST API.md",
     "Atlas/Notes/Ideas/Programming/Topics/API.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",

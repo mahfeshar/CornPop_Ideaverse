@@ -59,7 +59,9 @@
 
 #### Company Database
 ![[Pasted image 20241030072840.png]]
+![[Pasted image 20241030102458.png]]
 #### Premier League Database
 ![[Pasted image 20241030072905.png]]
+![[Pasted image 20241030102513.png]]
 #### Library Database (Task)
 ![[Pasted image 20241030072929.png]]
