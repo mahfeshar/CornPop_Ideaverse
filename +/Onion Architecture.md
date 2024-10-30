@@ -18,7 +18,11 @@
 
 ![[Pasted image 20241030085512.png]]
 
-فالـ Solution اللي احنا عملناه هنعمل New project عبارة عن Class Library وهنسميه `Talabat.Core` ونمسح فايل الـ Class بتاعنا
+
+فالـ Solution اللي احنا عملناه:
+
+![[Pasted image 20241030111723.png]]
+هنعمل New project عبارة عن Class Library وهنسميه `Talabat.Core` ونمسح فايل الـ Class بتاعنا
 
 ونعمل واحد كمان لل Repository Layer نسميه `Talabat.Repository` ونخليه Class Library
 
