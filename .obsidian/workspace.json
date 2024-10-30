@@ -82,20 +82,14 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "Navigational Property",
+                  "title": "Product Module - Entities",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Navigational Property.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Navigational Property\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Product Module - Entities.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Product Module - Entities\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":74},\"to\":{\"line\":2,\"ch\":74}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Asp DotNet Core Web API",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":13},\"to\":{\"line\":16,\"ch\":13}},\"scroll\":8}"
                 },
                 {
                   "title": "Asp DotNet Core",
@@ -126,17 +120,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Product Module - Entities.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Product Module - Entities"
+              "title": "Asp DotNet Core Web API"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -613,7 +607,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Database Design.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -641,7 +635,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Database Design"
+              "title": "Graph of Asp DotNet Core Web API"
             }
           }
         ]
@@ -666,7 +660,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Database Design.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -676,7 +670,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database Design"
+              "title": "Backlinks for Asp DotNet Core Web API"
             }
           },
           {
@@ -750,21 +744,22 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "1b5b42b4ec11b3a8",
+  "active": "3486dfe60674667e",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "+/Product Module - Entities.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "+/DbContext, ProductConfigurations, Migrations.md",
+    "+/Database Design.md",
     "Atlas/Utilities/Images/Pasted image 20241030102513.png",
     "Atlas/Utilities/Images/Pasted image 20241030102458.png",
-    "+/Product Module - Entities.md",
     "+/Navigational Property.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Exclude Entity or Property From Model Or From Migrations.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "+/Onion Architecture.md",
     "Atlas/Utilities/Images/Pasted image 20241030085512.png",
     "Atlas/Notes/Ideas/Programming/Topics/Microservices.md",
-    "+/Database Design.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
@@ -782,7 +777,6 @@
     "Atlas/Utilities/Images/Pasted image 20241029214357.png",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
-    "Atlas/Utilities/Images/Pasted image 20241029212512.png",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
