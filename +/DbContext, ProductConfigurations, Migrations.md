@@ -6,6 +6,12 @@
 ```cs
 public class StoreContext : DbContext
 {
+	// Constructor: Chaining base 
+	protected override void OnConfiguring(DbContextOptionsBuilder options)
+	{
+		options.UseSqlServer("ConntectionString");
+	}
 	
+	// Tables
 }
 ```
