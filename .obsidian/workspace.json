@@ -79,14 +79,8 @@
             "id": "3486dfe60674667e",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Microservices",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Topics/Microservices.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Microservices\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":73},\"to\":{\"line\":9,\"ch\":73}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -95,7 +89,7 @@
                   "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":10},\"to\":{\"line\":14,\"ch\":10}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":13},\"to\":{\"line\":16,\"ch\":13}},\"scroll\":8}"
                 },
                 {
                   "title": "Asp DotNet Core",
@@ -126,13 +120,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Onion Architecture.md",
+                "file": "+/Product Module - Entities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Onion Architecture"
+              "title": "Product Module - Entities"
             }
           }
         ],
@@ -613,7 +607,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Onion Architecture.md",
+                "file": "+/Product Module - Entities.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -641,7 +635,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Onion Architecture"
+              "title": "Graph of Product Module - Entities"
             }
           }
         ]
@@ -666,7 +660,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Onion Architecture.md",
+                "file": "+/Product Module - Entities.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -676,7 +670,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Onion Architecture"
+              "title": "Backlinks for Product Module - Entities"
             }
           },
           {
@@ -756,11 +750,12 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "+/Onion Architecture.md",
+    "+/Product Module - Entities.md",
     "Atlas/Utilities/Images/Pasted image 20241030085512.png",
     "Atlas/Notes/Ideas/Programming/Topics/Microservices.md",
-    "+/Onion Architecture.md",
     "+/Database Design.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
@@ -780,7 +775,6 @@
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029212512.png",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png",
-    "Atlas/Utilities/Images/Pasted image 20241029211321.png",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
