@@ -40,6 +40,7 @@ tags:
 - [[Front-end MOC]]
 - [[Back-end MOC]]
 ## Frameworks
+[[Web application frameworks]]
 - [[Flask]]
 - [[DotNet MOC]]
 ## Programming Languages
