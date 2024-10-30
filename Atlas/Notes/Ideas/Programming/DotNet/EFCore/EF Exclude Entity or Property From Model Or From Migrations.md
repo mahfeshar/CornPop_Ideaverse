@@ -23,7 +23,7 @@ public class Employee
 }
 ```
 - في المثال السابق، يتم استثناء الخاصية `Age` من التخزين في الجدول، حتى لو كانت مستخدمة في التطبيق.
-- ممكن تستخدمها على الـ Navigation Properties فبالتالي ميظهر الـ Entity كلها
+- ممكن تستخدمها على الـ [[Navigational Property|Navigation Properties]] فبالتالي ميظهر الـ Entity كلها
 
 #### **متى تستخدم `[NotMapped]`؟**
 - **الخصائص المحسوبة** مثل `TotalPrice` التي يتم حسابها في التطبيق.
