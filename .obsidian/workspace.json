@@ -589,9 +589,19 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "6092485eaa65bef8",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 18
       },
       {
         "id": "3d767c407ab4c865",
@@ -750,7 +760,7 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "1b5b42b4ec11b3a8",
+  "active": "6092485eaa65bef8",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
