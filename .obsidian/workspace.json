@@ -593,6 +593,25 @@
           {
             "id": "6092485eaa65bef8",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "edf189f710fdc80f",
+            "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -601,7 +620,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       },
       {
         "id": "3d767c407ab4c865",
@@ -760,7 +779,7 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "6092485eaa65bef8",
+  "active": "edf189f710fdc80f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
