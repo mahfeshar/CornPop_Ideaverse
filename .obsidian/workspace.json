@@ -37,17 +37,19 @@
             "id": "1b5b42b4ec11b3a8",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 3,
               "stack": [
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "Database Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Database Design.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database Design\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "Database MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":14},\"to\":{\"line\":27,\"ch\":14}},\"scroll\":13.249526515151516}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":14},\"to\":{\"line\":27,\"ch\":14}},\"scroll\":8}"
                 },
                 {
                   "title": "Programming MOC",
@@ -56,23 +58,45 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":14},\"to\":{\"line\":33,\"ch\":14}},\"scroll\":18.93655303030303}"
                 },
                 {
-                  "title": "Library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Library\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":17.472646001360413}"
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Database Design.md",
+                "file": "Atlas/Maps/Library.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database Design"
+              "title": "Library"
+            }
+          },
+          {
+            "id": "a5075f43b19f49bd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Skills for Freelancing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Skills for Freelancing"
             }
           },
           {
@@ -136,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -612,6 +636,15 @@
           {
             "id": "edf189f710fdc80f",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {},
@@ -642,7 +675,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Database Design.md",
+                "file": "+/Skills for Freelancing.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -670,7 +703,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Database Design"
+              "title": "Graph of Skills for Freelancing"
             }
           }
         ]
@@ -695,7 +728,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Database Design.md",
+                "file": "+/Skills for Freelancing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -705,7 +738,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database Design"
+              "title": "Backlinks for Skills for Freelancing"
             }
           },
           {
@@ -779,11 +812,16 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "edf189f710fdc80f",
+  "active": "a5075f43b19f49bd",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Maps/Library.md",
+    "+/Skills for Freelancing.md",
+    "Atlas/Maps/Programming MOC.md",
+    "Atlas/Maps/Database MOC.md",
+    "+/Database Design.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
     "+/DbContext, ProductConfigurations, Migrations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
@@ -795,7 +833,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md",
     "Atlas/Utilities/Images/Pasted image 20241030111723.png",
     "+/Product Module - Entities.md",
-    "+/Database Design.md",
     "Atlas/Utilities/Images/Pasted image 20241030102513.png",
     "Atlas/Utilities/Images/Pasted image 20241030102458.png",
     "+/Navigational Property.md",
@@ -807,7 +844,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md",
     "Atlas/Maps/DotNet MOC.md",
-    "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md",
     "Atlas/Utilities/Images/Pasted image 20241030073203.png",
     "Atlas/Utilities/Images/Pasted image 20241030072929.png",
@@ -818,11 +854,8 @@
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
-    "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
     "Atlas/Notes/Ideas/Programming/Topics/Application Development Lifecycle.md",
-    "Atlas/Maps/Library.md",
-    "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
