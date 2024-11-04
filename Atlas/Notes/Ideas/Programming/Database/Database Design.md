@@ -1,3 +1,10 @@
+---
+up:
+  - "[[Database MOC]]"
+related: 
+created: 2024-11-04
+---
+
 ![[Pasted image 20241029203429.png]]
 اتكلمنا عنها قبل كدا في الـ [[DB Life Cycle]]
 
