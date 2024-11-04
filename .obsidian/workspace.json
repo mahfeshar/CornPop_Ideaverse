@@ -600,8 +600,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -622,9 +622,28 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "9a4c04b5177f6bdb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       },
       {
         "id": "3d767c407ab4c865",
@@ -783,7 +802,7 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "3486dfe60674667e",
+  "active": "9a4c04b5177f6bdb",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
