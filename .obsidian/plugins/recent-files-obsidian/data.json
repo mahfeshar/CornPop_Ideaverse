@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Asp DotNet Core Web API",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+    },
+    {
+      "basename": "Onion Architecture",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md"
+    },
+    {
+      "basename": "DNAPI Project Anatomy",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md"
+    },
+    {
+      "basename": "DNAPI Introduction",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md"
+    },
+    {
       "basename": "DbContext, ProductConfigurations, Migrations",
-      "path": "+/DbContext, ProductConfigurations, Migrations.md"
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md"
     },
     {
       "basename": "EF Add First Migration",
@@ -49,14 +65,6 @@
       "path": "Atlas/Notes/Ideas/Programming/Topics/API.md"
     },
     {
-      "basename": "DNAPI Introduction",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md"
-    },
-    {
-      "basename": "Asp DotNet Core Web API",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
-    },
-    {
       "basename": "Cs Generics",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
     },
@@ -99,10 +107,6 @@
     {
       "basename": "DBAPI Middlewares",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md"
-    },
-    {
-      "basename": "DNAPI Project Anatomy",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md"
     },
     {
       "basename": "Home",
@@ -195,10 +199,6 @@
     {
       "basename": "Auth Updating the user entity",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Updating the user entity.md"
-    },
-    {
-      "basename": "Cs LINQ Joins and Grouping",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md"
     }
   ],
   "omittedPaths": [],

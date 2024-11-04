@@ -4,7 +4,6 @@ up:
 related: 
 created: 2024-11-04
 ---
-
 ## DbContext
 ### Store Context
 هنعمل أول حاجة الـ DbContext بتاعنا وقولنا هنحطه في الـ Repository Layer
@@ -155,4 +154,4 @@ Update-Database
 دي بتنفذ سطرين كود كدا انها بتعمل اوبجيكت من الـ DbContext ويمسك الـ Object يقوله `object.Database.Migrate`
 
 ---
-بس دي مش أحسن طريقة تتنفذ لأني عايز لما أعمل run للبرنامج يعمل Migration لوحده
+بس دي مش أحسن طريقة تتنفذ لأني عايز لما أعمل **run للبرنامج** يعمل Apply Migration لوحده من غير ما أقوله لو مش معمولها Update
