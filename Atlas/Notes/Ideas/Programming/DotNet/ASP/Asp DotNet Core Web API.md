@@ -8,7 +8,6 @@ tags:
 ---
 - [[DNAPI Introduction]]
 - [[DNAPI Project Anatomy]]
-- [[Onion Architecture]]
 - [[DBAPI Action Filters]]
 - [[DNAPI Dependency Injection]]
 - [[DNAPI Basic CRUD Operations]]

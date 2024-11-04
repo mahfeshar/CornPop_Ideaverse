@@ -154,4 +154,15 @@ Update-Database
 دي بتنفذ سطرين كود كدا انها بتعمل اوبجيكت من الـ DbContext ويمسك الـ Object يقوله `object.Database.Migrate`
 
 ---
+
+
+
+## Update Database
+قولنا طريقة من شوية
 بس دي مش أحسن طريقة تتنفذ لأني عايز لما أعمل **run للبرنامج** يعمل Apply Migration لوحده من غير ما أقوله لو مش معمولها Update
+
+هعمل دي عن طريق اني هروح في أول الـ Main وأحط السطرين اللي قولنا عليهم
+```cs
+StoreContext dbContext = new StoreContext();
+await dbContext.Database.MigrateAsync();
+```
