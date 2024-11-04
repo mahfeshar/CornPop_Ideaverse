@@ -76,30 +76,6 @@
             }
           },
           {
-            "id": "a5075f43b19f49bd",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Skills for Freelancing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Skills for Freelancing"
-            }
-          },
-          {
             "id": "3486dfe60674667e",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -629,8 +605,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -651,9 +627,28 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "b0347d009a1e53d0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       },
       {
         "id": "3d767c407ab4c865",
@@ -812,17 +807,17 @@
       "cmdr:Toggle stacked tabs": false
     }
   },
-  "active": "1b5b42b4ec11b3a8",
+  "active": "b0347d009a1e53d0",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "+/Skills for Freelancing.md",
+    "+/Database Design.md",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Maps/Library.md",
-    "+/Skills for Freelancing.md",
     "Atlas/Maps/Programming MOC.md",
-    "+/Database Design.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
     "+/DbContext, ProductConfigurations, Migrations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
