@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "DbContext, ProductConfigurations, Migrations",
+      "path": "+/DbContext, ProductConfigurations, Migrations.md"
+    },
+    {
+      "basename": "DNAPI Basic CRUD Operations",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md"
+    },
+    {
       "basename": "Programming MOC",
       "path": "Atlas/Maps/Programming MOC.md"
     },
@@ -87,10 +95,6 @@
     {
       "basename": "DBAPI Middlewares",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md"
-    },
-    {
-      "basename": "DNAPI Basic CRUD Operations",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md"
     },
     {
       "basename": "DNAPI Project Anatomy",
@@ -195,13 +199,10 @@
     {
       "basename": "Cs LINQ Quantifiers, Partitioning, and Set Operations",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Quantifiers, Partitioning, and Set Operations.md"
-    },
-    {
-      "basename": "Cs LINQ Sorting",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Sorting.md"
     }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
   "maxLength": null,
   "openType": "tab"
 }

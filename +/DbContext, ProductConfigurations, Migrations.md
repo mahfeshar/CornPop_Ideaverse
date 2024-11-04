@@ -1,3 +1,10 @@
+---
+up:
+  - "[[Asp DotNet Core Web API]]"
+related: 
+created: 2024-11-04
+---
+
 ## DbContext
 ### Store Context
 هنعمل أول حاجة الـ DbContext بتاعنا وقولنا هنحطه في الـ Repository Layer
@@ -51,6 +58,35 @@ public class StoreContext : DbContext
 	{
 	}
 
-	public DbSet<Product> 
+	public DbSet<Product> Products {get; set;} 
+	public DbSet<ProductBrand> ProductBrands {get; set;} 
 }
 ```
+
+### Fluent API
+محتاجين نكتب التعديلات اللي عايزين نعملها على الـ Modules بتاعنا
+هنعمل Override لـ `OnModelCreating`
+```cs
+public class StoreContext : DbContext
+{
+	public StoreContext(DbContextOptions<StoreContext> options)
+		:base(options)
+	{
+	}
+
+	protected override void OnModelCreating(ModelBuilder modelBuilder)
+	{
+		
+	}
+
+	public DbSet<Product> Products {get; set;} 
+	public DbSet<ProductBrand> ProductBrands {get; set;} 
+}
+```
+
+مش محتاج أنادي على الـ `OnModelCreating` بتاع الـ Base اللي هو DbContext عشان مفيهاش `DbSet` فمش هيبقا ليها لازمة
+
+## Product Configuration
+هنعمل Folder اسمه Config جوا Folder الـ Data اللي موجودة جوا الـ Repository عشان أحط فيها كل الـ Configurations بتاعنا
+
+![[Pasted image 20241104140906.png]]
