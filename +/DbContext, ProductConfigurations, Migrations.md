@@ -137,3 +137,22 @@ protected override void OnModelCreating(ModelBuilder modelBuilder) { modelBuilde
 modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 ```
 ببياخدها من الـ Assembly اللي شغال وبياخد كل اللي وارث من الـ`IEntityTypeConfiguration` وبيستخدم الـ [[Reflection]]
+
+## Migrations
+اتكلمنا عنها في الـ [[Entity Framework Core]] ,[[EF Add First Migration]]
+هنحتاج نعمل الـ Migration في البروجكت بتاع **الـ API اللي فيه الـ Connection string**
+**هننزل الـ Package** اللي اسمه `EntityFrameCore.Tools`
+
+لما نيجي نفتح الـ Package Manager هنحدد البروجكت بتاع الـ Repository 
+```shell
+add-migration "ProductModule" - O Data/Migrations
+```
+
+وبعدين نعمل Update-Database
+```shell
+Update-Database
+```
+دي بتنفذ سطرين كود كدا انها بتعمل اوبجيكت من الـ DbContext ويمسك الـ Object يقوله `object.Database.Migrate`
+
+---
+بس دي مش أحسن طريقة تتنفذ لأني عايز لما أعمل run للبرنامج يعمل Migration لوحده

@@ -40,10 +40,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "DNAPI Basic CRUD Operations",
+                  "title": "EF Add First Migration",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DNAPI Basic CRUD Operations\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":70,\"ch\":0},\"to\":{\"line\":70,\"ch\":0}},\"scroll\":149.16309523809525}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EF Add First Migration\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":19.657071339173967}"
                 },
                 {
                   "state": "{}",
@@ -502,9 +502,10 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md",
+    "+/DbContext, ProductConfigurations, Migrations.md",
     "Atlas/Utilities/Images/Pasted image 20241104140906.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
-    "+/DbContext, ProductConfigurations, Migrations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Home.md",
     "Atlas/Notes/Ideas/Programming/Database/Database Design.md",
@@ -537,7 +538,6 @@
     "Atlas/Utilities/Images/Pasted image 20241030072905.png",
     "Atlas/Utilities/Images/Pasted image 20241030072840.png",
     "Atlas/Utilities/Images/Pasted image 20241030071131.png",
-    "Atlas/Utilities/Images/Pasted image 20241030071120.png",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",

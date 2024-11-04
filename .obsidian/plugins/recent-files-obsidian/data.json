@@ -5,6 +5,10 @@
       "path": "+/DbContext, ProductConfigurations, Migrations.md"
     },
     {
+      "basename": "EF Add First Migration",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md"
+    },
+    {
       "basename": "DNAPI Basic CRUD Operations",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Cs LINQ Joins and Grouping",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Joins and Grouping.md"
-    },
-    {
-      "basename": "Cs LINQ Quantifiers, Partitioning, and Set Operations",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs LINQ Quantifiers, Partitioning, and Set Operations.md"
     }
   ],
   "omittedPaths": [],
