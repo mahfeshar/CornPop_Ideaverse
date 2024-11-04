@@ -90,3 +90,50 @@ public class StoreContext : DbContext
 هنعمل Folder اسمه Config جوا Folder الـ Data اللي موجودة جوا الـ Repository عشان أحط فيها كل الـ Configurations بتاعنا
 
 ![[Pasted image 20241104140906.png]]
+بتاخد من الـ Interface اللي اسمه `IEntityTypeConfiguration`
+هنبدأ نعمل حاجتين عندنا:
+1. الـ Properties كلها بتاعها (تاخد بالك انك تحل مشاكل مثلًا ان عناصر متبقاش NULL)
+2. الـ Relationships بينها وبين باقي العناصر (بتحدد نوعها وبعدين بتحدد الـ Foreign key)
+```cs
+internal class ProductConfigurations : IEntityTypeConfiguration<Product>
+{
+    public void Configure(EntityTypeBuilder<Product> builder)
+    {
+        builder.Property(P => P.Name)
+            .IsRequired()
+            .HasMaxLength(100);
+
+        builder.Property(P => P.Description)
+            .IsRequired();
+
+        builder.Property(P => P.PictureUrl)
+            .IsRequired();
+
+        builder.Property(P => P.Price)
+            .HasColumnType("decimal(18, 2)");
+
+        // Foreign key relationship with Brand
+        builder.HasOne(P => P.Brand)
+            .WithMany()
+            .HasForeignKey(P => P.BrandId);
+            //.OnDelete(DeleteBehavior.SetNull); // Uncomment if you want to set null on delete
+
+        // Foreign key relationship with Category
+        builder.HasOne(P => P.Category)
+            .WithMany()
+            .HasForeignKey(P => P.CategoryId);
+    }
+}
+```
+ونعمل واحد للـ Brand و Category
+
+دلوقتي هنزود الـ Configuration في الـ `OnModelCreating`
+عندنا طريقة قديمة:
+```cs
+protected override void OnModelCreating(ModelBuilder modelBuilder) { modelBuilder.ApplyConfiguration(new ProductConfigurations()); modelBuilder.ApplyConfiguration(new ProductBrandConfigurations()); modelBuilder.ApplyConfiguration(new ProductCategoryConfigurations()); }
+```
+الطريقة الجديدة أسهل
+```cs
+modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+```
+ببياخدها من الـ Assembly اللي شغال وبياخد كل اللي وارث من الـ`IEntityTypeConfiguration` وبيستخدم الـ [[Reflection]]
