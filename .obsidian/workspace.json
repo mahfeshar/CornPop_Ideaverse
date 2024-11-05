@@ -178,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,10 +288,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/عمل فيديو بال AI.md"
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of عمل فيديو بال AI"
+              "title": "Outline of Database"
             }
           },
           {
@@ -426,7 +426,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/عمل فيديو بال AI.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -454,7 +454,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of عمل فيديو بال AI"
+              "title": "Graph of Database"
             }
           }
         ]
@@ -479,7 +479,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/عمل فيديو بال AI.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -489,7 +489,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for عمل فيديو بال AI"
+              "title": "Backlinks for Database"
             }
           },
           {
@@ -563,13 +563,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f7b665484d05200",
+  "active": "1de218616225059c",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "+/عمل فيديو بال AI.md",
+    "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Utilities/Images/Pasted image 20241105120657.png",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Maps/Library.md",
