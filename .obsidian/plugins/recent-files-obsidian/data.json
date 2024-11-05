@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Database Management System (DBMS)",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
+    },
+    {
+      "basename": "Database MOC",
+      "path": "Atlas/Maps/Database MOC.md"
+    },
+    {
       "basename": "Database",
       "path": "Atlas/Notes/Ideas/Programming/Database/Database.md"
     },
     {
       "basename": "عمل فيديو بال AI",
       "path": "+/عمل فيديو بال AI.md"
-    },
-    {
-      "basename": "Database MOC",
-      "path": "Atlas/Maps/Database MOC.md"
     },
     {
       "basename": "Library",
@@ -195,10 +199,6 @@
     {
       "basename": "Auth Intro",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Intro.md"
-    },
-    {
-      "basename": "Auth Creating an Account Controller with a register endpoint",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md"
     }
   ],
   "omittedPaths": [],
