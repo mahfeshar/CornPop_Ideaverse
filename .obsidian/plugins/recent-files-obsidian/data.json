@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "عمل فيديو بال AI",
+      "path": "+/عمل فيديو بال AI.md"
+    },
+    {
+      "basename": "Database",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Database.md"
+    },
+    {
+      "basename": "Database MOC",
+      "path": "Atlas/Maps/Database MOC.md"
+    },
+    {
+      "basename": "Library",
+      "path": "Atlas/Maps/Library.md"
+    },
+    {
       "basename": "DbContext, ProductConfigurations, Migrations",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
     },
     {
       "basename": "Asp DotNet Core Web API",
@@ -35,10 +55,6 @@
     {
       "basename": "SW FE",
       "path": "Atlas/Notes/Ideas/Programming/Projects/SW FE.md"
-    },
-    {
-      "basename": "Library",
-      "path": "Atlas/Maps/Library.md"
     },
     {
       "basename": "Back-end MOC",
@@ -107,10 +123,6 @@
     {
       "basename": "DBAPI Middlewares",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Data Structure and Algorithms MOC",
@@ -187,18 +199,6 @@
     {
       "basename": "Auth Creating an Account Controller with a register endpoint",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating an Account Controller with a register endpoint.md"
-    },
-    {
-      "basename": "Cs Using",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Using.md"
-    },
-    {
-      "basename": "Auth Creating a base API controller",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Creating a base API controller.md"
-    },
-    {
-      "basename": "Auth Updating the user entity",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Updating the user entity.md"
     }
   ],
   "omittedPaths": [],

@@ -16,7 +16,7 @@ Databases are everywhere:
 ---
 ## Concepts
 - [[Database]]: What is database?
-- [[2+ Kinds of databases]]
+	- [[2+ Kinds of databases]]
 - [[Database Management System (DBMS)]]
 - [[Structured Query Language (SQL)]]
 ---
