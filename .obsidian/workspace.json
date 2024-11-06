@@ -37,14 +37,8 @@
             "id": "3486dfe60674667e",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Py json",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Python/Py json.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Py json\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":6},\"to\":{\"line\":18,\"ch\":6}},\"scroll\":14.54141865079365}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -53,7 +47,7 @@
                   "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":20},\"to\":{\"line\":17,\"ch\":20}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":19},\"to\":{\"line\":15,\"ch\":19}},\"scroll\":8}"
                 },
                 {
                   "title": "DbContext, ProductConfigurations, Migrations, Update Database",
@@ -126,13 +120,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DbContext, ProductConfigurations, Migrations, Update Database"
+              "title": "Onion Architecture"
             }
           }
         ],
@@ -246,10 +240,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of DbContext, ProductConfigurations, Migrations, Update Database"
+              "title": "Outline of Onion Architecture"
             }
           },
           {
@@ -384,7 +378,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -412,7 +406,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of DbContext, ProductConfigurations, Migrations, Update Database"
+              "title": "Graph of Onion Architecture"
             }
           }
         ]
@@ -437,7 +431,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -447,7 +441,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DbContext, ProductConfigurations, Migrations, Update Database"
+              "title": "Backlinks for Onion Architecture"
             }
           },
           {
@@ -526,12 +520,12 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/Python/Py json.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
+    "Atlas/Notes/Ideas/Programming/Python/Py json.md",
     "Atlas/Notes/Ideas/Programming/Topics/JSON.md",
     "Atlas/Maps/Entity Framework Core.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add DbContext and ConnectionString.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
