@@ -249,3 +249,14 @@ catch (Exception ex)
 	logger.LogError(ex, "an error has been occured during apply the migration");
 }
 ```
+خد بالك انت كمان محتاج تعمل ال Program يبقا `async Task`
+
+- الطريقة دي بنستخدمها عشان نعمل Update بشكل مستمر
+- كل مرة أشغل البرنامج يعمل Apply لأي Migration عندك
+- والموضوع دا مهم لما تيجي تعمل Deploy على Server Production 
+- وعشان الـ Data Seeding
+
+## Data Seeding
+Seed => دا البداية اني بعمل داتا مبدأية
+العملية دي بتحصل مرة واحدة في الحياة
+ومرة واحدة للسيرفر 

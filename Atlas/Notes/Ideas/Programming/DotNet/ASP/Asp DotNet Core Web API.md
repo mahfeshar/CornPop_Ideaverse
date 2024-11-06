@@ -15,5 +15,5 @@ tags:
 ---
 - [[Onion Architecture]]
 - [[Product Module - Entities]]
-- [[DbContext, ProductConfigurations, Migrations]]
+- [[DbContext, ProductConfigurations, Migrations, Update Database]]
 ---
