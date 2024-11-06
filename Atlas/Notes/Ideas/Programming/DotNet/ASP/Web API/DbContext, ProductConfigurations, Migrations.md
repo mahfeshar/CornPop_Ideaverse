@@ -176,6 +176,76 @@ Update-Database
 StoreContext dbContext = new StoreContext();
 await dbContext.Database.MigrateAsync();
 ```
-بس محتاج هنا أديله Options وأنا لو عملت كدا يدوي هبوظ الـ Dependency Injection
-فأنا محتاج أطلب من الـ CLR يعملي الحوار دا
-ممكن واحد يقولي أعمل Ctor للـ Program نفسه يعملي الـ Object بس دا هيعملي مشاكل كتير
+- بس محتاج هنا أديله Options وأنا لو عملت كدا يدوي هبوظ الـ Dependency Injection
+- فأنا محتاج أطلب من الـ CLR يعملي الحوار دا
+- ممكن واحد يقولي أعمل Ctor للـ Program نفسه يعملي الـ Object بس دا هيعملي **مشاكل كتير**
+
+- فأنا محتاج أعمل كدا بشكل Explicitly 
+- فأنا هطلب بعد ما أعمل Configure بعد الـ DbContext وبعد ما أعمل Build لل App
+- محتاج أعمل Create Scope
+```cs
+var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+var _dbContext = services.GetRequiredService<StoreContext>();
+// Ask CLR for Creating Object from DbContext Explicitly
+
+await _dbContext.Database.MigrateAsync();
+```
+
+ولازم بعد ما أخلص شغلي معاه أقفل الـ Scope
+وعشان أعمل كدا هستخدم الـ [[Cs Handle Exception#Finally]] لأنها هتتنفذ لما Try تخلص شغلها
+```cs
+ try
+ {
+	 var scope = app.Services.CreateScope();
+	var services = scope.ServiceProvider;
+	var _dbContext = services.GetRequiredService<StoreContext>();
+	await _dbContext.Database.MigrateAsync();
+ }
+ finally 
+ {
+	 scope.Dispose();
+ }
+```
+او بدل دي هستخدم Using 
+```cs
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+var _dbContext = services.GetRequiredService<StoreContext>();
+// Ask CLR for Creating Object from DbContext Explicitly
+
+await _dbContext.Database.MigrateAsync();
+```
+
+حاجة كمان ان لو حصل مشكلة في الـ Update كدا مش هيعمل Run فهحتاج أعمل الكود في [[Cs Handle Exception#Try … Catch|Try ... Catch]]
+```cs
+try
+{
+	await _dbContext.Database.MigrateAsynce();
+}
+catch (Exception ex)
+{
+	Console.WriteLine(ex);
+}
+```
+مش هستخدم Console عشان أعرض الـ Error فهستخدم الـ  Logger Factory
+
+### الكود النهائي
+```cs
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+var _dbContext = services.GetRequiredService<StoreContext>();
+
+var loggerFactory = services.GerRequiredService<ILoggerFactory>();
+
+try
+{
+	// Update-Database
+	await _dbContext.Database.MigrateAsync(); 
+}
+catch (Exception ex)
+{
+	var logger = loggerFactory.CreateLogger<Program>();
+	logger.LogError(ex, "an error has been occured during apply the migration");
+}
+```

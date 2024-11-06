@@ -37,23 +37,23 @@
             "id": "3486dfe60674667e",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "EF Migration Rollback",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EF Migration Rollback\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.480654761904763}"
                 },
                 {
                   "title": "Entity Framework Core",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Entity Framework Core.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Entity Framework Core\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":14},\"to\":{\"line\":12,\"ch\":14}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":14},\"to\":{\"line\":12,\"ch\":14}},\"scroll\":8}"
                 },
                 {
-                  "title": "DbContext, ProductConfigurations, Migrations",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DbContext, ProductConfigurations, Migrations\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":150,\"ch\":32},\"to\":{\"line\":150,\"ch\":32}},\"scroll\":6}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
                   "title": "Asp DotNet Core Web API",
@@ -132,13 +132,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EF Migration Rollback"
+              "title": "DbContext, ProductConfigurations, Migrations"
             }
           }
         ],
@@ -252,10 +252,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of EF Migration Rollback"
+              "title": "Outline of DbContext, ProductConfigurations, Migrations"
             }
           },
           {
@@ -390,7 +390,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -418,7 +418,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of EF Migration Rollback"
+              "title": "Graph of DbContext, ProductConfigurations, Migrations"
             }
           }
         ]
@@ -443,7 +443,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -453,7 +453,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for EF Migration Rollback"
+              "title": "Backlinks for DbContext, ProductConfigurations, Migrations"
             }
           },
           {
@@ -533,6 +533,7 @@
   },
   "lastOpenFiles": [
     "Atlas/Maps/Entity Framework Core.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md",
