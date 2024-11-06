@@ -16,4 +16,5 @@ tags:
 - [[Onion Architecture]]
 - [[Product Module - Entities]]
 - [[DbContext, ProductConfigurations, Migrations, Update Database]]
+- [[Generic Repository]]
 ---
