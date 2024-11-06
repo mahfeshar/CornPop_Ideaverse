@@ -5,6 +5,14 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md"
     },
     {
+      "basename": "Py json",
+      "path": "Atlas/Notes/Ideas/Programming/Python/Py json.md"
+    },
+    {
+      "basename": "JSON",
+      "path": "Atlas/Notes/Ideas/Programming/Topics/JSON.md"
+    },
+    {
       "basename": "Entity Framework Core",
       "path": "Atlas/Maps/Entity Framework Core.md"
     },
@@ -181,10 +189,6 @@
       "path": "Atlas/Notes/Ideas/Programming/SOLID/Dependency Inversion Principle (DIP).md"
     },
     {
-      "basename": "JSON",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/JSON.md"
-    },
-    {
       "basename": "How the web works",
       "path": "Atlas/Notes/Ideas/Programming/Networking/How the web works.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Networking Fundamentals",
       "path": "+/Networking Fundamentals.md"
-    },
-    {
-      "basename": "Network",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/Network.md"
     }
   ],
   "omittedPaths": [],

@@ -257,6 +257,41 @@ catch (Exception ex)
 - وعشان الـ Data Seeding
 
 ## Data Seeding
-Seed => دا البداية اني بعمل داتا مبدأية
-العملية دي بتحصل مرة واحدة في الحياة
-ومرة واحدة للسيرفر 
+- Seed => دا البداية اني بعمل داتا مبدأية
+- العملية دي بتحصل مرة واحدة في الحياة
+  ومرة واحدة للسيرفر 
+
+- اني بحط الداتا موجودة قبل كدا 
+
+### الخطوات
+- هنعمل Folder جديد في الفولدر بتاع Data اللي موجود في الـ Repository وأسميه `DataSeeding` 
+- نحط فيه ملفات الـ JSON بتاعنا
+- جوا فولدر الـ Data هنعمل Helper نسميه `StoreContextSeed` وتبقى `public static`
+- نعمل Method اسمها `SeedAsync`
+	- ولازم نمررلها الـ Database Context بتاعنا عشان يحطها فيها
+- هنبدأ بالـ Category أو الـ Brand وننتهي بالـ Product في الآخر خالص
+- هنستخدم الـ `ReadAllText` اللي هي بتفتح الفايل وتاخد الداتا وتقفله 
+	- وبنديلها Absolute path لمكان الفايل
+- هنستخدم بعد كدا الـ [[JSON]] واتكلمنا قبل كدا عن الـ [[Py json#Deserialization|Deserialize]]
+
+```cs
+public static class StoreContextSeed
+{
+	public async static Task SeedAsync(StoreContext _dbContext)
+	{
+		// File => String (JSON)
+		var brandsData = File.ReadAllText("../Shary.Repository/Data/DataSeed/brands.json");
+
+		// String(JSON) => in-memory objects
+		var brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
+
+		foreach(var brand in brands)
+		{
+			_dbContext.Set<ProductBrand>().Add(brand);
+			// await _dbContext.SaveChangesAsync();
+			// نسيف فالأخر خالص أحسن بعد ما يضيف كله
+		}
+		await _dbContext.SaveChangesAsync();
+	}
+}
+```
