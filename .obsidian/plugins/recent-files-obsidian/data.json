@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "EF Migration Rollback",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md"
+    },
+    {
+      "basename": "Entity Framework Core",
+      "path": "Atlas/Maps/Entity Framework Core.md"
+    },
+    {
       "basename": "DbContext, ProductConfigurations, Migrations",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md"
     },
     {
-      "basename": "EF Add DbContext and ConnectionString",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add DbContext and ConnectionString.md"
-    },
-    {
       "basename": "Asp DotNet Core Web API",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+    },
+    {
+      "basename": "EF Add First Migration",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md"
+    },
+    {
+      "basename": "EF Add DbContext and ConnectionString",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add DbContext and ConnectionString.md"
     },
     {
       "basename": "Product Module - Entities",
@@ -51,10 +63,6 @@
     {
       "basename": "DNAPI Introduction",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md"
-    },
-    {
-      "basename": "EF Add First Migration",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md"
     },
     {
       "basename": "DNAPI Basic CRUD Operations",
@@ -191,14 +199,6 @@
     {
       "basename": "Network",
       "path": "Atlas/Notes/Ideas/Programming/Networking/Network.md"
-    },
-    {
-      "basename": "HTTP response status codes",
-      "path": "+/HTTP response status codes.md"
-    },
-    {
-      "basename": "DNAPI Intro",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md"
     }
   ],
   "omittedPaths": [],

@@ -135,7 +135,11 @@ internal class ProductConfigurations : IEntityTypeConfiguration<Product>
 دلوقتي هنزود الـ Configuration في الـ `OnModelCreating`
 عندنا طريقة قديمة:
 ```cs
-protected override void OnModelCreating(ModelBuilder modelBuilder) { modelBuilder.ApplyConfiguration(new ProductConfigurations()); modelBuilder.ApplyConfiguration(new ProductBrandConfigurations()); modelBuilder.ApplyConfiguration(new ProductCategoryConfigurations()); }
+protected override void OnModelCreating(ModelBuilder modelBuilder) 
+{ 
+	modelBuilder.ApplyConfiguration(new ProductConfigurations()); 
+	modelBuilder.ApplyConfiguration(new ProductBrandConfigurations()); 
+	modelBuilder.ApplyConfiguration(new ProductCategoryConfigurations()); }
 ```
 الطريقة الجديدة أسهل
 ```cs
@@ -172,3 +176,6 @@ Update-Database
 StoreContext dbContext = new StoreContext();
 await dbContext.Database.MigrateAsync();
 ```
+بس محتاج هنا أديله Options وأنا لو عملت كدا يدوي هبوظ الـ Dependency Injection
+فأنا محتاج أطلب من الـ CLR يعملي الحوار دا
+ممكن واحد يقولي أعمل Ctor للـ Program نفسه يعملي الـ Object بس دا هيعملي مشاكل كتير
