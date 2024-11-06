@@ -47,6 +47,18 @@
                   "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":17},\"to\":{\"line\":16,\"ch\":17}},\"scroll\":8}"
+                },
+                {
+                  "title": "DbContext, ProductConfigurations, Migrations",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DbContext, ProductConfigurations, Migrations\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":11},\"to\":{\"line\":17,\"ch\":11}},\"scroll\":8}"
                 },
                 {
@@ -108,89 +120,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DbContext, ProductConfigurations, Migrations"
-            }
-          },
-          {
-            "id": "1de218616225059c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Database MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":20},\"to\":{\"line\":19,\"ch\":20}},\"scroll\":8.989777195281782}"
-                },
-                {
-                  "title": "Library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Library.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Library\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":15},\"to\":{\"line\":28,\"ch\":15}},\"scroll\":21.801785465197376}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Database Management System (DBMS)"
-            }
-          },
-          {
-            "id": "cef1be4781d75000",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
-          },
-          {
-            "id": "7f7b665484d05200",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/عمل فيديو بال AI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "عمل فيديو بال AI"
+              "title": "Product Module - Entities"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -300,10 +240,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Database Management System (DBMS)"
+              "title": "Outline of Product Module - Entities"
             }
           },
           {
@@ -438,7 +378,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -466,7 +406,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Database Management System (DBMS)"
+              "title": "Graph of Product Module - Entities"
             }
           }
         ]
@@ -491,7 +431,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -501,7 +441,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database Management System (DBMS)"
+              "title": "Backlinks for Product Module - Entities"
             }
           },
           {
@@ -570,23 +510,27 @@
       "callout-manager:Insert Callout": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "cmdr:Toggle stacked tabs": false
+      "cmdr:Toggle stacked tabs": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cef1be4781d75000",
+  "active": "3486dfe60674667e",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241106072316.png",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "+/عمل فيديو بال AI.md",
     "Atlas/Utilities/Images/Pasted image 20241105120657.png",
     "Atlas/Maps/Library.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md",
     "Home.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
     "Atlas/Utilities/Images/Pasted image 20241104160103.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md",
@@ -601,7 +545,6 @@
     "Atlas/Maps/Entity Framework Core.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md",
     "Atlas/Utilities/Images/Pasted image 20241030111723.png",
-    "+/Product Module - Entities.md",
     "Atlas/Utilities/Images/Pasted image 20241030102513.png",
     "Atlas/Utilities/Images/Pasted image 20241030102458.png",
     "+/Navigational Property.md",
@@ -610,7 +553,6 @@
     "Atlas/Notes/Ideas/Programming/Topics/Microservices.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Structure.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md",
     "Atlas/Utilities/Images/Pasted image 20241030073203.png",
     "Atlas/Utilities/Images/Pasted image 20241030072929.png",
     "Atlas/Utilities/Images/Pasted image 20241030072905.png",
