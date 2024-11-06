@@ -6,6 +6,8 @@ created: 2024-11-04
 ---
 ## DbContext
 ### Store Context
+العملية دي هتتعمل في الـ **Repository Layer** وهنعمل Folder اسمه Data حتى تنزيل الباكدجات
+
 هنعمل أول حاجة الـ DbContext بتاعنا وقولنا هنحطه في الـ Repository Layer
 
 هننزل الـ Packages بقا اللي قولنا عليها زي ما قولنا في ال [[EF Add DbContext and ConnectionString]]
@@ -22,6 +24,7 @@ public class StoreContext : DbContext
 	protected override void OnConfiguring(DbContextOptionsBuilder options)
 	{
 		options.UseSqlServer("ConntectionString");
+		// منفعتش معايا
 	}
 }
 ```
@@ -30,19 +33,22 @@ public class StoreContext : DbContext
 ![[DNAPI Basic CRUD Operations#**ApplicationDbContext.cs**|DbContext]]
 
 ### program.cs
-وبعد كدا هنروح نضيف الـ AddDbContext بتاعنا في الـ Program
+وبعد كدا هنروح نضيف الـ `AddDbContext` بتاعنا في الـ Program
 ```cs
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 ```
 ومتنساش تضيف Reference للـ Project اللي اسمه Repository عشان أقدر أستخدم الـ DbContext
+بنعملها ب Right Click على الـ Dependencies  
+
+بنحطها تحت `AddSwagger` كدا
 
 ---
 ### Connection String
 وأروح أحط الـ Connection String في الـ`appsettings.json`
 ```json
 "ConnectionStrings" : {
-	"DefaultConnection": "string"
+	"DefaultConnection": "Server = .; Database = Shary.APIs.Corn; Trusted_Connection = True"
 }
 ```
 هيبقا عندي 3 من Connection Strings عشان هيبقا عندي 3 Databases في المشروع

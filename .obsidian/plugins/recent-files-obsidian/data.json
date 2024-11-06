@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Product Module - Entities",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md"
+      "basename": "DbContext, ProductConfigurations, Migrations",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md"
+    },
+    {
+      "basename": "EF Add DbContext and ConnectionString",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add DbContext and ConnectionString.md"
     },
     {
       "basename": "Asp DotNet Core Web API",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
     },
     {
-      "basename": "Onion Architecture",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md"
+      "basename": "Product Module - Entities",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md"
     },
     {
-      "basename": "DbContext, ProductConfigurations, Migrations",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations.md"
+      "basename": "Onion Architecture",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md"
     },
     {
       "basename": "Database Management System (DBMS)",
@@ -195,10 +199,6 @@
     {
       "basename": "DNAPI Intro",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Intro.md"
-    },
-    {
-      "basename": "Auth Safe storage of passwords",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Auth Safe storage of passwords.md"
     }
   ],
   "omittedPaths": [],

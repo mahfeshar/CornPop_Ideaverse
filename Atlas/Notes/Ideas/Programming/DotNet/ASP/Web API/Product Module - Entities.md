@@ -121,7 +121,7 @@ public int ProductBrandId {get; set;}
 بس مش محتاج أعمل حاجة زي كدا عادي إلا لو استخدمت اسم مختلف عن اللي فوق يعني مثلًا
 ```cs
 [ForeignKey(nameof(Product.Brand))]
-public int ProductBrandId {get; set;} 
+public int BrandId {get; set;} 
 ```
 وممكن نظبطها Fluent API 
 
