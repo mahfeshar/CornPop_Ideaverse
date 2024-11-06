@@ -285,13 +285,17 @@ public static class StoreContextSeed
 		// String(JSON) => in-memory objects
 		var brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
 
-		foreach(var brand in brands)
+		if(brands?.Count() > 0)
 		{
-			_dbContext.Set<ProductBrand>().Add(brand);
-			// await _dbContext.SaveChangesAsync();
-			// نسيف فالأخر خالص أحسن بعد ما يضيف كله
+			foreach(var brand in brands)
+			{
+				_dbContext.Set<ProductBrand>().Add(brand);
+				// await _dbContext.SaveChangesAsync();
+				// نسيف فالأخر خالص أحسن بعد ما يضيف كله
+			}
+			await _dbContext.SaveChangesAsync();
 		}
-		await _dbContext.SaveChangesAsync();
 	}
 }
 ```
+لازم نتأكد ان الداتا مش ب null
