@@ -291,8 +291,6 @@ public static class StoreContextSeed
 			foreach(var brand in brands)
 			{
 				_dbContext.Set<ProductBrand>().Add(brand);
-				// await _dbContext.SaveChangesAsync();
-				// نسيف فالأخر خالص أحسن بعد ما يضيف كله
 			}
 			await _dbContext.SaveChangesAsync();
 		}
@@ -322,11 +320,42 @@ if(brands?.Count() > 0)
 
 	foreach(var brand in brands)
 	{
+		// Update-Database
 		_dbContext.Set<ProductBrand>().Add(brand);
-		// await _dbContext.SaveChangesAsync();
-		// نسيف فالأخر خالص أحسن بعد ما يضيف كله
 	}
 	await _dbContext.SaveChangesAsync();
 }
 ```
 حل تاني اننا نمسح كل الـ ID من الـ JSON فايل نفسه
+
+---
+بس كدا هنعمل Seeding على طول وانا محتاج اعمل الحوار دا مرة واحدة بس في الحياة زي ما قولنا
+هنحط كل الكود في If
+`if(!_dbContext.ProductBrands.Any())`
+ودا مهم عشان لما نعمل Deploy وغيرها
+وممكن نخلي الشرط:
+`if (_dbContext.ProductBrands.Count() == 0)`
+```cs
+public async static Task SeedAsync(StoreContext _dbContext)
+	{
+		if(!_dbContext.ProductBrands.Any())
+		{
+			var brandsData = File.ReadAllText("../Shary.Repository/Data/DataSeed/brands.json");
+	
+			// String(JSON) => in-memory objects
+			var brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
+	
+			if(brands?.Count() > 0)
+			{
+				foreach(var brand in brands)
+				{
+					_dbContext.Set<ProductBrand>().Add(brand);
+				}
+				await _dbContext.SaveChangesAsync();
+			}
+		}
+	}
+}
+```
+
+هنعمل Seed
