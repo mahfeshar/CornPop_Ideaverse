@@ -358,4 +358,4 @@ public async static Task SeedAsync(StoreContext _dbContext)
 }
 ```
 
-هنعمل Seed
+هنعمل Seeding لكل الـ Entities اللي عندي في نفس الفانكشن
