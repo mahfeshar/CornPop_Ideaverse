@@ -44,6 +44,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Onion Architecture",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Onion Architecture\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":33},\"to\":{\"line\":75,\"ch\":33}},\"scroll\":69.50611028315946}"
+                },
+                {
                   "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
@@ -120,13 +126,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Onion Architecture"
+              "title": "EF Introduction"
             }
           }
         ],
@@ -240,10 +246,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Onion Architecture"
+              "title": "Outline of EF Introduction"
             }
           },
           {
@@ -261,7 +267,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Navigation\"",
+                "query": "\"ADO\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -356,7 +362,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "3d767c407ab4c865",
@@ -378,7 +384,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -406,7 +412,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Onion Architecture"
+              "title": "Graph of EF Introduction"
             }
           }
         ]
@@ -431,7 +437,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -441,7 +447,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Onion Architecture"
+              "title": "Backlinks for EF Introduction"
             }
           },
           {
@@ -520,6 +526,7 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
     "Atlas/Notes/Ideas/Programming/Python/Py json.md",
@@ -530,7 +537,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add DbContext and ConnectionString.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
     "Atlas/Utilities/Images/Pasted image 20241106072316.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "+/عمل فيديو بال AI.md",

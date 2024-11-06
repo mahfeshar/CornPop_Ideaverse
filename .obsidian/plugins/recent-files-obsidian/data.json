@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "EF Introduction",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md"
+    },
+    {
       "basename": "Onion Architecture",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Server",
       "path": "Atlas/Notes/Ideas/Programming/Networking/Server.md"
-    },
-    {
-      "basename": "Networking Fundamentals",
-      "path": "+/Networking Fundamentals.md"
     }
   ],
   "omittedPaths": [],
