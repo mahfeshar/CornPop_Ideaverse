@@ -273,6 +273,7 @@ catch (Exception ex)
 - هنستخدم الـ `ReadAllText` اللي هي بتفتح الفايل وتاخد الداتا وتقفله 
 	- وبنديلها Absolute path لمكان الفايل
 - هنستخدم بعد كدا الـ [[JSON]] واتكلمنا قبل كدا عن الـ [[Py json#Deserialization|Deserialize]]
+- فالأخر نضيف دي تحت الـ Migrate في البروجرام
 
 ```cs
 public static class StoreContextSeed
@@ -297,5 +298,35 @@ public static class StoreContextSeed
 		}
 	}
 }
+
+// MAIN
+try
+{
+	await _dbContext.Database.MigrateAsync();
+	await StoreContextSeed.SeedAsync()
+}
 ```
-لازم نتأكد ان الداتا مش ب null
+- لازم نتأكد ان الداتا مش ب null في الجدول ككل
+
+### Identify (ID)
+خد بالك انك مينفعش تبعت الـ ID لو المفروض انه بيزيد لوحده أو انه مينفعش تدخله
+ممكن اننا نعدل الـ Function اننا نشيل الـ ID
+```cs
+if(brands?.Count() > 0)
+{
+	brands = brands.Select(b => new ProductBrand()
+	{
+		Name = b.Name,
+	}).ToList();
+	// Removed ID from all list
+
+	foreach(var brand in brands)
+	{
+		_dbContext.Set<ProductBrand>().Add(brand);
+		// await _dbContext.SaveChangesAsync();
+		// نسيف فالأخر خالص أحسن بعد ما يضيف كله
+	}
+	await _dbContext.SaveChangesAsync();
+}
+```
+حل تاني اننا نمسح كل الـ ID من الـ JSON فايل نفسه
