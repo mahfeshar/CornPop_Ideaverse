@@ -16,7 +16,8 @@ namspace Talabat.Core.Repositories.Contract;
 public interface IGenericRepository<T> where T : BaseEntity
 {
 	// We will make now: 2 methods
-	
+	Task<T> GetAsync(int id);
+	Task<IEnumerable<T>> GetAllAsync();
 }
 ```
 - لازم تبقا `BaseEntity`
