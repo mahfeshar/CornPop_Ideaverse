@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Logical Design (Mapping)",
+      "path": "+/Logical Design (Mapping).md"
+    },
+    {
+      "basename": "Database MOC",
+      "path": "Atlas/Maps/Database MOC.md"
+    },
+    {
+      "basename": "Conceptual Design (ERD)",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md"
+    },
+    {
       "basename": "CSharp MOC",
       "path": "Atlas/Maps/CSharp MOC.md"
     },
@@ -67,10 +79,6 @@
     {
       "basename": "Database Management System (DBMS)",
       "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
-    },
-    {
-      "basename": "Database MOC",
-      "path": "Atlas/Maps/Database MOC.md"
     },
     {
       "basename": "Database",
@@ -191,14 +199,6 @@
     {
       "basename": "DNAPI Project Structure",
       "path": "+/DNAPI Project Structure.md"
-    },
-    {
-      "basename": "SOLID Principles",
-      "path": "Atlas/Maps/SOLID Principles.md"
-    },
-    {
-      "basename": "Dependency Inversion Principle (DIP)",
-      "path": "Atlas/Notes/Ideas/Programming/SOLID/Dependency Inversion Principle (DIP).md"
     }
   ],
   "omittedPaths": [],

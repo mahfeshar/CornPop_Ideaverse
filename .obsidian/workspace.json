@@ -37,17 +37,23 @@
             "id": "3486dfe60674667e",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Cs Indexer",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Indexer\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":9},\"to\":{\"line\":45,\"ch\":9}},\"scroll\":33.6156462585034}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Database MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":20},\"to\":{\"line\":29,\"ch\":19}},\"scroll\":12.69268953068592}"
+                },
+                {
+                  "title": "CSharp MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/CSharp MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CSharp MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":18},\"to\":{\"line\":10,\"ch\":18}}}"
                 },
                 {
                   "title": "Cs Operator Overloading",
@@ -126,13 +132,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Logical Design (Mapping).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSharp MOC"
+              "title": "Logical Design (Mapping)"
             }
           }
         ],
@@ -220,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -246,10 +253,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md"
+                "file": "+/Logical Design (Mapping).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of CSharp MOC"
+              "title": "Outline of Logical Design (Mapping)"
             }
           },
           {
@@ -362,7 +369,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "3d767c407ab4c865",
@@ -384,7 +391,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Logical Design (Mapping).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -412,7 +419,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of CSharp MOC"
+              "title": "Graph of Logical Design (Mapping)"
             }
           }
         ]
@@ -437,7 +444,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/CSharp MOC.md",
+                "file": "+/Logical Design (Mapping).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -447,7 +454,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CSharp MOC"
+              "title": "Backlinks for Logical Design (Mapping)"
             }
           },
           {
@@ -516,7 +523,9 @@
       "callout-manager:Insert Callout": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "cmdr:Toggle stacked tabs": false
+      "cmdr:Toggle stacked tabs": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "3486dfe60674667e",
@@ -524,8 +533,18 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
+    "Atlas/Utilities/Images/Pasted image 20241107221108.png",
+    "Atlas/Utilities/Images/Pasted image 20241107221055.png",
+    "Atlas/Utilities/Images/Pasted image 20241107221041.png",
+    "Atlas/Utilities/Images/Pasted image 20241107220807.png",
+    "Atlas/Utilities/Images/Pasted image 20241107220747.png",
+    "Atlas/Utilities/Images/Pasted image 20241107220716.png",
+    "Atlas/Utilities/Images/Pasted image 20241107220617.png",
+    "Atlas/Maps/Database MOC.md",
+    "+/Logical Design (Mapping).md",
+    "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md",
     "Atlas/Maps/CSharp MOC.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
     "+/ORM.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
@@ -542,7 +561,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add DbContext and ConnectionString.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
     "Atlas/Utilities/Images/Pasted image 20241106072316.png",
-    "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "+/عمل فيديو بال AI.md",
     "Atlas/Utilities/Images/Pasted image 20241105120657.png",
@@ -550,16 +568,7 @@
     "Home.md",
     "Atlas/Utilities/Images/Pasted image 20241104160103.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md",
     "Atlas/Utilities/Images/Pasted image 20241104140906.png",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
-    "Atlas/Notes/Ideas/Programming/Database/Database Design.md",
-    "Atlas/Utilities/Images/Pasted image 20241030111723.png",
-    "Atlas/Utilities/Images/Pasted image 20241030102513.png",
-    "Atlas/Utilities/Images/Pasted image 20241030102458.png",
-    "Atlas/Utilities/Images/Pasted image 20241030085512.png",
-    "Atlas/Utilities/Images/Pasted image 20241030073203.png",
-    "Atlas/Utilities/Images/Pasted image 20241030072929.png",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",

@@ -25,8 +25,9 @@ Databases are everywhere:
 	2. Conceptual Design (ER)
 	3. Logical Design ([[Structured Query Language (SQL)|SQL]] and relational mapping)
 	4. Physical Design
-- [[Database Design]]
-- 
+- Database Design
+	- [[Conceptual Design (ERD)]]
+	- [[Logical Design (Mapping)]]
 ---
 ## [[Structured Query Language (SQL)|SQL]]
 - [[MySQL MOC]]
