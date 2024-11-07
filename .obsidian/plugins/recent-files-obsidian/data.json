@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "CSharp MOC",
+      "path": "Atlas/Maps/CSharp MOC.md"
+    },
+    {
+      "basename": "Cs Indexer",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md"
+    },
+    {
+      "basename": "Cs Generics",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
+    },
+    {
       "basename": "Cs Operator Overloading",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
     },
@@ -121,14 +133,6 @@
       "path": "Atlas/Notes/Ideas/Programming/Topics/API.md"
     },
     {
-      "basename": "Cs Generics",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
-    },
-    {
-      "basename": "CSharp MOC",
-      "path": "Atlas/Maps/CSharp MOC.md"
-    },
-    {
       "basename": "Cs Equality",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Equality.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Dependency Inversion Principle (DIP)",
       "path": "Atlas/Notes/Ideas/Programming/SOLID/Dependency Inversion Principle (DIP).md"
-    },
-    {
-      "basename": "How the web works",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/How the web works.md"
     }
   ],
   "omittedPaths": [],

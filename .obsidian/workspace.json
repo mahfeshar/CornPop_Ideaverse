@@ -37,11 +37,23 @@
             "id": "3486dfe60674667e",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Cs Indexer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Indexer\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":9},\"to\":{\"line\":45,\"ch\":9}},\"scroll\":33.6156462585034}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Cs Operator Overloading",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Operator Overloading\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
                 },
                 {
                   "title": "Generic Repository",
@@ -114,13 +126,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cs Operator Overloading"
+              "title": "CSharp MOC"
             }
           }
         ],
@@ -234,10 +246,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
+                "file": "Atlas/Maps/CSharp MOC.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Cs Operator Overloading"
+              "title": "Outline of CSharp MOC"
             }
           },
           {
@@ -372,7 +384,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -400,7 +412,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cs Operator Overloading"
+              "title": "Graph of CSharp MOC"
             }
           }
         ]
@@ -425,7 +437,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
+                "file": "Atlas/Maps/CSharp MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -435,7 +447,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cs Operator Overloading"
+              "title": "Backlinks for CSharp MOC"
             }
           },
           {
@@ -504,9 +516,7 @@
       "callout-manager:Insert Callout": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "cmdr:Toggle stacked tabs": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "cmdr:Toggle stacked tabs": false
     }
   },
   "active": "3486dfe60674667e",
@@ -514,6 +524,11 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
+    "Atlas/Maps/CSharp MOC.md",
+    "+/ORM.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
@@ -539,14 +554,9 @@
     "Atlas/Utilities/Images/Pasted image 20241104140906.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
     "Atlas/Notes/Ideas/Programming/Database/Database Design.md",
-    "+/Skills for Freelancing.md",
-    "Atlas/Maps/Programming MOC.md",
-    "+/DBAPI Action Filters.md",
     "Atlas/Utilities/Images/Pasted image 20241030111723.png",
     "Atlas/Utilities/Images/Pasted image 20241030102513.png",
     "Atlas/Utilities/Images/Pasted image 20241030102458.png",
-    "+/Navigational Property.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Exclude Entity or Property From Model Or From Migrations.md",
     "Atlas/Utilities/Images/Pasted image 20241030085512.png",
     "Atlas/Utilities/Images/Pasted image 20241030073203.png",
     "Atlas/Utilities/Images/Pasted image 20241030072929.png",
