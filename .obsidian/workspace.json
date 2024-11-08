@@ -164,9 +164,33 @@
               "icon": "lucide-file",
               "title": "عمل فيديو بال AI"
             }
+          },
+          {
+            "id": "7ba4489c67321149",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/تقرير - نمو النباتات.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "تقرير - نمو النباتات"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -277,10 +301,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Logical Design (Mapping).md"
+                "file": "+/تقرير - نمو النباتات.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Logical Design (Mapping)"
+              "title": "Outline of تقرير - نمو النباتات"
             }
           },
           {
@@ -415,7 +439,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Logical Design (Mapping).md",
+                "file": "+/تقرير - نمو النباتات.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -443,7 +467,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Logical Design (Mapping)"
+              "title": "Graph of تقرير - نمو النباتات"
             }
           }
         ]
@@ -468,7 +492,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Logical Design (Mapping).md",
+                "file": "+/تقرير - نمو النباتات.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -478,7 +502,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Logical Design (Mapping)"
+              "title": "Backlinks for تقرير - نمو النباتات"
             }
           },
           {
@@ -547,14 +571,18 @@
       "callout-manager:Insert Callout": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "cmdr:Toggle stacked tabs": false
+      "cmdr:Toggle stacked tabs": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3486dfe60674667e",
+  "active": "7ba4489c67321149",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "+/تقرير - نمو النباتات.md",
+    "+/Logical Design (Mapping).md",
     "Atlas/Utilities/Images/Pasted image 20241108102703.png",
     "Atlas/Utilities/Images/Pasted image 20241108102634.png",
     "Atlas/Utilities/Images/Pasted image 20241108095925.png",
@@ -563,12 +591,10 @@
     "Atlas/Utilities/Images/Pasted image 20241108094858.png",
     "Atlas/Utilities/Images/Pasted image 20241108094842.png",
     "Atlas/Maps/Database MOC.md",
-    "+/Logical Design (Mapping).md",
     "Atlas/Utilities/Images/Pasted image 20241108094305.png",
     "Atlas/Utilities/Images/Pasted image 20241108094000.png",
     "Atlas/Utilities/Images/3.jpeg.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241108092804.png",
-    "Atlas/Utilities/Images/Pasted image 20241108092752.png",
     "Atlas/Utilities/Images/Pasted image 20241108070613.png.~tmp",
     "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md",
     "+/عمل فيديو بال AI.md",
