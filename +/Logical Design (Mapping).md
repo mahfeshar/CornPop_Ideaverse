@@ -40,14 +40,37 @@ We talked about [[Conceptual Design (ERD)#Participation Constraints|Participatio
 | **Derived Attributes**          | Exclude from the database schema; calculate dynamically as needed through queries or views.                                                                       |
 
 ### 1. Mapping of regular(Strong) Entity Types
+![[Pasted image 20241108094305.png]]
+#### 1) Composite Attribute
 ![[Pasted image 20241108070613.png]]
-عشان أظهرها بعملها على حسب الـ **Constraint File** فلازم أكتب فيها حاجة زي كدا انها هتظهر الإسم (Mahmoud Feshar) 
-المعادلة نفسها أو الـ Equation
-### 2. Mapping of Multivalued Attributes
+عشان أظهرها بعملها على حسب الـ **Constraint File** أو كنا قولنا عليه Equations File
+	فلازم أكتب فيها حاجة زي Composite انها هتظهر الإسم (Mahmoud Feshar) 
+	يعني بكتب المعادلة نفسها أو الـ Equation
+#### 2) Multivalued Attributes
 الـ Complex Attribute زيها برضو بالظبط
 ![[Pasted image 20241108070927.png]]
 ![[4.jpeg]]
-### 3. Mapping Relationships
+
+#### 3) Mapping of Derived Attributes
+بنعمل Ignore للـ Derived ونكتب الأصلية بس
+ممكن في البيزنيس يخلينا نعملها Column عادي
+
+![[3.jpeg]]
+
+بنكتب برضو المعادلة بتاعنا في الـ Equations File 
+	يعني مثلًا `Age = CurrentDate - DOB`
+	لو كل مرة هحسب المعادلة دي وأنا مش معايا Resources فاعملها Column عادي 
+	أو لو عايز أعمل مثلًا الأبلكيشن يبقا سريع لأنه مش هعمل العملية دي زي الأبلكيشنز اللايت
+
+![[Pasted image 20241108094000.png]]
+لازم تعمل منشن في الـ Equation لو هي معتمدة على داتا من Table تاني
+### 2. Mapping of Weak Entity Type
+افتكر ان الـ Weak Entity مبيبقاش فيها Primary key وبيبقا فيها **Partial Key** 
+
+![[Pasted image 20241108075450.png]]
+![[Pasted image 20241108075459.png]]
+
+### 5. Mapping Relationships
 #### Binary M:N Relationship
 ![[Pasted image 20241108071618.png]]
 ![[Pasted image 20241108071628.png]]
@@ -68,6 +91,7 @@ We talked about [[Conceptual Design (ERD)#Participation Constraints|Participatio
 #### Summary
 ![[Pasted image 20241108072110.png]]
 ![[Pasted image 20241108072124.png]]
-### 4. Mapping of Weak Entity Type
-![[Pasted image 20241108075450.png]]
-![[Pasted image 20241108075459.png]]
+
+### 6. Mapping of N-ary Relationship
+![[Pasted image 20241108092752.png]]
+![[Pasted image 20241108092804.png]]
