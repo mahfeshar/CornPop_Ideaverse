@@ -27,10 +27,9 @@ We talked about [[Conceptual Design (ERD)#Participation Constraints|Participatio
 ![[Pasted image 20241107220807.png]]
 ### **Summary**
 
-
 | ERD Element / Relationship Type | Approach                                                                                                                                                          |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Entities**                    | Create a table for each entity, with attributes as columns and a primary key for unique identification.                                                           |
+| **Strong Entities**                    | Create a table for each entity, with attributes as columns and a primary key for unique identification.                                                           |
 | **1-to-1 Partial-Partial**      | 1. Use the primary key of one **table** **as a foreign key in the other**.<br> 2. Create a **new table** with the primary keys of both tables as foreign keys.    |
 | **1-to-1 Total-Partial**        | Use the primary key of the partial side as a foreign key in the total side.                                                                                       |
 | **1-to-1 Total-Total**          | Merge both tables into a single table, as both sides are mandatory.                                                                                               |
@@ -42,6 +41,8 @@ We talked about [[Conceptual Design (ERD)#Participation Constraints|Participatio
 
 ### 1. Mapping of regular(Strong) Entity Types
 ![[Pasted image 20241108070613.png]]
+عشان أظهرها بعملها على حسب الـ **Constraint File** فلازم أكتب فيها حاجة زي كدا انها هتظهر الإسم (Mahmoud Feshar) 
+المعادلة نفسها أو الـ Equation
 ### 2. Mapping of Multivalued Attributes
 الـ Complex Attribute زيها برضو بالظبط
 ![[Pasted image 20241108070927.png]]
