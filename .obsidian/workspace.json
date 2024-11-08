@@ -47,7 +47,7 @@
                   "title": "Database MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":20},\"to\":{\"line\":29,\"ch\":19}},\"scroll\":12.69268953068592}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":12},\"to\":{\"line\":29,\"ch\":12}},\"scroll\":23.7278880866426}"
                 },
                 {
                   "title": "CSharp MOC",
@@ -139,6 +139,30 @@
               },
               "icon": "lucide-file",
               "title": "Logical Design (Mapping)"
+            }
+          },
+          {
+            "id": "b65276143902151c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/عمل فيديو بال AI.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "عمل فيديو بال AI"
             }
           }
         ],
@@ -523,7 +547,9 @@
       "callout-manager:Insert Callout": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "cmdr:Toggle stacked tabs": false
+      "cmdr:Toggle stacked tabs": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "3486dfe60674667e",
@@ -531,6 +557,10 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Maps/Database MOC.md",
+    "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md",
+    "+/Logical Design (Mapping).md",
+    "+/عمل فيديو بال AI.md",
     "Atlas/Utilities/Images/Pasted image 20241107221108.png",
     "Atlas/Utilities/Images/Pasted image 20241107221055.png",
     "Atlas/Utilities/Images/Pasted image 20241107221041.png",
@@ -538,9 +568,6 @@
     "Atlas/Utilities/Images/Pasted image 20241107220747.png",
     "Atlas/Utilities/Images/Pasted image 20241107220716.png",
     "Atlas/Utilities/Images/Pasted image 20241107220617.png",
-    "Atlas/Maps/Database MOC.md",
-    "+/Logical Design (Mapping).md",
-    "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
     "+/ORM.md",
@@ -560,13 +587,11 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
     "Atlas/Utilities/Images/Pasted image 20241106072316.png",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
-    "+/عمل فيديو بال AI.md",
     "Atlas/Utilities/Images/Pasted image 20241105120657.png",
     "Atlas/Maps/Library.md",
     "Home.md",
     "Atlas/Utilities/Images/Pasted image 20241104160103.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
-    "Atlas/Utilities/Images/Pasted image 20241104140906.png",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
