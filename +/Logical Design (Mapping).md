@@ -25,6 +25,8 @@ We talked about [[Conceptual Design (ERD)#Participation Constraints|Participatio
 
 ## ER to Relational Mapping
 ![[Pasted image 20241107220807.png]]
+### Mapping Steps
+![[Pasted image 20241108095126.png]]
 ### **Summary**
 
 | ERD Element / Relationship Type | Approach                                                                                                                                                          |
@@ -65,25 +67,28 @@ We talked about [[Conceptual Design (ERD)#Participation Constraints|Participatio
 ![[Pasted image 20241108094000.png]]
 لازم تعمل منشن في الـ Equation لو هي معتمدة على داتا من Table تاني
 ### 2. Mapping of Weak Entity Type
+![[Pasted image 20241108094858.png]]
 افتكر ان الـ Weak Entity مبيبقاش فيها Primary key وبيبقا فيها **Partial Key** 
 
 ![[Pasted image 20241108075450.png]]
 ![[Pasted image 20241108075459.png]]
 
 ### 5. Mapping Relationships
-#### Binary M:N Relationship
+#### 1) Binary M:N Relationship
 ![[Pasted image 20241108071618.png]]
 ![[Pasted image 20241108071628.png]]
-#### Binary 1:M Relationship
-##### Approach 1
+#### 2) Binary 1:M Relationship
+##### Approach 1 (Must)
 ![[Pasted image 20241108071702.png]]![[Pasted image 20241108071715.png]]
-##### Approach 2
+##### Approach 2 (May)
 ![[Pasted image 20241108071739.png]]
 ![[Pasted image 20241108071802.png]]
-#### Binary 1:1 Relationship
-##### Approach 1 (Total-partial or partial-partial)
+#### 3)Binary 1:1 Relationship
+##### Approach 1 (Total-partial)
 ![[Pasted image 20241108071822.png]]![[Pasted image 20241108071839.png]]
+![[Pasted image 20241108095925.png]]
 ##### Approach 2 (Total-total)
+![[Pasted image 20241108095715.png]]
 ![[Pasted image 20241108071915.png]]
 ##### Approach 3 (Partial-partial)
 ![[Pasted image 20241108072029.png]]
