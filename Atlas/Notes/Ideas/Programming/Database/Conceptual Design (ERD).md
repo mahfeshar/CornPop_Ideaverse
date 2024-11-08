@@ -24,6 +24,7 @@ created: 2024-11-04
 فيه ناس زي مؤسسة عسكرية محتاجين يحتفظوا بيها (**Strong**)
 لو هيتمسح معاه يبقا دا الـ (**Weak**) لأنه معتمد على Entity تانية
 ![[Pasted image 20241029211658.png]]
+فيه حاجة كمان بتترسم هنا وهي الـ Partial Key اللي هي تحتها خط منقط دا
 ### Attributes
 - هي **الصفات** اللي بتوصف الـ Entity 
 - ليها أنواع كتير:
@@ -40,6 +41,11 @@ created: 2024-11-04
 	  بمعنى كل أما الـRelation تحصل، فيه معلومات بتظهر
 
 ![[Pasted image 20241029205324.png]]
+فيه عندنا 3 تعريفات للـ Relationship:
+1. Degree (Unary - Binary - Ternary)
+2. Cardinality Ratio (1:1 - 1:M - M:N)
+3. Participation (Total "Must" - Partial "May")
+#### Degree
 الـ(عدد المشاركين في العلاقة) **Degree** ممكن تبقا:
 - Unary
 - Binary

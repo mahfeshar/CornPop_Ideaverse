@@ -14,7 +14,19 @@ created: 2024-11-07
 ![[Pasted image 20241107221041.png]]
 ![[Pasted image 20241107221055.png]]
 ![[Pasted image 20241107221108.png]]
+![[Pasted image 20241108070227.png]]
+![[Pasted image 20241108070353.png]]
+## Constraints
+We talked about [[Conceptual Design (ERD)#Participation Constraints|Participation Constraints]] In relationships
+![[Pasted image 20241108070452.png]]
+![[Pasted image 20241108070520.png]]
+![[Pasted image 20241108070532.png]]
+![[Pasted image 20241108070543.png]]
 
 ## ER to Relational Mapping
 ![[Pasted image 20241107220807.png]]
-### 1. Mapping of regular Entity Types
+### 1. Mapping of regular(Strong) Entity Types
+![[Pasted image 20241108070613.png]]
+### 2. Mapping of Multivalued Attributes
+![[Pasted image 20241108070927.png]]
+### 3. Mapping Relationships
