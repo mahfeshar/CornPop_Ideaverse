@@ -29,17 +29,19 @@ We talked about [[Conceptual Design (ERD)#Participation Constraints|Participatio
 ![[Pasted image 20241108095126.png]]
 ### **Summary**
 
-| ERD Element / Relationship Type | Approach                                                                                                                                                          |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Strong Entities**                    | Create a table for each entity, with attributes as columns and a primary key for unique identification.                                                           |
-| **1-to-1 Partial-Partial**      | 1. Use the primary key of one **table** **as a foreign key in the other**.<br> 2. Create a **new table** with the primary keys of both tables as foreign keys.    |
-| **1-to-1 Total-Partial**        | Use the primary key of the partial side as a foreign key in the total side.                                                                                       |
-| **1-to-1 Total-Total**          | Merge both tables into a single table, as both sides are mandatory.                                                                                               |
-| **1-to-Many**                   | 1. Add the primary key of the "1" side as a foreign key in the "many" side.<br> 2. Create a new table with the primary keys of both tables as foreign keys.       |
-| **Many-to-Many**                | Create a new table (join table) with the primary keys of both tables as foreign keys, establishing a many-to-many relationship.                                   |
-| **Weak Entities**               | Create a table for the weak entity, including a foreign key from the supporting entity and a composite primary key (using the foreign key and unique attributes). |
-| **Multivalued Attributes**      | Use a separate table for each multivalued attribute, with a foreign key linking it back to the main entity’s table. Each value is stored as a new row.            |
-| **Derived Attributes**          | Exclude from the database schema; calculate dynamically as needed through queries or views.                                                                       |
+| Mapping Type                        | Solution                                    |
+|-------------------------------------|---------------------------------------------|
+| **1. Strong Entities**              | Create a new table for each strong entity   |
+| **2. Weak Entities**                | Create a new table and add a foreign key for the strong entity |
+| **3. Binary Relationships**         |                                             |
+| - 1:1 Must-Must                     | Combine in one table (no new table needed)  |
+| - 1:1 May-Must                      | Foreign key on the “Must” side (no new table needed) |
+| - 1:1 May-May                       | Foreign key on either side (no new table needed) |
+| - 1:M Must from "Many" side         | Foreign key on the "Many" side (no new table needed) |
+| - 1:M May from "Many" side          | Foreign key on the "Many" side (no new table needed) |
+| - M:N                               | Create a new linking table for the relationship |
+| **4. Ternary Relationships**        | Create a new linking table with three foreign keys |
+| **5. Unary Relationships**          | Use a self-referencing foreign key or create a new table depending on the relationship type |
 
 ### 1. Mapping of regular(Strong) Entity Types
 ![[Pasted image 20241108094305.png]]
@@ -73,7 +75,7 @@ We talked about [[Conceptual Design (ERD)#Participation Constraints|Participatio
 ![[Pasted image 20241108075450.png]]
 ![[Pasted image 20241108075459.png]]
 
-### 5. Mapping Relationships
+### 3. Mapping Relationships
 #### 1) Binary M:N Relationship
 ![[Pasted image 20241108071618.png]]
 ![[Pasted image 20241108071628.png]]
@@ -97,6 +99,47 @@ We talked about [[Conceptual Design (ERD)#Participation Constraints|Participatio
 ![[Pasted image 20241108072110.png]]
 ![[Pasted image 20241108072124.png]]
 
-### 6. Mapping of N-ary Relationship
+### 4. Mapping of N-ary Relationship
 ![[Pasted image 20241108092752.png]]
 ![[Pasted image 20241108092804.png]]
+### 5. Mapping of Unary Relationship
+بعملها في نفس الـ Table وأزود FK فيها بيشاور على  PK
+دا في حالة الـ 1:M 
+
+![[Pasted image 20241108102634.png]]
+![[Pasted image 20241108102703.png]]
+
+في حالة الـ M:N بنعمل Table جديدة بيبقا فيها اتنين FK بيشاوروا على نفس الـ PK
+الحوار دا اسمه Junction Table
+#### Junction Table
+الـ **Junction Table** ببساطة هو جدول بنعمله في قواعد البيانات علشان نقدر نوصل بين جدولين عندهم علاقة **Many-to-Many**. 
+طيب ليه بنحتاجه؟ لأن قاعدة البيانات ما تقدرش تعمل العلاقة دي مباشرة، فلازم نعمل جدول ثالث يوصل بينهم.
+
+**طيب ناخد مثال بسيط؟**
+
+خلينا نقول إن عندنا قاعدة بيانات للمدرسة، وعندنا جدولين رئيسيين:
+
+1. جدول **Students** (الطلاب)، فيه بيانات عن كل طالب زي اسمه ورقم الطالب.
+2. جدول **Courses** (المواد)، فيه بيانات عن كل مادة زي اسم المادة ورقم المادة.
+
+طيب المشكلة هنا إن الطالب الواحد ممكن ياخد أكتر من مادة، والمادة الواحدة ممكن يكون فيها أكتر من طالب. يعني عندنا علاقة **Many-to-Many**.
+
+**نحل المشكلة إزاي؟**
+
+بنعمل جدول جديد نسميه **Students_Courses**، وده هو الـ Junction Table اللي هيوصل بين **Students** و**Courses**. 
+
+في الجدول ده بنحط:
+
+1. الـ`student_id`: ده زي المفتاح اللي بيربطنا بجدول **Students**.
+2. الـ`course_id`: ده المفتاح اللي بيربطنا بجدول **Courses**.
+
+شكل البيانات في الجدول
+
+هتبقى بالشكل ده:
+
+| student_id | course_id |
+|------------|-----------|
+| 1          | 101       |
+| 1          | 102       |
+| 2          | 101       |
+| 3          | 103       |
