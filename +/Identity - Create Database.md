@@ -82,11 +82,52 @@ created: 2024-11-09
 
 ![[Pasted image 20241109135745.png]]
 ونعمل جواه الـ `AppUser` بتاعنا ونخليه يورث من الـ `IdentityUser` وفيه اتنين واحد Generic والتاني Non Generic
-فلو استخدمنا دي دايمًا الـ ID بتاعنا هيكون String لو عايزه يبقا حاجة غي
+فلو استخدمنا دي دايمًا الـ ID بتاعنا هيكون String لو عايزه يبقا حاجة غير الـ String هنورث من الـ Generic
 ```cs
 public class AppUser : IdentityUser
+{
+	public string DisplayName {get; set;}
+	public Address Adress {get; set;}
+	// هنعمل نوع اسمه ادريس
+}
+
+public class Address
+{
+	public int Id {get; set;}
+	public string FName {get; set;}
+	public string LName {get; set;}
+	public string Street {get; set;}
+	public string City {get; set;}
+	public string Country {get; set;}
+
+	public string AppUserId {get; set;} // Foreign Key: User
+}
+```
+
+> الـ Security هنعملها Database منفصلة تمامًا
+> عشان كدا لو خدت بالك هتلاقي ان الـ `Address` مورثتش من الـ `BaseEntity`
+> لأن الـ `BaseEntity` هو الـ Base Class لل Entities الخاصة بالـ `StoreContext`
+> وممكن تستخدمها عادي بس هيلغبط اللي هيقرأ الكود فبلاش
+
+مش هنقدر نعمل `BaseEntity` لل Security عشان الـ Id في الـ Address نوعه Int انما في الـ User بيبقا String
+وفي الحقيقة مش محتاجه
+
+وبرضو فيه First name و Last name عشان ممكن حد تاني يستقبل الـ Order
+
+وبعدين نظبط العلاقة بين الـ User والـ Address لأنها 1:1 فهنحط الـ Key بتاع الـ user في الـ Address
+
+### DbContext
+هنعمل DbContext للـ Security زي ما اتفقنا 
+هنعمل في نفس الـ **Repository Layer** نفس التقسيمة عادي بس للـ Security 
+
+![[Pasted image 20241109143026.png]]
+ولسا الـ Migrations ونحط كمان الـ DbContext Class
+بس الفرق هنا هيورث من الـ `IdentityDbContext` مش العادية عشان يورث الـ 7 DbSet
+```cs
+public class AppIdenetityDbContext : IdentityDbContext
 {
 	
 }
 ```
-
+عندنا 3 نسخ من الـ `IdentityDbContext`:
+- العادية ودي بتاخد الـ Identit
