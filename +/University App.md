@@ -8,6 +8,7 @@ cmd.CommandType = CommandType.StoredProcedure;
 SqlParameter p1 = new SqlParameter("@national_number", Session["national_number"].ToString());
 SqlParameter p2 = new SqlParameter("@LoginType", Session["LoginType"].ToString());
 ```
+
 في هذا الكود، يتم إعداد استعلام لاسترجاع البيانات من قاعدة بيانات SQL Server باستخدام الإجراء المخزن المسمى `"Portal_Get_SSO_DATA"`. 
 
 هنا شرح كل خطوة:
@@ -222,3 +223,171 @@ public class LoginRequest
 - إذا كانت البيانات غير صحيحة، يعيد `Unauthorized`.
 
 هذا هو كل شيء بالتفصيل عن كيفية إعداد **API** للتعامل مع **Stored Procedure** والتحقق من بيانات تسجيل الدخول.
+
+# File Structure 
+لتنظيم المشروع بشكل جيد على GitHub واستخدام Onion Architecture في .NET لمشروعك، يمكنك اتباع الهيكلية التالية التي تناسب هذا النوع من المشاريع.
+
+### هيكلية المشروع على GitHub
+على GitHub، يمكنك تنظيم الملفات والمجلدات كالتالي:
+
+```
+MyApp/
+│
+├── .github/                 # ملفات CI/CD أو GitHub Actions إن وجدت
+│
+├── docs/                    # وثائق المشروع مثل دليل الاستخدام والـREADME
+│
+├── src/                     # المجلد الرئيسي لمصدر الكود
+│   ├── MyApp.Backend/       # مشروع الـ .NET للباك إند
+│   └── MyApp.Frontend/      # مشروع Flutter للفرونت إند
+│
+├── tests/                   # الاختبارات الخاصة بالمشروع
+│   ├── MyApp.Backend.Tests/ # اختبارات الباك إند
+│   └── MyApp.Frontend.Tests/ # اختبارات الفرونت إند
+│
+├── README.md                # نظرة عامة على المشروع وكيفية تشغيله
+├── .gitignore               # لتجاهل الملفات الغير مهمة
+└── LICENSE                  # الرخصة الخاصة بالمشروع
+```
+
+### هيكلية الباك إند في فيجوال ستوديو باستخدام Onion Architecture
+
+عند تنظيم مشروعك داخل Visual Studio بناءً على Onion Architecture، يمكنك تقسيم الطبقات في Solution كالتالي:
+
+```
+MyApp.Backend/
+│
+├── Core/                    # المجلد الذي يحتوي على الطبقات الأساسية للمشروع
+│   ├── MyApp.Domain/        # تحتوي على الكيانات (Entities) والقواعد الأساسية للأعمال
+│   └── MyApp.Application/   # تحتوي على الخدمات وواجهات التطبيقات
+│
+├── Infrastructure/          # المجلد الذي يحتوي على تطبيق قواعد البيانات وغيرها
+│   ├── MyApp.Persistence/   # مسؤول عن إدارة الوصول للبيانات
+│   └── MyApp.Infrastructure/ # أي خدمات خارجية أخرى
+│
+├── WebApi/                  # الواجهة البرمجية للتطبيق (API)
+│   └── MyApp.WebApi/        # يحتوي على Controllers والنقاط النهائية (Endpoints)
+│
+└── Tests/                   # الاختبارات الخاصة بالباك إند
+    ├── MyApp.Domain.Tests/  # اختبارات النطاق
+    └── MyApp.Application.Tests/ # اختبارات الطبقة التطبيقية
+```
+
+### توضيحات إضافية
+
+- **MyApp.Domain**: يحتوي على الكيانات الرئيسية وقواعد العمل الأساسية.
+- **MyApp.Application**: يحتوي على الواجهات والتطبيقات لخدمات العمل.
+- **MyApp.Persistence**: يحتوي على الكود الخاص بالتعامل مع قاعدة البيانات مثل Repositories.
+- **MyApp.Infrastructure**: يمكن أن يتضمن الخدمات الخارجية مثل الـ Email Services.
+- **MyApp.WebApi**: المشروع المسؤول عن نشر الـ API للفرونت إند.
+- **اختبارات المشروع**: كل طبقة يجب أن تكون لها اختبارات خاصة بها لضمان أداء الكود.
+
+باستخدام هذا التنظيم، ستتمكن من اتباع Onion Architecture بفعالية مع هيكلية منظمة وواضحة تجعل من السهل العمل على المشروع وتوسيع نطاقه.
+# Where's to use code
+بما أنك تريد بناء API بسيط لتسجيل الدخول باستخدام اثنين فقط من الخصائص (attributes) ولا تحتاج إلى تعقيد هيكلية Onion، يمكنك تبسيط الهيكلية على النحو التالي:
+
+### هيكلية المشروع
+
+في هذه الحالة، يمكنك وضع الكود مباشرةً في الطبقة الرئيسية للتطبيق. يمكنك تنظيم المشروع بهذه الطريقة البسيطة:
+
+```
+MyApp/
+│
+├── Controllers/              # يحتوي على الـ API Controllers
+│   └── AuthController.cs     # Controller خاص بتسجيل الدخول
+│
+├── Services/                 # يحتوي على الخدمات (مثل التعامل مع قواعد البيانات)
+│   └── AuthService.cs        # خدمة التحقق من بيانات تسجيل الدخول
+│
+├── Data/                     # لإدارة الاتصال بقاعدة البيانات
+│   └── DatabaseConnection.cs # لتجهيز الاتصال بقاعدة البيانات
+│
+└── Models/                   # يحتوي على النماذج (Models) الخاصة ببيانات الدخول
+    └── LoginModel.cs         # النموذج الخاص بتسجيل الدخول
+```
+
+### توزيع الكود
+
+1. **إنشاء AuthController**:
+   هذا هو المكان الذي ستضع فيه الـ API endpoint لاستقبال بيانات تسجيل الدخول.
+
+   ```csharp
+   [ApiController]
+   [Route("api/[controller]")]
+   public class AuthController : ControllerBase
+   {
+       private readonly AuthService _authService;
+
+       public AuthController(AuthService authService)
+       {
+           _authService = authService;
+       }
+
+       [HttpPost("login")]
+       public async Task<IActionResult> Login([FromBody] LoginModel model)
+       {
+           var user = await _authService.GetSSODataAsync(model.NationalNumber, model.LoginType);
+           if (user != null)
+           {
+               return Ok(user); // نجاح تسجيل الدخول
+           }
+           return Unauthorized(); // فشل تسجيل الدخول
+       }
+   }
+   ```
+
+2. **إنشاء AuthService**:
+   في هذه الخدمة، يمكنك وضع الكود الخاص باستدعاء قاعدة البيانات.
+
+   ```csharp
+   public class AuthService
+   {
+       private readonly SqlConnection _connection;
+
+       public AuthService(SqlConnection connection)
+       {
+           _connection = connection;
+       }
+
+       public async Task<UserData> GetSSODataAsync(string nationalNumber, string loginType)
+       {
+           var cmd = new SqlCommand("Portal_Get_SSO_DATA", _connection);
+           cmd.CommandType = CommandType.StoredProcedure;
+
+           cmd.Parameters.AddWithValue("@national_number", nationalNumber);
+           cmd.Parameters.AddWithValue("@LoginType", loginType);
+
+           _connection.Open();
+
+           using (var reader = await cmd.ExecuteReaderAsync())
+           {
+               if (await reader.ReadAsync())
+               {
+                   var userData = new UserData
+                   {
+                       // تعبئة الكائن بالبيانات
+                   };
+                   return userData;
+               }
+           }
+
+           _connection.Close();
+           return null;
+       }
+   }
+   ```
+
+3. **نموذج LoginModel**:
+   يمثل النموذج الذي يحتوي على بيانات تسجيل الدخول.
+
+   ```csharp
+   public class LoginModel
+   {
+       public string NationalNumber { get; set; }
+       public string LoginType { get; set; }
+   }
+   ```
+
+### الملخص
+
+هذه الهيكلية مبسطة وتناسب API يحتوي فقط على ميزة تسجيل الدخول.
