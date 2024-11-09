@@ -122,14 +122,16 @@ public class Address
 
 ![[Pasted image 20241109143026.png]]
 ولسا الـ Migrations ونحط كمان الـ DbContext Class
-بس الفرق هنا هيورث من الـ `IdentityDbContext` مش العادية عشان يورث الـ 7 DbSet
+بس الفرق هنا هيورث من الـ `IdentityDbContext` مش العادية 
+عشان يورث الـ 7 DbSet
 ```cs
 public class AppIdenetityDbContext : IdentityDbContext<AppUser>
 {
-	public AppIdentityDbContext() 
-		: base()
+	public AppIdentityDbContext(DbContextOptions<AppIdentityDbContext options) 
+		: base(options)
 	{
 	}
+	// We inhertid 7 Dbset
 }
 ```
 عندنا 3 نسخ من الـ `IdentityDbContext`:
@@ -137,4 +139,16 @@ public class AppIdenetityDbContext : IdentityDbContext<AppUser>
 - الـ Generic ودي هينفع تستخدمها مع الـ Custom User 
 - وكمان واحدة
 
-شرحنا ازاي تاني في الـ [[DbContext, ProductConfigurations, Migrations, Update Database]]
+
+وهنحطها في الـ program زي ما اتفقنا
+وهنزود الـ Connection string في الـ `appsettings` 
+```cs
+"IdentityConnection": "Connection String"
+```
+شرحنا ازاي تاني في الـ [[DbContext, ProductConfigurations, Migrations, Update Database#DbContext|DbContext]]
+
+---
+لو فيه أي Properties زيادة بنعملها `DbSet` لو أنا عايزها تتعمل
+يعني في المثال بتاعنا لو كنا محتاجين نعمل جدول للـ Address كنا هنعمله `DbSet` بس في الـ DbContext وهو كان هيعمل Table له لأنه في علاقة مع الـ User
+
+ولو مش هضيف حاجة للجدول أو أغير حاجة مش محتاج أعمل `OnModelCreating` 
