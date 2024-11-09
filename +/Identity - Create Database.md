@@ -132,6 +132,7 @@ public class AppIdenetityDbContext : IdentityDbContext<AppUser>
 	{
 	}
 	// We inhertid 7 Dbset
+	
 }
 ```
 عندنا 3 نسخ من الـ `IdentityDbContext`:
@@ -152,3 +153,41 @@ public class AppIdenetityDbContext : IdentityDbContext<AppUser>
 يعني في المثال بتاعنا لو كنا محتاجين نعمل جدول للـ Address كنا هنعمله `DbSet` بس في الـ DbContext وهو كان هيعمل Table له لأنه في علاقة مع الـ User
 
 ولو مش هضيف حاجة للجدول أو أغير حاجة مش محتاج أعمل `OnModelCreating` 
+
+### Migration
+هنعمل Migration بالطريقة العادية في بروجكت الـ Repository
+بس المرادي لازم نحدد أي Context بسبب اننا عندنا اتنين Context 
+```cs
+Add-Migration "IdentityInitialCreate" - Context AppIdentityDbContext -Output Identity/Migrations
+```
+وأي تعامل بعد كدا لازم تحدد الـ Context بتاعنا 
+يعني مثلًا لو عايز أحذف ال Migration
+```cs
+Remove-Migration -Context AppIdentityDbContext
+```
+
+### Update Database
+كنا اتكلمنا عليها في الـ [[DbContext, ProductConfigurations, Migrations, Update Database#الكود النهائي|Database Updating]]
+### Data Seeding
+اتكلمنا عنها قبل كدا في الـ [[DbContext, ProductConfigurations, Migrations, Update Database#Data Seeding|Data Seeding]]
+المرادي هعمل Seeding لـ User واحد بس مش كله زي المرة اللي فاتت
+- هنمسح فولدر الـ Seeding مش محتاجينه 
+- هنعمل كلاس في الـ Data اسمه `AppIdentityDbContextSeed`
+- بس هنا عشان نعمل User مش بنكلم الـ DbContext بشكل مباشر بس بنكلم الـ `UserManager` فدا اختلاف كمان
+```cs
+public static class AppIdentityContextSeed
+{
+	public static async Task SeedUsersAsync(UserManager<AppUser> _userManager)
+	{
+		// !_userManager.Users.Any()
+		if(_userManager.Users.Count() == 0)
+		{
+			var user = new AppUser()
+			{
+				DisplayName = "Mahmoud Feshar",
+				Emai
+			}
+		}
+	}
+}
+```
