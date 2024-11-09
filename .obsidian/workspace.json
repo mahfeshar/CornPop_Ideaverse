@@ -47,7 +47,7 @@
                   "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":14},\"to\":{\"line\":18,\"ch\":14}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":26},\"to\":{\"line\":21,\"ch\":26}},\"scroll\":8}"
                 },
                 {
                   "title": "Logical Design (Mapping)",
@@ -144,13 +144,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
+                "file": "+/Identity - Create Database.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generic Repository"
+              "title": "Identity - Create Database"
             }
           },
           {
@@ -289,10 +289,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md"
+                "file": "+/Identity - Create Database.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Generic Repository"
+              "title": "Outline of Identity - Create Database"
             }
           },
           {
@@ -427,7 +427,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
+                "file": "+/Identity - Create Database.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -455,7 +455,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Generic Repository"
+              "title": "Graph of Identity - Create Database"
             }
           }
         ]
@@ -480,7 +480,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
+                "file": "+/Identity - Create Database.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -490,7 +490,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Generic Repository"
+              "title": "Backlinks for Identity - Create Database"
             }
           },
           {
@@ -569,7 +569,10 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241109135745.png",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "+/Identity - Create Database.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
     "+/Working With an Existing Database (Database Scaffolding).md",
     "+/عمل فيديو بال AI.md",
@@ -598,15 +601,12 @@
     "+/ORM.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md",
     "Atlas/Notes/Ideas/Programming/Python/Py json.md",
     "Atlas/Notes/Ideas/Programming/Topics/JSON.md",
     "Atlas/Maps/Entity Framework Core.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add DbContext and ConnectionString.md",
-    "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
