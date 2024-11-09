@@ -32,7 +32,7 @@ public class StoreContext : DbContext
 عندنا طريقة تانية بنستخدم بيها الـ DI
 ![[DNAPI Basic CRUD Operations#**ApplicationDbContext.cs**|DbContext]]
 
-### program.cs
+### `program.cs`
 وبعد كدا هنروح نضيف الـ `AddDbContext` بتاعنا في الـ Program
 ```cs
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
