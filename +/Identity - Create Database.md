@@ -185,9 +185,17 @@ public static class AppIdentityContextSeed
 			var user = new AppUser()
 			{
 				DisplayName = "Mahmoud Feshar",
-				Emai
-			}
+				Email = "mahmoudfeshar11@gmail.com",
+				UserName = "mahfeshar",
+				PhoneNumber = "021215454654"
+			};
+			await _userManager.CreateAsync(user, "Pa$$w0rd");
 		}
 	}
 }
+```
+وبعدين نستخدمها في الـ Program زي المرات اللي فاتت بس برضو فيه اختلاف
+```cs
+var _userManager = services.GetRequiredService<UserManager<AppUser>>();
+await AppIdentityDbContextSeed.SeedUsersAsync();
 ```
