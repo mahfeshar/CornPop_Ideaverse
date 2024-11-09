@@ -124,10 +124,17 @@ public class Address
 ولسا الـ Migrations ونحط كمان الـ DbContext Class
 بس الفرق هنا هيورث من الـ `IdentityDbContext` مش العادية عشان يورث الـ 7 DbSet
 ```cs
-public class AppIdenetityDbContext : IdentityDbContext
+public class AppIdenetityDbContext : IdentityDbContext<AppUser>
 {
-	
+	public AppIdentityDbContext() 
+		: base()
+	{
+	}
 }
 ```
 عندنا 3 نسخ من الـ `IdentityDbContext`:
-- العادية ودي بتاخد الـ Identit
+- العادية ودي بتاخد الـ `IdentityUser` بس فأنت لو عامل Custom User مش هينفع
+- الـ Generic ودي هينفع تستخدمها مع الـ Custom User 
+- وكمان واحدة
+
+شرحنا ازاي تاني في الـ [[DbContext, ProductConfigurations, Migrations, Update Database]]

@@ -284,110 +284,222 @@ MyApp.Backend/
 
 باستخدام هذا التنظيم، ستتمكن من اتباع Onion Architecture بفعالية مع هيكلية منظمة وواضحة تجعل من السهل العمل على المشروع وتوسيع نطاقه.
 # Where's to use code
-بما أنك تريد بناء API بسيط لتسجيل الدخول باستخدام اثنين فقط من الخصائص (attributes) ولا تحتاج إلى تعقيد هيكلية Onion، يمكنك تبسيط الهيكلية على النحو التالي:
+لإنشاء مشروع تسجيل دخول باستخدام `national_number` و `LoginType` كمعايير من قاعدة البيانات، يمكنك اتباع هذه الخطوات التفصيلية. سنقوم بتكوين المشروع باستخدام .NET مع بنية تقليدية مع مجلدات منظمة، وسنقوم باستخدام SQL Server للوصول إلى البيانات.
 
-### هيكلية المشروع
+### 1. إعداد المشروع والفولدر استراكشر
+- افتح Visual Studio وأنشئ مشروعًا جديدًا من نوع **ASP.NET Core Web API**.
+- اختر اسم المشروع (مثل `SSOLoginAPI`)، واضغط **Create**.
+  
+### 2. إعداد بنية المجلدات في المشروع
+نحن هنا نتبع هيكلية تقليدية لمشروع API مع التركيز على الفصل بين الطبقات.
 
-في هذه الحالة، يمكنك وضع الكود مباشرةً في الطبقة الرئيسية للتطبيق. يمكنك تنظيم المشروع بهذه الطريقة البسيطة:
+1. الـ**Entities**: يحتوي على الكائنات الأساسية (Models) التي تمثل البيانات.
+2. الـ**Data**: يحتوي على إعدادات الاتصال بقاعدة البيانات ووحدة العمل (Unit of Work) إن لزم.
+3. الـ**Services**: يشمل الخدمات التي تتعامل مع قواعد البيانات وتطبيق المنطق.
+4. الـ**Controllers**: لإضافة مسارات (Endpoints) API التي تتعامل مع الطلبات الخارجية.
 
+ستكون بنية المجلدات النهائية كالتالي:
+   - `SSOLoginAPI`
+      - **Controllers**
+      - **Entities**
+      - **Data**
+      - **Services**
+
+### 3. إعداد `AppUser` الكيان المخصص في **Entities**
+أنشئ كلاس جديدًا باسم `AppUser` داخل مجلد `Entities` لتمثيل مستخدم التطبيق.
+```csharp
+using Microsoft.AspNetCore.Identity;
+
+namespace SSOLoginAPI.Entities
+{
+    public class AppUser : IdentityUser
+    {
+        public string NationalNumber { get; set; }
+        public string LoginType { get; set; }
+    }
+}
 ```
-MyApp/
-│
-├── Controllers/              # يحتوي على الـ API Controllers
-│   └── AuthController.cs     # Controller خاص بتسجيل الدخول
-│
-├── Services/                 # يحتوي على الخدمات (مثل التعامل مع قواعد البيانات)
-│   └── AuthService.cs        # خدمة التحقق من بيانات تسجيل الدخول
-│
-├── Data/                     # لإدارة الاتصال بقاعدة البيانات
-│   └── DatabaseConnection.cs # لتجهيز الاتصال بقاعدة البيانات
-│
-└── Models/                   # يحتوي على النماذج (Models) الخاصة ببيانات الدخول
-    └── LoginModel.cs         # النموذج الخاص بتسجيل الدخول
+
+### 4. إعداد **Data** الطبقة للاتصال بقاعدة البيانات
+داخل مجلد `Data`، أنشئ ملف `ApplicationDbContext.cs` وقم بتحديثه ليشمل `AppUser` ويتصل بقاعدة البيانات.
+
+```csharp
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using SSOLoginAPI.Entities;
+
+namespace SSOLoginAPI.Data
+{
+    public class ApplicationDbContext : IdentityDbContext<AppUser>
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {}
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
+    }
+}
 ```
 
-### توزيع الكود
+ثم اضف الاتصال بقاعدة البيانات في `appsettings.json`:
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=.;Database=YourDatabaseName;Trusted_Connection=True;"
+}
+```
 
-1. **إنشاء AuthController**:
-   هذا هو المكان الذي ستضع فيه الـ API endpoint لاستقبال بيانات تسجيل الدخول.
+وتحديث `Program.cs` أو `Startup.cs` لإضافة `ApplicationDbContext`:
+```csharp
+services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+```
 
-   ```csharp
-   [ApiController]
-   [Route("api/[controller]")]
-   public class AuthController : ControllerBase
+### 5. إعداد **Service** لكتابة منطق تسجيل الدخول
+في مجلد `Services`، أضف كلاس جديدًا `AuthService.cs` للتعامل مع تسجيل الدخول باستخدام `national_number` و `LoginType`.
+
+```csharp
+using Microsoft.Data.SqlClient;
+using System.Threading.Tasks;
+using SSOLoginAPI.Entities;
+using Microsoft.EntityFrameworkCore;
+
+namespace SSOLoginAPI.Services
+{
+    public class AuthService
+    {
+        private readonly ApplicationDbContext _context;
+
+        public AuthService(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<AppUser> GetUserByNationalNumberAndLoginTypeAsync(string nationalNumber, string loginType)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(u => u.NationalNumber == nationalNumber && u.LoginType == loginType);
+        }
+    }
+}
+```
+
+### 6. إعداد **Controller** لمسار تسجيل الدخول
+أضف `AuthController.cs` داخل `Controllers` لإنشاء API Endpoint لتسجيل الدخول.
+
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using SSOLoginAPI.Services;
+using System.Threading.Tasks;
+
+namespace SSOLoginAPI.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AuthController : ControllerBase
+    {
+        private readonly AuthService _authService;
+
+        public AuthController(AuthService authService)
+        {
+            _authService = authService;
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(string nationalNumber, string loginType)
+        {
+            var user = await _authService.GetUserByNationalNumberAndLoginTypeAsync(nationalNumber, loginType);
+            if (user == null)
+            {
+                return Unauthorized("Invalid national number or login type.");
+            }
+            return Ok("Login successful");
+        }
+    }
+}
+```
+
+### 7. تهيئة قاعدة البيانات وبدء التشغيل
+- قم بإنشاء قاعدة بيانات SQL Server وتأكد من تشغيل الـ Connection string في `appsettings.json`.
+- تأكد من تنفيذ الأوامر الخاصة بإنشاء الجداول من خلال `dotnet ef migrations add InitialCreate` و `dotnet ef database update`.
+
+### 8. اختبار تسجيل الدخول
+بمجرد إعداد الـ API، يمكنك استخدام أداة مثل **Postman** لاختبار مسار `login` عن طريق إرسال طلب POST إلى `http://localhost:5000/api/Auth/login` مع المعايير `nationalNumber` و `loginType`.
+
+بهذه الطريقة، سيكون لديك API جاهز للعمل مع تسجيل الدخول باستخدام المعايير المطلوبة
+
+### تحديث `AuthService` لاستخدام `SqlCommand` مع `Stored Procedure`
+
+في `AuthService.cs`، بدلًا من استخدام `Entity Framework`، سنستخدم `SqlCommand` للوصول المباشر إلى قاعدة البيانات وتشغيل الإجراء المخزن.
+
+1. عدل `AuthService.cs` ليشمل الكود التالي:
+
+```csharp
+public class AuthService
+{
+   private readonly string _connectionString;
+
+   public AuthService(IConfiguration configuration)
    {
-       private readonly AuthService _authService;
-
-       public AuthController(AuthService authService)
-       {
-           _authService = authService;
-       }
-
-       [HttpPost("login")]
-       public async Task<IActionResult> Login([FromBody] LoginModel model)
-       {
-           var user = await _authService.GetSSODataAsync(model.NationalNumber, model.LoginType);
-           if (user != null)
-           {
-               return Ok(user); // نجاح تسجيل الدخول
-           }
-           return Unauthorized(); // فشل تسجيل الدخول
-       }
+	   _connectionString = configuration.GetConnectionString("DefaultConnection");
    }
-   ```
 
-2. **إنشاء AuthService**:
-   في هذه الخدمة، يمكنك وضع الكود الخاص باستدعاء قاعدة البيانات.
-
-   ```csharp
-   public class AuthService
+   public async Task<AppUser> GetUserByNationalNumberAndLoginTypeAsync(string nationalNumber, string loginType)
    {
-       private readonly SqlConnection _connection;
+	   AppUser user = null;
 
-       public AuthService(SqlConnection connection)
-       {
-           _connection = connection;
-       }
+	   using (SqlConnection con = new SqlConnection(_connectionString))
+	   {
+		   using (SqlCommand cmd = new SqlCommand("Portal_Get_SSO_DATA", con))
+		   {
+			   cmd.CommandType = CommandType.StoredProcedure;
 
-       public async Task<UserData> GetSSODataAsync(string nationalNumber, string loginType)
-       {
-           var cmd = new SqlCommand("Portal_Get_SSO_DATA", _connection);
-           cmd.CommandType = CommandType.StoredProcedure;
+			   cmd.Parameters.Add(new SqlParameter("@national_number", nationalNumber));
+			   cmd.Parameters.Add(new SqlParameter("@LoginType", loginType));
 
-           cmd.Parameters.AddWithValue("@national_number", nationalNumber);
-           cmd.Parameters.AddWithValue("@LoginType", loginType);
+			   con.Open();
 
-           _connection.Open();
+			   using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
+			   {
+				   if (reader.Read())
+				   {
+					   user = new AppUser
+					   {
+						   Id = reader["Id"].ToString(),
+						   UserName = reader["UserName"].ToString(),
+						   NationalNumber = reader["NationalNumber"].ToString(),
+						   LoginType = reader["LoginType"].ToString()
+						   // أضف أي حقول إضافية حسب حاجتك
+					   };
+				   }
+			   }
+		   }
+	   }
 
-           using (var reader = await cmd.ExecuteReaderAsync())
-           {
-               if (await reader.ReadAsync())
-               {
-                   var userData = new UserData
-                   {
-                       // تعبئة الكائن بالبيانات
-                   };
-                   return userData;
-               }
-           }
-
-           _connection.Close();
-           return null;
-       }
+	   return user;
    }
-   ```
+}
+```
 
-3. **نموذج LoginModel**:
-   يمثل النموذج الذي يحتوي على بيانات تسجيل الدخول.
+2. هنا:
+   - `Portal_Get_SSO_DATA` هو اسم الإجراء المخزن في قاعدة البيانات، ويتم تمرير `@national_number` و`@LoginType` كمعاملات كما في الكود الذي أرسلته.
+   - بعد تنفيذ الإجراء المخزن، نقوم بقراءة النتائج باستخدام `SqlDataReader`، ونقوم بتهيئة كائن `AppUser` استنادًا إلى البيانات المسترجعة.
 
-   ```csharp
-   public class LoginModel
-   {
-       public string NationalNumber { get; set; }
-       public string LoginType { get; set; }
-   }
-   ```
+### تعديل AuthController للتحقق من المستخدم
 
-### الملخص
+داخل `AuthController`، يمكنك التحقق من تسجيل الدخول بنفس الطريقة:
 
-هذه الهيكلية مبسطة وتناسب API يحتوي فقط على ميزة تسجيل الدخول.
+```csharp
+[HttpPost("login")]
+public async Task<IActionResult> Login(string nationalNumber, string loginType)
+{
+    var user = await _authService.GetUserByNationalNumberAndLoginTypeAsync(nationalNumber, loginType);
+    if (user == null)
+    {
+        return Unauthorized("Invalid national number or login type.");
+    }
+    return Ok("Login successful");
+}
+```
+
+بهذه الطريقة، استخدمنا الكود الذي أرسلته للوصول المباشر إلى قاعدة البيانات باستخدام `SqlCommand`.

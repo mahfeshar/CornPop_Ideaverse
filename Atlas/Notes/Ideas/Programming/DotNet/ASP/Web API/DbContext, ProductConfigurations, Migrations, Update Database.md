@@ -28,10 +28,13 @@ public class StoreContext : DbContext
 	}
 }
 ```
+
+دي بكل بساطة هيورث الـ Ctor بتاع الـ Base بس هي بتحتاج Options فانت بتضر تعمل Overloading للـ `OnConfiguring` عشان تديلها الـ Options 
 والطريقة اللي فوق دي مشكلتها انها مبتستخدمش الـ [[DNAPI Dependency Injection]]
 عندنا طريقة تانية بنستخدم بيها الـ DI
 ![[DNAPI Basic CRUD Operations#**ApplicationDbContext.cs**|DbContext]]
 
+ودي بتحل المشكلة اللي فوق عن طريق انك لما بتيجي تعمل Allow للـ DbContext دي بتديلها الـ Options دي ودا بيبقا في  الـ Program 
 ### `program.cs`
 وبعد كدا هنروح نضيف الـ `AddDbContext` بتاعنا في الـ Program
 ```cs
