@@ -47,7 +47,7 @@
                   "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":14},\"to\":{\"line\":16,\"ch\":14}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":14},\"to\":{\"line\":18,\"ch\":14}},\"scroll\":8}"
                 },
                 {
                   "title": "Logical Design (Mapping)",
@@ -144,85 +144,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Product Module - Entities"
-            }
-          },
-          {
-            "id": "d2b0921596e247d0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Working With an Existing Database (Database Scaffolding).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Working With an Existing Database (Database Scaffolding)"
-            }
-          },
-          {
-            "id": "b65276143902151c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/عمل فيديو بال AI.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "عمل فيديو بال AI"
-            }
-          },
-          {
-            "id": "7ba4489c67321149",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/تقرير - نمو النباتات.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "تقرير - نمو النباتات"
+              "title": "Generic Repository"
             }
           },
           {
@@ -250,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -361,10 +289,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/University App.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of University App"
+              "title": "Outline of Generic Repository"
             }
           },
           {
@@ -499,7 +427,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/University App.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -527,7 +455,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of University App"
+              "title": "Graph of Generic Repository"
             }
           }
         ]
@@ -552,7 +480,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/University App.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -562,7 +490,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for University App"
+              "title": "Backlinks for Generic Repository"
             }
           },
           {
@@ -636,21 +564,21 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "b7b97a52de2ff082",
+  "active": "3486dfe60674667e",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "+/University App.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
+    "+/Working With an Existing Database (Database Scaffolding).md",
+    "+/عمل فيديو بال AI.md",
+    "+/تقرير - نمو النباتات.md",
+    "+/University App.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
-    "+/Working With an Existing Database (Database Scaffolding).md",
     "+/Logical Design (Mapping).md",
-    "+/عمل فيديو بال AI.md",
-    "+/تقرير - نمو النباتات.md",
     "Atlas/Utilities/Images/Pasted image 20241108102703.png",
     "Atlas/Utilities/Images/Pasted image 20241108102634.png",
     "Atlas/Utilities/Images/Pasted image 20241108095925.png",
