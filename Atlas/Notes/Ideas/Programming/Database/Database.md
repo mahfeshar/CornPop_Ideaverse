@@ -15,6 +15,11 @@ created: 2024-05-21
 - Some programming languages and/or frameworks take it even further by being **stateless**, which, in the case of an HTTP server, means your data dies at the end of an HTTP request. 
 - Whether the technology you’re using is stateless or stateful, you will need to persist your data somewhere. That’s what databases are for.
 
+## Data vs Information
+Data: شوية البيانات اللي انا **بجمعها**
+Information: لما بعمل على الداتا بروسيسينج بتتحول لمعلومة
+
+مثال: تاريخ الميلاد يعتبر **Data** هعمل عليه Process فهيتحول لعمر فدي **Information**
 ## Database
 - It's for everyone (Backend Developer, Mobile Application Developer, Data Scientist).
 - A __database__ is a collection of data, typically describing the activities of one or more related organizations.

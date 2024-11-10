@@ -1,6 +1,6 @@
 حاجات مهمة:
 - [[Stored Procedure in .NET]]
-- 
+- [[DataTable]] - [[Saving data from database in memory]]
 # Code from Abdelmohsen
 [university\_script](https://www.mediafire.com/file/lf6b7s0sud60erf/university_script.rar/file)
 

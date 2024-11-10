@@ -37,8 +37,14 @@
             "id": "b7b97a52de2ff082",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Database Management System (DBMS)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database Management System (DBMS)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":7}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -47,20 +53,20 @@
                   "title": "University App",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/University App.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"University App\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":14},\"to\":{\"line\":1,\"ch\":14}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":28},\"to\":{\"line\":1,\"ch\":28}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stored Procedure in .NET"
+              "title": "Database"
             }
           },
           {
@@ -184,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -295,10 +301,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Saving data from database in memory.md"
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Saving data from database in memory"
+              "title": "Outline of Database"
             }
           },
           {
@@ -433,7 +439,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Saving data from database in memory.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -461,7 +467,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Saving data from database in memory"
+              "title": "Graph of Database"
             }
           }
         ]
@@ -486,7 +492,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Saving data from database in memory.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -496,7 +502,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Saving data from database in memory"
+              "title": "Backlinks for Database"
             }
           },
           {
@@ -570,20 +576,22 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "08469f6fd4c24997",
+  "active": "b7b97a52de2ff082",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
+    "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+    "Atlas/Notes/Ideas/Programming/Database/Database.md",
+    "+/University App.md",
+    "Home.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
     "+/Saving data from database in memory.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DataTable.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
-    "+/University App.md",
     "Atlas/Maps/Database MOC.md",
     "+/Logical Design (Mapping).md",
-    "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md",
     "+/Identity - Create Database.md",
@@ -611,8 +619,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
     "+/ORM.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
