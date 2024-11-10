@@ -37,17 +37,23 @@
             "id": "3486dfe60674667e",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "DbContext, ProductConfigurations, Migrations, Update Database",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"DbContext, ProductConfigurations, Migrations, Update Database\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":271,\"ch\":80},\"to\":{\"line\":271,\"ch\":80}},\"scroll\":298.5912698412698}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":13},\"to\":{\"line\":17,\"ch\":13}},\"scroll\":8}"
+                },
+                {
+                  "title": "Identity - Create Database",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Identity - Create Database.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Identity - Create Database\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
                 },
                 {
                   "title": "Asp DotNet Core Web API",
@@ -150,13 +156,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Identity - Create Database.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identity - Create Database"
+              "title": "DbContext, ProductConfigurations, Migrations, Update Database"
             }
           },
           {
@@ -325,10 +331,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Identity - Create Database.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Identity - Create Database"
+              "title": "Outline of DbContext, ProductConfigurations, Migrations, Update Database"
             }
           },
           {
@@ -441,7 +447,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       },
       {
         "id": "3d767c407ab4c865",
@@ -463,7 +469,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Identity - Create Database.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -491,7 +497,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Identity - Create Database"
+              "title": "Graph of DbContext, ProductConfigurations, Migrations, Update Database"
             }
           }
         ]
@@ -516,7 +522,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Identity - Create Database.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -526,7 +532,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Identity - Create Database"
+              "title": "Backlinks for DbContext, ProductConfigurations, Migrations, Update Database"
             }
           },
           {
@@ -600,16 +606,17 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "81a222858f8a142d",
+  "active": "3486dfe60674667e",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md",
+    "+/University App.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
     "+/Identity - Create Database.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "+/Logical Design (Mapping).md",
-    "+/University App.md",
     "Atlas/Utilities/Images/Pasted image 20241109143026.png",
     "Atlas/Maps/Database MOC.md",
     "Atlas/Utilities/Images/Pasted image 20241109135745.png",

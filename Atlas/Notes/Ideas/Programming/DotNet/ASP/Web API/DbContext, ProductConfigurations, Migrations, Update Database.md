@@ -200,7 +200,7 @@ await _dbContext.Database.MigrateAsync();
 ```cs
  try
  {
-	 var scope = app.Services.CreateScope();
+	var scope = app.Services.CreateScope();
 	var services = scope.ServiceProvider;
 	var _dbContext = services.GetRequiredService<StoreContext>();
 	await _dbContext.Database.MigrateAsync();
