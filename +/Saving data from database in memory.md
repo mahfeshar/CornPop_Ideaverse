@@ -42,6 +42,32 @@ public void GetUserById(int userId)
 
 في المثال ده، بنستخدم `SqlDataReader` لقراءة البيانات صف بصف من غير ما نخزنها في `DataTable`.
 
+#### Empty?
+تقدر تستخدم `HasRows` للتأكد إن الـ `SqlDataReader` فيه بيانات قبل استخدام `Read()`.
+
+### الكود:
+
+```csharp
+using (SqlDataReader reader = cmd.ExecuteReader())
+{
+    if (reader.HasRows)
+    {
+        if (reader.Read())
+        {
+            return new User
+            {
+                UserId = (int)reader["UserId"],
+                Name = reader["Name"].ToString(),
+                Email = reader["Email"].ToString()
+            };
+        }
+    }
+    else
+    {
+        Console.WriteLine("No data found.");
+    }
+}
+```
 ---
 
 ### 3. استخدام الـ **Entity Framework** وإرجاع البيانات كـ Objects
@@ -111,7 +137,7 @@ public User GetUserById(int userId)
 هنا بنرجع كائن `User` مباشرة بدل `DataTable`، وده بيكون مناسب لو بتتعامل مع نتيجة مكونة من صف واحد.
 
 ---
-### 3. استخدام `ExecuteScalar` لو النتيجة قيمة واحدة
+### 5. استخدام `ExecuteScalar` لو النتيجة قيمة واحدة
 
 لو الاستعلام أو الـ `Stored Procedure` بيرجع **قيمة واحدة بس** (مثلاً عدد المستخدمين أو قيمة معينة)، ممكن تستخدم `ExecuteScalar` بدل ما تستخدم `DataTable` أو `DataReader`.
 
