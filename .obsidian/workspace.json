@@ -441,7 +441,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "3d767c407ab4c865",
@@ -600,7 +600,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "3486dfe60674667e",
+  "active": "81a222858f8a142d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
