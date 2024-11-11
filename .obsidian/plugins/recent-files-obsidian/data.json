@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "القرآن الكريم",
+      "path": "Atlas/Maps/القرآن الكريم.md"
+    },
+    {
+      "basename": "الطريقة الخمسينية لحفظ القرآن",
+      "path": "+/الطريقة الخمسينية لحفظ القرآن.md"
+    },
+    {
       "basename": "Database MOC",
       "path": "Atlas/Maps/Database MOC.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "DBAPI Middlewares",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md"
-    },
-    {
-      "basename": "Data Structure and Algorithms MOC",
-      "path": "Atlas/Maps/Data Structure and Algorithms MOC.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/HTTP.md"
     }
   ],
   "omittedPaths": [],
