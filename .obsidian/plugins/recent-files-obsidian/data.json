@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Conceptual Data Model",
+      "path": "+/Conceptual Data Model.md"
+    },
+    {
       "basename": "Database Management System (DBMS)",
       "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
     },
     {
-      "basename": "Conceptual Data Model",
-      "path": "+/Conceptual Data Model.md"
+      "basename": "Logical Design (Mapping)",
+      "path": "+/Logical Design (Mapping).md"
     },
     {
       "basename": "Map your mind",
@@ -15,10 +19,6 @@
     {
       "basename": "The Feynman Learning Technique",
       "path": "Atlas/Notes/Ideas/Programming/Map your mind/The Feynman Learning Technique.md"
-    },
-    {
-      "basename": "Logical Design (Mapping)",
-      "path": "+/Logical Design (Mapping).md"
     },
     {
       "basename": "Database MOC",

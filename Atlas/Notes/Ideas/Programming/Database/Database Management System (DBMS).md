@@ -21,34 +21,32 @@ created: 2024-05-20
 ### We also talked about [[Database#Database is __acid__|acid]]
 ![[Database#Database is __acid__|acid]]
 ## DBMS Terminologies
-شوية مصطلحات مهمة في ال DBMS
+
 ### Data Model
-
-عندنا كذا طبقة أو نوع من الـ Data  Models:
-1. [[Conceptual Data Model]]
-2. Physical Data Model
-     متهمنيش انما تهم الشخص اللي بيعمل Design للـ DBMS
- 3. Implementation Data Model
-
-![[Pasted image 20241025102219.png]]
-- It's a collection of concepts used for describing data.
-- It hides many low-level storage details
-- Most DBMSs today are based on the __relational data model__
+مجموعة من المفاهيم المستخدمة لوصف البيانات في قاعدة البيانات. 
+النماذج الأكثر استخدامًا:
+1. الـ[[Conceptual Data Model]]: يعرض البيانات بشكل قريب من تصورات المستخدمين، مثل **Entity-Relationship Model** و**Object-Based Model**.
+2. الـ**Physical Data Model**: يعرض تفاصيل تخزين البيانات مثل **record formats** و**access paths**.
+3. الـ**Implementation (Representational) Data Model**: يدمج بين النماذج السابقة، ويُستخدم في نظم إدارة قواعد البيانات التجارية، مثل **relational data model**.
 
 ![[Pasted image 20241025102627.png]]
 ### Schema
-- It's a description of data in terms of a data model.
+وصف لهيكل البيانات باستخدام **Data Model**، ويشمل وصف **الحقول** و**القيود** على البيانات.
+
+- الـ**Conceptual Schema**: يصف البيانات المخزنة في قاعدة البيانات.
+- الـ**Physical Schema**: يحدد تفاصيل تخزين البيانات على الهارد.
+- الـ**External Schema**: يسمح بإنشاء عدة نماذج خارجية توفر وصول مخصص لمجموعات مختلفة من المستخدمين.
 
 ![[Pasted image 20241025102707.png]]
 ![[Pasted image 20241025102741.png]]
-## Levels of abstraction in a DBMS
-- Data in a DBMS is described at three levels of abstraction: _Conceptional, physical, and external_
-
-![[Pasted image 20240520161241.png]]
+### Levels of Abstraction in a DBMS
+يتم وصف البيانات في ثلاثة مستويات:
 - __Conceptual Schema__: describes the stored data in terms of the data model of the DBMS.
-- __Physical Schema__: specifies data storage details (تخزينها على الهارد)
+- __Physical Schema__: specifies data storage details (تخزينها فعليًا على الهارد)
 - __External Schema__: We can define different external schemas to give customized access to different users and groups.
 
+
+![[Pasted image 20240520161241.png]]
 ![[Pasted image 20241025102830.png]]
 ## Popular DBMS
 
