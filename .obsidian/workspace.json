@@ -154,6 +154,36 @@
             }
           },
           {
+            "id": "b870093e384b2caf",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Map yourMind",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Map yourMind.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Map yourMind\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":11},\"to\":{\"line\":0,\"ch\":11}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/White boarding.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "White boarding"
+            }
+          },
+          {
             "id": "107220753d458d6a",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -208,7 +238,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -319,10 +349,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
+                "file": "+/White boarding.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Database Management System (DBMS)"
+              "title": "Outline of White boarding"
             }
           },
           {
@@ -457,7 +487,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+                "file": "+/White boarding.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -485,7 +515,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Database Management System (DBMS)"
+              "title": "Graph of White boarding"
             }
           }
         ]
@@ -510,7 +540,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+                "file": "+/White boarding.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -520,7 +550,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database Management System (DBMS)"
+              "title": "Backlinks for White boarding"
             }
           },
           {
@@ -594,13 +624,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5b6c4b3ca94edfae",
+  "active": "b870093e384b2caf",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/Database/Database.md",
+    "+/Map yourMind.md",
+    "+/White boarding.md",
     "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+    "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png",
     "Atlas/Notes/Ideas/Programming/Database/CRUD.md",
@@ -636,7 +668,6 @@
     "Atlas/Utilities/Images/Pasted image 20241108070613.png.~tmp",
     "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md",
     "Atlas/Maps/CSharp MOC.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
