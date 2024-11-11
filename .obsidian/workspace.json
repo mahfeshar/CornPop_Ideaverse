@@ -224,9 +224,33 @@
               "icon": "lucide-file",
               "title": "Asp DotNet Core Web API"
             }
+          },
+          {
+            "id": "29a06d604bad2768",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/Distributed Systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Distributed Systems"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -337,10 +361,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+                "file": "+/Distributed Systems.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Asp DotNet Core Web API"
+              "title": "Outline of Distributed Systems"
             }
           },
           {
@@ -475,7 +499,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/Distributed Systems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -503,7 +527,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Asp DotNet Core Web API"
+              "title": "Graph of Distributed Systems"
             }
           }
         ]
@@ -528,7 +552,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/Distributed Systems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -538,7 +562,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Asp DotNet Core Web API"
+              "title": "Backlinks for Distributed Systems"
             }
           },
           {
@@ -612,11 +636,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "08469f6fd4c24997",
+  "active": "29a06d604bad2768",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "+/Distributed Systems.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md",
     "+/Making money.md",
     "Atlas/Maps/القرآن الكريم.md",
@@ -650,8 +676,6 @@
     "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DataTable.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Utilities/Images/Pasted image 20241109143026.png",
     "Atlas/Utilities/Images/Pasted image 20241109135745.png",
     "Atlas/Utilities/Images/Pasted image 20241108102703.png",
