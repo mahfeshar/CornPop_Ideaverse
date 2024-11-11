@@ -89,10 +89,12 @@ Information: لما بعمل على الداتا بروسيسينج بتتحول
 
 ## Database
 - It's for everyone (Backend Developer, Mobile Application Developer, Data Scientist).
-- A __database__ is a collection of data, typically describing the activities of one or more related organizations.
+- A __database__ is a *collection of data*, typically describing the activities of one or more related organizations.
 - A __database__ _models_ some aspect of the real world (student, course)
 - A database can be of __any size__ or __complexity__
-
+- تقدر تقول انها شوية داتا (فايلات) مربوطة ببعض
+- اللي بيربط الداتا دي (الفايلات) هو نظام إدارة قواعد البيانات [[Database Management System (DBMS)]] ودي بتبقا زي Layer بين الـ Database and Program
+  نقدر نقول انه مجرد **منظم** للعملية دي
 ## Database is __acid__
 - **A**tomicity: transactions are atomic, which means if a transaction fails, the result will be like it never happened.
 - **C**onsistency: you can define rules for your data, and expect that the data abides by the rules, or else the transaction fails.

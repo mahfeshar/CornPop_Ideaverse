@@ -5,16 +5,21 @@ related:
   - "[[Database]]"
 created: 2024-05-20
 ---
-
 # Database Management System (DBMS)
 - A __database Management System (DBMS)__ is a software that enables users to _create, maintain, and access_ databases.
 - Its features allow us to manage the data in an efficient and easy manner.
 - An __application program__ access the database by sending queries or requests to the DBMS.
 ## Why use DBMS?
+### Files as storage
+![[Database#File as storage (File Base System)]]
+
+### DBMS  Functionalitites
+![[Pasted image 20241111052946.png]]
 ### Advantages of DBMS
 ![[Pasted image 20240520160437.png]]
 ![[Pasted image 20240520160445.png]]
 ### We also talked about [[Database#Database is __acid__|acid]]
+![[Database#Database is __acid__|acid]]
 ## DBMS Terminologies
 شوية مصطلحات مهمة في ال DBMS
 ### Data Model

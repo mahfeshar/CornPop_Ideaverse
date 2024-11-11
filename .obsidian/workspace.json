@@ -116,6 +116,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Database",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Database.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":95,\"ch\":68},\"to\":{\"line\":95,\"ch\":68}},\"scroll\":19.97153024911032}"
+                },
+                {
                   "title": "Database MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
@@ -138,13 +144,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database"
+              "title": "Database Management System (DBMS)"
             }
           },
           {
@@ -313,10 +319,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md"
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Database"
+              "title": "Outline of Database Management System (DBMS)"
             }
           },
           {
@@ -451,7 +457,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -479,7 +485,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Database"
+              "title": "Graph of Database Management System (DBMS)"
             }
           }
         ]
@@ -504,7 +510,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -514,7 +520,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database"
+              "title": "Backlinks for Database Management System (DBMS)"
             }
           },
           {
@@ -593,9 +599,12 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
+    "Atlas/Utilities/Images/Pasted image 20241111052946.png",
+    "Atlas/Notes/Ideas/Programming/Database/Database.md",
+    "Atlas/Notes/Ideas/Programming/Database/CRUD.md",
     "Atlas/Maps/Database MOC.md",
     "+/University App.md",
-    "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
     "Atlas/Utilities/Images/Pasted image 20241111034824.png",
     "Home.md",
@@ -623,13 +632,11 @@
     "Atlas/Utilities/Images/Pasted image 20241108095715.png",
     "Atlas/Utilities/Images/Pasted image 20241108095126.png",
     "Atlas/Utilities/Images/Pasted image 20241108094858.png",
-    "Atlas/Utilities/Images/Pasted image 20241108094842.png",
     "Atlas/Utilities/Images/3.jpeg.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241108070613.png.~tmp",
     "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md",
     "Atlas/Maps/CSharp MOC.md",
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Indexer.md",
-    "+/ORM.md",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
