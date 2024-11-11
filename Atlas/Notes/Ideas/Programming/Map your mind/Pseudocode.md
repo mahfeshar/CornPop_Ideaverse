@@ -35,3 +35,9 @@ created: 2024-11-11
    - Print the current number.
 ### نصيحة: جرب تكتب Pseudocode لحاجات يومية
 ممكن تاخد حاجات بسيطة زي تحضير أكلة معينة أو غسل الملابس وتحول الخطوات دي لـ Pseudocode، ده هيساعدك تكتب الـ Pseudocode بشكل بديهي أكتر.
+
+### مقالات  ليها علاقة
+[How to write a Pseudo Code? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/)
+[How Do I Write Pseudocode? - YouTube](https://www.youtube.com/watch?v=preyTbKXDoQ&t=400s)
+[How Do I Write Pseudocode? - YouTube](https://www.youtube.com/watch?v=preyTbKXDoQ&t=657s)
+[computersciencewiki.org/images/e/ea/Pseudo\_Code\_Practice\_Problems.pdf](https://computersciencewiki.org/images/e/ea/Pseudo_Code_Practice_Problems.pdf)

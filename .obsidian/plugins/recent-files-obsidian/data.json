@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Data Model",
+      "path": "+/Data Model.md"
+    },
+    {
+      "basename": "Database Management System (DBMS)",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
+    },
+    {
+      "basename": "Map your mind",
+      "path": "Atlas/Maps/Map your mind.md"
+    },
+    {
+      "basename": "The Feynman Learning Technique",
+      "path": "Atlas/Notes/Ideas/Programming/Map your mind/The Feynman Learning Technique.md"
+    },
+    {
       "basename": "Logical Design (Mapping)",
       "path": "+/Logical Design (Mapping).md"
     },
@@ -75,10 +91,6 @@
     {
       "basename": "Product Module - Entities",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md"
-    },
-    {
-      "basename": "Database Management System (DBMS)",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
     },
     {
       "basename": "Database",
@@ -187,18 +199,6 @@
     {
       "basename": "Web application frameworks",
       "path": "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md"
-    },
-    {
-      "basename": "Cs Output",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Output.md"
-    },
-    {
-      "basename": "Programming Paradigms",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/Programming Paradigms.md"
-    },
-    {
-      "basename": "DNAPI Project Structure",
-      "path": "+/DNAPI Project Structure.md"
     }
   ],
   "omittedPaths": [],
