@@ -22,7 +22,14 @@ created: 2024-05-20
 ![[Database#Database is __acid__|acid]]
 ## DBMS Terminologies
 شوية مصطلحات مهمة في ال DBMS
-### [[Data Model]]
+### Data Model
+
+عندنا كذا طبقة أو نوع من الـ Data  Models:
+1. [[Conceptual Data Model]]
+2. Physical Data Model
+     متهمنيش انما تهم الشخص اللي بيعمل Design للـ DBMS
+ 3. Implementation Data Model
+
 ![[Pasted image 20241025102219.png]]
 - It's a collection of concepts used for describing data.
 - It hides many low-level storage details
@@ -40,7 +47,6 @@ created: 2024-05-20
 ![[Pasted image 20240520161241.png]]
 - __Conceptual Schema__: describes the stored data in terms of the data model of the DBMS.
 - __Physical Schema__: specifies data storage details (تخزينها على الهارد)
-  متهمنيش انما تهم الشخص اللي بيعمل Design للـ DBMS
 - __External Schema__: We can define different external schemas to give customized access to different users and groups.
 
 ![[Pasted image 20241025102830.png]]
