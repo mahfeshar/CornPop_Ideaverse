@@ -25,7 +25,7 @@ created: 2024-05-20
 ### Data Model
 مجموعة من المفاهيم المستخدمة لوصف البيانات في قاعدة البيانات. 
 النماذج الأكثر استخدامًا:
-1. الـ[[Conceptual Data Model]]: يعرض البيانات بشكل قريب من تصورات المستخدمين، مثل **Entity-Relationship Model** و**Object-Based Model**.
+1. الـ[[Conceptual Data Models]]: يعرض البيانات بشكل قريب من تصورات المستخدمين، مثل **Entity-Relationship Model** و**Object-Based Model**.
 2. الـ**Physical Data Model**: يعرض تفاصيل تخزين البيانات مثل **record formats** و**access paths**.
 3. الـ**Implementation (Representational) Data Model**: يدمج بين النماذج السابقة، ويُستخدم في نظم إدارة قواعد البيانات التجارية، مثل **relational data model**.
 

@@ -18,6 +18,7 @@ Databases are everywhere:
 - [[Database]]: What is database?
 	- [[2+ Kinds of databases]]
 - [[Database Management System (DBMS)]]
+	- [[Conceptual Data Models]] => Focus on Relational Model
 - [[Structured Query Language (SQL)]]
 ---
 - [[DB Life Cycle]]

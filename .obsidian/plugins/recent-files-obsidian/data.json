@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Conceptual Data Model",
-      "path": "+/Conceptual Data Model.md"
+      "basename": "2+ Kinds of databases",
+      "path": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md"
+    },
+    {
+      "basename": "Database MOC",
+      "path": "Atlas/Maps/Database MOC.md"
+    },
+    {
+      "basename": "Conceptual Data Models",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md"
     },
     {
       "basename": "Database Management System (DBMS)",
@@ -19,10 +27,6 @@
     {
       "basename": "The Feynman Learning Technique",
       "path": "Atlas/Notes/Ideas/Programming/Map your mind/The Feynman Learning Technique.md"
-    },
-    {
-      "basename": "Database MOC",
-      "path": "Atlas/Maps/Database MOC.md"
     },
     {
       "basename": "Conceptual Design (ERD)",
@@ -195,10 +199,6 @@
     {
       "basename": "DNAPI Dependency Injection",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md"
-    },
-    {
-      "basename": "Web application frameworks",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/Web application frameworks.md"
     }
   ],
   "omittedPaths": [],
