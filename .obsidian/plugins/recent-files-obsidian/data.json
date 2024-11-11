@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Database MOC",
+      "path": "Atlas/Maps/Database MOC.md"
+    },
+    {
       "basename": "2+ Kinds of databases",
       "path": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md"
     },
     {
-      "basename": "Database MOC",
-      "path": "Atlas/Maps/Database MOC.md"
+      "basename": "CRUD",
+      "path": "Atlas/Notes/Ideas/Programming/Database/CRUD.md"
     },
     {
       "basename": "Conceptual Data Models",
@@ -195,10 +199,6 @@
     {
       "basename": "HTTP",
       "path": "Atlas/Notes/Ideas/Programming/Networking/HTTP.md"
-    },
-    {
-      "basename": "DNAPI Dependency Injection",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Dependency Injection.md"
     }
   ],
   "omittedPaths": [],

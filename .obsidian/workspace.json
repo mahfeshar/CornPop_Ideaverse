@@ -109,17 +109,17 @@
             "id": "5b6c4b3ca94edfae",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "2+ Kinds of databases",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2+ Kinds of databases\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":134},\"to\":{\"line\":20,\"ch\":134}},\"scroll\":6}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Database MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":10},\"to\":{\"line\":18,\"ch\":10}},\"scroll\":15.737599206349206}"
                 },
                 {
                   "title": "Conceptual Data Models",
@@ -162,13 +162,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md",
+                "file": "Atlas/Maps/Database MOC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2+ Kinds of databases"
+              "title": "Database MOC"
             }
           },
           {
@@ -337,10 +337,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md"
+                "file": "Atlas/Maps/Database MOC.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2+ Kinds of databases"
+              "title": "Outline of Database MOC"
             }
           },
           {
@@ -475,7 +475,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md",
+                "file": "Atlas/Maps/Database MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -503,7 +503,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2+ Kinds of databases"
+              "title": "Graph of Database MOC"
             }
           }
         ]
@@ -528,7 +528,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md",
+                "file": "Atlas/Maps/Database MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -538,7 +538,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2+ Kinds of databases"
+              "title": "Backlinks for Database MOC"
             }
           },
           {
@@ -617,8 +617,10 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Maps/Database MOC.md",
+    "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md",
+    "Atlas/Notes/Ideas/Programming/Database/CRUD.md",
     "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md",
+    "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
     "+/Logical Design (Mapping).md",
     "Atlas/Utilities/Images/Pasted image 20241111091840.png",
@@ -639,7 +641,6 @@
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png",
-    "Atlas/Notes/Ideas/Programming/Database/CRUD.md",
     "+/University App.md",
     "Atlas/Utilities/Images/Pasted image 20241111034824.png",
     "Home.md",
