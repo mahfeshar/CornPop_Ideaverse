@@ -7,6 +7,7 @@ tags:
   - map
 ---
 ## Important Topics(Concepts)
+- [[Map your mind]]
 - [[Recursion]]
 - [[Strongly and weakly typed languages]]
 - [[Mutable vs Immutable]]

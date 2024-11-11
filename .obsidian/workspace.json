@@ -164,23 +164,29 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Map yourMind",
+                  "title": "Algorithm",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Map yourMind.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Map yourMind\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":11},\"to\":{\"line\":0,\"ch\":11}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Map your mind/Algorithm.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Algorithm\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":23},\"to\":{\"line\":7,\"ch\":23}},\"scroll\":7}"
+                },
+                {
+                  "title": "Map your mind",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Map your mind.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Map your mind\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":9},\"to\":{\"line\":13,\"ch\":9}},\"scroll\":8}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/White boarding.md",
+                "file": "Atlas/Maps/Data Structure and Algorithms MOC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "White boarding"
+              "title": "Data Structure and Algorithms MOC"
             }
           },
           {
@@ -349,10 +355,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/White boarding.md"
+                "file": "Atlas/Maps/Data Structure and Algorithms MOC.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of White boarding"
+              "title": "Outline of Data Structure and Algorithms MOC"
             }
           },
           {
@@ -487,7 +493,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/White boarding.md",
+                "file": "Atlas/Maps/Data Structure and Algorithms MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -515,7 +521,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of White boarding"
+              "title": "Graph of Data Structure and Algorithms MOC"
             }
           }
         ]
@@ -540,7 +546,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/White boarding.md",
+                "file": "Atlas/Maps/Data Structure and Algorithms MOC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -550,7 +556,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for White boarding"
+              "title": "Backlinks for Data Structure and Algorithms MOC"
             }
           },
           {
@@ -629,8 +635,15 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "+/Map yourMind.md",
-    "+/White boarding.md",
+    "Atlas/Notes/Ideas/Programming/Map your mind/Algorithm.md",
+    "Atlas/Maps/Map your mind.md",
+    "Atlas/Notes/Ideas/Programming/Map your mind/Flowcharts.md",
+    "Atlas/Notes/Ideas/Programming/Map your mind/White boarding.md",
+    "Atlas/Notes/Ideas/Programming/Map your mind/Pseudocode.md",
+    "Atlas/Notes/Ideas/Programming/Map your mind/How to Think Like a Programmer.md",
+    "Atlas/Maps/Programming MOC.md",
+    "Atlas/Notes/Ideas/Programming/Map your mind",
+    "Atlas/Utilities/Images/Pasted image 20241111074427.png",
     "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
@@ -655,26 +668,19 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
     "+/Working With an Existing Database (Database Scaffolding).md",
     "+/عمل فيديو بال AI.md",
-    "+/تقرير - نمو النباتات.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md",
     "Atlas/Utilities/Images/Pasted image 20241108102703.png",
     "Atlas/Utilities/Images/Pasted image 20241108102634.png",
     "Atlas/Utilities/Images/Pasted image 20241108095925.png",
     "Atlas/Utilities/Images/Pasted image 20241108095715.png",
     "Atlas/Utilities/Images/Pasted image 20241108095126.png",
-    "Atlas/Utilities/Images/Pasted image 20241108094858.png",
     "Atlas/Utilities/Images/3.jpeg.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241108070613.png.~tmp",
-    "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md",
-    "Atlas/Maps/CSharp MOC.md",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029211658.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
-    "Atlas/Utilities/Images/Pasted image 20241018080329.png.~tmp",
     "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
     "Atlas/Notes/Ideas/Untitled.canvas",
     "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
