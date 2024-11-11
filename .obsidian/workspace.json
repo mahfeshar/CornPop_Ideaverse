@@ -37,7 +37,7 @@
             "id": "b7b97a52de2ff082",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 3,
               "stack": [
                 {
                   "title": "Database Management System (DBMS)",
@@ -52,27 +52,27 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":16},\"to\":{\"line\":19,\"ch\":16}},\"scroll\":15.769345238095237}"
                 },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "Database",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Database.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":91,\"ch\":68},\"to\":{\"line\":91,\"ch\":68}},\"scroll\":7}"
                 },
                 {
-                  "title": "University App",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/University App.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"University App\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":30},\"to\":{\"line\":1,\"ch\":30}},\"scroll\":0}"
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
+                "file": "+/University App.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database"
+              "title": "University App"
             }
           },
           {
@@ -116,6 +116,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Database MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":9},\"to\":{\"line\":17,\"ch\":9}},\"scroll\":8.822018348623853}"
+                },
+                {
                   "title": "Logical Design (Mapping)",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Logical Design (Mapping).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Logical Design (Mapping)\"}",
@@ -132,13 +138,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/Database MOC.md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database MOC"
+              "title": "Database"
             }
           },
           {
@@ -196,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -582,16 +588,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b7b97a52de2ff082",
+  "active": "5b6c4b3ca94edfae",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Utilities/Images/Pasted image 20241111034824.png",
     "Atlas/Maps/Database MOC.md",
-    "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
-    "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "+/University App.md",
+    "Atlas/Notes/Ideas/Programming/Database/Database.md",
+    "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+    "Atlas/Utilities/Images/Pasted image 20241111034824.png",
     "Home.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
     "+/Saving data from database in memory.md",
@@ -618,7 +624,6 @@
     "Atlas/Utilities/Images/Pasted image 20241108095126.png",
     "Atlas/Utilities/Images/Pasted image 20241108094858.png",
     "Atlas/Utilities/Images/Pasted image 20241108094842.png",
-    "Atlas/Utilities/Images/Pasted image 20241108094305.png",
     "Atlas/Utilities/Images/3.jpeg.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241108070613.png.~tmp",
     "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md",
