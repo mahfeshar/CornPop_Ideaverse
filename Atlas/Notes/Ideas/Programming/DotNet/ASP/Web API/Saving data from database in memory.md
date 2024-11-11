@@ -1,3 +1,9 @@
+---
+up:
+  - "[[Asp DotNet Core Web API]]"
+related: 
+created: 2024-11-11
+---
 فيه أكتر من طريقة تقدر تستخدمها للتعامل مع نتائج الـ **Stored Procedure** في .NET، حسب احتياجاتك وحسب الـ **Library** اللي بتستخدمها.
 ### 1. استخدام [[DataTable]]
 

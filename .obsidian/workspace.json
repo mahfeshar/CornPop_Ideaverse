@@ -199,58 +199,34 @@
             "id": "08469f6fd4c24997",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "Cs Enums",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Cs Enums\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":39.397392290249435}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Saving data from database in memory.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Saving data from database in memory"
-            }
-          },
-          {
-            "id": "5580d7c3f5955213",
-            "type": "leaf",
-            "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Saving data from database in memory",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Saving data from database in memory\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Making money.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Making money"
+              "title": "Asp DotNet Core Web API"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -361,10 +337,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Making money.md"
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Making money"
+              "title": "Outline of Asp DotNet Core Web API"
             }
           },
           {
@@ -499,7 +475,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Making money.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -527,7 +503,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Making money"
+              "title": "Graph of Asp DotNet Core Web API"
             }
           }
         ]
@@ -552,7 +528,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Making money.md",
+                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -562,7 +538,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Making money"
+              "title": "Backlinks for Asp DotNet Core Web API"
             }
           },
           {
@@ -636,12 +612,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5580d7c3f5955213",
+  "active": "08469f6fd4c24997",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "+/Saving data from database in memory.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md",
     "+/Making money.md",
     "Atlas/Maps/القرآن الكريم.md",
     "+/الطريقة الخمسينية لحفظ القرآن.md",

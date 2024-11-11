@@ -17,10 +17,10 @@ tags:
 - [[Product Module - Entities]]
 - [[DbContext, ProductConfigurations, Migrations, Update Database]]
 - [[Generic Repository]]
-
 ---
 - [[Identity - Create Database]]
 - 
 ---
 - [[Stored Procedure in .NET]]
 - [[DataTable]]
+- [[Saving data from database in memory]]
