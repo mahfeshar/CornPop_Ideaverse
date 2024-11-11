@@ -13,7 +13,7 @@ created: 2024-05-20
 ### Files as storage
 ![[Database#File as storage (File Base System)]]
 
-### DBMS  Functionalitites
+### DBMS  Functionalities
 ![[Pasted image 20241111052946.png]]
 ### Advantages of DBMS
 ![[Pasted image 20240520160437.png]]
