@@ -89,7 +89,7 @@
                   "title": "Database MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":20},\"to\":{\"line\":30,\"ch\":20}},\"scroll\":14.912202380952381}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":9},\"to\":{\"line\":17,\"ch\":9}},\"scroll\":11.941787003610107}"
                 },
                 {
                   "title": "Conceptual Data Models",
@@ -132,13 +132,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logical Design (Mapping)"
+              "title": "Database"
             }
           },
           {
@@ -306,10 +306,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md"
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Logical Design (Mapping)"
+              "title": "Outline of Database"
             }
           },
           {
@@ -444,7 +444,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -472,7 +472,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Logical Design (Mapping)"
+              "title": "Graph of Database"
             }
           }
         ]
@@ -497,7 +497,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Database.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -507,7 +507,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Logical Design (Mapping)"
+              "title": "Backlinks for Database"
             }
           },
           {
@@ -587,15 +587,18 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241112185109.png",
+    "Atlas/Utilities/Images/Pasted image 20241112185022.png",
+    "Atlas/Utilities/Images/Pasted image 20241112184841.png",
     "Atlas/Maps/Database MOC.md",
+    "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
     "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md",
     "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md",
-    "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
     "+/DotNet - RoadMap.md",
     "+/SQL Server MOC.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "+/University App.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md",
@@ -608,8 +611,6 @@
     "Atlas/Utilities/Images/Pasted image 20241112075746.png",
     "Atlas/Utilities/Images/Pasted image 20241112075158.png",
     "Atlas/Utilities/Images/Pasted image 20241112074852.png",
-    "Atlas/Utilities/Images/Pasted image 20241112072247.png",
-    "Atlas/Utilities/Images/Pasted image 20241112072200.png",
     "Atlas/Maps/Distributed Systems MOC.md",
     "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
     "Atlas/Maps/Programming MOC.md",
@@ -623,7 +624,6 @@
     "Atlas/Notes/Ideas/Programming/Map your mind/The Feynman Learning Technique.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/Pseudocode.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/Algorithm.md",
-    "Atlas/Maps/Data Structure and Algorithms MOC.md",
     "Atlas/Notes/Ideas/Programming/Map your mind",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
     "Atlas/Utilities/Images/3.jpeg.~tmp",

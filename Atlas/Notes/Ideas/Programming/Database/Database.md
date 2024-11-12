@@ -135,6 +135,9 @@ There are many different types of databases. The best database for a specific or
 
 - A [NoSQL](https://www.oracle.com/ca-en/database/nosql/), or nonrelational database, allows unstructured and semistructured data to be stored and manipulated (in contrast to a relational database, which defines how all data inserted into the database must be composed). NoSQL databases grew popular as web applications became more common and more complex.
 
+#### Key Value Database
+![[Pasted image 20241112184841.png]]
+**Examples:** Redis, Memcached etc.
 #### Graph databases
 
 - A graph database stores data in terms of entities and the relationships between entities.
@@ -142,6 +145,7 @@ There are many different types of databases. The best database for a specific or
 
 These are only a few of the several dozen types of databases in use today. Other, less common databases are tailored to very specific scientific, financial, or other functions. In addition to the different database types, changes in technology development approaches and dramatic advances such as the cloud and automation are propelling databases in entirely new directions. Some of the latest databases include
 
+![[Pasted image 20241112185109.png]]
 #### Open source databases
 
 - An open source database system is one whose source code is open source; such databases could be SQL or NoSQL databases.
@@ -158,6 +162,7 @@ These are only a few of the several dozen types of databases in use today. Other
 
 - Designed for storing, retrieving, and managing document-oriented information, [document databases](https://www.oracle.com/ca-en/autonomous-database/autonomous-json-database/) are a modern way to store data in JSON format rather than rows and columns.
 
+![[Pasted image 20241112185022.png]]
 #### Self-driving databases
 
 - The newest and most groundbreaking type of database, self-driving databases (also known as autonomous databases) are cloud-based and use machine learning to automate database tuning, security, backups, updates, and other routine management tasks traditionally performed by database administrators.
