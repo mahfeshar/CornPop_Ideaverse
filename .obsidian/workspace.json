@@ -82,38 +82,14 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "Conceptual Data Models",
+                  "title": "Structured Query Language (SQL)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Conceptual Data Models\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":6}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Structured Query Language (SQL)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":63,\"ch\":146},\"to\":{\"line\":63,\"ch\":146}},\"scroll\":6}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Conceptual Data Models",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Conceptual Data Model\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Database Management System (DBMS)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database Management System (DBMS)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":21},\"to\":{\"line\":27,\"ch\":21}},\"scroll\":12.341579731743666}"
-                },
-                {
-                  "title": "Database",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Database.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":95,\"ch\":68},\"to\":{\"line\":95,\"ch\":68}},\"scroll\":19.97153024911032}"
-                },
-                {
-                  "title": "Database MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":9},\"to\":{\"line\":17,\"ch\":9}},\"scroll\":8.822018348623853}"
                 },
                 {
                   "title": "Logical Design (Mapping)",
@@ -588,19 +564,20 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md",
+    "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "+/DotNet - RoadMap.md",
     "Atlas/Maps/Database MOC.md",
+    "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
+    "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+    "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md",
     "Atlas/Utilities/Images/Pasted image 20241025102627.png.~tmp",
     "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md",
-    "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Utilities/Images/Pasted image 20241112185109.png",
     "Atlas/Utilities/Images/Pasted image 20241112185022.png",
     "Atlas/Utilities/Images/Pasted image 20241112184841.png",
     "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
-    "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md",
-    "+/DotNet - RoadMap.md",
     "+/SQL Server MOC.md",
     "+/University App.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",

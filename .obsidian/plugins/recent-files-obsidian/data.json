@@ -5,36 +5,40 @@
       "path": "Atlas/Maps/Database MOC.md"
     },
     {
-      "basename": "Conceptual Data Models",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md"
-    },
-    {
-      "basename": "Database Management System (DBMS)",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
-    },
-    {
-      "basename": "2+ Kinds of databases",
-      "path": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md"
-    },
-    {
-      "basename": "Database",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Database.md"
-    },
-    {
-      "basename": "Logical Design (Mapping)",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md"
+      "basename": "Structured Query Language (SQL)",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md"
     },
     {
       "basename": "Asp DotNet Core Web API",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
     },
     {
-      "basename": "Structured Query Language (SQL)",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md"
-    },
-    {
       "basename": "DotNet - RoadMap",
       "path": "+/DotNet - RoadMap.md"
+    },
+    {
+      "basename": "DB Life Cycle",
+      "path": "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md"
+    },
+    {
+      "basename": "Database",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Database.md"
+    },
+    {
+      "basename": "Database Management System (DBMS)",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
+    },
+    {
+      "basename": "Conceptual Data Models",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md"
+    },
+    {
+      "basename": "2+ Kinds of databases",
+      "path": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md"
+    },
+    {
+      "basename": "Logical Design (Mapping)",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md"
     },
     {
       "basename": "SQL Server MOC",
@@ -195,10 +199,6 @@
     {
       "basename": "SOAP API",
       "path": "+/SOAP API.md"
-    },
-    {
-      "basename": "REST API",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/REST API.md"
     }
   ],
   "omittedPaths": [],
