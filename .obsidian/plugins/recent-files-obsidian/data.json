@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "+/Untitled.md"
+    },
+    {
       "basename": "Database MOC",
       "path": "Atlas/Maps/Database MOC.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Asp DotNet Core",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md"
-    },
-    {
-      "basename": "SOAP API",
-      "path": "+/SOAP API.md"
     }
   ],
   "omittedPaths": [],
