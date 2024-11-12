@@ -176,9 +176,33 @@
               "icon": "lucide-file",
               "title": "Asp DotNet Core Web API"
             }
+          },
+          {
+            "id": "07fa579875045a46",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/DotNet - RoadMap.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DotNet - RoadMap"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -289,10 +313,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Logical Design (Mapping).md"
+                "file": "+/DotNet - RoadMap.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Logical Design (Mapping)"
+              "title": "Outline of DotNet - RoadMap"
             }
           },
           {
@@ -427,7 +451,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Logical Design (Mapping).md",
+                "file": "+/DotNet - RoadMap.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -455,7 +479,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Logical Design (Mapping)"
+              "title": "Graph of DotNet - RoadMap"
             }
           }
         ]
@@ -480,7 +504,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Logical Design (Mapping).md",
+                "file": "+/DotNet - RoadMap.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -490,7 +514,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Logical Design (Mapping)"
+              "title": "Backlinks for DotNet - RoadMap"
             }
           },
           {
@@ -565,13 +589,14 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5b6c4b3ca94edfae",
+  "active": "07fa579875045a46",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md",
+    "+/DotNet - RoadMap.md",
     "+/Logical Design (Mapping).md",
+    "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md",
     "Atlas/Maps/Database MOC.md",
     "+/SQL Server MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md",
@@ -606,7 +631,6 @@
     "Atlas/Notes/Ideas/Programming/Map your mind/Algorithm.md",
     "Atlas/Maps/Data Structure and Algorithms MOC.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/Flowcharts.md",
-    "Atlas/Notes/Ideas/Programming/Map your mind/White boarding.md",
     "Atlas/Notes/Ideas/Programming/Map your mind",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
     "Atlas/Utilities/Images/3.jpeg.~tmp",
