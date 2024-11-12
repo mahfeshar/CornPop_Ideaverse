@@ -20,6 +20,7 @@ Databases are everywhere:
 - [[Database Management System (DBMS)]]
 	- [[Conceptual Data Models]] => Focus on Relational Model
 - [[Structured Query Language (SQL)]]
+	- 
 ---
 - [[DB Life Cycle]]
 	1. Requirements Collection

@@ -79,17 +79,23 @@
             "id": "5b6c4b3ca94edfae",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Structured Query Language (SQL)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Structured Query Language (SQL)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":63,\"ch\":146},\"to\":{\"line\":63,\"ch\":146}},\"scroll\":6}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "SQL Server MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/SQL Server MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SQL Server MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":10},\"to\":{\"line\":3,\"ch\":10}},\"scroll\":0}"
+                },
+                {
+                  "title": "Database MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":10},\"to\":{\"line\":35,\"ch\":10}},\"scroll\":15.761904761904763}"
                 },
                 {
                   "title": "Logical Design (Mapping)",
@@ -108,13 +114,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/Database MOC.md",
+                "file": "+/Data Types.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database MOC"
+              "title": "Data Types"
             }
           },
           {
@@ -196,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -307,10 +313,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Untitled.md"
+                "file": "+/Data Types.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Data Types"
             }
           },
           {
@@ -445,7 +451,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Untitled.md",
+                "file": "+/Data Types.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -473,7 +479,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Untitled"
+              "title": "Graph of Data Types"
             }
           }
         ]
@@ -498,7 +504,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Untitled.md",
+                "file": "+/Data Types.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -508,7 +514,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Data Types"
             }
           },
           {
@@ -583,16 +589,18 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9c596ea5d6d11bbd",
+  "active": "5b6c4b3ca94edfae",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "+/Untitled.md",
+    "+/SQL Server MOC.md",
+    "+/Data Types.md",
     "Atlas/Maps/Database MOC.md",
+    "+/DotNet - RoadMap.md",
+    "+/Untitled.md",
     "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
-    "+/DotNet - RoadMap.md",
     "Atlas/Notes/Ideas/Programming/Database/DB Life Cycle.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
@@ -603,7 +611,6 @@
     "Atlas/Utilities/Images/Pasted image 20241112185022.png",
     "Atlas/Utilities/Images/Pasted image 20241112184841.png",
     "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
-    "+/SQL Server MOC.md",
     "+/University App.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md",
@@ -625,7 +632,6 @@
     "Atlas/Notes/Ideas/Programming/Database/CRUD.md",
     "Atlas/Maps/Map your mind.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/The Feynman Learning Technique.md",
-    "Atlas/Notes/Ideas/Programming/Map your mind/Pseudocode.md",
     "Atlas/Notes/Ideas/Programming/Map your mind",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
     "Atlas/Utilities/Images/3.jpeg.~tmp",

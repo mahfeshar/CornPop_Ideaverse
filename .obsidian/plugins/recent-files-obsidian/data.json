@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "+/Untitled.md"
+      "basename": "Data Types",
+      "path": "+/Data Types.md"
+    },
+    {
+      "basename": "SQL Server MOC",
+      "path": "+/SQL Server MOC.md"
     },
     {
       "basename": "Database MOC",
       "path": "Atlas/Maps/Database MOC.md"
+    },
+    {
+      "basename": "DotNet - RoadMap",
+      "path": "+/DotNet - RoadMap.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "+/Untitled.md"
     },
     {
       "basename": "Structured Query Language (SQL)",
@@ -15,10 +27,6 @@
     {
       "basename": "Asp DotNet Core Web API",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
-    },
-    {
-      "basename": "DotNet - RoadMap",
-      "path": "+/DotNet - RoadMap.md"
     },
     {
       "basename": "DB Life Cycle",
@@ -43,10 +51,6 @@
     {
       "basename": "Logical Design (Mapping)",
       "path": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md"
-    },
-    {
-      "basename": "SQL Server MOC",
-      "path": "+/SQL Server MOC.md"
     },
     {
       "basename": "University App",
@@ -195,10 +199,6 @@
     {
       "basename": "DotNet MOC",
       "path": "Atlas/Maps/DotNet MOC.md"
-    },
-    {
-      "basename": "Asp DotNet Core",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md"
     }
   ],
   "omittedPaths": [],
