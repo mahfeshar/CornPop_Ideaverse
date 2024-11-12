@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Data Types",
-      "path": "+/Data Types.md"
+      "basename": "Constraints",
+      "path": "+/Constraints.md"
     },
     {
       "basename": "SQL Server MOC",
       "path": "+/SQL Server MOC.md"
+    },
+    {
+      "basename": "Data Types",
+      "path": "+/Data Types.md"
     },
     {
       "basename": "Database MOC",
@@ -195,10 +199,6 @@
     {
       "basename": "Back-end MOC",
       "path": "Atlas/Maps/Back-end MOC.md"
-    },
-    {
-      "basename": "DotNet MOC",
-      "path": "Atlas/Maps/DotNet MOC.md"
     }
   ],
   "omittedPaths": [],

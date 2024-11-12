@@ -2,6 +2,7 @@ SQL Server is a relational database management system (RDBMS) [[Database Managem
 
 ## TSQl
 - [[Data Types]]
+- [[Constraints]]
 - [[Intro to SQL Server]]
 - [[Notes about SQL Server]]
 - [[Comment TSQL]]

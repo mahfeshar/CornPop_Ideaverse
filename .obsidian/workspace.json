@@ -89,7 +89,7 @@
                   "title": "SQL Server MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/SQL Server MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SQL Server MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":10},\"to\":{\"line\":3,\"ch\":10}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}},\"scroll\":0}"
                 },
                 {
                   "title": "Database MOC",
@@ -114,13 +114,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Data Types.md",
+                "file": "+/Constraints.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Types"
+              "title": "Constraints"
             }
           },
           {
@@ -313,10 +313,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Data Types.md"
+                "file": "+/Constraints.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Types"
+              "title": "Outline of Constraints"
             }
           },
           {
@@ -451,7 +451,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Data Types.md",
+                "file": "+/Constraints.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -479,7 +479,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Data Types"
+              "title": "Graph of Constraints"
             }
           }
         ]
@@ -504,7 +504,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Data Types.md",
+                "file": "+/Constraints.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -514,7 +514,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Data Types"
+              "title": "Backlinks for Constraints"
             }
           },
           {
@@ -595,6 +595,7 @@
   },
   "lastOpenFiles": [
     "+/SQL Server MOC.md",
+    "+/Constraints.md",
     "+/Data Types.md",
     "Atlas/Maps/Database MOC.md",
     "+/DotNet - RoadMap.md",
@@ -631,7 +632,6 @@
     "+/الطريقة الخمسينية لحفظ القرآن.md",
     "Atlas/Notes/Ideas/Programming/Database/CRUD.md",
     "Atlas/Maps/Map your mind.md",
-    "Atlas/Notes/Ideas/Programming/Map your mind/The Feynman Learning Technique.md",
     "Atlas/Notes/Ideas/Programming/Map your mind",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
     "Atlas/Utilities/Images/3.jpeg.~tmp",
