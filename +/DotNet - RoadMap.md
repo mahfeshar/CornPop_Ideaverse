@@ -1,11 +1,12 @@
 ## Database
 ### Watch
+- After Starting with SQL: [Databases - Manara](https://app.manara.tech/learning/15/)
 - [Database - Abdelrahman Ragab](https://www.youtube.com/playlist?list=PLMv3uscaWGSh5Cgpw4sootMAJ3OK-6Ysh)
 - [ITI Database (SQL Server)](https://www.youtube.com/playlist?list=PLSGEGD0dbMKrvd5ppnyFLm7q3xEH97T-t)
 - [MS SQL Server For Beginners - Dosoky](https://www.youtube.com/playlist?list=PL1DUmTEdeA6J6oDLTveTt4Z7E5qEfFluE)
 - [Databases (MS. SQL Server) - Metigator](https://www.youtube.com/playlist?list=PL4n1Qos4Tb6RP_OovpgjoHLkCVaYFy-aj)
 - [SQL Arabic - catch Error](https://www.youtube.com/playlist?list=PLAowHBw9BCw5b56-SfY7tgndHbGcQycp2)
-### Solve
+### Practice
 - [SQL labs](https://drive.google.com/drive/u/0/folders/1pt_I5AoF85jDwd9j8MZwrO-sNp_JP1n1?fbclid=IwZXh0bgNhZW0CMTEAAR0iT0KETBkBlMakXe2Uu_OAfo8xDfE0gC8C_xXc8wC9P3aHrKb7jjGSOwQ_aem_aY3q9dDyqNUw1qz2tnv2Kw)
 - [SQL Labs solutions](https://github.com/ayahkenawy/ITI-Tasks/tree/main/SQL%20Labs?fbclid=IwY2xjawEdmj9leHRuA2FlbQIxMAABHc92RC53IXbkxSAVi8e4RZeI8uGFLmBWz31o4XVrC7E2q3B1e7GfbzLF2A_aem_66XaK34oJfrl8XXixvYdBw)
 ---
@@ -19,7 +20,17 @@
 ## Programming Language (C#)
 - [C# Fundamentals - المهدي](https://www.youtube.com/playlist?list=PLsV97AQt78NT0H8J71qe7edwRpAirfqOI)
 - [ITI - C#](https://drive.google.com/drive/folders/1EEY9r2-uoWocQBX4HGm2CDyMBOTMKUaI) - [ITI - C#](https://mega.nz/folder/vVBUkKTL#Eb7lSZCiEr2cnpElH76A9Q/folder/aUREGLLC)
-- 
+- [Codographia](https://www.youtube.com/playlist?list=PLX1bW_GeBRhCU9l7examhVrARmXHHRrLR)
+- [Metigator](https://www.youtube.com/playlist?list=PL4n1Qos4Tb6SWPbJNpiznp-Ok4A8J_23l)
+- [Code With Saad](https://www.youtube.com/playlist?list=PLZyQU-WOzZF1XNjL5mIqSv0HFnAlfQ8KQ)
+- [Pice Of Cake Dev](https://www.youtube.com/playlist?list=PLfHpC6JZ316dbrFn-jAwMBZwMqkcAabWB)
+### Practice
+- [Last 3 videos](https://www.youtube.com/playlist?list=PLfHpC6JZ316dbrFn-jAwMBZwMqkcAabWB)
+- See labs here: [ITI - C#](https://drive.google.com/drive/folders/1EEY9r2-uoWocQBX4HGm2CDyMBOTMKUaI)
+- [LeetCode 75 - Study Plan - LeetCode](https://leetcode.com/studyplan/leetcode-75/)
+- [Top Interview 150 - Study Plan - LeetCode](https://leetcode.com/studyplan/top-interview-150/)
+## Object-Oriented Programming (OOP)
+
 ## ITI Material and another Road maps
 ### ITI
 - [.NET-Back](https://mega.nz/folder/vVBUkKTL#Eb7lSZCiEr2cnpElH76A9Q)
