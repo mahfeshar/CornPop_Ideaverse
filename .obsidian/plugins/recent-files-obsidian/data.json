@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Intro to Distributed systems",
-      "path": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md"
+      "basename": "Flynn’s Taxonomy",
+      "path": "+/Flynn’s Taxonomy.md"
     },
     {
       "basename": "Distributed Systems MOC",
       "path": "Atlas/Maps/Distributed Systems MOC.md"
+    },
+    {
+      "basename": "Intro to Distributed systems",
+      "path": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md"
     },
     {
       "basename": "Programming MOC",
@@ -195,10 +199,6 @@
     {
       "basename": "DBAPI Action Filters",
       "path": "+/DBAPI Action Filters.md"
-    },
-    {
-      "basename": "Python MOC",
-      "path": "Atlas/Maps/Python MOC.md"
     }
   ],
   "omittedPaths": [],

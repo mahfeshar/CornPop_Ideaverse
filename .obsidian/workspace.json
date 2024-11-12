@@ -239,7 +239,7 @@
                   "title": "Distributed Systems MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Distributed Systems MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed Systems MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":30},\"to\":{\"line\":8,\"ch\":30}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":17},\"to\":{\"line\":9,\"ch\":17}},\"scroll\":8}"
                 },
                 {
                   "title": "Programming MOC",
@@ -258,13 +258,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
+                "file": "+/Flynn’s Taxonomy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to Distributed systems"
+              "title": "Flynn’s Taxonomy"
             }
           }
         ],
@@ -379,10 +379,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md"
+                "file": "+/Flynn’s Taxonomy.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro to Distributed systems"
+              "title": "Outline of Flynn’s Taxonomy"
             }
           },
           {
@@ -517,7 +517,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
+                "file": "+/Flynn’s Taxonomy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -545,7 +545,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Intro to Distributed systems"
+              "title": "Graph of Flynn’s Taxonomy"
             }
           }
         ]
@@ -570,7 +570,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
+                "file": "+/Flynn’s Taxonomy.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -580,7 +580,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Intro to Distributed systems"
+              "title": "Backlinks for Flynn’s Taxonomy"
             }
           },
           {
@@ -660,8 +660,17 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241112071210.png",
+    "Atlas/Utilities/Images/Pasted image 20241112070735.png",
+    "Atlas/Utilities/Images/Pasted image 20241112070522.png",
     "Atlas/Maps/Distributed Systems MOC.md",
+    "+/Flynn’s Taxonomy.md",
     "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
+    "Atlas/Utilities/Images/Pasted image 20241112065503.png",
+    "Atlas/Utilities/Images/Pasted image 20241112065436.png",
+    "Atlas/Utilities/Images/Pasted image 20241112065336.png",
+    "Atlas/Utilities/Images/Pasted image 20241112065124.png",
+    "Atlas/Utilities/Images/Pasted image 20241112065038.png",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/More",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
@@ -678,7 +687,6 @@
     "Atlas/Utilities/Images/Pasted image 20241111091840.png",
     "Atlas/Utilities/Images/Pasted image 20241111085743.png",
     "Atlas/Utilities/Images/Pasted image 20241111085700.png",
-    "Atlas/Utilities/Images/Pasted image 20241111083543.png",
     "Atlas/Maps/Map your mind.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/The Feynman Learning Technique.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/Pseudocode.md",
@@ -688,16 +696,9 @@
     "Atlas/Notes/Ideas/Programming/Map your mind/White boarding.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/How to Think Like a Programmer.md",
     "Atlas/Notes/Ideas/Programming/Map your mind",
-    "Atlas/Utilities/Images/Pasted image 20241111074427.png",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
-    "Atlas/Utilities/Images/Pasted image 20241111052946.png",
     "+/University App.md",
-    "Atlas/Utilities/Images/Pasted image 20241111034824.png",
-    "Home.md",
-    "Atlas/Utilities/Images/Pasted image 20241109143026.png",
-    "Atlas/Utilities/Images/Pasted image 20241109135745.png",
-    "Atlas/Utilities/Images/Pasted image 20241108102703.png",
     "Atlas/Utilities/Images/3.jpeg.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241108070613.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241029204751.png.~tmp",

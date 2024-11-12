@@ -7,3 +7,5 @@ tags:
   - map
 ---
 - [[Intro to Distributed systems]]
+- [[Flynn’s Taxonomy]]
+- 
