@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Asp DotNet Core Web API",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+      "basename": "Logical Design (Mapping)",
+      "path": "+/Logical Design (Mapping).md"
+    },
+    {
+      "basename": "Conceptual Data Models",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md"
     },
     {
       "basename": "Database MOC",
       "path": "Atlas/Maps/Database MOC.md"
+    },
+    {
+      "basename": "SQL Server MOC",
+      "path": "+/SQL Server MOC.md"
+    },
+    {
+      "basename": "Structured Query Language (SQL)",
+      "path": "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md"
+    },
+    {
+      "basename": "Asp DotNet Core Web API",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
     },
     {
       "basename": "University App",
@@ -53,16 +69,8 @@
       "path": "Atlas/Notes/Ideas/Programming/Database/CRUD.md"
     },
     {
-      "basename": "Conceptual Data Models",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md"
-    },
-    {
       "basename": "Database Management System (DBMS)",
       "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
-    },
-    {
-      "basename": "Logical Design (Mapping)",
-      "path": "+/Logical Design (Mapping).md"
     },
     {
       "basename": "Map your mind",
@@ -191,14 +199,6 @@
     {
       "basename": "API",
       "path": "Atlas/Notes/Ideas/Programming/Topics/API.md"
-    },
-    {
-      "basename": "Cs Equality",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Equality.md"
-    },
-    {
-      "basename": "Cs Value and Reference Types",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Value and Reference Types.md"
     }
   ],
   "omittedPaths": [],

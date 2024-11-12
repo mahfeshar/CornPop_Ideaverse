@@ -11,6 +11,7 @@ created: 2024-11-07
 
 ![[Pasted image 20241107220747.png]]
 ## Relational Data Model
+![[Conceptual Data Models#3. Relational Model (**الأشهر**)]]
 ![[Pasted image 20241107221041.png]]
 ![[Pasted image 20241107221055.png]]
 ![[Pasted image 20241107221108.png]]

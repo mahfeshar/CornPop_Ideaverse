@@ -67,11 +67,14 @@ Below we have designed the network model for a Finance Department:
 |4|SURESH|DELHI||18|
 #### مصطلحات هامة
 ![[Pasted image 20241111091840.png]]
+- الـ **Table** (entity): مجموعة من الـ Records
 - الـ**Attribute** (Columns - Field): الخاصيات التي تحدد الكيان، مثل ROLL_NO وNAME.
-- الـ**Relation Schema**: المخطط الذي يوضح هيكل الجدول وخصائصه، مثل: 
-  STUDENT (ROLL_NO, NAME, ADDRESS, PHONE, AGE)
 - الـ**Tuple** (Record - Row): كل صف في الجدول يمثل Record.
 - الـ **Cell**: تقاطع الـRow مع الـColumns
+- الـ **Database**: مجموعة من الـ Tables
+---
+- الـ**Relation Schema**: المخطط الذي يوضح هيكل الجدول وخصائصه، مثل: 
+  STUDENT (ROLL_NO, NAME, ADDRESS, PHONE, AGE)
 - الـ**Relation Instance**: مجموعة من السجلات في جدول معين في وقت معين.
 - الـ**Degree**: عدد Attributes في الجدول.
 - الـ**Cardinality**: عدد Records في الجدول.
