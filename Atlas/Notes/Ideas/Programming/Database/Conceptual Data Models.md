@@ -10,9 +10,9 @@ created: 2024-11-11
 يعني بيهمني همثل الداتا بيز ازاي، أو اللوجيك اللي في دماغي: هي هتتمثل إزاي؟
 من حيث الـ Concept أو Logic
 ### 1. Hierarchical Model
-This is one of the oldest models in a data model which was developed by IBM, in the 1950s.
-بنبصلها بحاجة شبيهه بالـ Tree، فبيبقا ليه root وبيحصلها تفرعات
-
+- This is one of the oldest models in a data model which was developed by IBM, in the 1950s.
+- بنبصلها بحاجة شبيهه بالـ Tree، فبيبقا ليه root وبيحصلها تفرعات
+- Navigational databases such as the hierarchical database (which relied on a tree-like model and allowed only a one-to-many relationship)
 **Example 1:** Consider the below Student database system hierarchical model.
 ![[Pasted image 20241111083543.png]]
 #### عيوبه:
@@ -80,68 +80,7 @@ Below we have designed the network model for a Finance Department:
 - الـ**Cardinality**: عدد Records في الجدول.
 - الـ **Primary Key**: كل Record لازم يبقا عنده معلومة مميزة عن باقي الـ Records 
   (مينفعش يتكرر، شرط في الـ Relational DB)
-### More
-#### القيم NULL
-
-هي القيم غير المعروفة أو غير المتوفرة وتمثل بمسافة فارغة. مثال: رقم هاتف الطالب الذي له ROLL_NO 4 هو NULL.
-
-#### مفاتيح العلاقات
-
-المفاتيح هي خصائص تستخدم لتحديد الصفوف بشكل فريد:
-
-- **Primary Key**: المفتاح الرئيسي لتحديد الصفوف.
-- **Candidate Key**: مفتاح مرشح ليكون المفتاح الرئيسي.
-- **Super Key**: أي مجموعة خصائص تحدد الصف.
-- **Foreign Key**: مفتاح أجنبي يربط جدول بآخر.
-- **Alternate Key**: مفتاح بديل للمفتاح الرئيسي.
-- **Composite Key**: مفتاح مركب من أكثر من خاصية.
-
-#### القيود في النموذج العلائقي
-
-قيود للحفاظ على تكامل البيانات:
-
-1. **Domain Constraints**: تقييد على مستوى الحقول لضمان صحة البيانات المدخلة، مثل: AGE > 0.
-2. **Key Integrity**: كل جدول يجب أن يحتوي على مفتاح فريد للصفوف.
-3. **Referential Integrity**: تقييد يربط القيم في جدولين للحفاظ على التكامل بينهما.
-
-#### المشاكل (Anomalies) في النموذج العلائقي
-
-أنواع المشاكل تشمل:
-
-1. **Insertion Anomaly**: عدم القدرة على إدخال صف إذا كانت القيمة غير موجودة في الجدول المرجعي.
-2. **Deletion/Update Anomaly**: عدم القدرة على حذف أو تحديث صف إذا كان مرتبطًا بجدول آخر.
-
-#### حلول مشاكل الحذف والتحديث
-
-- **On Delete Cascade**: حذف الصفوف المرتبطة تلقائيًا عند حذف المرجع.
-- **On Update Cascade**: تحديث الصفوف المرتبطة تلقائيًا عند تحديث المرجع.
-
-#### مفاتيح مهمة
-
-- **Super Key**: أي مجموعة من الخصائص تميز الصف.
-- **Candidate Key**: المفتاح المناسب من Super Key ليكون المفتاح الرئيسي.
-- **Composite Key**: مفتاح مركب من خصائص متعددة.
-
-#### قواعد Codd في النموذج العلائقي
-
-اقترح Edgar F Codd قواعد يجب اتباعها لتحقيق نموذج مثالي.
-
-#### مميزات النموذج العلائقي
-
-1. **نموذج بسيط** وسهل الاستخدام.
-2. **مرونة عالية** في التعامل مع البيانات.
-3. **أمان** أعلى للبيانات.
-4. **دقة** في البيانات وتكاملها.
-5. **سهولة العمليات** على البيانات.
-
-#### عيوب النموذج العلائقي
-
-1. غير ملائم لقواعد البيانات الكبيرة.
-2. صعوبة في إيجاد العلاقات المعقدة بين الجداول.
-3. **وقت استجابة عالي** للاستعلامات المعقدة.
-
-#### خصائص النموذج العلائقي
-
-1. **تمثيل البيانات في شكل جداول** (صفوف وأعمدة).
-2. **دعم العمليات**: تعريف البيانات، معالجة البيانات، وإدارة المعاملات.
-3. **كل عمود يحمل اسم مميز** ويمثل خاصية معينة.
+### Evolution of the database
+Databases have evolved dramatically since their inception in the early 1960s. Navigational databases such as the **hierarchical database** (which relied on a tree-like model and allowed only a one-to-many relationship), and the **network database** (a more flexible model that allowed multiple relationships), were the original systems used to store and manipulate data. 
+Although simple, these early systems were inflexible. In the 1980s, **relational databases** became popular, followed by **object-oriented databases** in the 1990s. 
+More recently, [[2+ Kinds of databases|NoSQL]]databases came about as a response to the growth of the internet and the need for faster speed and processing of unstructured data. Today, [cloud databases](https://www.oracle.com/ca-en/database/what-is-a-cloud-database/) and [self-driving databases](https://www.oracle.com/ca-en/database/what-is-database/#autonomous) are breaking new ground when it comes to how data is collected, stored, managed, and utilized.

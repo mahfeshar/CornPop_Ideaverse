@@ -11,6 +11,7 @@ created: 2024-05-20
 - __T-SQL__ is an extension to SQL used by Microsoft SQL Server.
 ## What is SQL?
 - We talked before about [[Database]]
+- SQL is a programming language used by nearly all [[Conceptual Data Models#3. Relational Model (**الأشهر**)|Relational Database]] to query, manipulate, and define data, and to provide access control. 
 
 SQL is composed of three parts:
 1. Data definition language (DDL) includes statements for defining the database and its objects such as tables, [views](https://www.mysqltutorial.org/mysql-views/), [triggers](https://www.mysqltutorial.org/mysql-triggers/), [stored procedures](https://www.mysqltutorial.org/mysql-stored-procedure/), etc.
