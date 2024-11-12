@@ -43,4 +43,5 @@
 ### Roadmaps
 - [Dot Net Back End Developer RoadMap](https://foregoing-sunshine-22c.notion.site/Dot-Net-Back-End-Developer-RoadMap-108abbeedc9580888d75e84ba465e9fd)
 - [.NET-Core-roadmap](https://github.com/M-Fayyad/.NET-Core-roadmap?tab=readme-ov-file#solid-principles)
+- [.NET-Back](https://mega.nz/folder/vVBUkKTL#Eb7lSZCiEr2cnpElH76A9Q)
 
