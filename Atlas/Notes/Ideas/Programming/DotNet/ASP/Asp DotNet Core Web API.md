@@ -19,7 +19,6 @@ tags:
 - [[Generic Repository]]
 ---
 - [[Identity - Create Database]]
-- 
 ---
 - [[Stored Procedure in .NET]]
 - [[DataTable]]
