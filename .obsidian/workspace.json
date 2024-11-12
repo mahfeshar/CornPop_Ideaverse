@@ -89,7 +89,7 @@
                   "title": "Database MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Database MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":17},\"to\":{\"line\":19,\"ch\":17}},\"scroll\":8.996966860138551}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":20},\"to\":{\"line\":30,\"ch\":20}},\"scroll\":14.912202380952381}"
                 },
                 {
                   "title": "Conceptual Data Models",
@@ -132,13 +132,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database Management System (DBMS)"
+              "title": "Logical Design (Mapping)"
             }
           },
           {
@@ -306,10 +306,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
+                "file": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Database Management System (DBMS)"
+              "title": "Outline of Logical Design (Mapping)"
             }
           },
           {
@@ -444,7 +444,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -472,7 +472,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Database Management System (DBMS)"
+              "title": "Graph of Logical Design (Mapping)"
             }
           }
         ]
@@ -497,7 +497,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
+                "file": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -507,7 +507,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Database Management System (DBMS)"
+              "title": "Backlinks for Logical Design (Mapping)"
             }
           },
           {
@@ -589,6 +589,7 @@
   "lastOpenFiles": [
     "Atlas/Maps/Database MOC.md",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
+    "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
     "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md",
     "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md",
     "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
@@ -618,7 +619,6 @@
     "+/الطريقة الخمسينية لحفظ القرآن.md",
     "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md",
     "Atlas/Notes/Ideas/Programming/Database/CRUD.md",
-    "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md",
     "Atlas/Maps/Map your mind.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/The Feynman Learning Technique.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/Pseudocode.md",

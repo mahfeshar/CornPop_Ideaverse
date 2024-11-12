@@ -14,12 +14,13 @@ created: 2024-05-21
 - Storing data in your application (in memory) has the obvious shortcoming that, whatever the technology you’re using, **your data dies when your server stops**. 
 - Some programming languages and/or frameworks take it even further by being **stateless**, which, in the case of an HTTP server, means your data dies at the end of an HTTP request. 
 - Whether the technology you’re using is stateless or stateful, you will need to persist your data somewhere. That’s what databases are for.
-## Data vs Information
+## Before Begin
+### Data vs Information
 Data: شوية البيانات اللي انا **بجمعها**
 Information: لما بعمل على الداتا بروسيسينج بتتحول لمعلومة
 
 مثال: تاريخ الميلاد يعتبر **Data** هعمل عليه Process فهيتحول لعمر فدي **Information**
-## File as storage (File Base System)
+### File as storage (File Base System)
 - Try to store the data in a text file .. simple and easy!
 - زمان مكنوش بيخزنوا ال Data في DB كانو بيخزنوها في Files
 - انك مثلا تحط الباسووردات بتاعك في txt أو انك تخزن أسماء المغنيين في فايل وفايل تاني أحط فيه أسماء الألبومات اللي عملها كل مغني
@@ -32,9 +33,9 @@ Information: لما بعمل على الداتا بروسيسينج بتتحول
     انك تحدد عدد بايتس لكل حاجة بتدخلها
 
 ![[Pasted image 20240520170051.png]]
-### مميزاتها
+#### مميزاتها
 - رخيص جدا
-### عيوبها
+#### عيوبها
 ![[Pasted image 20241111034824.png]]
 - الوصول للداتا صعب جدا (Read- Write - Update ..) ودا معناه ان ال Website هيبقا بطيء
 - البحث عن الداتا بيباخد وقت طويل لأنه بياخد الفايل من أوله لآخره وهكذا
@@ -87,7 +88,7 @@ Information: لما بعمل على الداتا بروسيسينج بتتحول
 
 
 
-## Database vs Spreadsheet
+### Database vs Spreadsheet
 Databases and spreadsheets (such as Microsoft Excel) are both convenient ways to store information. The primary differences between the two are:
 
 - How the data is stored and manipulated
@@ -105,7 +106,6 @@ Databases allow multiple users at the same time to quickly and securely access a
 - تقدر تقول انها شوية داتا (فايلات) مربوطة ببعض
 - اللي بيربط الداتا دي (الفايلات) هو نظام إدارة قواعد البيانات [[Database Management System (DBMS)]] ودي بتبقا زي Layer بين الـ Database and Program
   نقدر نقول انه مجرد **منظم** للعملية دي
- - A database is an organized collection of structured information, or data, typically stored electronically in a computer system. 
 - A database is usually controlled by a [[Database Management System (DBMS)]]. 
 - Together, the data and the DBMS, along with the applications that are associated with them, are referred to as a database system, often shortened to just database.
 - Data within the most common types of databases in operation today is typically modeled in rows and columns in a series of tables to make processing and data querying efficient. 
