@@ -105,12 +105,15 @@ created: 2024-05-21
 قواعد بيانات تعتمد على الذكاء الاصطناعي لتفعيل الصيانة والتحديثات والأمان تلقائيًا.
 ## Database is __acid__
 - **Atomicity:** المعاملات بتكون ذرية، لو المعاملة فشلت كأنها لم تحدث.
-- **Consistency:** الداتا لازم تتبع القواعد المحددة، وأنت اللي بتحدد القواعد دي.
+- **Consistency:** الداتا لازم تتبع القواعد المحددة، وأنت اللي بتحط القواعد دي.
 - **Isolation:** تقدر تنفذ عمليتين في نفس الوقت وكأنهم واحد وراء التاني.
 - **Durability:** الداتا مش بتضيع حتى لو السيرفر فصل.
+
+#### English
+- **A**tomicity: transactions are atomic, which means if a transaction fails, the result will be like it never happened.
 - **C**onsistency: you can define rules for your data, and expect that the data abides by the rules, or else the transaction fails.
 - **I**solation: run two operations at the same time, and you can expect that the result is as though they were ran one after the other. 
-  That’s not the case with the JSON file storage you built: if 2 insert operations are done at the same time, the later one will fetch an outdated collection of users because the earlier one is not finished yet, and therefore overwrite the file without the change that the earlier operation made, totally ignoring that it ever happened.
+  That’s not the case with the file storage you built: if 2 insert operations are done at the same time, the later one will fetch an outdated collection of users because the earlier one is not finished yet, and therefore overwrite the file without the change that the earlier operation made, totally ignoring that it ever happened.
 - **D**urability: unplug your server at any time, boot it back up, and it didn’t lose any data.
 
 ## __ACID__ is a cool acronym! [[CRUD]] is another cool one
