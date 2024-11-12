@@ -25,6 +25,8 @@ tags:
 - [[Domain]]
 - SDLC
 	- [[Application Development Lifecycle]]
+#### More
+- [[Distributed Systems MOC]]
 ## Fundamentals
 - [[Git - GitHub MOC]]
 - [[Programming Paradigms]]

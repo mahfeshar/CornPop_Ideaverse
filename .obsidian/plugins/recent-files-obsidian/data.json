@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Intro to Distributed systems",
+      "path": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md"
+    },
+    {
+      "basename": "Distributed Systems MOC",
+      "path": "Atlas/Maps/Distributed Systems MOC.md"
+    },
+    {
+      "basename": "Programming MOC",
+      "path": "Atlas/Maps/Programming MOC.md"
+    },
+    {
       "basename": "القرآن الكريم",
       "path": "Atlas/Maps/القرآن الكريم.md"
     },
@@ -137,10 +149,6 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md"
     },
     {
-      "basename": "Programming MOC",
-      "path": "Atlas/Maps/Programming MOC.md"
-    },
-    {
       "basename": "SW FE",
       "path": "Atlas/Notes/Ideas/Programming/Projects/SW FE.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Python MOC",
       "path": "Atlas/Maps/Python MOC.md"
-    },
-    {
-      "basename": "Py Format for print",
-      "path": "Atlas/Notes/Ideas/Programming/Python/Py Format for print.md"
-    },
-    {
-      "basename": "DBAPI Middlewares",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DBAPI Middlewares.md"
     }
   ],
   "omittedPaths": [],

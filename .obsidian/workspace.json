@@ -234,19 +234,37 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Distributed Systems MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Distributed Systems MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed Systems MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":30},\"to\":{\"line\":8,\"ch\":30}},\"scroll\":8}"
+                },
+                {
+                  "title": "Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Programming MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":15},\"to\":{\"line\":28,\"ch\":15}},\"scroll\":20.98826714801444}"
+                },
+                {
+                  "title": "Distributed Systems MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Distributed Systems MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed Systems\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":34},\"to\":{\"line\":8,\"ch\":34}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Distributed Systems.md",
+                "file": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distributed Systems"
+              "title": "Intro to Distributed systems"
             }
           }
         ],
@@ -361,10 +379,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Distributed Systems.md"
+                "file": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Distributed Systems"
+              "title": "Outline of Intro to Distributed systems"
             }
           },
           {
@@ -499,7 +517,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Distributed Systems.md",
+                "file": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -527,7 +545,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Distributed Systems"
+              "title": "Graph of Intro to Distributed systems"
             }
           }
         ]
@@ -552,7 +570,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Distributed Systems.md",
+                "file": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -562,7 +580,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Distributed Systems"
+              "title": "Backlinks for Intro to Distributed systems"
             }
           },
           {
@@ -613,7 +631,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -631,7 +650,9 @@
       "callout-manager:Insert Callout": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "cmdr:Toggle stacked tabs": false
+      "cmdr:Toggle stacked tabs": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "29a06d604bad2768",
@@ -639,8 +660,11 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Maps/Distributed Systems MOC.md",
+    "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
+    "Atlas/Maps/Programming MOC.md",
+    "Atlas/Notes/Ideas/Programming/More",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
-    "+/Distributed Systems.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md",
     "+/Making money.md",
     "Atlas/Maps/القرآن الكريم.md",
@@ -663,7 +687,6 @@
     "Atlas/Notes/Ideas/Programming/Map your mind/Flowcharts.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/White boarding.md",
     "Atlas/Notes/Ideas/Programming/Map your mind/How to Think Like a Programmer.md",
-    "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/Map your mind",
     "Atlas/Utilities/Images/Pasted image 20241111074427.png",
     "Atlas/Notes/Ideas/Programming/Database/Database.md",
@@ -672,8 +695,6 @@
     "+/University App.md",
     "Atlas/Utilities/Images/Pasted image 20241111034824.png",
     "Home.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Enums.md",
     "Atlas/Utilities/Images/Pasted image 20241109143026.png",
     "Atlas/Utilities/Images/Pasted image 20241109135745.png",
     "Atlas/Utilities/Images/Pasted image 20241108102703.png",
@@ -684,7 +705,6 @@
     "Atlas/Utilities/Images/Pasted image 20241029204413.png.~tmp",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore",
     "Atlas/Utilities/Images/Pasted image 20241023082733.png.~tmp",
-    "Atlas/Utilities/Images/Pasted image 20241021051718.png.~tmp",
     "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
     "Atlas/Notes/Ideas/Untitled.canvas",
     "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",
