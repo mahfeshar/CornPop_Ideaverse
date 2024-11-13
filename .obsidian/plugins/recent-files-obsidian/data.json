@@ -5,6 +5,14 @@
       "path": "+/Distributed System Goals.md"
     },
     {
+      "basename": "Self-Assessment",
+      "path": "+/Self-Assessment.md"
+    },
+    {
+      "basename": "Personal branding & LinkedIn",
+      "path": "+/Personal branding & LinkedIn.md"
+    },
+    {
       "basename": "Constraints",
       "path": "+/Constraints.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "DNAPI Introduction",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md"
-    },
-    {
-      "basename": "DNAPI Basic CRUD Operations",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Basic CRUD Operations.md"
-    },
-    {
-      "basename": "SW FE",
-      "path": "Atlas/Notes/Ideas/Programming/Projects/SW FE.md"
     }
   ],
   "omittedPaths": [],
