@@ -97,9 +97,13 @@ created: 2024-11-12
 
     - الـ**Loosely Coupled Systems (أنظمة مرتبطة بضعف)**: معالجات بتتواصل عبر شبكة *interconnection network* وتستخدم ذاكرة موزعة، زي أنظمة **multicomputer**. أمثلة عليها: **grid systems، clusters**، واللي غالبًا تُعتبر نظم موزعة.
     - Used as **distributed systems** (working on many unrelated problems)
-    ![[Pasted image 20241112082558.png]]
-    ![[Pasted image 20241112081633.png]]
     - **Multicomputer** is sometimes referred to as distributed systems and sometimes not.
 
 - طرق تركيبهم مع بعض
 	![[Pasted image 20241112081537.png]]
+	![[Pasted image 20241112081633.png]]
+	![[Pasted image 20241112082558.png]]
+	![[Pasted image 20241113185058.png]]
+	![[Pasted image 20241113185113.png]]
+	![[Pasted image 20241113185203.png]]
+	![[Pasted image 20241113185228.png]]

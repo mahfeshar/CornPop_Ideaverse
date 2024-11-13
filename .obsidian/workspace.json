@@ -247,7 +247,7 @@
                   "title": "Distributed Systems MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Distributed Systems MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed Systems MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":6},\"to\":{\"line\":10,\"ch\":6}},\"scroll\":8}"
                 },
                 {
                   "title": "Flynn’s Taxonomy",
@@ -266,13 +266,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/More/Flynn’s Taxonomy.md",
+                "file": "+/Distributed System Goals.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flynn’s Taxonomy"
+              "title": "Distributed System Goals"
             }
           }
         ],
@@ -387,10 +387,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/More/Flynn’s Taxonomy.md"
+                "file": "+/Distributed System Goals.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Flynn’s Taxonomy"
+              "title": "Outline of Distributed System Goals"
             }
           },
           {
@@ -668,9 +668,15 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Utilities/Images/Pasted image 20241113184952.png",
     "Atlas/Maps/Distributed Systems MOC.md",
+    "+/Distributed System Goals.md",
     "Atlas/Notes/Ideas/Programming/More/Flynn’s Taxonomy.md",
+    "Atlas/Utilities/Images/Pasted image 20241113185228.png",
+    "Atlas/Utilities/Images/Pasted image 20241113185203.png",
+    "Atlas/Utilities/Images/Pasted image 20241113185113.png",
+    "Atlas/Utilities/Images/Pasted image 20241113185058.png",
+    "Atlas/Utilities/Images/Pasted image 20241113185052.png",
+    "Atlas/Utilities/Images/Pasted image 20241113184952.png",
     "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
     "+/DotNet - RoadMap.md",
     "+/University App.md",
@@ -695,12 +701,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md",
     "Atlas/Utilities/Images/Pasted image 20241112082558.png",
-    "Atlas/Utilities/Images/Pasted image 20241112081633.png",
-    "Atlas/Utilities/Images/Pasted image 20241112081537.png",
-    "Atlas/Utilities/Images/Pasted image 20241112080045.png",
-    "Atlas/Utilities/Images/Pasted image 20241112080027.png",
-    "Atlas/Utilities/Images/Pasted image 20241112075746.png",
-    "Atlas/Utilities/Images/Pasted image 20241112075158.png",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/More",
     "+/Making money.md",
