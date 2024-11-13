@@ -202,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -313,10 +313,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Constraints.md"
+                "file": "+/DotNet - RoadMap.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Constraints"
+              "title": "Outline of DotNet - RoadMap"
             }
           },
           {
@@ -589,7 +589,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5b6c4b3ca94edfae",
+  "active": "07fa579875045a46",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
