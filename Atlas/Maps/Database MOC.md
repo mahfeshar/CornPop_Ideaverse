@@ -20,7 +20,8 @@ Databases are everywhere:
 - [[Database Management System (DBMS)]]
 	- [[Conceptual Data Models]] => Focus on Relational Model
 - [[Structured Query Language (SQL)]]
-	- 
+	- [[Data Types]]
+	- [[Constraints]]
 ---
 - [[DB Life Cycle]]
 	1. Requirements Collection
@@ -30,6 +31,8 @@ Databases are everywhere:
 - Database Design
 	- [[Conceptual Design (ERD)]]
 	- [[Logical Design (Mapping)]]
+	- [[Normalization]]
+	- 
 ---
 ## [[Structured Query Language (SQL)|SQL]]
 - [[MySQL MOC]]

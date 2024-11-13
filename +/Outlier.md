@@ -882,6 +882,171 @@ Yes, you can build a basic ngrok-like tool in Python without paying for any serv
 
 This setup won’t have all of ngrok's advanced features (like custom subdomains or dedicated HTTPS certificates), but it can provide basic tunneling functionality without incurring costs.
 
+# Test
+## 1
+what is chrome.declarativeNetRequest
+
+---
+`chrome.declarativeNetRequest` is an API in Chrome that allows extensions to modify or block network requests. This API provides a way to set up declarative rules that Chrome applies automatically to network requests, so you don’t have to rely on manually intercepting each request in real-time. It is part of Chrome's efforts to make web requests by extensions more efficient, especially under the Manifest V3 model, where traditional blocking techniques are restricted.
+
+### Key Features of `chrome.declarativeNetRequest`
+
+1. **Rule-Based Filtering:** 
+   - Extensions can specify rules (such as blocking certain URLs, redirecting requests, or modifying headers) using JSON.
+   - Rules are processed by Chrome without the need for JavaScript in the background, which improves performance and security.
+
+2. **Improved Privacy and Security:**
+   - Chrome processes rules in a declarative way, meaning extensions don’t have ongoing access to the content of the network request.
+   - This approach aligns with Chrome's security updates in Manifest V3, limiting the power of extensions over network data.
+
+3. **Dynamic and Static Rules:**
+   - Extensions can add or modify rules dynamically after they’re initially set up.
+   - Developers can also define static rules in their extension’s configuration file (manifest.json).
+
+4. **Rule Actions:**
+   - **Blocking Requests:** Prevent requests from specific URLs or domains.
+   - **Redirecting Requests:** Redirect to a different URL.
+   - **Modifying Headers:** Modify request or response headers.
+   - **Upgrading Requests:** Upgrade HTTP requests to HTTPS.
+
+5. **Limitations and Considerations:**
+   - There are limits on the number of rules (e.g., a maximum of 30,000 rules).
+   - Extensions can only work with limited data compared to Manifest V2 due to privacy restrictions.
+
+### Example Use Case
+
+If you want to block ads or trackers from certain domains, you can use `chrome.declarativeNetRequest` to define rules in the extension's manifest that target these domains. Chrome will automatically apply these rules to filter out the unwanted requests.
+
+### Example Manifest Rule
+
+Here's a JSON snippet you might include in an extension's `manifest.json` to block a specific domain:
+
+```json
+{
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "block_rule",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
+```
+
+In `rules.json`:
+
+```json
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "example.com",
+      "resourceTypes": ["main_frame", "sub_frame"]
+    }
+  }
+]
+```
+
+This configuration will block any requests to `example.com`.
+
+## 2
+chrome.declarativeNetRequest.updateDynamicRule
+
+---
+`chrome.declarativeNetRequest.updateDynamicRules` is a function in the `chrome.declarativeNetRequest` API that allows Chrome extensions to add or remove dynamic network request rules at runtime. This is useful if an extension needs to adjust rules based on user preferences or dynamically fetched configurations after the extension has loaded.
+
+### Key Details of `updateDynamicRules`
+
+- **Dynamic Rules**: These rules can be updated while the extension is running, unlike static rules that are defined in the manifest file and cannot change without reloading the extension.
+- **Adding and Removing Rules**: You can specify rules to add or remove by providing arrays of rule objects. This allows for flexibility, enabling or disabling specific rules based on user actions or conditions.
+- **Limited by Quota**: Chrome enforces a limit on the number of dynamic rules that an extension can have at any time. For example, the maximum limit is often set at 5,000 rules for dynamic rules.
+
+### Function Syntax
+
+```javascript
+chrome.declarativeNetRequest.updateDynamicRules({
+  addRules: [{...}],        // Array of rule objects to add
+  removeRuleIds: [1, 2, 3]  // Array of rule IDs to remove
+}, function() {
+  if (chrome.runtime.lastError) {
+    console.error(chrome.runtime.lastError);
+  } else {
+    console.log("Rules updated successfully.");
+  }
+});
+```
+
+### Parameters
+
+1. **addRules** (Array of Rule Objects): Each rule object specifies a rule to be added.
+2. **removeRuleIds** (Array of Rule IDs): A list of the `id`s for rules you want to remove.
+
+### Rule Object Structure
+
+Each rule object has a structure similar to the following:
+
+```json
+{
+  "id": 1001,
+  "priority": 1,
+  "action": {
+    "type": "block"
+  },
+  "condition": {
+    "urlFilter": "example.com",
+    "resourceTypes": ["main_frame"]
+  }
+}
+```
+
+- **id**: A unique identifier for the rule.
+- **priority**: Determines the precedence of this rule compared to others.
+- **action**: Defines what happens to the request (e.g., `"block"`, `"redirect"`, `"modifyHeaders"`).
+- **condition**: Specifies the conditions for the rule to match, such as `urlFilter` or `resourceTypes`.
+
+### Example Usage
+
+Suppose you want to dynamically block access to `example.com` and remove any previous rule blocking `another-example.com`:
+
+```javascript
+chrome.declarativeNetRequest.updateDynamicRules({
+  addRules: [
+    {
+      "id": 1002,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "example.com",
+        "resourceTypes": ["main_frame"]
+      }
+    }
+  ],
+  removeRuleIds: [1001] // assuming 1001 was a previous rule ID
+}, function() {
+  if (chrome.runtime.lastError) {
+    console.error("Error updating rules:", chrome.runtime.lastError);
+  } else {
+    console.log("Dynamic rules updated successfully.");
+  }
+});
+```
+
+### Benefits of Using `updateDynamicRules`
+
+- **Adaptability**: Rules can be updated without reloading the extension, making it easier to respond to real-time changes or preferences.
+- **User Control**: Users can toggle settings that might add or remove specific rules dynamically.
+- **Efficiency**: Only rules in use remain active, potentially reducing overhead.
+
+This method is a key tool for extensions that require real-time customization of network request handling within the Manifest V3 framework.
+
+## 3
+The comparison shows no detectable line-by-line differences between the files `message.txt` and `fraud.txt`. This suggests they are identical, or any variations between them are either non-visible (like whitespace differences) or do not affect the code's content.
+
+If there’s a specific area or functionality you suspect might differ, please let me know, and I can recheck it more closely.
 # ممكن
 [ChatGPT](https://chatgpt.com/c/67264699-8c0c-8006-85c0-d39b8500de31)
 [ChatGPT](https://chatgpt.com/c/672ff5b7-6834-8006-8ad9-84697aae4077)
