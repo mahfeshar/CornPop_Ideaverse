@@ -232,9 +232,39 @@
               "icon": "lucide-file",
               "title": "Normalization"
             }
+          },
+          {
+            "id": "c14cdeaedbec1d3b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Distributed Systems MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Distributed Systems MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed Systems MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":13},\"to\":{\"line\":9,\"ch\":13}},\"scroll\":8}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/More/Flynn’s Taxonomy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Flynn’s Taxonomy"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -345,10 +375,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Outlier.md"
+                "file": "Atlas/Notes/Ideas/Programming/More/Flynn’s Taxonomy.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Outlier"
+              "title": "Outline of Flynn’s Taxonomy"
             }
           },
           {
@@ -621,14 +651,16 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9c596ea5d6d11bbd",
+  "active": "c14cdeaedbec1d3b",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Maps/Distributed Systems MOC.md",
+    "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
+    "+/Outlier.md",
     "+/Normalization.md",
     "Atlas/Maps/Database MOC.md",
-    "+/Outlier.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "+/DotNet - RoadMap.md",
     "+/SQL Server MOC.md",
@@ -656,8 +688,6 @@
     "Atlas/Utilities/Images/Pasted image 20241112080027.png",
     "Atlas/Utilities/Images/Pasted image 20241112075746.png",
     "Atlas/Utilities/Images/Pasted image 20241112075158.png",
-    "Atlas/Maps/Distributed Systems MOC.md",
-    "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md",
     "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/More",
     "+/Making money.md",
