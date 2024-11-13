@@ -93,9 +93,13 @@ created: 2024-11-12
 
 - **التصنيفات الداخلية**:
     - الـ**Tightly Coupled Systems (أنظمة مرتبطة بشدة)**: دي أنظمة بتتكون من عدة معالجات قريبة من بعضها، وبتتشارك ذاكرة مشتركة *shared memory*، زي أنظمة **multiprocessors**. بيتم التحكم فيها عن طريق نظام تشغيل واحد، وأمثلة عليها: **ENCORE، MULTIMAX، SEQUENT**.
-    ![[Pasted image 20241112081537.png]]
+    - used more as parallel systems (working on a single problem)
 
     - الـ**Loosely Coupled Systems (أنظمة مرتبطة بضعف)**: معالجات بتتواصل عبر شبكة *interconnection network* وتستخدم ذاكرة موزعة، زي أنظمة **multicomputer**. أمثلة عليها: **grid systems، clusters**، واللي غالبًا تُعتبر نظم موزعة.
+    - Used as **distributed systems** (working on many unrelated problems)
     ![[Pasted image 20241112082558.png]]
     ![[Pasted image 20241112081633.png]]
     - **Multicomputer** is sometimes referred to as distributed systems and sometimes not.
+
+- طرق تركيبهم مع بعض
+	![[Pasted image 20241112081537.png]]
