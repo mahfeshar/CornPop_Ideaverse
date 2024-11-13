@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Distributed System Goals",
+      "path": "+/Distributed System Goals.md"
+    },
+    {
       "basename": "Constraints",
       "path": "+/Constraints.md"
     },
@@ -21,8 +25,8 @@
       "path": "+/DotNet - RoadMap.md"
     },
     {
-      "basename": "Untitled",
-      "path": "+/Untitled.md"
+      "basename": "Outlier",
+      "path": "+/Outlier.md"
     },
     {
       "basename": "Structured Query Language (SQL)",
@@ -195,10 +199,6 @@
     {
       "basename": "SW FE",
       "path": "Atlas/Notes/Ideas/Programming/Projects/SW FE.md"
-    },
-    {
-      "basename": "Back-end MOC",
-      "path": "Atlas/Maps/Back-end MOC.md"
     }
   ],
   "omittedPaths": [],
