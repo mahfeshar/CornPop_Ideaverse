@@ -15,3 +15,7 @@ created: 2024-07-05
 	- بس لسا ال client يقدر يعمل Lightweight tasks عليه من غير سيرفر مفيش مشاكل
 - بس ال Clients معدوش محتاجين dependencies على حاجات تانية عشان يشغل البرنامج
 - محتاجين standard لطريقة التواصل دي، We need a communication model
+
+## محاضرة
+![[Pasted image 20241114175918.png]]
+![[Pasted image 20241114175929.png]]

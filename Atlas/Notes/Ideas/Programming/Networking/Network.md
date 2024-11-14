@@ -4,8 +4,6 @@ up:
 related: 
 created: 2024-07-21
 ---
-
-
 ## What dose mean by Network?
 - مجموعة من الأجهزة متوصلة سوا بسلك (Wired connection) او من غير سلك (Wireless connection)
 - A Network is what transports traffic between [[Host]]s

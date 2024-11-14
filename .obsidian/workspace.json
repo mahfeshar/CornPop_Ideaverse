@@ -160,6 +160,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Networking Fundamentals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking Fundamentals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":9},\"to\":{\"line\":13,\"ch\":9}},\"scroll\":8}"
+                },
+                {
+                  "title": "Networking Fundamentals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking Fundamentals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Get Product by Id Endpoint",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Get Product by Id Endpoint.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Get Product by Id Endpoint\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":8},\"to\":{\"line\":65,\"ch\":8}},\"scroll\":6}"
+                },
+                {
                   "title": "Asp DotNet Core Web API",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
@@ -176,13 +194,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Get Product by Id Endpoint.md",
+                "file": "+/OSI model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Get Product by Id Endpoint"
+              "title": "OSI model"
             }
           },
           {
@@ -217,6 +235,66 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "827e4e77a8ef2faf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4cb551627237c72",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Networking Fundamentals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking Fundamentals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":9},\"to\":{\"line\":13,\"ch\":9}},\"scroll\":8}"
+                },
+                {
+                  "title": "Networking Fundamentals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking Fundamentals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Get Product by Id Endpoint",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Get Product by Id Endpoint.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Get Product by Id Endpoint\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":8},\"to\":{\"line\":65,\"ch\":8}},\"scroll\":6}"
+                },
+                {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":28},\"to\":{\"line\":22,\"ch\":28}},\"scroll\":19.0072202166065}"
+                },
+                {
+                  "title": "Saving data from database in memory",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Saving data from database in memory\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/OSI model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OSI model"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -300,8 +378,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -327,10 +404,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Get Product by Id Endpoint.md"
+                "file": "+/OSI model.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Get Product by Id Endpoint"
+              "title": "Outline of OSI model"
             }
           },
           {
@@ -608,8 +685,24 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "Atlas/Maps/Networking Fundamentals.md",
+    "+/Internetworking.md",
+    "Atlas/Utilities/Images/Pasted image 20241114180636.png",
+    "Atlas/Utilities/Images/Pasted image 20241114180634.png",
+    "Atlas/Notes/Ideas/Programming/Networking/Network.md",
+    "Atlas/Notes/Ideas/Programming/Networking/Types of Networks.md",
+    "Atlas/Utilities/Images/Pasted image 20241114180001.png",
+    "Atlas/Notes/Ideas/Programming/Networking/Client-Server Architecture.md",
+    "Atlas/Utilities/Images/Pasted image 20241114175929.png",
+    "Atlas/Utilities/Images/Pasted image 20241114175918.png",
+    "Atlas/Notes/Ideas/Programming/Networking/Network Components.md",
+    "Atlas/Utilities/Images/Pasted image 20240721115816.png.~tmp",
+    "Atlas/Utilities/Images/Pasted image 20241114175057.png",
+    "Atlas/Utilities/Images/Pasted image 20241114175014.png",
+    "Atlas/Utilities/Images/Pasted image 20241114174845.png",
+    "+/Networking Fundamentals.md",
     "+/Get Product by Id Endpoint.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Get Products Endpoint.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Postman.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
@@ -626,34 +719,17 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
     "+/Outlier.md",
-    "+/Normalization.md",
-    "+/Chapter 2 - Distributed.md",
-    "Atlas/Maps/Distributed Systems MOC.md",
-    "+/Lec 4.md",
-    "+/فكرة - أبلكيشن إسلامي.md",
-    "+/Making money.md",
-    "+/7 Ways to make money.md",
-    "+/Distributed System Goals.md",
     "Atlas/Utilities/Images/Pasted image 20241113203550.png",
     "Atlas/Utilities/Images/Pasted image 20241113193945.png",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part2 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part1 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec1 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems",
-    "Atlas/Utilities/Images/Pasted image 20241113185228.png",
-    "Atlas/Utilities/Images/Pasted image 20241113185203.png",
-    "Atlas/Utilities/Images/Pasted image 20241113185113.png",
-    "Atlas/Utilities/Images/Pasted image 20241113185058.png",
-    "Atlas/Utilities/Images/Pasted image 20241113185052.png",
-    "Atlas/Utilities/Images/Pasted image 20241113184952.png",
     "Atlas/Utilities/Images/Pasted image 20241025102627.png.~tmp",
-    "Atlas/Utilities/Images/Pasted image 20241112185109.png",
-    "Atlas/Utilities/Images/Pasted image 20241112185022.png",
     "Atlas/Notes/Ideas/Programming/More",
     "Atlas/Notes/Ideas/Programming/Map your mind",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
     "Atlas/Utilities/Images/3.jpeg.~tmp",
-    "Atlas/Utilities/Images/Pasted image 20241108070613.png.~tmp",
     "Atlas/Notes/Ideas/القرآن الكريم/Untitled.canvas",
     "Atlas/Notes/Ideas/Untitled.canvas",
     "Atlas/Utilities/Canvases/2023-03-20 - Review, Brain Dump, Imagine, Prioritize.canvas",

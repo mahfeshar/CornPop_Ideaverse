@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "OSI model",
+      "path": "+/OSI model.md"
+    },
+    {
+      "basename": "Networking Fundamentals",
+      "path": "Atlas/Maps/Networking Fundamentals.md"
+    },
+    {
+      "basename": "Internetworking",
+      "path": "+/Internetworking.md"
+    },
+    {
+      "basename": "Network",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/Network.md"
+    },
+    {
+      "basename": "Types of Networks",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/Types of Networks.md"
+    },
+    {
+      "basename": "Client-Server Architecture",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/Client-Server Architecture.md"
+    },
+    {
+      "basename": "Network Components",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/Network Components.md"
+    },
+    {
       "basename": "Get Product by Id Endpoint",
       "path": "+/Get Product by Id Endpoint.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Flynn’s Taxonomy",
       "path": "Atlas/Notes/Ideas/Programming/More/Flynn’s Taxonomy.md"
-    },
-    {
-      "basename": "Intro to Distributed systems",
-      "path": "Atlas/Notes/Ideas/Programming/More/Intro to Distributed systems.md"
-    },
-    {
-      "basename": "Programming MOC",
-      "path": "Atlas/Maps/Programming MOC.md"
-    },
-    {
-      "basename": "القرآن الكريم",
-      "path": "Atlas/Maps/القرآن الكريم.md"
-    },
-    {
-      "basename": "الطريقة الخمسينية لحفظ القرآن",
-      "path": "+/الطريقة الخمسينية لحفظ القرآن.md"
-    },
-    {
-      "basename": "CRUD",
-      "path": "Atlas/Notes/Ideas/Programming/Database/CRUD.md"
-    },
-    {
-      "basename": "Map your mind",
-      "path": "Atlas/Maps/Map your mind.md"
-    },
-    {
-      "basename": "The Feynman Learning Technique",
-      "path": "Atlas/Notes/Ideas/Programming/Map your mind/The Feynman Learning Technique.md"
     }
   ],
   "omittedPaths": [],

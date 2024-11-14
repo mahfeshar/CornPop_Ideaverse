@@ -9,13 +9,16 @@ tags:
 - [[Network]]
 - [[Types of Networks]]
 - [[Network Components]]
-- [[Client-Server Architecture]]
+	- [[Client-Server Architecture]]
+- [[Internetworking]]
 - [[OSI model]]
 	- [[IP Address]]
 	- [[MAC Address]]
 - [[Server]]
+- 
 ## Network Devices
 - [[Host]]
+- [[IP Address]]
 
 ## Articles and videos
 - [[How the web works]]
@@ -30,6 +33,7 @@ tags:
 - [[MAC Address]]
 - [[IP Address]]
 - [[SSH]]
+- [[HTTP]]
 
 ## Output
 - [[OSI model - Article]]
