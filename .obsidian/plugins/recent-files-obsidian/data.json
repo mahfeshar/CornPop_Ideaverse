@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Subnetting",
+      "path": "+/Subnetting.md"
+    },
+    {
+      "basename": "Networking Fundamentals",
+      "path": "Atlas/Maps/Networking Fundamentals.md"
+    },
+    {
       "basename": "TCP-IP",
-      "path": "+/TCP-IP.md"
+      "path": "Atlas/Notes/Ideas/Programming/Networking/TCP-IP.md"
+    },
+    {
+      "basename": "IP Address",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/IP Address.md"
+    },
+    {
+      "basename": "OSI model - Article",
+      "path": "Atlas/Notes/Outputs/OSI model - Article.md"
     },
     {
       "basename": "How the web works-CornPop",
@@ -11,10 +27,6 @@
     {
       "basename": "How the web works",
       "path": "Atlas/Notes/Ideas/Programming/Networking/How the web works.md"
-    },
-    {
-      "basename": "Networking Fundamentals",
-      "path": "Atlas/Maps/Networking Fundamentals.md"
     },
     {
       "basename": "Network Components",
@@ -187,14 +199,6 @@
     {
       "basename": "Database Management System (DBMS)",
       "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
-    },
-    {
-      "basename": "Conceptual Data Models",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Conceptual Data Models.md"
-    },
-    {
-      "basename": "2+ Kinds of databases",
-      "path": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md"
     }
   ],
   "omittedPaths": [],

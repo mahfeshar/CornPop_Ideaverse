@@ -11,10 +11,14 @@ tags:
 - [[Network Components]]
 	- [[Client-Server Architecture]]
 - [[Internetworking]]
+---
 - [[OSI model]]
 - [[TCP-IP]]
-	- [[IP Address]]
-	- [[MAC Address]]
+---
+- [[MAC Address]]
+- [[IP Address]]
+- [[Subnetting]]
+---
 - [[Server]]
 
 ## Network Devices
