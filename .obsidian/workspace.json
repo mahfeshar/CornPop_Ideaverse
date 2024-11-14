@@ -253,7 +253,7 @@
                   "title": "Lec 4",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Lec 4.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lec 4\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":17},\"to\":{\"line\":7,\"ch\":17}},\"scroll\":4.283790170132325}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":132},\"to\":{\"line\":16,\"ch\":132}},\"scroll\":8.689496611810261}"
                 },
                 {
                   "title": "Distributed Systems MOC",
@@ -704,8 +704,8 @@
   },
   "lastOpenFiles": [
     "+/Making money.md",
-    "+/7 Ways to make money.md",
     "+/Lec 4.md",
+    "+/7 Ways to make money.md",
     "Atlas/Maps/Distributed Systems MOC.md",
     "+/Distributed System Goals.md",
     "+/Self-Assessment.md",

@@ -1,7 +1,8 @@
 {
   "fileDirections": {
     "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Struct.md": "auto",
-    "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md": "auto"
+    "Atlas/Notes/Ideas/Programming/Database/Conceptual Design (ERD).md": "auto",
+    "+/Lec 4.md": "auto"
   },
   "defaultDirection": "auto",
   "rememberPerFile": true,
