@@ -13,6 +13,7 @@ tags:
 - [[DNAPI Basic CRUD Operations]]
 - [[DBAPI Middlewares]]
 ---
+- [[Postman]]
 - [[Onion Architecture]]
 - [[Product Module - Entities]]
 - [[DbContext, ProductConfigurations, Migrations, Update Database]]

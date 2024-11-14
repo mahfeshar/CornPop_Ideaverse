@@ -208,15 +208,44 @@ public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
 - لو عايز البيانات المرتبطة تتحمل تلقائيًا وقت الحاجة، استخدم **Lazy Loading**.
 - لو عايز تحمل كل البيانات المرتبطة مرة واحدة، استخدم **Eager Loading** عن طريق `Include`.
 
+---
 
-## More
-في المثال اللي عندنا هنعمل في ملف الـ Generic repository
-```cs
+### إعداد الـ Include في `GenericRepository`
+
+في ملف الـ `GenericRepository`، لما بنتعامل مع نوع محدد زي `Product`، ممكن نحتاج نحمل الـ `Navigational Properties` زي `Brand` و `Category`، فبنستخدم `Include` كالتالي:
+
+```csharp
 if (typeof(T) == typeof(Product))
-	return await _dbContext.Set<Product>.Include(P => P.Brand).Include(P => P.Category).ToListAsync();
+    return await (IEnumerable<T>) _dbContext.Set<Product>()
+        .Include(p => p.Brand)
+        .Include(p => p.Category)
+        .ToListAsync();
 ```
-ودا مسكن حاليًا وحلها هيبقا في Specification Design Pattern
 
-ليه قولت Include ومقولتش theninclude عشان ال Category عبارة عن navigational property زي الـ Brand والاتنين موجودين جوا الـ Product 
-كنت هحتاج أقول theninclude لو الـ Category موجود جوا الbrand
-فهو كدا هيعمل Innerjoin ؟
+### لماذا استخدمنا `Include` فقط بدون `ThenInclude`؟
+
+لأن كلا من `Brand` و `Category` هما **Navigational Properties** مباشرة داخل كلاس `Product`. 
+- **استخدام `Include`** يكفي لتحميلهم لأنهم موجودين بشكل مباشر في الكلاس.
+- **متى نستخدم `ThenInclude`؟** نستخدم `ThenInclude` فقط عندما تكون عندنا علاقة داخل علاقة أخرى. مثلًا، لو كان الـ `Category` موجودًا داخل `Brand` وليس بشكل مباشر في `Product`، كنا هنستخدم `ThenInclude` عشان نصل إلى الـ `Category`.
+
+### هل يتم تنفيذ **Inner Join** عند استخدام `Include`؟
+
+نعم، عند استخدام `Include` لتحميل الـ `Navigational Properties`، الـ Entity Framework Core بينشئ استعلام `INNER JOIN` في الخلفية لجلب البيانات المرتبطة. الاستعلام بيكون مشابه لـ:
+
+```sql
+SELECT *
+FROM Products
+INNER JOIN Brands ON Products.BrandId = Brands.Id
+INNER JOIN Categories ON Products.CategoryId = Categories.Id
+```
+
+> **ملاحظة**: في حالة لو كانت القيم المرتبطة (مثل `Brand` أو `Category`) بتقبل `null`، بيتم تنفيذ **LEFT JOIN** بدل من `INNER JOIN`، عشان نضمن استرجاع كل المنتجات حتى لو مش مرتبط بيها `Brand` أو `Category`.
+
+### حل المشكلة باستخدام Specification Design Pattern
+
+أفضل حل هنا هو استخدام **Specification Design Pattern** لأنه بيوفر مرونة في تحديد شروط البحث والـ Includes المطلوبة.
+- هذا الـ Pattern بيسمح لنا بكتابة الشروط المطلوبة والـ Includes مرة واحدة فقط، وإعادة استخدامها بدون تكرار.
+- يساعد في جعل الكود أكتر تنظيمًا وأسهل في الصيانة، لأنه بيجمع الشروط المشتركة في مكان واحد يمكن تطبيقه في عدة أماكن.
+
+باستخدام الـ Specification Pattern، نقدر نحدد الشروط زي `Include` و`Where` بسهولة، ويكون الحل مثالي للـ Queries اللي بتحتاج أكتر من شرط أو شرط معين على نوع معين من البيانات.
+## More
