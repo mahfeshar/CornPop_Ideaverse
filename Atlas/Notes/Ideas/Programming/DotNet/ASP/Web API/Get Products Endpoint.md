@@ -1,10 +1,10 @@
 ---
 up:
   - "[[Asp DotNet Core Web API]]"
-  - "[[Asp DotNet Core]]"
 related: 
 created: 2024-11-14
 ---
+## Endpoint
 ### كود `GetProducts` Endpoint
 
 عشان توصل للـ `GetProducts`، بتروح على `/api/Products` زي ما قلت. 
@@ -58,6 +58,7 @@ public async Task<IActionResult> GetProducts()
 
 ---
 
+## Action Result
 ### المشكلة
 لما بتستخدم `Task<IActionResult>`، مش بيديك الـ Swagger الشكل المحدد للـ Response، وده بيسبب مشكلة لما تحب تعرض شكل الداتا المتوقع لكل API Endpoint في Swagger. 
 
@@ -111,6 +112,7 @@ public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
 
 ---
 
+## Related Data (Loading)
 ### مشكلة الـ Related Data في Swagger
 
 لما بنرجع البيانات، بنلاحظ إن الـ Related Data زي `Category` و `Brand` بيكونوا `null` في الـ Response، لأنهم عبارة عن **Navigational Properties**، وبشكل افتراضي مش بيتم تحميلهم مع البيانات الأساسية. عشان نحملهم، عندنا 3 طرق:
@@ -210,6 +212,7 @@ public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
 
 ---
 
+## Include
 ### إعداد الـ Include في `GenericRepository`
 
 في ملف الـ `GenericRepository`، لما بنتعامل مع نوع محدد زي `Product`، ممكن نحتاج نحمل الـ `Navigational Properties` زي `Brand` و `Category`، فبنستخدم `Include` كالتالي:
@@ -248,4 +251,38 @@ INNER JOIN Categories ON Products.CategoryId = Categories.Id
 - يساعد في جعل الكود أكتر تنظيمًا وأسهل في الصيانة، لأنه بيجمع الشروط المشتركة في مكان واحد يمكن تطبيقه في عدة أماكن.
 
 باستخدام الـ Specification Pattern، نقدر نحدد الشروط زي `Include` و`Where` بسهولة، ويكون الحل مثالي للـ Queries اللي بتحتاج أكتر من شرط أو شرط معين على نوع معين من البيانات.
-## More
+
+## DTOs
+### شكل الـ Return مش كويس
+
+حاليًا، الـ API بيعرض بيانات المنتج بالشكل ده:
+
+```json
+{
+  "name": "Double Caramel Frappuccino",
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+  "price": 200.00,
+  "pictureUrl": "images/products/sb-ang1.png",
+  "brand": {
+    "name": "Starbucks",
+    "id": 1
+  }
+}
+```
+
+### المشكلة
+فيه تكرار في البيانات، مثلًا **`BrandId`** بيظهر فوق، وتحت تاني بيظهر الـ **ID** و**Name** للـ Brand. كمان شكل البيانات مش مظبوط، ودي مشكلة في الـ Mapping، يعني اللي ظاهر قدامي دا هو الـ Model الأساسي.
+
+### الحل باستخدام View Model أو DTO
+المفروض أعمل Return باستخدام **View Model**، اللي هنا بنسميه **DTO**. 
+- مثلًا، عايز أظبط الـ `PictureUrl` عشان يظهر بشكل كامل، وأعدل باقي البيانات عشان تظهر بشكل أفضل.
+### المشكلة في الـ Navigational Properties المتداخلة
+لما يكون عندك **Navigational Property** داخل **Brand**، زي لو كان الـ `Product` مرتبط بالـ `Brand`، فالـ Brand هيظهر كجزء من الـ `Product`، ولو دخلنا جوا الـ Brand هنلاقي بيانات تانية مرتبطة بالـ `Product`، وده بيعمل حلقة متكررة. 
+يعني كل ما تضغط، هتلاقي البيانات متداخلة مع بعضها، وممكن تفضل تتنقل بينهم بدون نهاية.
+### الحل باستخدام DTO لتجنب التداخل
+عشان نتجنب المشكلة دي، بنستخدم **DTO (Data Transfer Object)**، اللي بيخلينا نتحكم بشكل كامل في البيانات اللي هنرجعها. 
+هنحدد فقط المعلومات المطلوبة في الـ `ProductDto` من غير الـ Navigational Properties اللي ممكن تعمل تداخل.
+### مثال عملي
+- هننشئ **DTO** يضم البيانات المطلوبة بس، بدون أي تداخل للـ Navigational Properties.
+- بنرجع البيانات في شكل مبسط وواضح.
+ده بيمنع إن أي `Navigational Property` جوا `Brand` تربطنا ببيانات `Product` تاني، فبالتالي بنضمن إن البيانات متبقاش متداخلة.

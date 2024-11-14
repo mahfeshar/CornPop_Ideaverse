@@ -20,7 +20,7 @@ tags:
 - [[Generic Repository]]
 - [[Products Controller]]
 	- [[Get Products Endpoint]]
-	- 
+	- [[Get Product by Id Endpoint]]
 ---
 - [[Identity - Create Database]]
 ---
