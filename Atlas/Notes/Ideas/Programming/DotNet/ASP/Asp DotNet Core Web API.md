@@ -17,6 +17,7 @@ tags:
 - [[Product Module - Entities]]
 - [[DbContext, ProductConfigurations, Migrations, Update Database]]
 - [[Generic Repository]]
+- [[Products Controller]]
 ---
 - [[Identity - Create Database]]
 ---
