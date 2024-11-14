@@ -318,7 +318,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -482,7 +483,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "+/Constraints.md",
+                "file": "+/Subnetting.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -510,7 +511,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Constraints"
+              "title": "Graph of Subnetting"
             }
           }
         ]
@@ -535,7 +536,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Constraints.md",
+                "file": "+/Subnetting.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -545,7 +546,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Constraints"
+              "title": "Backlinks for Subnetting"
             }
           },
           {
@@ -625,6 +626,14 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "Atlas/Utilities/Images/Pasted image 20241114201415.png",
+    "Atlas/Utilities/Images/Pasted image 20241114201406.png",
+    "Atlas/Utilities/Images/Pasted image 20241114201328.png",
+    "Atlas/Utilities/Images/Pasted image 20241114200619.png",
+    "Atlas/Utilities/Images/Pasted image 20241114200604.png",
+    "Atlas/Utilities/Images/Pasted image 20241114200052.png",
+    "Atlas/Utilities/Images/Pasted image 20241114195018.png",
+    "Atlas/Utilities/Images/Pasted image 20241114195016.png",
     "Atlas/Maps/Networking Fundamentals.md",
     "+/Subnetting.md",
     "Atlas/Notes/Ideas/Programming/Networking/TCP-IP.md",
@@ -632,13 +641,6 @@
     "Atlas/Utilities/Images/Pasted image 20241114194054.png",
     "Atlas/Notes/Ideas/Programming/Networking/IP Address.md",
     "Atlas/Utilities/Images/Pasted image 20241114192728.png",
-    "Atlas/Utilities/Images/Pasted image 20241114192627.png",
-    "Atlas/Utilities/Images/Pasted image 20241114192502.png",
-    "Atlas/Utilities/Images/Pasted image 20241114192419.png",
-    "Atlas/Utilities/Images/Pasted image 20241114192137.png",
-    "Atlas/Utilities/Images/Pasted image 20241114192117.png",
-    "Atlas/Utilities/Images/Pasted image 20241114192046.png",
-    "Atlas/Utilities/Images/Pasted image 20241114191950.png",
     "Atlas/Notes/Outputs/OSI model - Article.md",
     "+/What is TCP-IP.md",
     "Atlas/Notes/Ideas/Programming/Networking/How the web works-CornPop.md",
@@ -661,7 +663,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core.md",
     "Atlas/Maps/Entity Framework Core.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part2 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part1 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec1 distributed systems.pdf",
