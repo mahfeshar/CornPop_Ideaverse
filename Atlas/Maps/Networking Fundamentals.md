@@ -12,10 +12,11 @@ tags:
 	- [[Client-Server Architecture]]
 - [[Internetworking]]
 - [[OSI model]]
+- [[TCP-IP]]
 	- [[IP Address]]
 	- [[MAC Address]]
 - [[Server]]
-- 
+
 ## Network Devices
 - [[Host]]
 - [[IP Address]]

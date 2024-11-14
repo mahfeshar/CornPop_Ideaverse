@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "OSI model",
-      "path": "+/OSI model.md"
+      "basename": "TCP-IP",
+      "path": "+/TCP-IP.md"
+    },
+    {
+      "basename": "How the web works-CornPop",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/How the web works-CornPop.md"
+    },
+    {
+      "basename": "How the web works",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/How the web works.md"
     },
     {
       "basename": "Networking Fundamentals",
       "path": "Atlas/Maps/Networking Fundamentals.md"
+    },
+    {
+      "basename": "Network Components",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/Network Components.md"
+    },
+    {
+      "basename": "OSI model",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/OSI model.md"
     },
     {
       "basename": "Internetworking",
@@ -23,10 +39,6 @@
     {
       "basename": "Client-Server Architecture",
       "path": "Atlas/Notes/Ideas/Programming/Networking/Client-Server Architecture.md"
-    },
-    {
-      "basename": "Network Components",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/Network Components.md"
     },
     {
       "basename": "Get Product by Id Endpoint",
@@ -183,22 +195,6 @@
     {
       "basename": "2+ Kinds of databases",
       "path": "Atlas/Notes/Ideas/Programming/Database/2+ Kinds of databases.md"
-    },
-    {
-      "basename": "Logical Design (Mapping)",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md"
-    },
-    {
-      "basename": "University App",
-      "path": "+/University App.md"
-    },
-    {
-      "basename": "Stored Procedure in .NET",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md"
-    },
-    {
-      "basename": "Flynn’s Taxonomy",
-      "path": "Atlas/Notes/Ideas/Programming/More/Flynn’s Taxonomy.md"
     }
   ],
   "omittedPaths": [],

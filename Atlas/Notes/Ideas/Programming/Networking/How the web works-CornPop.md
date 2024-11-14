@@ -23,7 +23,7 @@ We talked about it at [[Client-Server Architecture]].
 - **TCP/IP**: Transmission Control Protocol and Internet Protocol are ==communication [[Protocol|protocols]] that define how data should travel across the internet==. 
   This is like the transport mechanisms that let you place an order, go to the shop, and buy your goods. 
   زي طريقة الوصول للمكان (عربية - قطر - مشي ..)
-  We talked about [[What is TCP-IP]]
+  We talked about [[TCP-IP]]
 - **[[DNS]]**: ==[[Domain]] Name System== is like ==an address book for websites==. 
   When you type a web address in your browser, the browser looks at the DNS to find the website's IP address before it can retrieve the website. 
   The browser needs to find out ==which server the website lives on==, so it can send HTTP messages to the right place. 

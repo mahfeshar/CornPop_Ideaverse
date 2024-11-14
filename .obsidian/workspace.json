@@ -153,8 +153,20 @@
             "id": "08469f6fd4c24997",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
+                {
+                  "title": "How the web works-CornPop",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Networking/How the web works-CornPop.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"How the web works-CornPop\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":20},\"to\":{\"line\":25,\"ch\":20}},\"scroll\":19.577498568155786}"
+                },
+                {
+                  "title": "What is TCP-IP",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/What is TCP-IP.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"What is TCP-IP\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -163,7 +175,7 @@
                   "title": "Networking Fundamentals",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking Fundamentals\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":9},\"to\":{\"line\":13,\"ch\":9}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":7},\"to\":{\"line\":14,\"ch\":7}},\"scroll\":8}"
                 },
                 {
                   "title": "Networking Fundamentals",
@@ -194,13 +206,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/OSI model.md",
+                "file": "+/TCP-IP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSI model"
+              "title": "TCP-IP"
             }
           },
           {
@@ -235,66 +247,6 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "827e4e77a8ef2faf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a4cb551627237c72",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Networking Fundamentals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking Fundamentals\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":9},\"to\":{\"line\":13,\"ch\":9}},\"scroll\":8}"
-                },
-                {
-                  "title": "Networking Fundamentals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking Fundamentals\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "Get Product by Id Endpoint",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Get Product by Id Endpoint.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Get Product by Id Endpoint\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":8},\"to\":{\"line\":65,\"ch\":8}},\"scroll\":6}"
-                },
-                {
-                  "title": "Asp DotNet Core Web API",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":28},\"to\":{\"line\":22,\"ch\":28}},\"scroll\":19.0072202166065}"
-                },
-                {
-                  "title": "Saving data from database in memory",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Saving data from database in memory\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/OSI model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OSI model"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -404,10 +356,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/OSI model.md"
+                "file": "+/TCP-IP.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of OSI model"
+              "title": "Outline of TCP-IP"
             }
           },
           {
@@ -685,7 +637,15 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "+/What is TCP-IP.md",
+    "Atlas/Notes/Ideas/Programming/Networking/How the web works-CornPop.md",
+    "Atlas/Notes/Ideas/Programming/Networking/How the web works.md",
+    "+/TCP-IP.md",
     "Atlas/Maps/Networking Fundamentals.md",
+    "Atlas/Notes/Ideas/Programming/Networking/Network Components.md",
+    "Atlas/Notes/Ideas/Programming/Networking/OSI model.md",
+    "Atlas/Utilities/Images/Pasted image 20241114190230.png",
+    "Atlas/Utilities/Images/Pasted image 20241114190152.png",
     "+/Internetworking.md",
     "Atlas/Utilities/Images/Pasted image 20241114180636.png",
     "Atlas/Utilities/Images/Pasted image 20241114180634.png",
@@ -695,7 +655,6 @@
     "Atlas/Notes/Ideas/Programming/Networking/Client-Server Architecture.md",
     "Atlas/Utilities/Images/Pasted image 20241114175929.png",
     "Atlas/Utilities/Images/Pasted image 20241114175918.png",
-    "Atlas/Notes/Ideas/Programming/Networking/Network Components.md",
     "Atlas/Utilities/Images/Pasted image 20240721115816.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241114175057.png",
     "Atlas/Utilities/Images/Pasted image 20241114175014.png",
@@ -715,12 +674,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Products Controller.md",
     "Home.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md",
-    "+/Outlier.md",
-    "Atlas/Utilities/Images/Pasted image 20241113203550.png",
-    "Atlas/Utilities/Images/Pasted image 20241113193945.png",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part2 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part1 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec1 distributed systems.pdf",
