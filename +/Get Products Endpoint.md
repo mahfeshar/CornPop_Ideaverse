@@ -1,26 +1,50 @@
-عشان أوصلها بنورح على `/api/Products`
+### كود `GetProducts` Endpoint
 
-```cs
+عشان توصل للـ `GetProducts`، بتروح على `/api/Products` زي ما قلت. 
+الكود بيكون كالتالي:
+
+```csharp
 [HttpGet]
 public async Task<IActionResult> GetProducts()
 {
-	var products = await _productsRepo.GetAllAsync();
+    var products = await _productsRepo.GetAllAsync();
 
+    // الطريقة الأولى: رجعنا الـ products على هيئة Json
+    JsonResult result = new JsonResult(products);
+    result.StatusCode = 200;
+    // لو شيلت سطر الكود دا مش هيرجع ستيتس كود
+    return result;
 }
 ```
-ممكن أرجعه على هيئة Json 
-```cs
-JsonResult result = new JsonResult(products);
-return result;
+#### الحل الثاني باستخدام `OkObjectResult`
+
+لو عايز تتفادى ضبط الـ Status Code يدوي، تقدر تستخدم `OkObjectResult` اللي بترجع الـ Status Code كـ 200 بشكل تلقائي:
+
+```csharp
+[HttpGet]
+public async Task<IActionResult> GetProducts()
+{
+    var products = await _productsRepo.GetAllAsync();
+
+    // الطريقة الثانية: باستخدام `OkObjectResult`
+    OkObjectResult result = new OkObjectResult(products);
+    return result;
+}
 ```
-بس مش هبقا عارف الـ status code
-فعندي حلين اما اني 
-```cs
-result.StatusCode = 200;
+#### استخدام `Ok` Helper Method
+أحسن طريقة هي استخدام الـ Helper Method `Ok()`، اللي بترجع برضو الـ Status Code كـ 200 بشكل تلقائي ومباشر:
+
+```csharp
+[HttpGet]
+public async Task<IActionResult> GetProducts()
+{
+    var products = await _productsRepo.GetAllAsync();
+    
+    // الطريقة الثالثة: باستخدام Helper Method `Ok`
+    return Ok(products);
+}
 ```
-اني أحطها يدوي أو اني أستخدم Object من `OkObjectResult` اللي الـ Status code by default بتبقا Ok
-```cs
-OkObjectResult result = new OkObjectResult(products);
-return result;
-```
-بس أنا مبستخدمش الـ Class ال Special types دي 
+
+---
+
+> **ملاحظة:** الـ `Ok` Helper Method بتسهل الشغل جدًا لأنها بتختصر استخدام الـ Special Classes زي `OkObjectResult` وبتخلي الكود أنظف وأبسط.
