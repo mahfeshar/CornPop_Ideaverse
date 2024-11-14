@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "7 Ways to make money",
+      "path": "+/7 Ways to make money.md"
+    },
+    {
+      "basename": "Making money",
+      "path": "+/Making money.md"
+    },
+    {
+      "basename": "Lec 4",
+      "path": "+/Lec 4.md"
+    },
+    {
       "basename": "Distributed Systems MOC",
       "path": "Atlas/Maps/Distributed Systems MOC.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Library",
       "path": "Atlas/Maps/Library.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
-      "basename": "DNAPI Project Anatomy",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md"
-    },
-    {
-      "basename": "DNAPI Introduction",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md"
     }
   ],
   "omittedPaths": [],

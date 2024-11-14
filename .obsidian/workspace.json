@@ -244,6 +244,30 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Making money",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Making money.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Making money\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":22},\"to\":{\"line\":1,\"ch\":22}},\"scroll\":0}"
+                },
+                {
+                  "title": "Lec 4",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Lec 4.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lec 4\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":17},\"to\":{\"line\":7,\"ch\":17}},\"scroll\":4.283790170132325}"
+                },
+                {
+                  "title": "Distributed Systems MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Distributed Systems MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed Systems MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":5},\"to\":{\"line\":11,\"ch\":5}}}"
+                },
+                {
+                  "title": "Distributed System Goals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Distributed System Goals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed System Goals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
                   "title": "Distributed Systems MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Distributed Systems MOC.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Distributed Systems MOC\"}",
@@ -278,13 +302,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/Distributed Systems MOC.md",
+                "file": "+/7 Ways to make money.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distributed Systems MOC"
+              "title": "7 Ways to make money"
             }
           }
         ],
@@ -398,10 +422,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/Distributed Systems MOC.md"
+                "file": "+/7 Ways to make money.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Distributed Systems MOC"
+              "title": "Outline of 7 Ways to make money"
             }
           },
           {
@@ -679,12 +703,15 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "+/Making money.md",
+    "+/7 Ways to make money.md",
+    "+/Lec 4.md",
+    "Atlas/Maps/Distributed Systems MOC.md",
     "+/Distributed System Goals.md",
     "+/Self-Assessment.md",
     "+/Personal branding & LinkedIn.md",
     "Atlas/Utilities/Images/Pasted image 20241113203550.png",
     "Atlas/Utilities/Images/Pasted image 20241113193945.png",
-    "Atlas/Maps/Distributed Systems MOC.md",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part2 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part1 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec1 distributed systems.pdf",
@@ -717,10 +744,7 @@
     "Atlas/Utilities/Images/Pasted image 20241112185022.png",
     "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md",
-    "Atlas/Maps/Programming MOC.md",
     "Atlas/Notes/Ideas/Programming/More",
-    "+/Making money.md",
     "Atlas/Notes/Ideas/Programming/Map your mind",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
     "Atlas/Utilities/Images/3.jpeg.~tmp",
