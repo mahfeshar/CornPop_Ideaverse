@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Distributed Systems MOC",
+      "path": "Atlas/Maps/Distributed Systems MOC.md"
+    },
+    {
       "basename": "Distributed System Goals",
       "path": "+/Distributed System Goals.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "Flynn’s Taxonomy",
       "path": "Atlas/Notes/Ideas/Programming/More/Flynn’s Taxonomy.md"
-    },
-    {
-      "basename": "Distributed Systems MOC",
-      "path": "Atlas/Maps/Distributed Systems MOC.md"
     },
     {
       "basename": "Intro to Distributed systems",

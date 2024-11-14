@@ -278,13 +278,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/Distributed System Goals.md",
+                "file": "Atlas/Maps/Distributed Systems MOC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distributed System Goals"
+              "title": "Distributed Systems MOC"
             }
           }
         ],
@@ -398,10 +398,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Distributed System Goals.md"
+                "file": "Atlas/Maps/Distributed Systems MOC.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Distributed System Goals"
+              "title": "Outline of Distributed Systems MOC"
             }
           },
           {
@@ -679,9 +679,9 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "+/Distributed System Goals.md",
     "+/Self-Assessment.md",
     "+/Personal branding & LinkedIn.md",
-    "+/Distributed System Goals.md",
     "Atlas/Utilities/Images/Pasted image 20241113203550.png",
     "Atlas/Utilities/Images/Pasted image 20241113193945.png",
     "Atlas/Maps/Distributed Systems MOC.md",
