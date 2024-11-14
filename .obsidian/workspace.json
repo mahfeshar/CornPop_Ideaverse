@@ -163,7 +163,7 @@
                   "title": "Networking Fundamentals",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking Fundamentals\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":13},\"to\":{\"line\":18,\"ch\":13}},\"scroll\":8}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":10},\"to\":{\"line\":19,\"ch\":10}},\"scroll\":8}"
                 },
                 {
                   "title": "Networking Fundamentals",
@@ -194,13 +194,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Networking/IP Address.md",
+                "file": "+/Subnetting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IP Address"
+              "title": "Subnetting"
             }
           },
           {
@@ -345,10 +345,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Networking/IP Address.md"
+                "file": "+/Subnetting.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of IP Address"
+              "title": "Outline of Subnetting"
             }
           },
           {
@@ -483,7 +483,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Networking/IP Address.md",
+                "file": "+/Subnetting.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -511,7 +511,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of IP Address"
+              "title": "Graph of Subnetting"
             }
           }
         ]
@@ -536,7 +536,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Networking/IP Address.md",
+                "file": "+/Subnetting.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -546,7 +546,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IP Address"
+              "title": "Backlinks for Subnetting"
             }
           },
           {
@@ -627,9 +627,9 @@
   },
   "lastOpenFiles": [
     "Atlas/Maps/Networking Fundamentals.md",
-    "Atlas/Notes/Ideas/Programming/Networking/TCP-IP.md",
     "Atlas/Notes/Ideas/Programming/Networking/IP Address.md",
     "+/Subnetting.md",
+    "Atlas/Notes/Ideas/Programming/Networking/TCP-IP.md",
     "Atlas/Utilities/Images/Pasted image 20241114204506.png",
     "Atlas/Utilities/Images/Pasted image 20241114201926.png",
     "Atlas/Utilities/Images/Pasted image 20241114201415.png",
@@ -680,4 +680,6 @@
     "Atlas/Utilities/Canvases/Obsidian Canvas MOC.canvas",
     "Atlas/Utilities/Canvases/Ship of the Sensemaker.canvas",
     "Atlas/Utilities/Canvases/LYT 2023 Rules.canvas",
-    "Atlas/Utilities/Canvases/LYT B
+    "Atlas/Utilities/Canvases/LYT Book Framing.canvas"
+  ]
+}
