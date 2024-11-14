@@ -7,7 +7,7 @@ created: 2024-11-14
 ## Intro to IP Address
 - جهازك لازم يكون له **عنوان IP** عشان يتواصل مع باقي الأجهزة على الإنترنت.
 - It's the identity of each [[Host]]
-- **Internet Protocol (IP)** هو مجموعة قواعد لازم يتبعها الجهاز عشان يقدر يتواصل على الشبكة.
+- الـ**Internet Protocol (IP)** هو مجموعة قواعد لازم يتبعها الجهاز عشان يقدر يتواصل على الشبكة.
 - لمعرفة عنوان IP الخاص بك: (افتح CMD -> اكتب `ipconfig`).
 ## IP Address Structure
 - عنوان IP مكون من أربع خانات (octets) مفصولة بنقطة.
