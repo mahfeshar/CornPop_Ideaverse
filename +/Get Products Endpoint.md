@@ -1,3 +1,10 @@
+---
+up:
+  - "[[Asp DotNet Core Web API]]"
+  - "[[Asp DotNet Core]]"
+related: 
+created: 2024-11-14
+---
 ### كود `GetProducts` Endpoint
 
 عشان توصل للـ `GetProducts`، بتروح على `/api/Products` زي ما قلت. 
@@ -48,3 +55,5 @@ public async Task<IActionResult> GetProducts()
 ---
 
 > **ملاحظة:** الـ `Ok` Helper Method بتسهل الشغل جدًا لأنها بتختصر استخدام الـ Special Classes زي `OkObjectResult` وبتخلي الكود أنظف وأبسط.
+
+## More
