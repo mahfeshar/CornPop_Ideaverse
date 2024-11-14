@@ -10,6 +10,8 @@ tags:
 - [[Flynn’s Taxonomy]]
 - [[Distributed System Goals]]
 - [[Lec 4]]
+- [[Chapter 2 - Distributed]]
+- 
 ---
 - [4rd Computer Engineering](https://drive.google.com/drive/folders/1GLSw3BKp7ldAaLrl5Qz5gB5G6ybLGYHs)
 - [Distributed Systems - Chapter I](https://docs.google.com/document/d/1q5fL4RQMkf0hAtezAUGub0IQGsXMI3cEajuvVOMV8MA/edit?tab=t.0#heading=h.4h9rb6cpam4q)
