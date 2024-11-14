@@ -237,11 +237,13 @@
             "id": "c14cdeaedbec1d3b",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "7 Ways to make money",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/7 Ways to make money.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"7 Ways to make money\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":89},\"to\":{\"line\":51,\"ch\":89}},\"scroll\":0}"
                 },
                 {
                   "title": "Making money",
@@ -250,10 +252,8 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":22},\"to\":{\"line\":1,\"ch\":22}},\"scroll\":0}"
                 },
                 {
-                  "title": "Lec 4",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Lec 4.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Lec 4\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":132},\"to\":{\"line\":16,\"ch\":132}},\"scroll\":8.689496611810261}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
                   "title": "Distributed Systems MOC",
@@ -302,13 +302,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/7 Ways to make money.md",
+                "file": "+/Lec 4.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 Ways to make money"
+              "title": "Lec 4"
             }
           }
         ],
@@ -422,10 +422,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/7 Ways to make money.md"
+                "file": "+/Lec 4.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 7 Ways to make money"
+              "title": "Outline of Lec 4"
             }
           },
           {
@@ -703,8 +703,9 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "+/Making money.md",
+    "+/فكرة - أبلكيشن إسلامي.md",
     "+/Lec 4.md",
+    "+/Making money.md",
     "+/7 Ways to make money.md",
     "Atlas/Maps/Distributed Systems MOC.md",
     "+/Distributed System Goals.md",
@@ -743,7 +744,6 @@
     "Atlas/Utilities/Images/Pasted image 20241112185109.png",
     "Atlas/Utilities/Images/Pasted image 20241112185022.png",
     "Atlas/Notes/Ideas/Programming/Database/Logical Design (Mapping).md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Stored Procedure in .NET.md",
     "Atlas/Notes/Ideas/Programming/More",
     "Atlas/Notes/Ideas/Programming/Map your mind",
     "Atlas/Utilities/Images/Pasted image 20241111052946.png.~tmp",
