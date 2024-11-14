@@ -18,6 +18,8 @@ tags:
 - [[DbContext, ProductConfigurations, Migrations, Update Database]]
 - [[Generic Repository]]
 - [[Products Controller]]
+- [[Get Products Endpoint]]
+- 
 ---
 - [[Identity - Create Database]]
 ---

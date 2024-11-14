@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Get Products Endpoint",
+      "path": "+/Get Products Endpoint.md"
+    },
+    {
       "basename": "Asp DotNet Core Web API",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+    },
+    {
+      "basename": "Products Controller",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Products Controller.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
     },
     {
       "basename": "Generic Repository",
@@ -187,18 +199,6 @@
     {
       "basename": "EF Introduction",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md"
-    },
-    {
-      "basename": "Py json",
-      "path": "Atlas/Notes/Ideas/Programming/Python/Py json.md"
-    },
-    {
-      "basename": "JSON",
-      "path": "Atlas/Notes/Ideas/Programming/Topics/JSON.md"
-    },
-    {
-      "basename": "EF Migration Rollback",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Migration Rollback.md"
     }
   ],
   "omittedPaths": [],

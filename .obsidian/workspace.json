@@ -153,17 +153,17 @@
             "id": "08469f6fd4c24997",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Generic Repository",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Generic Repository\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":120},\"to\":{\"line\":18,\"ch\":120}},\"scroll\":126.48696145124717}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Asp DotNet Core Web API",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asp DotNet Core Web API\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":14},\"to\":{\"line\":20,\"ch\":14}},\"scroll\":9.444043321299638}"
                 },
                 {
                   "title": "Saving data from database in memory",
@@ -176,13 +176,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+                "file": "+/Get Products Endpoint.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Asp DotNet Core Web API"
+              "title": "Get Products Endpoint"
             }
           },
           {
@@ -300,7 +300,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -326,10 +327,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+                "file": "+/Get Products Endpoint.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Asp DotNet Core Web API"
+              "title": "Outline of Get Products Endpoint"
             }
           },
           {
@@ -607,8 +608,11 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md",
+    "+/Get Products Endpoint.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Products Controller.md",
+    "Home.md",
+    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md",
     "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md",
     "Atlas/Maps/Entity Framework Core.md",
@@ -642,9 +646,6 @@
     "+/DotNet - RoadMap.md",
     "+/University App.md",
     "Atlas/Maps/Database MOC.md",
-    "+/SQL Server MOC.md",
-    "+/Constraints.md",
-    "+/Data Types.md",
     "Atlas/Utilities/Images/Pasted image 20241025102627.png.~tmp",
     "Atlas/Utilities/Images/Pasted image 20241112185109.png",
     "Atlas/Utilities/Images/Pasted image 20241112185022.png",
