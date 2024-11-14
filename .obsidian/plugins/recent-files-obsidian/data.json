@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Module - Entities",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md"
+    },
+    {
+      "basename": "Asp DotNet Core Web API",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
+    },
+    {
+      "basename": "DbContext, ProductConfigurations, Migrations, Update Database",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md"
+    },
+    {
+      "basename": "Onion Architecture",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md"
+    },
+    {
+      "basename": "Generic Repository",
+      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md"
+    },
+    {
+      "basename": "Outlier",
+      "path": "+/Outlier.md"
+    },
+    {
+      "basename": "Normalization",
+      "path": "+/Normalization.md"
+    },
+    {
       "basename": "Chapter 2 - Distributed",
       "path": "+/Chapter 2 - Distributed.md"
     },
@@ -57,16 +85,8 @@
       "path": "+/DotNet - RoadMap.md"
     },
     {
-      "basename": "Outlier",
-      "path": "+/Outlier.md"
-    },
-    {
       "basename": "Structured Query Language (SQL)",
       "path": "Atlas/Notes/Ideas/Programming/Database/Structured Query Language (SQL).md"
-    },
-    {
-      "basename": "Asp DotNet Core Web API",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
     },
     {
       "basename": "DB Life Cycle",
@@ -157,18 +177,6 @@
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
     },
     {
-      "basename": "Generic Repository",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Generic Repository.md"
-    },
-    {
-      "basename": "DbContext, ProductConfigurations, Migrations, Update Database",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DbContext, ProductConfigurations, Migrations, Update Database.md"
-    },
-    {
-      "basename": "Onion Architecture",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Onion Architecture.md"
-    },
-    {
       "basename": "EF Introduction",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Introduction.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "EF Add First Migration",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add First Migration.md"
-    },
-    {
-      "basename": "EF Add DbContext and ConnectionString",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/EFCore/EF Add DbContext and ConnectionString.md"
-    },
-    {
-      "basename": "Product Module - Entities",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Product Module - Entities.md"
     }
   ],
   "omittedPaths": [],
