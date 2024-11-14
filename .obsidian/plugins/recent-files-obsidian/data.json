@@ -5,6 +5,10 @@
       "path": "+/Get Products Endpoint.md"
     },
     {
+      "basename": "فكرة - بودكاست عادي",
+      "path": "+/فكرة - بودكاست عادي.md"
+    },
+    {
       "basename": "Asp DotNet Core Web API",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/ASP/Asp DotNet Core Web API.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Cs Generics",
       "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Generics.md"
-    },
-    {
-      "basename": "Cs Operator Overloading",
-      "path": "Atlas/Notes/Ideas/Programming/DotNet/CSharp/Cs Operator Overloading.md"
     }
   ],
   "omittedPaths": [],
