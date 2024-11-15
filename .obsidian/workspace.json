@@ -616,9 +616,7 @@
       "callout-manager:Insert Callout": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
-      "cmdr:Toggle stacked tabs": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian42-brat:BRAT": false
+      "cmdr:Toggle stacked tabs": false
     }
   },
   "active": "08469f6fd4c24997",
