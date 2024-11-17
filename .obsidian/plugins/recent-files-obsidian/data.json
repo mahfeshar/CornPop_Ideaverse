@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Normalization",
+      "path": "+/Normalization.md"
+    },
+    {
+      "basename": "الطريقة الخمسينية لحفظ القرآن",
+      "path": "+/الطريقة الخمسينية لحفظ القرآن.md"
+    },
+    {
       "basename": "Subnetting",
       "path": "+/Subnetting.md"
     },
@@ -125,10 +133,6 @@
       "path": "+/Outlier.md"
     },
     {
-      "basename": "Normalization",
-      "path": "+/Normalization.md"
-    },
-    {
       "basename": "Chapter 2 - Distributed",
       "path": "+/Chapter 2 - Distributed.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Database",
       "path": "Atlas/Notes/Ideas/Programming/Database/Database.md"
-    },
-    {
-      "basename": "Database Management System (DBMS)",
-      "path": "Atlas/Notes/Ideas/Programming/Database/Database Management System (DBMS).md"
     }
   ],
   "omittedPaths": [],
