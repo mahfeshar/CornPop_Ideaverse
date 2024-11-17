@@ -1,3 +1,4 @@
+[Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF (Arabic - عربي) with Amr Elhelw - Tech Vault - YouTube](https://www.youtube.com/watch?v=1HEHa_EJa0k)
 ### مقدمة عن Normalization
 الهدف منها إننا ننظم البيانات في جداول صغيرة بطريقة تقلل التكرار (Redundancy) وتحسن سلامة البيانات (Data Integrity). 
 في الفيديو اللي شرحه عمرو الحلو، وضح بأسلوب بسيط ومفصل ليه بنعمل Normalization وازاي ده بيحسن الأداء ويقلل الأخطاء في قواعد البيانات.
