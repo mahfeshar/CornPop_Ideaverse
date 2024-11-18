@@ -237,11 +237,23 @@
             "id": "dffaac5fd2a5f56c",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Polymorphism",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"+/Polymorphism.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Polymorphism\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Network Components",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Notes/Ideas/Programming/Networking/Network Components.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Network Components\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":9},\"to\":{\"line\":8,\"ch\":9}},\"scroll\":7.477124891587164}"
                 },
                 {
                   "title": "Networking Fundamentals",
@@ -252,15 +264,10 @@
               ]
             },
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Networking/Network Components.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Network Components"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -373,11 +380,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Atlas/Notes/Ideas/Programming/Networking/Network Components.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Network Components"
+              "title": "Outline"
             }
           },
           {
@@ -490,7 +495,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "3d767c407ab4c865",
@@ -626,8 +631,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -655,6 +659,8 @@
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "+/Polymorphism.md",
+    "Atlas/Notes/Ideas/Programming/Networking/Network Components.md",
     "Atlas/Maps/Networking Fundamentals.md",
     "Atlas/Notes/Ideas/Programming/Networking/Types of Networks.md",
     "+/Normalization.md",
@@ -678,7 +684,6 @@
     "+/What is TCP-IP.md",
     "Atlas/Notes/Ideas/Programming/Networking/How the web works-CornPop.md",
     "Atlas/Notes/Ideas/Programming/Networking/How the web works.md",
-    "Atlas/Notes/Ideas/Programming/Networking/Network Components.md",
     "Atlas/Notes/Ideas/Programming/Networking/OSI model.md",
     "+/Internetworking.md",
     "Atlas/Notes/Ideas/Programming/Networking/Network.md",
@@ -692,7 +697,6 @@
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Project Anatomy.md",
     "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/DNAPI Introduction.md",
     "+/فكرة - بودكاست عادي.md",
-    "Atlas/Notes/Ideas/Programming/DotNet/ASP/Web API/Saving data from database in memory.md",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part2 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec2 part1 distributed systems.pdf",
     "Atlas/Notes/Sources/PDFs/Distributed Systems/lec1 distributed systems.pdf",
