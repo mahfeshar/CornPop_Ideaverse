@@ -616,11 +616,11 @@
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-git:Open Git source control": false,
       "cmdr:Toggle stacked tabs": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "debb8b2f13826740",
+  "active": "81a222858f8a142d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
