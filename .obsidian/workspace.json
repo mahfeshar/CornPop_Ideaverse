@@ -232,9 +232,39 @@
               "icon": "lucide-file",
               "title": "Normalization"
             }
+          },
+          {
+            "id": "dffaac5fd2a5f56c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Networking Fundamentals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Atlas/Maps/Networking Fundamentals.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking Fundamentals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":9},\"to\":{\"line\":10,\"ch\":9}},\"scroll\":8}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Programming/Networking/Network Components.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Network Components"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -344,10 +374,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Normalization.md"
+                "file": "Atlas/Notes/Ideas/Programming/Networking/Network Components.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Normalization"
+              "title": "Outline of Network Components"
             }
           },
           {
@@ -620,13 +650,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "81a222858f8a142d",
+  "active": "dffaac5fd2a5f56c",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "+/الطريقة الخمسينية لحفظ القرآن.md",
+    "Atlas/Maps/Networking Fundamentals.md",
+    "Atlas/Notes/Ideas/Programming/Networking/Types of Networks.md",
     "+/Normalization.md",
+    "+/الطريقة الخمسينية لحفظ القرآن.md",
     "+/Subnetting.md",
     "Atlas/Utilities/Images/Pasted image 20241115142110.png",
     "Atlas/Maps/Database MOC.md",
@@ -634,7 +666,6 @@
     "Atlas/Utilities/Images/Pasted image 20241115132511.png",
     "Atlas/Utilities/Images/Pasted image 20241115131513.png",
     "Atlas/Utilities/Images/Pasted image 20241115131144.png",
-    "Atlas/Maps/Networking Fundamentals.md",
     "Atlas/Notes/Ideas/Programming/Networking/IP Address.md",
     "Atlas/Notes/Ideas/Programming/Networking/TCP-IP.md",
     "Atlas/Utilities/Images/Pasted image 20241114204506.png",
@@ -651,7 +682,6 @@
     "Atlas/Notes/Ideas/Programming/Networking/OSI model.md",
     "+/Internetworking.md",
     "Atlas/Notes/Ideas/Programming/Networking/Network.md",
-    "Atlas/Notes/Ideas/Programming/Networking/Types of Networks.md",
     "Atlas/Notes/Ideas/Programming/Networking/Client-Server Architecture.md",
     "Atlas/Utilities/Images/Pasted image 20240721115816.png.~tmp",
     "+/Networking Fundamentals.md",

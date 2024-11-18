@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Network Components",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/Network Components.md"
+    },
+    {
+      "basename": "Networking Fundamentals",
+      "path": "Atlas/Maps/Networking Fundamentals.md"
+    },
+    {
+      "basename": "Types of Networks",
+      "path": "Atlas/Notes/Ideas/Programming/Networking/Types of Networks.md"
+    },
+    {
       "basename": "Normalization",
       "path": "+/Normalization.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "Subnetting",
       "path": "+/Subnetting.md"
-    },
-    {
-      "basename": "Networking Fundamentals",
-      "path": "Atlas/Maps/Networking Fundamentals.md"
     },
     {
       "basename": "IP Address",
@@ -37,10 +45,6 @@
       "path": "Atlas/Notes/Ideas/Programming/Networking/How the web works.md"
     },
     {
-      "basename": "Network Components",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/Network Components.md"
-    },
-    {
       "basename": "OSI model",
       "path": "Atlas/Notes/Ideas/Programming/Networking/OSI model.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "Network",
       "path": "Atlas/Notes/Ideas/Programming/Networking/Network.md"
-    },
-    {
-      "basename": "Types of Networks",
-      "path": "Atlas/Notes/Ideas/Programming/Networking/Types of Networks.md"
     },
     {
       "basename": "Client-Server Architecture",
